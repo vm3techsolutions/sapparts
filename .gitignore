@@ -10,6 +10,7 @@ server/logs/
 server/*.log
 server/pids/
 server/*.pid
+server/*.SapGoogleSheetForm.json
 
 # === React / Next.js Frontend (client) ===
 client/node_modules/

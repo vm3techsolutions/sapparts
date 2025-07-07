@@ -9,18 +9,57 @@ export default function QuoteFormSection() {
     requirement: ""
   });
 
+  const [loading, setLoading] = useState(false);
+  const [successMsg, setSuccessMsg] = useState("");
+  const [errorMsg, setErrorMsg] = useState("");
+
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log("Form submitted:", formData);
-    // Add email sending logic here
+    setLoading(true);
+    setSuccessMsg("");
+    setErrorMsg("");
+
+    try {
+      const response = await fetch("http://localhost:5000/submit-form", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify({
+          name: formData.name,
+          email: formData.email,
+          phone: formData.mobile,
+          topic: "Quote Form",
+          message: formData.requirement
+        })
+      });
+
+      const data = await response.json();
+      if (data.success) {
+        setSuccessMsg("✅ Your message has been sent successfully!");
+        setFormData({
+          name: "",
+          mobile: "",
+          email: "",
+          requirement: ""
+        });
+      } else {
+        setErrorMsg("❌ Failed to send. Please try again.");
+      }
+    } catch (error) {
+      console.error("Error:", error);
+      setErrorMsg("❌ Something went wrong. Try again later.");
+    } finally {
+      setLoading(false);
+    }
   };
 
   return (
-    <div className="mx-auto px-6 md:px-12 sm:py-12 py-8">
+    <div className="Section bg-white">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
         
         {/* Left Content */}
@@ -83,10 +122,15 @@ export default function QuoteFormSection() {
 
             <button
               type="submit"
+              disabled={loading}
               className="bg-[#FACC48] text-[#363636] px-5 py-2 rounded font-semibold hover:brightness-110 transition"
             >
-              Send Message
+              {loading ? "Sending..." : "Send Message"}
             </button>
+
+            {/* Success / Error message */}
+            {successMsg && <p className="text-green-300 mt-2">{successMsg}</p>}
+            {errorMsg && <p className="text-red-300 mt-2">{errorMsg}</p>}
           </form>
         </div>
       </div>

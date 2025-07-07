@@ -12,7 +12,7 @@ export default function ProductsPage() {
   }, []);
 
   return (
-    <div className=" mx-auto px-6 md:px-12 sm:py-12 py-8">
+    <div className="Section bg-white">
       <h2 className=" Heading text-center">Our Products</h2>
 
       <p className="  Paragraph text-center">We are a Manufacturer, Designer and Supplier of technologically enriched and specially designed Mechanical Face Seal/ 

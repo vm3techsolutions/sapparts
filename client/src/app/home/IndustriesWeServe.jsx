@@ -20,7 +20,7 @@ export default function IndustriesSection() {
   }, []);
 
   return (
-    <section className="sm:py-12 py-8 px-6 md:px-12 bg-white text-center">
+    <section className="Section bg-white">
       <h2 className="Heading text-center">
         Industries We Serve
       </h2>

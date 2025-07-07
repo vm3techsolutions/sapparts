@@ -13,7 +13,7 @@ export default function InnovationSection() {
   }, []);
 
   return (
-    <div className="mx-auto px-6 md:px-12 sm:py-12 py-8 bg-[#F6F8FC]">
+    <div className="Section bg-[#F6F8FC]">
       <div className=" mx-auto ">
         <h2 className="Heading text-center">
           Innovation

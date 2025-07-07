@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function GlobalReach() {
   return (
-    <div className="mx-auto px-6 md:px-12 sm:py-12 py-8">
+    <div className="Section bg-white">
       <div className="max-w-7xl mx-auto text-center mb-8">
         <h2 className="Heading text-center">
           Global Reach

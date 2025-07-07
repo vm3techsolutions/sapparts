@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function WhyChooseUs() {
   return (
-    <div className="mx-auto px-6 md:px-12 sm:py-12 py-8 ">
+    <div className="Section bg-white">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         {/* Left Side */}
         <div>

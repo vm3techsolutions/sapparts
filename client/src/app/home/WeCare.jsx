@@ -26,7 +26,7 @@ export default function ContributionSection() {
   const rightCards = cards.slice(2);
 
   return (
-    <div className="mx-auto px-6 md:px-12 sm:py-12 py-8">
+    <div className="Section bg-white">
       <div className="max-w-7xl mx-auto">
         <h2 className="Heading text-center">{sectionData.title}</h2>
         <p className="Paragraph text-center">{sectionData.description}</p>
