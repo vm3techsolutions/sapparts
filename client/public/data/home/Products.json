@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "title": "Mechanical Face Seals",
+    "description": "This handy tool helps you create dummy text for all your layout needs.",
+    "image": "/assets/home/ourProduct1.png",
+    "link": "/products/1"
+  },
+  {
+    "id": 2,
+    "title": "Bushings",
+    "description": "This handy tool helps you create dummy text for all your layout needs.",
+    "image": "/assets/home/ourProduct1.png",
+    "link": "/products/2"
+  },
+  {
+    "id": 3,
+    "title": "Sintered Products",
+    "description": "This handy tool helps you create dummy text for all your layout needs.",
+    "image": "/assets/home/ourProduct1.png",
+    "link": "/products/3"
+  },
+  {
+    "id": 4,
+    "title": "Pump & Valves Components",
+    "description": "This handy tool helps you create dummy text for all your layout needs.",
+    "image": "/assets/home/ourProduct1.png",
+    "link": "/products/4"
+  },
+  {
+    "id": 5,
+    "title": "SAP Hub Bearings",
+    "description": "This handy tool helps you create dummy text for all your layout needs.",
+    "image": "/assets/home/ourProduct1.png",
+    "link": "/products/5"
+  },
+  {
+    "id": 6,
+    "title": "Precision Components",
+    "description": "This handy tool helps you create dummy text for all your layout needs.",
+    "image": "/assets/home/ourProduct1.png",
+    "link": "/products/6"
+  }
+]

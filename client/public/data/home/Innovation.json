@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "image": "/assets/home/innovation1.png",
+    "title": "Process Innovation",
+    "description": "Mechanical Face Seals are specifically engineered for rotating applications in extremely arduous environments where they withstand severe wear and prevent ingress of harsh and abrasive external media.",
+    "link": "/process-innovation"
+  },
+  {
+    "id": 2,
+    "image": "/assets/home/innovation2.png",
+    "title": "Product Innovation",
+    "description": "Mechanical Face Seals are specifically engineered for rotating applications in extremely arduous environments where they withstand severe wear and prevent ingress of harsh and abrasive external media.",
+    "link": "/product-innovation"
+  }
+]
