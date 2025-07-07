@@ -6,17 +6,17 @@ export default function WhyChooseUs() {
   return (
     <div className="mx-auto px-6 md:px-12 sm:py-12 py-8 ">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-        
         {/* Left Side */}
         <div>
           <h2 className="Heading text-center sm:text-left">Why Choose Us</h2>
           <p className="Paragraph text-center sm:text-left">
-            At SAP Parts, we combine industry expertise, innovation, and a client-first approach
-            to deliver solutions that make a measurable difference. Here’s why partners trust us.
+            At SAP Parts, we combine industry expertise, innovation, and a
+            client-first approach to deliver solutions that make a measurable
+            difference. Here’s why partners trust us.
           </p>
           <div className="rounded-md overflow-hidden">
             <Image
-              src="/assets/home/whyChoose1.png" 
+              src="/assets/home/whyChoose1.png"
               alt="Why Choose Us"
               width={500}
               height={400}
@@ -35,9 +35,13 @@ export default function WhyChooseUs() {
           ].map((item, index) => (
             <div key={index} className="text-center">
               <div className="sm:w-64 sm:h-32 h-20 w-40 mx-auto bg-[#D9D9D9]/50 rounded-b-full flex items-center justify-center">
-                <span className="text-[#FACC48] sm:text-5xl text-4xl font-bold">{item.number}</span>
+                <span className="text-[#FACC48] sm:text-5xl text-4xl font-bold">
+                  {item.number}
+                </span>
               </div>
-              <p className="mt-2 text-[#0E509E] font-semibold sm:text-lg">{item.title}</p>
+              <p className="mt-2 text-[#0E509E] font-semibold sm:text-lg">
+                {item.title}
+              </p>
             </div>
           ))}
 
@@ -50,7 +54,6 @@ export default function WhyChooseUs() {
             </Link>
           </div>
         </div>
-
       </div>
     </div>
   );

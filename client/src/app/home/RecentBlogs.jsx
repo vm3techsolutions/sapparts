@@ -13,13 +13,13 @@ export default function RecentBlogs() {
   }, []);
 
   return (
-    <div className="mx-auto px-6 md:px-12 sm:py-12 py-8 bg-[#F6F8FC]/50">
+    <div className="mx-auto px-6 md:px-12 sm:py-12 py-8  bg-[#F6F8FC]/50">
       <div className="text-center mb-10">
-        <h2 className="Heading text-center">
-          Recent Blogs
-        </h2>
+        <h2 className="Heading text-center">Recent Blogs</h2>
         <p className="Paragraph text-center">
-          Innovation is the USP of SAP Parts. Moreover it is our core value and we intend to proactively employ innovative thinking culture in all our operations.
+          Innovation is the USP of SAP Parts. Moreover it is our core value and
+          we intend to proactively employ innovative thinking culture in all our
+          operations.
         </p>
       </div>
 
