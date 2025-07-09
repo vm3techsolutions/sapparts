@@ -38,7 +38,7 @@ Agriculture Equipments.</p>
 
               {/* Button at bottom */}
               <Link href={item.link}>
-                <button className=" px-4 py-2 text-white transition text-md font-medium w-fit ">
+                <button className=" Button">
                   Know More
                 </button>
               </Link>

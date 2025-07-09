@@ -48,7 +48,7 @@ export default function WhyChooseUs() {
           {/* Know More Button */}
           <div className="col-span-2 mt-6 text-center">
             <Link href="#">
-              <button className="bg-[#0E509E] text-white px-5 py-2 rounded-md text-sm hover:bg-[#0b3c74] transition">
+              <button className="Button">
                 Know More
               </button>
             </Link>

@@ -50,10 +50,10 @@ export default function StrategySection() {
               <Link
                 key={index}
                 href="#"
-                className="flex items-center justify-between group text-[#0E509E] text-xl font-medium"
+                className="flex items-center justify-between group text-[#0E509E]  text-xl font-medium"
               >
                 {item}
-                <FiArrowRight className="ml-2 transition-transform group-hover:translate-x-1" />
+                <div className="bg-[#FACC48] p-2"><FiArrowRight className="ml- transition-transform group-hover:translate-x-1  " /></div>
               </Link>
             ))}
           </div>
@@ -61,7 +61,7 @@ export default function StrategySection() {
           <div className="mt-10">
             <Link
               href="#"
-              className="inline-block bg-[#0E509E] text-white text-sm font-medium py-2 px-4 rounded hover:bg-blue-800 transition"
+              className="inline-block Button"
             >
               Know More
             </Link>

@@ -19,8 +19,8 @@ export default function MilestoneTimeline() {
   ];
 
   return (
-    <section className="bg-white py-12 px-4 sm:px-10">
-      <h2 className="text-3xl font-bold text-center text-blue-800 mb-12">Milestones</h2>
+    <section className="bg-white Section">
+      <h2 className="Heading text-center ">Milestones</h2>
 
       <div className="relative overflow-x-auto py-40">
         <div className="flex justify-start items-center gap-8 min-w-[1400px]">

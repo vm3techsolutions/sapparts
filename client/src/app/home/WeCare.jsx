@@ -44,7 +44,7 @@ export default function ContributionSection() {
                 </div>
                 <p className="text-md text-[#363636] my-6">{item.desc}</p>
                 <Link href={item.link}>
-                  <span className="inline-block bg-[#FACC48] text-[#363636] px-4 py-2 rounded text-sm font-semibold ">
+                  <span className="inline-block Button">
                     Read More
                   </span>
                 </Link>
@@ -75,7 +75,7 @@ export default function ContributionSection() {
                 </div>
                 <p className="text-md text-[#363636] my-6">{item.desc}</p>
                 <Link href={item.link}>
-                  <span className="inline-block bg-[#FACC48] text-[#363636] px-4 py-2 rounded text-sm font-semibold ">
+                  <span className="inline-block Button ">
                     Read More
                   </span>
                 </Link>
@@ -86,7 +86,7 @@ export default function ContributionSection() {
 
         <div className="mt-10 text-center">
           <Link href={sectionData.knowMoreLink}>
-            <button className="bg-[#0E509E] text-white px-6 py-2 rounded  transition font-medium">
+            <button className="Button">
               Know More
             </button>
           </Link>

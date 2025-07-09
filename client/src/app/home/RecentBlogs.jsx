@@ -41,7 +41,7 @@ export default function RecentBlogs() {
               <p className="text-[#363636] text-md mb-5">{blog.description}</p>
               <Link
                 href={blog.link}
-                className="inline-block bg-[#0E509E] text-white px-5 py-2 rounded text-sm hover:bg-[#0c4586] transition"
+                className="inline-block Button"
               >
                 Read More
               </Link>
