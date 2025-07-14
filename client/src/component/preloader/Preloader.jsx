@@ -8,9 +8,9 @@ export default function Preloader({ children }) {
 
   useEffect(() => {
     const timer = setTimeout(() => {
-      setIsAnimating(true); 
-      setTimeout(() => setIsLoading(false), 1000); 
-    }, 1000); 
+      setIsAnimating(true);
+      setTimeout(() => setIsLoading(false), 1000);
+    }, 1000);
 
     return () => clearTimeout(timer);
   }, []);
@@ -22,12 +22,22 @@ export default function Preloader({ children }) {
           isAnimating ? "translate-y-[-100%]" : "translate-y-0"
         }`}
       >
+        {/* Desktop Image */}
         <Image
           src="/assets/home/MainSlide.png"
           alt="Loading..."
           width={1920}
           height={1080}
-          className="w-full h-full object-cover"
+          className="hidden md:block w-full h-full object-cover"
+        />
+
+        {/* Mobile Image */}
+        <Image
+          src="/assets/home/MainSlide.png" 
+          alt="Loading..."
+          width={500}
+          height={800}
+          className="block md:hidden w-full h-full object-cover"
         />
       </div>
     );

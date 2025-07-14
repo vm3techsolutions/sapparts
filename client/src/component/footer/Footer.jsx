@@ -12,7 +12,7 @@ export default function Footer() {
   return (
     <footer className="bg-[#363636] text-white">
       {/* Main Footer Content */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 sm:gap-0  px-6 sm:px-10 pt-6 pb-3">
+      <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-4 sm:gap-0  px-6 sm:px-10 pt-6 pb-3">
         {/* Logo and Description */}
         <div className="sm:pt-10">
           <Image

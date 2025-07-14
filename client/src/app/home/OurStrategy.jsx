@@ -53,7 +53,7 @@ export default function StrategySection() {
                 className="flex items-center justify-between group text-[#0E509E]  text-xl font-medium"
               >
                 {item}
-                <div className="bg-[#FACC48] p-2"><FiArrowRight className="ml- transition-transform group-hover:translate-x-1  " /></div>
+                <div className="bg-[#FACC48] p-2 text-black"><FiArrowRight className="ml- transition-transform group-hover:translate-x-1  " /></div>
               </Link>
             ))}
           </div>

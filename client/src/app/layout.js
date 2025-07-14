@@ -3,6 +3,7 @@ import "./globals.css";
 import Header from "@/component/header/Header";
 import Footer from "@/component/footer/Footer";
 import Preloader from "@/component/preloader/Preloader";
+import ScrollRing from "@/component/scroller/ScrollRing";
 
 
 const geistSans = Geist({
@@ -26,6 +27,7 @@ export default function RootLayout({ children }) {
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <Preloader/>
           <Header />
+          <ScrollRing/>
           {children}
           <Footer />
        
