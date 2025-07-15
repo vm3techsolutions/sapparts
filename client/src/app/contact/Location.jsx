@@ -12,18 +12,18 @@ export default function LocationSection() {
       .then((res) => res.json())
       .then((data) => {
         setLocations(data);
-        setActive(data[0]); // Set first as default
+        setActive(data[0]); // Set first location as default
       });
   }, []);
 
   if (!active) return null;
 
   return (
-    <div className="py-10 px-4 text-center">
-      <h2 className="text-3xl font-semibold text-[#0E509E] mb-6">Location</h2>
+    <div className="bg-white Section">
+      <h2 className="Heading text-center ">Location</h2>
 
       {/* Image Row */}
-      <div className="flex flex-wrap justify-center gap-10 mb-10">
+      <div className="flex flex-wrap justify-center gap-16 mb-10">
         {locations.map((loc) => (
           <div
             key={loc.name}
@@ -32,18 +32,19 @@ export default function LocationSection() {
             }`}
             onClick={() => setActive(loc)}
           >
-            <div className="relative w-[300px] h-[300px]">
+            <div className="relative w-[300px] h-[300px] overflow-hidden rounded-md">
               <Image
                 src={loc.image}
                 alt={loc.name}
                 fill
                 className="object-cover rounded-md"
               />
+              {/* Name Overlay */}
               <div
-                className={`absolute bottom-0 w-full text-xl text-white text-center py-1 font-semibold rounded-b-md ${
+                className={`absolute bottom-0 left-0 w-full py-2 text-center text-xl font-semibold ${
                   active.name === loc.name
-                    ? "text-[#FFFFFF]"
-                    : "text-[#000000]"
+                    ? "text-white "
+                    : "text-black bg-white/70"
                 }`}
               >
                 {loc.name}
