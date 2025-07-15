@@ -4,11 +4,12 @@ import Location from "./Location";
 
 
 
+
 export default function (){
     return(
         <div>
            <ContactBanner/>
-           <Location/>
+          <Location/>
            <ContactUs/>
           
         </div>

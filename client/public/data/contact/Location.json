@@ -1,52 +1,64 @@
 [
   {
     "name": "India",
+    "company": "SAP Parts Pvt. Ltd.",
     "image": "/assets/contact/India.png",
-    "address": "Gat.No.1087/04, Pune-Nagar-Pimple Jagtap Road, Sansawadi, Tal.Shirur, Maharashtra 412208, INDIA.",
+    "address": "Gat.No.1087/04, Pune-Nagar-Pimple Jagtap Road, Sanaswadi, Tal.Shirur, Maharashtra 412208, INDIA.",
     "contacts": [
       {
-        "title": "Sales and Marketing",
+        "title": "Sales and Marketing :",
         "phone": "+91 - 9561562597 / 9225546956",
         "email": "sales@sapparts.com"
       },
       {
-        "title": "Human Resource",
-        "phone": "+91 - 9096252970 / 9225546956",
-        "email": "hrd@sapparts.com"
+        "title": "Human Resource :",
+        "phone": "+91 - 9822171240",
+        "email": "admin@sapparts.com"
+      },
+      {
+        "title": "Visa and Consulate Services :",
+        "phone": "+91 - 9561562597 / 9225546956",
+        "email": "sales@sapparts.com"
+      },
+      {
+        "title": "Purchasing :",
+        "phone": "+91 - 9975684469",
+        "email": "purchase@sapparts.com"
       }
     ]
   },
   {
     "name": "Europe",
+    "company": "SAP Parts-Europe GMBH.",
     "image": "/assets/contact/Europe.png",
-    "address": "123, Champs-Élysées, Paris, France",
+    "address": "Johannes Orlowski Lucasstr. 24, 51379 Leverkusen,Germany",
     "contacts": [
       {
-        "title": "Visa and Consulate Services",
+       
         "phone": "+33 1 23 45 67 89",
-        "email": "europevisa@sapparts.com"
+        "email": "purchase@sapparts.com"
+        
       },
       {
-        "title": "Sales Team Europe",
+        
         "phone": "+33 6 78 90 12 34",
-        "email": "europe@sapparts.com"
+        "email": "purchase@sapparts.com"
+       
       }
     ]
   },
   {
     "name": "America",
+    "company": "Grizzly Supplies Ltd.",
     "image": "/assets/contact/America.png",
-    "address": "1600, Liberty Ave, New York, USA",
+    "address": "19269, 96th Ave Surrey, BC V4N 4C4",
+    "company1": "Grizzly Supplies - USA",
+    "address1": "17300 West Valley Hwy Tukwila, WA, 98188",
     "contacts": [
       {
-        "title": "Purchasing",
-        "phone": "+1 212-456-7890",
+
+        "phone": "1-877-505-0155 (Toll Free)",
         "email": "purchase@sapparts.com"
-      },
-      {
-        "title": "Marketing",
-        "phone": "+1 646-123-4567",
-        "email": "usmarketing@sapparts.com"
       }
     ]
   }

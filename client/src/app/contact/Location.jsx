@@ -1,7 +1,7 @@
 "use client";
 import { useEffect, useState } from "react";
 import Image from "next/image";
-import { FaPhone, FaEnvelope } from "react-icons/fa";
+import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
 
 export default function LocationSection() {
   const [locations, setLocations] = useState([]);
@@ -55,25 +55,55 @@ export default function LocationSection() {
       </div>
 
       {/* Info Section */}
-      <div className="max-w-3xl mx-auto bg-gray-100 rounded-lg p-6 text-left">
-        <h3 className="text-lg font-bold text-center text-[#0E509E] mb-2">
-          SAP Parts Pvt. Ltd.
-        </h3>
+      <div className="max-w-3xl mx-auto bg-[#F5F5F5] rounded-lg p-6 sm:px-10 ">
+       <div className="flex flex-col items-center justify-center mb-4">
+  <FaMapMarkerAlt className="text-[#FACC48] text-2xl mb-2" />
+  <h3 className="text-lg font-bold text-center text-[#0E509E]">
+    {active.company}
+  </h3>
+</div>       
         <p className="mb-4 text-sm text-center">{active.address}</p>
 
-        <div className="grid sm:grid-cols-2 gap-4 text-sm">
-          {active.contacts.map((item, idx) => (
-            <div key={idx}>
-              <h4 className="font-semibold mb-1">{item.title}</h4>
-              <p className="flex items-center gap-2">
-                <FaPhone className="text-[#0E509E]" /> {item.phone}
-              </p>
-              <p className="flex items-center gap-2">
-                <FaEnvelope className="text-[#0E509E]" /> {item.email}
-              </p>
-            </div>
-          ))}
+         <div className="flex flex-col items-center justify-center mb-4">
+  {/* <FaMapMarkerAlt className="text-[#FACC48] text-2xl mb-2" /> */}
+  <h3 className="text-lg font-bold text-center text-[#0E509E]">
+    {active.company1}
+  </h3>
+</div>      
+        <p className="mb-4 text-sm text-center">{active.address1}</p>
+
+       <div
+  className={`grid gap-6 text-sm ${
+    active.contacts.length === 1
+      ? 'justify-center' // center 1 item
+      : 'sm:grid-cols-2' // grid for 2+
+  } sm:ml-24 ml-10`}
+>
+  {active.contacts.map((item, idx) => (
+    <div key={idx}>
+      <h4 className="font-semibold mb-1">{item.title}</h4>
+
+      <div className="flex items-start gap-3 mb-2">
+        <div className="text-[#FACC48] mt-1">
+          <FaPhoneAlt />
         </div>
+        <div>
+          <p className="text-sm font-medium text-gray-800">{item.phone}</p>
+        </div>
+      </div>
+
+      <div className="flex items-start gap-3">
+        <div className="text-[#FACC48] mt-1">
+          <FaEnvelope />
+        </div>
+        <div>
+          <p className="text-sm font-medium text-gray-800">{item.email}</p>
+        </div>
+      </div>
+    </div>
+  ))}
+</div>
+
       </div>
     </div>
   );
