@@ -1,12 +1,12 @@
-import Agriculture from "./Agriculture";
+import Agriculture from "./agriculture/Agriculture";
 import Automotive from "./Automotive";
 import Construction from "./Construction";
 import Defence from "./Defence";
 import HighTech from "./HighTech";
 import Industrial from "./Industrial";
-import IndustriesBanner from "./IndustriesBanner";
+import IndustriesBanner from "./agriculture/IndustriesBanner";
 import Mining from "./Mining";
-import ProductsUsed from "./ProductsUsed";
+import ProductsUsed from "./agriculture/ProductsUsed";
 
 export default function (){
     return(

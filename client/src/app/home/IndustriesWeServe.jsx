@@ -57,7 +57,7 @@ export default function IndustriesSection() {
                   className="w-full h-[55vh] object-cover"
                 />
 
-                <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 w-[80%] z-10">
+                <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 w-[85%] z-10">
                   <div className="relative w-full min-h-[48px]">
                     <button className="w-full bg-white text-[#1C3C88] py-2 px-4 rounded-md font-medium shadow-md relative overflow-hidden group min-h-[48px]">
                       {/* Title visible normally */}

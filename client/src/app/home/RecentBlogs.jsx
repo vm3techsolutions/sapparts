@@ -34,7 +34,7 @@ export default function RecentBlogs() {
               className="w-full h-56 object-cover"
             />
             <div className="p-5">
-              <h3 className="text-[#0E509E] font-semibold text-xl mb-2 hover:underline">
+              <h3 className="text-[#0E509E] font-semibold text-xl mb-2 ">
                 <Link href={blog.link}>{blog.title}</Link>
               </h3>
               <hr className="border-t-2  border-[#FACC48] w-full mb-4" />

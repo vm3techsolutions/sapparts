@@ -6,7 +6,7 @@ import Link from "next/link";
 export default function ContributionSection() {
   const [cards, setCards] = useState([]);
   const [sectionData, setSectionData] = useState({
-    title: "“We Care. We Contribute.”",
+    title: "“We Care, We Contribute !”",
     description:
       "This handy tool helps you create dummy text for all your layout needs. We are gradually adding new This handy tool helps you create dummy text for all your layout needs. We are gradually adding new ",
     mainImage: "/assets/home/weCareMainImg.png",

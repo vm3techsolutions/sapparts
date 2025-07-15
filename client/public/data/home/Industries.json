@@ -22,21 +22,21 @@
    {
     "id": 5,
     "title": "Construction",
-    "image": "/assets/home/.png"
+    "image": "/assets/home/industriesWeServe1.png"
   },
   {
     "id": 6,
     "title": "Mining",
-    "image": "/assets/home/.png"
+    "image": "/assets/home/industriesWeServe1.png"
   },
   {
     "id": 7,
     "title": "Industrial",
-    "image": "/assets/home/.png"
+    "image": "/assets/home/industriesWeServe1.png"
   },
   {
     "id": 8,
     "title": "Agriculture",
-    "image": "/assets/home/.png"
+    "image": "/assets/home/industriesWeServe1.png"
   }
 ]

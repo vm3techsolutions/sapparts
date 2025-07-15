@@ -25,9 +25,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+         <ScrollRing/>
         <Preloader/>
           <Header />
-          <ScrollRing/>
+         
           {children}
           <Footer />
        

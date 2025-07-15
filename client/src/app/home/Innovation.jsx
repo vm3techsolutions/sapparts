@@ -38,7 +38,7 @@ export default function InnovationSection() {
               <p className="text-lg font-extralight mb-6">{item.description}</p>
               <Link
                 href={item.link}
-                className="inline-block bg-[#FACC48] text-[#363636] px-4 py-1 font-semibold rounded hover:brightness-110 transition mb-1"
+                className="inline-block bg-[#FACC48] text-[#363636] px-4 py-1 font-semibold rounded hover:bg-white transition mb-1"
               >
                 Know More
               </Link>
