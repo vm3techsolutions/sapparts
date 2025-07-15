@@ -19,7 +19,7 @@ export default function ScrollRing() {
   }, []);
 
   return (
-    <div className="fixed sm:top-[84px] left-0 w-full z-50 pointer-events-none bg-[#FACC48]">
+    <div className="fixed sm:top-[84px] left-0 w-full z-50 pointer-events-none bg-[#FACC48] ">
       <div className="relative w-full h-[50px]">
         <div
           className="absolute top-0"

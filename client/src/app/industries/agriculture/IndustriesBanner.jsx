@@ -3,10 +3,10 @@ import React from "react";
 
 export default function MachineImage() {
   return (
-    <div className="w-full bg-white flex justify-center items-center sm:px-4 ">
+    <div className="w-full bg-white flex justify-center items-center sm:px-4 sm:mt-6">
       <div className="">
         <Image
-          src="/assets/industries/industriesBanner.png" 
+          src="/assets/industries/AgricultureBanner2.jpg" 
           alt="CNC Machining"
           width={933}
           height={512}

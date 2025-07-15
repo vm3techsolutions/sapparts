@@ -23,11 +23,11 @@ export default function ContactSection() {
     <section className="bg-white Section">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-start justify-between sm:gap-10">
         {/* Left Side Content */}
-        <div className="md:w-1/2">
-          <h2 className="text-3xl md:text-4xl font-bold text-[#0E509E] mb-4">
+        <div className="md:w-1/2 text-center">
+          <h2 className="text-3xl md:text-4xl font-bold text-[#0E509E] mb-4 sm:text-left">
             Contact Us
           </h2>
-          <p className="Paragraph text-left font-semibold">
+          <p className="Paragraph sm:text-left font-semibold">
             Let’s start a conversation – we’d love to hear from you!
           </p>
         </div>

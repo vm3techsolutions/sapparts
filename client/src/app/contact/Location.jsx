@@ -23,7 +23,7 @@ export default function LocationSection() {
       <h2 className="Heading text-center ">Location</h2>
 
       {/* Image Row */}
-      <div className="flex flex-wrap justify-center gap-16 mb-10">
+      <div className=" max-w-8xl flex flex-wrap justify-center gap-16 mb-10">
         {locations.map((loc) => (
           <div
             key={loc.name}
@@ -55,7 +55,7 @@ export default function LocationSection() {
       </div>
 
       {/* Info Section */}
-      <div className="max-w-3xl mx-auto bg-[#F5F5F5] rounded-lg p-6 sm:px-10 ">
+      <div className="max-w-5xl mx-auto bg-[#F5F5F5] rounded-lg p-6 sm:px-10 ">
        <div className="flex flex-col items-center justify-center mb-4">
   <FaMapMarkerAlt className="text-[#FACC48] text-2xl mb-2" />
   <h3 className="text-lg font-bold text-center text-[#0E509E]">

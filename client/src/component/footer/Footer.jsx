@@ -12,9 +12,9 @@ export default function Footer() {
   return (
     <footer className="bg-[#363636] text-white">
       {/* Main Footer Content */}
-      <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-4 sm:gap-0  px-6 sm:px-10 pt-6 pb-3">
+      <div className="grid grid-cols-2 md:grid-cols-2 md:grid-cols-4 gap-4 md:gap-0  px-6 md:px-10 pt-6 pb-3">
         {/* Logo and Description */}
-        <div className="sm:pt-10">
+        <div className="md:pt-10">
           <Image
             src="/assets/home/headerLogo.png"
             alt="SAP Parts"
@@ -22,15 +22,15 @@ export default function Footer() {
             height={50}
             className="mb-4"
           />
-          <p className="text-sm text-gray-300">
+          <p className="text-md text-gray-300">
             Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type ..
           </p>
         </div>
 
         {/* Quick Links */}
-        <div className="sm:ml-20">
+        <div className="md:ml-20">
           <h3 className="text-[#FACC48] font-semibold text-lg mb-3">Quick Links</h3>
-          <ul className="space-y-2 text-sm">
+          <ul className="space-y-2 text-md">
             <li><Link href="/strategy">Strategy</Link></li>
             <li><Link href="/industries">Industries</Link></li>
             <li><Link href="/products">Products</Link></li>
@@ -46,7 +46,7 @@ export default function Footer() {
         {/* Other Links */}
         <div>
           <h3 className="text-[#FACC48] font-semibold text-lg mb-3">Other Links</h3>
-          <ul className="space-y-2 text-sm">
+          <ul className="space-y-2 text-md">
             <li><Link href="/privacy-policy">Privacy Policy</Link></li>
             <li><Link href="/terms-conditions">Terms & Conditions</Link></li>
           </ul>
@@ -55,11 +55,11 @@ export default function Footer() {
         {/* Contact Info */}
         <div>
           <h3 className="text-[#FACC48] font-semibold text-lg mb-3">Get in Touch</h3>
-          <p className="text-sm text-gray-300 mb-2">
+          <p className="text-md text-gray-300 mb-2">
             Address: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
           </p>
-          <p className="text-sm text-gray-300 my-5">Phone: +91 12345 12345</p>
-          <p className="text-sm text-gray-300 my-5">Email: sales@sapparts.com</p>
+          <p className="text-md text-gray-300 my-5">Phone: +91 12345 12345</p>
+          <p className="text-md text-gray-300 my-5">Email: sales@sapparts.com</p>
           <div className="flex items-center gap-3 text-[#363636] text-2xl ">
             <Link href="#"><FaFacebookF className="rounded-full bg-[#FACC48] p-1"/></Link>
             <Link href="#"><FaInstagram className="rounded-full bg-[#FACC48] p-1"/></Link>
@@ -70,7 +70,7 @@ export default function Footer() {
       </div>
 
     {/* Bottom Bar */}
-<div className="bg-[#0E509E] text-white text-center py-3 text-sm">
+<div className="bg-[#0E509E] text-white text-center py-3 text-md">
   Designed & Development By:{" "}
   <Link
     href="https://vm3techsolution.com/?v=212bd1cfe3fb" 
