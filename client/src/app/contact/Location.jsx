@@ -57,20 +57,20 @@ export default function LocationSection() {
       {/* Info Section */}
       <div className="max-w-5xl mx-auto bg-[#F5F5F5] rounded-lg p-6 sm:px-10 ">
        <div className="flex flex-col items-center justify-center mb-4">
-  <FaMapMarkerAlt className="text-[#FACC48] text-2xl mb-2" />
-  <h3 className="text-lg font-bold text-center text-[#0E509E]">
+  <FaMapMarkerAlt className="text-[#FACC48] text-3xl mb-2" />
+  <h3 className="text-[24px] font-semibold text-center text-[#0E509E]">
     {active.company}
   </h3>
 </div>       
-        <p className="mb-4 text-sm text-center">{active.address}</p>
+        <p className="mb-4 text-[20px] font-normal text-center">{active.address}</p>
 
          <div className="flex flex-col items-center justify-center mb-4">
   {/* <FaMapMarkerAlt className="text-[#FACC48] text-2xl mb-2" /> */}
-  <h3 className="text-lg font-bold text-center text-[#0E509E]">
+  <h3 className="text-[24px] font-semibold text-center text-[#0E509E]">
     {active.company1}
   </h3>
 </div>      
-        <p className="mb-4 text-sm text-center">{active.address1}</p>
+        <p className="mb-4 text-[20px] font-normal text-center">{active.address1}</p>
 
        <div
   className={`grid gap-6 text-sm ${
@@ -81,23 +81,23 @@ export default function LocationSection() {
 >
   {active.contacts.map((item, idx) => (
     <div key={idx}>
-      <h4 className="font-semibold mb-1">{item.title}</h4>
+      <h4 className="font-semibold text-[22px] mb-1">{item.title}</h4>
 
       <div className="flex items-start gap-3 mb-2">
-        <div className="text-[#FACC48] mt-1">
+        <div className="text-[#FACC48] mt-1 text-2xl">
           <FaPhoneAlt />
         </div>
         <div>
-          <p className="text-sm font-medium text-gray-800">{item.phone}</p>
+          <p className=" font-normal text-[#000000] text-[20px]">{item.phone}</p>
         </div>
       </div>
 
       <div className="flex items-start gap-3">
-        <div className="text-[#FACC48] mt-1">
+        <div className="text-[#FACC48] mt-1 text-2xl">
           <FaEnvelope />
         </div>
         <div>
-          <p className="text-sm font-medium text-gray-800">{item.email}</p>
+          <p className="font-normal text-[#000000] text-[20px]">{item.email}</p>
         </div>
       </div>
     </div>

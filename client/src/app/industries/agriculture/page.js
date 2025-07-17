@@ -1,13 +1,17 @@
 import Agriculture from "./Agriculture";
-import IndustriesBanner from "./IndustriesBanner";
+import AgricultureBanner from "./AgricultureBanner";
+import FAQs from "./FAQs";
+import KeyBenefits from "./KeyBenefits";
 import ProductsUsed from "./ProductsUsed";
 
 export default function (){
     return(
         <div>
-           <IndustriesBanner/>
+           <AgricultureBanner/>
            <Agriculture/>
            <ProductsUsed/>
+           <KeyBenefits/>
+           <FAQs/>
         </div>
     )
 }

@@ -92,7 +92,7 @@ export default function Header() {
             return (
               <li
                 key={link.name}
-                className="flex flex-col items-center relative group px-1"
+                className="flex flex-col items-center relative group px-1 "
               >
                 {link.subLinks ? (
                   <span className="py-1 px-3 cursor-default group-hover:text-[#003d7a] text-[#0E509E]">

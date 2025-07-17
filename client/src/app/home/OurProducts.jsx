@@ -34,11 +34,13 @@ export default function ProductsPage() {
             ></div>
 
             {/* Content Layer */}
-            <div className="relative h-full w-full z-10 flex flex-col justify-between py-10 px-7 transition-colors duration-500 group-hover:text-white">
+            <div className="relative h-full w-full z-10 flex flex-col justify-between py-10 px-7 transition-colors duration-500 ">
+              {/* group-hover:text-white */}
               {/* Title */}
-              <h3 className="text-2xl font-semibold text-[#0E509E] group-hover:text-white transition-colors duration-300">
+              <h3 className="text-2xl font-semibold text-[#0E509E]  transition-colors duration-300">
                 {item.title}
               </h3>
+              {/* group-hover:text-white */}
 
               {/* Description */}
               <div className="flex-grow flex items-center">

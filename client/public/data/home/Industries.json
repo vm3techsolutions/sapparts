@@ -2,41 +2,43 @@
   {
     "id": 1,
     "title": "Construction",
-    "image": "/assets/home/industriesWeServe1.png"
+    "image": "/assets/home/industriesWeServe1.png",
+    "link": "/industries/construction"
   },
   {
     "id": 2,
     "title": "Mining",
-    "image": "/assets/home/industriesWeServe2.png"
+    "image": "/assets/home/industriesWeServe2.png",
+    "link": "/industries/mining"
   },
   {
     "id": 3,
     "title": "Industrial",
-    "image": "/assets/home/industriesWeServe3.png"
+    "image": "/assets/home/industriesWeServe3.png",
+    "link": "/industries/industrial"
   },
   {
     "id": 4,
     "title": "Agriculture",
-    "image": "/assets/home/industriesWeServe4.png"
+    "image": "/assets/home/industriesWeServe4.png",
+    "link": "/industries/agriculture"
   },
-   {
+  {
     "id": 5,
-    "title": "Construction",
-    "image": "/assets/home/industriesWeServe1.png"
+    "title": "Automotive",
+    "image": "/assets/home/industriesWeServe5.png",
+    "link": "/industries/automotive"
   },
   {
     "id": 6,
-    "title": "Mining",
-    "image": "/assets/home/industriesWeServe1.png"
+    "title": "High-Tech",
+    "image": "/assets/home/industriesWeServe6.png",
+    "link": "/industries/high-tech"
   },
   {
     "id": 7,
-    "title": "Industrial",
-    "image": "/assets/home/industriesWeServe1.png"
-  },
-  {
-    "id": 8,
-    "title": "Agriculture",
-    "image": "/assets/home/industriesWeServe1.png"
+    "title": "Defence",
+    "image": "/assets/home/industriesWeServe7.png",
+    "link": "/industries/defence"
   }
 ]

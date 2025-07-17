@@ -58,22 +58,19 @@ export default function IndustriesSection() {
                 />
 
                 <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 w-[85%] z-10">
-                  <div className="relative w-full min-h-[48px]">
-                    <button className="w-full bg-white text-[#1C3C88] py-2 px-4 rounded-md font-medium shadow-md relative overflow-hidden group min-h-[48px]">
-                      {/* Title visible normally */}
+                  <Link href={industry.link || "#"}>
+                    <div className="w-full bg-white text-[#1C3C88] py-2 px-4 rounded-md font-medium shadow-md relative overflow-hidden group min-h-[48px] text-center cursor-pointer">
+                      {/* Title (default state) */}
                       <span className="block group-hover:opacity-0 transition-opacity duration-300">
                         {industry.title}
                       </span>
 
-                      {/* Know More on hover */}
-                      <Link
-                        href={industry.link || "#"}
-                        className="absolute inset-0 flex justify-center items-center text-sm text-white bg-[#1C3C88] rounded-md opacity-0 group-hover:opacity-100 transition-opacity duration-300"
-                      >
+                      {/* Know More (hover state) */}
+                      <span className="absolute inset-0 flex justify-center items-center text-sm text-white bg-[#1C3C88] rounded-md opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                         Know More
-                      </Link>
-                    </button>
-                  </div>
+                      </span>
+                    </div>
+                  </Link>
                 </div>
               </div>
             </SwiperSlide>
