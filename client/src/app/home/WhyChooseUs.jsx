@@ -25,35 +25,38 @@ export default function WhyChooseUs() {
           </div>
         </div>
 
-        {/* Right Side */}
-        <div className="grid grid-cols-2 gap-10 ">
-          {[
-            { number: "01", title: "Over 20 Years of Expertise" },
-            { number: "02", title: "Global Supply Network" },
-            { number: "03", title: "Precision Manufacturing" },
-            { number: "04", title: "ISO–Certified Processes" },
-          ].map((item, index) => (
-            <div key={index} className="text-center">
-              <div className="sm:w-64 sm:h-32 h-20 w-40 mx-auto bg-[#D9D9D9]/50 rounded-b-full flex items-center justify-center">
-                <span className="text-[#FACC48] sm:text-5xl text-4xl font-bold">
-                  {item.number}
-                </span>
-              </div>
-              <p className="mt-2 text-[#0E509E] font-semibold sm:text-lg">
-                {item.title}
-              </p>
-            </div>
-          ))}
-
-          {/* Know More Button */}
-          <div className="col-span-2 mt-6 text-center">
-            <Link href="#">
-              <button className="Button">
-                Know More
-              </button>
-            </Link>
+       {/* Right Side */}
+<div className="grid grid-cols-2 gap-10">
+  {[
+    { number: "01", title: "Over 20 Years of Expertise", link: "/expertise" },
+    { number: "02", title: "Global Supply Network", link: "/network" },
+    { number: "03", title: "Precision Manufacturing", link: "/manufacturing" },
+    { number: "04", title: "ISO–Certified Processes", link: "/certification" },
+  ].map((item, index) => (
+    <div key={index} className="text-center">
+      <Link href={item.link}>
+        <div className="cursor-pointer">
+          <div className="sm:w-64 sm:h-32 h-20 w-40 mx-auto bg-[#D9D9D9]/50 rounded-b-full flex items-center justify-center">
+            <span className="text-[#FACC48] sm:text-5xl text-4xl font-bold">
+              {item.number}
+            </span>
           </div>
+          <p className="mt-2 text-[#0E509E] font-semibold sm:text-lg">
+            {item.title}
+          </p>
         </div>
+      </Link>
+    </div>
+  ))}
+
+  {/* Know More Button */}
+  <div className="col-span-2 mt-6 text-center">
+    <Link href="#">
+      <button className="Button">Know More</button>
+    </Link>
+  </div>
+</div>
+
       </div>
     </div>
   );

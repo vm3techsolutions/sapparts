@@ -59,7 +59,7 @@ export default function IndustriesSection() {
 
                 <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 w-[85%] z-10">
                   <Link href={industry.link || "#"}>
-                    <div className="w-full bg-white text-[#1C3C88] py-2 px-4 rounded-md font-medium shadow-md relative overflow-hidden group min-h-[48px] text-center cursor-pointer">
+                    <div className="w-full bg-[#FACC48] text-[#363636] py-2 px-4 rounded-md font-medium shadow-md relative overflow-hidden group min-h-[48px] text-center cursor-pointer">
                       {/* Title (default state) */}
                       <span className="block group-hover:opacity-0 transition-opacity duration-300">
                         {industry.title}

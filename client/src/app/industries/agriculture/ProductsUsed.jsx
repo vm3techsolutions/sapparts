@@ -21,7 +21,7 @@ const products = [
   },
   {
     label: "SAP Hub Bearings",
-    src: "/assets/industries/agriculture/APU4.png",
+    src: "/assets/industries/Bushings4.jpg",
     highlight: false,
   },
   {
@@ -39,7 +39,7 @@ export default function ProductsUsed() {
     <div className="Section bg-white">
       <h2 className="Heading text-center">Products Used</h2>
 
-      <div className="flex flex-col items-center sm:gap-y-28 gap-y-10   mt-8">
+      <div className="flex flex-col items-center sm:gap-y-16 gap-y-10   mt-8">
         {/* First Row - 3 items */}
         <div className="flex justify-center flex-wrap sm:gap-x-40 gap-y-10">
           {firstRow.map((item, index) => (
