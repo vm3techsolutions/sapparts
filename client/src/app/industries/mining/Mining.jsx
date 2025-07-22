@@ -12,7 +12,7 @@ export default function AutomotiveSection() {
         {/* Left Side - Image */}
         <div className="w-full md:w-1/2 sm:p-4">
           <Image
-            src="/assets/industries/agriculture/Supporting.png"
+            src="/assets/industries/Mining1.png"
             alt="Powering Performance in Harsh Mining Environments"
             width={300}
             height={370}

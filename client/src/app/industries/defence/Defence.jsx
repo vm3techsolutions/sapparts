@@ -12,7 +12,7 @@ export default function AutomotiveSection() {
         {/* Left Side - Image */}
         <div className="w-full md:w-1/2 sm:p-4">
           <Image
-            src="/assets/industries/agriculture/Supporting.png"
+            src="/assets/industries/Defence1.png"
             alt=" Engineered for Critical Missions"
             width={300}
             height={370}
