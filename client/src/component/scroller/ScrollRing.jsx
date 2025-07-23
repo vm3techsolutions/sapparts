@@ -20,15 +20,15 @@ export default function ScrollRing() {
   // ✅ Decide image based on scroll percentage
   let imageSrc = "/assets/header/Ring.png";
   if (scrollPercent >= 75) {
-    imageSrc = "/assets/header/Ring4.png";
+    imageSrc = "/assets/header/Ring2.png";
   } else if (scrollPercent >= 50) {
     imageSrc = "/assets/header/Ring3.png";
   } else if (scrollPercent >= 25) {
-    imageSrc = "/assets/header/Ring2.png";
+    imageSrc = "/assets/header/Ring4.png";
   }
 
   return (
-    <div className="fixed sm:top-[62px] left-0 w-full z-50 pointer-events-none bg-[#FACC48]">
+    <div className="fixed sm:top-[62px] left-0 w-full z-0 pointer-events-none bg-[#FACC48]">
       <div className="relative w-full h-[50px]">
         <div
           className="absolute top-0"

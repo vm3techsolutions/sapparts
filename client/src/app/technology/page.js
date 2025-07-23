@@ -1,3 +1,4 @@
+import ScrollRing from "@/component/scroller/ScrollRing";
 import CentrifugalCasting from "./CentrifugalCasting";
 import ElastomerMolding from "./ElastomerMolding";
 import MachiningGrinding from "./MachiningGrinding";
@@ -10,6 +11,7 @@ import TechnologyBanner from "./TechnologyBanner";
 export default function(){
     return(
         <div>
+            <ScrollRing/>
             <TechnologyBanner/>
             <ManufacturingProcesses/>
             <CentrifugalCasting/>
