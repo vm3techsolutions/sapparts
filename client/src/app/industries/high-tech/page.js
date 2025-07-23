@@ -5,7 +5,7 @@ import HighTechBanner from "./HighTechBanner";
 import KeyBenefits from "./KeyBenefits";
 import ProductUsed from "./ProductUsed";
 
-export default function (){
+export default function industries(){
     return(
         <div>
             <ScrollRing/>

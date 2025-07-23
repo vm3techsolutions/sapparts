@@ -5,7 +5,7 @@ import FAQs from "./FAQs";
 import KeyBenefits from "./KeyBenefits";
 import ProductsUsed from "./ProductsUsed";
 
-export default function (){
+export default function industries(){
     return(
         <div>
             <ScrollRing/>

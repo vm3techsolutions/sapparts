@@ -8,7 +8,7 @@ import SinteringFacilities from "./SinteringFacilities";
 import SurfaceTreatment from "./SurfaceTreatment";
 import TechnologyBanner from "./TechnologyBanner";
 
-export default function(){
+export default function technology(){
     return(
         <div>
             <ScrollRing/>

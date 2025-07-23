@@ -7,7 +7,7 @@ import PumpValvesComponents from "./PumpValvesComponents";
 import SAPHubBearings from "./SAPHubBearings";
 import SinteredProducts from "./SinteredProducts";
 
-export default function(){
+export default function product(){
     return(
         <div>
             <ScrollRing/>

@@ -8,7 +8,7 @@ import IndustriesBanner from "./agriculture/AgricultureBanner";
 import Mining from "./Mining";
 import ProductsUsed from "./agriculture/ProductsUsed";
 
-export default function (){
+export default function industries(){
     return(
         <div>
             <IndustriesBanner/>
