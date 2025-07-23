@@ -25,31 +25,31 @@ export default function ProductsPage() {
         {products.map((item) => (
           <div
             key={item.id}
-            className="relative h-72 w-full overflow-hidden shadow-md bg-white text-[#363636] group transition-all duration-500"
+            className="relative h-80 w-full overflow-hidden shadow-md bg-white text-[#363636] group transition-all duration-500"
           >
-            {/* Image Layer (fades in on hover, card bg stays white) */}
-            <div
-              className="absolute inset-0 bg-center bg-cover opacity-0 group-hover:opacity-100 transition-opacity duration-500"
-              style={{ backgroundImage: `url(${item.image})` }}
-            ></div>
+            {/* Image Layer - hidden by default, shown on hover */}
+            <div className="absolute inset-0 z-0">
+              <img
+                src={item.image}
+                alt={item.title}
+                className="h-full w-full object-cover opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+              />
+              {/* Black overlay */}
+              <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-60 transition-opacity duration-500"></div>
+            </div>
 
             {/* Content Layer */}
-            <div className="relative h-full w-full z-10 flex flex-col justify-between py-10 px-7 transition-colors duration-500 ">
-              {/* group-hover:text-white */}
-              {/* Title */}
-              <h3 className="text-2xl font-semibold text-[#0E509E]  transition-colors duration-300">
+            <div className="relative h-full w-full z-10 flex flex-col justify-between py-10 px-7 transition-colors duration-500 group-hover:text-white">
+              <h3 className="text-2xl font-semibold text-[#0E509E] group-hover:text-white transition-colors duration-300">
                 {item.title}
               </h3>
-              {/* group-hover:text-white */}
 
-              {/* Description */}
               <div className="flex-grow flex items-center">
                 <p className="text-md">{item.description}</p>
               </div>
 
-              {/* Button */}
               <Link href={item.link}>
-                <button className="Button mt-4 group-hover:border-white group-hover:text-white transition-colors duration-300">
+                <button className="Button mt-4 border-[#0E509E] text-[#0E509E] group-hover:border-white group-hover:text-white transition-colors duration-300">
                   Know More
                 </button>
               </Link>

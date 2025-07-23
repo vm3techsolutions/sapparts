@@ -10,26 +10,28 @@ export default function StrategySection() {
         {/* Left Images (Shown below on mobile) */}
         <div className="flex gap-6 md:mt-0 mt-8">
           {/* Left image */}
-          <div className="sm:w-[250px] sm:h-[60vh] w-[20vh] h-[30vh] rounded-lg overflow-hidden shadow-md">
-            <Image
-              src="/assets/home/ourStratergy1.png"
-              alt="Strategy Image 1"
-              width={250}
-              height={250}
-              className="w-full h-full object-cover"
-            />
-          </div>
+          <div className="group sm:w-[250px] sm:h-[60vh] w-[20vh] h-[30vh] rounded-lg overflow-hidden shadow-md">
+  <Image
+    src="/assets/home/ourStratergy1.png"
+    alt="Strategy Image 1"
+    width={250}
+    height={250}
+    className="w-full h-full object-cover transition-transform duration-300 ease-in-out group-hover:scale-110"
+  />
+</div>
+
 
           {/* Right image */}
-          <div className="sm:w-[250px] sm:h-[60vh] w-[20vh] h-[30vh] rounded-lg overflow-hidden shadow-md sm:mt-24 mt-16">
-            <Image
-              src="/assets/home/ourStratergy2.png"
-              alt="Strategy Image 2"
-              width={250}
-              height={250}
-              className="w-full h-full object-cover"
-            />
-          </div>
+          <div className="group sm:w-[250px] sm:h-[60vh] w-[20vh] h-[30vh] rounded-lg overflow-hidden shadow-md sm:mt-24 mt-16">
+  <Image
+    src="/assets/home/ourStratergy2.png"
+    alt="Strategy Image 2"
+    width={250}
+    height={250}
+    className="w-full h-full object-cover transition-transform duration-300 ease-in-out group-hover:scale-110"
+  />
+</div>
+
         </div>
 
         {/* Right Content */}

@@ -45,7 +45,7 @@ export default function FaqSection() {
             <div className="bg-[#D9D9D9]/20 rounded-md overflow-hidden">
               <button
                 onClick={() => toggleFAQ(index)}
-                className="w-full flex justify-between items-center px-6 py-4 text-left text-[#363636]/80 font-medium focus:outline-none text-[25px]"
+                className="w-full flex justify-between items-center px-6 py-4 text-left text-[#363636]/80 font-medium focus:outline-none sm:text-[25px]"
               >
                 <span>{faq.question}</span>
                 <span className="ml-4">

@@ -1,3 +1,4 @@
+import ScrollRing from "@/component/scroller/ScrollRing";
 import Bushings from "./Bushings";
 import MechanicalFaceSeals from "./MechanicalFaceSeals";
 import PrecisionComponents from "./PrecisionComponents";
@@ -9,6 +10,8 @@ import SinteredProducts from "./SinteredProducts";
 export default function(){
     return(
         <div>
+            <ScrollRing/>
+            
             <ProductBanner/>
             <MechanicalFaceSeals/>
             <Bushings/>

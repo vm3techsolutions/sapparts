@@ -1,3 +1,4 @@
+import ScrollRing from "@/component/scroller/ScrollRing";
 import Automotive from "./Automotive";
 import AutomotiveBanner from "./AutomotiveBanner";
 import FAQs from "./FAQs";
@@ -7,6 +8,7 @@ import ProductUsed from "./ProductUsed";
 export default function (){
     return(
         <div>
+            <ScrollRing/>
            <AutomotiveBanner/>
            <Automotive/>
            <ProductUsed/>

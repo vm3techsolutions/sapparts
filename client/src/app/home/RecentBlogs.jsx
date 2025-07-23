@@ -26,13 +26,16 @@ export default function RecentBlogs() {
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12 max-w-7xl mx-auto">
         {blogs.map((blog) => (
           <div key={blog.id} className="bg-white   overflow-hidden">
-            <Image
-              src={blog.image}
-              alt={blog.title}
-              width={800}
-              height={400}
-              className="w-full h-56 object-cover"
-            />
+           <div className="overflow-hidden">
+  <Image
+    src={blog.image}
+    alt={blog.title}
+    width={800}
+    height={400}
+    className="w-full h-56 object-cover transition-transform duration-300 ease-in-out hover:scale-110"
+  />
+</div>
+
             <div className="p-5">
               <h3 className="text-[#0E509E] font-semibold text-xl mb-2 ">
                 <Link href={blog.link}>{blog.title}</Link>

@@ -1,7 +1,6 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
- 
 
 export default function ScrollRing() {
   const [scrollPercent, setScrollPercent] = useState(0);
@@ -18,8 +17,18 @@ export default function ScrollRing() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  // ✅ Decide image based on scroll percentage
+  let imageSrc = "/assets/header/Ring.png";
+  if (scrollPercent >= 75) {
+    imageSrc = "/assets/header/Ring4.png";
+  } else if (scrollPercent >= 50) {
+    imageSrc = "/assets/header/Ring3.png";
+  } else if (scrollPercent >= 25) {
+    imageSrc = "/assets/header/Ring2.png";
+  }
+
   return (
-    <div className="fixed sm:top-[84px] left-0 w-full z-50 pointer-events-none bg-[#FACC48] ">
+    <div className="fixed sm:top-[62px] left-0 w-full z-50 pointer-events-none bg-[#FACC48]">
       <div className="relative w-full h-[50px]">
         <div
           className="absolute top-0"
@@ -29,8 +38,13 @@ export default function ScrollRing() {
             transition: "left 0.1s linear",
           }}
         >
-          <Image src="/assets/header/Ring.png" alt="Ring" width={40} height={50} 
-          className="h-12 w-12 "/>
+          <Image
+            src={imageSrc}
+            alt="Ring"
+            width={40}
+            height={50}
+            className="h-12 w-12"
+          />
         </div>
       </div>
     </div>

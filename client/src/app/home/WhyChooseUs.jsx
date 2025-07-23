@@ -20,7 +20,7 @@ export default function WhyChooseUs() {
               alt="Why Choose Us"
               width={500}
               height={400}
-              className="w-full h-auto object-cover"
+              className="w-full h-auto object-cover transition-transform duration-300 ease-in-out group-hover:scale-110"
             />
           </div>
         </div>
