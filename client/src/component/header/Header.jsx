@@ -28,7 +28,17 @@ export default function Header() {
     },
     { name: "Products", href: "/products" },
     { name: "Technology & Innovation", href: "/technology" },
-    { name: "Resources", href: "/resources" },
+    {
+      name: "Resources",
+      href: "#",
+      subLinks: [
+        { name: "Seals Assembly Guide", href: "/industries/agriculture" },
+        { name: "Seal-O-Fix", href: "/industries/automotive" },
+        { name: "Seal For Rotovator", href: "/industries/construction" },
+       
+      ],
+    },
+   
     { name: "Sustainability", href: "/sustainability" },
     { name: "About", href: "/about" },
     { name: "Career", href: "/career" },
