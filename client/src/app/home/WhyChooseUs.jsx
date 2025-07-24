@@ -1,18 +1,17 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
+import { useTranslation } from 'react-i18next';
 
 export default function WhyChooseUs() {
+  const { t } = useTranslation("common");
   return (
     <div className="Section bg-white">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         {/* Left Side */}
         <div>
-          <h2 className="Heading text-center sm:text-left">Why Choose Us</h2>
-          <p className="Paragraph text-center sm:text-left">
-            At SAP Parts, we combine industry expertise, innovation, and a
-            client-first approach to deliver solutions that make a measurable
-            difference. Here’s why partners trust us.
+          <h2 className="Heading text-center sm:text-left">{t('Why Choose Us')}</h2>
+          <p className="Paragraph text-center sm:text-left">{t('Why Choose Us Desc')}
           </p>
           <div className="rounded-md overflow-hidden">
             <Image
@@ -28,10 +27,10 @@ export default function WhyChooseUs() {
         {/* Right Side */}
         <div className="grid grid-cols-2 gap-10 ">
           {[
-            { number: "01", title: "Over 20 Years of Expertise" },
-            { number: "02", title: "Global Supply Network" },
-            { number: "03", title: "Precision Manufacturing" },
-            { number: "04", title: "ISO–Certified Processes" },
+            { number: "01", title: t('Over 20 Years of Expertise') },
+            { number: "02", title: t('Global Supply Network') },
+            { number: "03", title: t('Precision Manufacturing') },
+            { number: "04", title: t('ISO–Certified Processes') },
           ].map((item, index) => (
             <div key={index} className="text-center">
               <div className="sm:w-64 sm:h-32 h-20 w-40 mx-auto bg-[#D9D9D9]/50 rounded-b-full flex items-center justify-center">
@@ -49,7 +48,7 @@ export default function WhyChooseUs() {
           <div className="col-span-2 mt-6 text-center">
             <Link href="#">
               <button className="Button">
-                Know More
+               {t("Know More")}
               </button>
             </Link>
           </div>

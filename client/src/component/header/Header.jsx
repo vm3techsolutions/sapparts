@@ -4,39 +4,49 @@ import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { FiMenu, FiX } from "react-icons/fi";
+import { useTranslation } from "react-i18next";
+
+
 
 export default function Header() {
-  const [language, setLanguage] = useState("English");
+  const { t, i18n } = useTranslation();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const pathname = usePathname();
 
+  const [language, setLanguage] = useState(i18n.language || "en");
+
+  const changeLanguage = (lng) => {
+    i18n.changeLanguage(lng);
+    setLanguage(lng);
+  };
+
   const navLinks = [
-    { name: "Strategy", href: "/strategy" },
+    { name: t("Strategy"), href: "/strategy" },
     {
-      name: "Industries",
-      href: "#", // removed actual link
+      name: t("Industries"),
+      href: "#",
       subLinks: [
-        { name: "Agriculture", href: "/industries/agriculture" },
-        { name: "Automotive", href: "/industries/automotive" },
-        { name: "Construction", href: "/industries/construction" },
-        { name: "Defence", href: "/industries/defence" },
-        { name: "Industrial", href: "/industries/industrial" },
-        { name: "Mining", href: "/industries/mining" },
-        { name: "High-Tech", href: "/industries/high-tech" },
+        { name: t("Agriculture"), href: "/industries/agriculture" },
+        { name: t("Automotive"), href: "/industries/automotive" },
+        { name: t("Construction"), href: "/industries/construction" },
+        { name: t("Defence"), href: "/industries/defence" },
+        { name: t("Industrial"), href: "/industries/industrial" },
+        { name: t("Mining"), href: "/industries/mining" },
+        { name: t("High-Tech"), href: "/industries/high-tech" },
       ],
     },
-    { name: "Products", href: "/products" },
-    { name: "Technology & Innovation", href: "/technology" },
-    { name: "Resources", href: "/resources" },
-    { name: "Sustainability", href: "/sustainability" },
-    { name: "About", href: "/about" },
-    { name: "Career", href: "/career" },
-    { name: "Contact Us", href: "/contact" },
+    { name: t("Products"), href: "/products" },
+    { name: t("Technology & Innovation"), href: "/technology" },
+    { name: t("Resources"), href: "/resources" },
+    { name: t("Sustainability"), href: "/sustainability" },
+    { name: t("About"), href: "/about" },
+    { name: t("Career"), href: "/career" },
+    { name: t("Contact Us"), href: "/contact" },
   ];
 
   return (
     <header className="sticky top-0 left-0 z-50">
-      {/* Absolute Logo */}
+      {/* Logo */}
       <div className="absolute sm:top-6 top-2 left-4 sm:left-10 z-50">
         <Link href="/">
           <Image
@@ -49,29 +59,29 @@ export default function Header() {
         </Link>
       </div>
 
-      {/* Top Blue Header */}
+      {/* Top Blue Bar */}
       <div className="bg-[#0E509E] px-4 sm:px-10 sm:py-2 py-5">
         <div className="flex items-center justify-end gap-2 md:gap-4">
-          {/* Desktop Buttons */}
+          {/* Desktop Controls */}
           <div className="hidden md:flex items-center gap-2">
             <Link href="/quote">
               <button className="bg-white text-[#0E509E] font-medium px-4 py-1 rounded text-sm hover:bg-[#FACC48] hover:text-black">
-                Get A Quote
+                {t("Get A Quote")}
               </button>
             </Link>
             <select
               value={language}
-              onChange={(e) => setLanguage(e.target.value)}
+              onChange={(e) => changeLanguage(e.target.value)}
               className="bg-white text-[#0E509E] hover:bg-[#FACC48] hover:text-black font-medium px-3 py-1 rounded text-sm border"
             >
-              <option>English</option>
-              <option>Hindi</option>
-              <option>German</option>
-              <option>Spanish</option>
+              <option value="en">English</option>
+              <option value="ja">Japanese</option>
+              <option value="hi">Hindi</option>
+              <option value="de">German</option>
             </select>
           </div>
 
-          {/* Mobile Hamburger */}
+          {/* Mobile Toggle */}
           <div className="md:hidden ml-auto">
             <button onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>
               {mobileMenuOpen ? (
@@ -84,7 +94,7 @@ export default function Header() {
         </div>
       </div>
 
-      {/* White Nav Bar */}
+      {/* Desktop Navbar */}
       <nav className="bg-white px-4 sm:px-10 py- hidden md:block">
         <ul className="flex justify-end items-center text-[#0E509E] text-md font-medium h-10 border-r-2 border-[#D9D9D9]">
           {navLinks.map((link, index) => {
@@ -117,7 +127,6 @@ export default function Header() {
                   }`}
                 ></div>
 
-                {/* Dropdown */}
                 {link.subLinks && (
                   <ul className="absolute top-full left-0 mt-1 bg-white border rounded shadow-sm opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-all duration-200 z-50">
                     {link.subLinks.map((sub) => (
@@ -142,7 +151,7 @@ export default function Header() {
         </ul>
       </nav>
 
-      {/* Mobile Nav Menu */}
+      {/* Mobile Menu */}
       {mobileMenuOpen && (
         <div className="md:hidden bg-white px-4 py-3">
           <ul className="flex flex-col gap-3 text-[#0E509E] text-sm font-medium">
@@ -170,25 +179,13 @@ export default function Header() {
               )
             )}
           </ul>
-
-          {/* Mobile Buttons */}
           <div className="mt-4 flex flex-col gap-3">
+            
             <Link href="/quote">
               <button className="bg-[#0E509E] text-white px-4 py-2 rounded w-full">
-                Get A Quote
+                {t("Get A Quote")}
               </button>
             </Link>
-
-            <select
-              value={language}
-              onChange={(e) => setLanguage(e.target.value)}
-              className="bg-gray-100 text-[#0E509E] px-2 py-2 rounded w-full border"
-            >
-              <option>English</option>
-              <option>Hindi</option>
-              <option>German</option>
-              <option>Spanish</option>
-            </select>
           </div>
         </div>
       )}

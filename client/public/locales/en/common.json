@@ -1,0 +1,165 @@
+{
+  "Strategy": "Strategy",
+  "Industries": "Industries",
+  "Agriculture": "Agriculture",
+  "Automotive": "Automotive",
+  "Construction": "Construction",
+  "Defence": "Defence",
+  "Industrial": "Industrial",
+  "Mining": "Mining",
+  "High-Tech": "High-Tech",
+  "Products": "Products",
+  "Technology & Innovation": "Technology & Innovation",
+  "Resources": "Resources",
+  "Sustainability": "Sustainability",
+  "About": "About",
+  "Career": "Career",
+  "Contact Us": "Contact Us",
+  "Get A Quote": "Get A Quote",
+
+
+  "our statergy": "Our Strategy",
+  "Our-Strategy-Paragraph": "We focus on innovation, sustainability, and global support to deliver the best solutions for our clients.",
+  "Engineering Excellence": "Engineering Excellence",
+  "Customer-Centric Innovation": "Customer-Centric Innovation",
+  "Sustainability & Longevity": "Sustainability & Longevity",
+  "Global Support, Local Commitment": "Global Support, Local Commitment",
+  "Know More": "Know More",
+
+
+  "Our Products": "Our Products",
+  "Products Description": "We are a Manufacturer, Designer and Supplier of technologically enriched and specially designed Mechanical Face Seal/ Floating Seals and Special surface treated Products for Construction, Mining, Defence, Transmission, and Agriculture Equipments.",
+  
+  "productList": [
+    {
+      "id": 1,
+      "title": "Mechanical Face Seals",
+      "description": "This handy tool helps you create dummy text for all your layout needs.",
+      "image": "/assets/home/ourProduct1.png",
+      "link": "/products/1"
+    },
+    {
+      "id": 2,
+      "title": "Bushings",
+      "description": "This handy tool helps you create dummy text for all your layout needs.",
+      "image": "/assets/home/ourProduct1.png",
+      "link": "/products/2"
+    },
+    {
+      "id": 3,
+      "title": "Sintered Products",
+      "description": "This handy tool helps you create dummy text for all your layout needs.",
+      "image": "/assets/home/ourProduct1.png",
+      "link": "/products/3"
+    },
+    {
+      "id": 4,
+      "title": "Pump & Valves Components",
+      "description": "This handy tool helps you create dummy text for all your layout needs.",
+      "image": "/assets/home/ourProduct1.png",
+      "link": "/products/4"
+    },
+    {
+      "id": 5,
+      "title": "SAP Hub Bearings",
+      "description": "This handy tool helps you create dummy text for all your layout needs.",
+      "image": "/assets/home/ourProduct1.png",
+      "link": "/products/5"
+    },
+    {
+      "id": 6,
+      "title": "Precision Components",
+      "description": "This handy tool helps you create dummy text for all your layout needs.",
+      "image": "/assets/home/ourProduct1.png",
+      "link": "/products/6"
+    }
+  ], 
+
+
+  "Industries We Serve": "Our Products",
+  "Industry Description": "We are a Manufacturer, Designer and Supplier of technologically enriched and specially designed Mechanical Face Seal/ Floating Seals and Special surface treated Products for Construction, Mining, Defence, Transmission, and Agriculture Equipments.",
+  
+  "industryList": [
+    {
+      "id": 1,
+    "title": "Construction",
+    "image": "/assets/home/industriesWeServe1.png"
+  },
+  {
+    "id": 2,
+    "title": "Mining",
+    "image": "/assets/home/industriesWeServe2.png"
+  },
+  {
+    "id": 3,
+    "title": "Industrial",
+    "image": "/assets/home/industriesWeServe3.png"
+  },
+  {
+    "id": 4,
+    "title": "Agriculture",
+    "image": "/assets/home/industriesWeServe4.png"
+  }
+],
+
+"Why Choose Us" : "Why Choose Us",
+"Why Choose Us Desc" : " At SAP Parts, we combine industry expertise, innovation, and a client-first approach to deliver solutions that make a measurable difference. Here’s why partners trust us.",
+"Over 20 Years of Expertise": "Over 20 Years of Expertise",
+"Global Supply Network": "Global Supply Network",
+"Precision Manufacturing": "Precision Manufacturing",
+"ISO–Certified Processes": "ISO–Certified Processes",
+
+
+
+ "Innovation Title": "Innovation",
+  "Innovation Desc": "Innovation is the USP of SAP Parts. Moreover it is our core value and we intend to proactively employ innovative thinking culture in all our operations.",
+
+
+  "Global Reach" : "Global Reach",
+  "Global Reach Desc" : " Innovation is the USP of SAP Parts. Moreover it is our core value and we intend to proactively employ innovative thinking culture in all our operations.",
+
+
+  "Recent Blogs" : "Recent Blogs",
+  "Recent Blogs Desc" : "Innovation is the USP of SAP Parts. Moreover it is our core value and we intend to proactively employ innovative thinking culture in all our operations.",
+  "Read More" : "Read More",
+
+  "We Care Title": "We Care, We Contribute!",
+  "We Care Description": "This handy tool helps you create dummy text for all your layout needs. We are gradually adding new features.",
+
+
+   "We Care, We Contribute!": "We Care, We Contribute!",
+   "We care Description" : "This handy tool helps you create dummy text for all your layout needs. We are gradually adding new This handy tool helps you create dummy text for all your layout needs. We are gradually adding new ",
+
+
+
+
+  "Quote Title": "Get Your Quote Today!",
+  "Quote Heading": "All the facts – Lipsum generator",
+  "Quote Para 1": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...",
+  "Quote Para 2": "It has survived not only five centuries, but also the leap into electronic typesetting...",
+  "Placeholder Name": "Name*",
+  "Placeholder Mobile": "Mobile*",
+  "Placeholder Email": "Email*",
+  "Placeholder Requirement": "Requirement*",
+  "Button Send": "Send Message",
+  "Button Sending": "Sending...",
+  "Success Message": "Your message has been sent successfully!",
+  "Error Message": "Failed to send. Please try again.",
+  "Error Try Later": "Something went wrong. Try again later.",
+
+
+  "Footer Description": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type",
+  "Quick Links": "Quick Links",
+  "Technology": "Technology",
+  "About Us": "About Us",
+  "Other Links": "Other Links",
+  "Privacy Policy": "Privacy Policy",
+  "Terms & Conditions": "Terms & Conditions",
+  "Get in Touch": "Get in Touch",
+  "Address": "Address: Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+  "Phone": "Phone",
+  "Email": "Email",
+  "Designed By": "Designed & Developed By"
+
+  
+}
