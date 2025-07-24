@@ -82,7 +82,7 @@ import { FiArrowRight } from "react-icons/fi";
 import { useTranslation } from 'react-i18next';
 
 export default function StrategySection() {
-  const { t } = useTranslation('translation');
+  const { t } = useTranslation();
 
   return (
     <div className="Section bg-white">
@@ -91,26 +91,28 @@ export default function StrategySection() {
         {/* Left Images (Shown below on mobile) */}
         <div className="flex gap-6 md:mt-0 mt-8">
           {/* Left image */}
-          <div className="sm:w-[250px] sm:h-[60vh] w-[20vh] h-[30vh] rounded-lg overflow-hidden shadow-md">
-            <Image
-              src="/assets/home/ourStratergy1.png"
-              alt="Strategy Image 1"
-              width={250}
-              height={250}
-              className="w-full h-full object-cover"
-            />
-          </div>
+          <div className="group sm:w-[250px] sm:h-[60vh] w-[20vh] h-[30vh] rounded-lg overflow-hidden shadow-md">
+  <Image
+    src="/assets/home/ourStratergy1.png"
+    alt="Strategy Image 1"
+    width={250}
+    height={250}
+    className="w-full h-full object-cover transition-transform duration-300 ease-in-out group-hover:scale-110"
+  />
+</div>
+
 
           {/* Right image */}
-          <div className="sm:w-[250px] sm:h-[60vh] w-[20vh] h-[30vh] rounded-lg overflow-hidden shadow-md sm:mt-24 mt-16">
-            <Image
-              src="/assets/home/ourStratergy2.png"
-              alt="Strategy Image 2"
-              width={250}
-              height={250}
-              className="w-full h-full object-cover"
-            />
-          </div>
+          <div className="group sm:w-[250px] sm:h-[60vh] w-[20vh] h-[30vh] rounded-lg overflow-hidden shadow-md sm:mt-24 mt-16">
+  <Image
+    src="/assets/home/ourStratergy2.png"
+    alt="Strategy Image 2"
+    width={250}
+    height={250}
+    className="w-full h-full object-cover transition-transform duration-300 ease-in-out group-hover:scale-110"
+  />
+</div>
+
         </div>
 
         {/* Right Content */}
@@ -123,10 +125,10 @@ export default function StrategySection() {
 
           <div className="space-y-8 mt-6">
             {[
-              "Engineering Excellence",
-              "Customer-Centric Innovation",
-              "Sustainability & Longevity",
-              "Global Support, Local Commitment",
+              t("Engineering Excellence"),
+              t("Customer-Centric Innovation"),
+              t("Sustainability & Longevity"),
+              t("Global Support, Local Commitment"),
             ].map((key, index) => (
               <Link
                 key={index}

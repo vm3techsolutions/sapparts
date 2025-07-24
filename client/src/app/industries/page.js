@@ -4,11 +4,11 @@ import Construction from "./Construction";
 import Defence from "./Defence";
 import HighTech from "./HighTech";
 import Industrial from "./Industrial";
-import IndustriesBanner from "./agriculture/IndustriesBanner";
+import IndustriesBanner from "./agriculture/AgricultureBanner";
 import Mining from "./Mining";
 import ProductsUsed from "./agriculture/ProductsUsed";
 
-export default function (){
+export default function industries(){
     return(
         <div>
             <IndustriesBanner/>

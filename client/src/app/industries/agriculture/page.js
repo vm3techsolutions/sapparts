@@ -1,13 +1,19 @@
+import ScrollRing from "@/component/scroller/ScrollRing";
 import Agriculture from "./Agriculture";
-import IndustriesBanner from "./IndustriesBanner";
+import AgricultureBanner from "./AgricultureBanner";
+import FAQs from "./FAQs";
+import KeyBenefits from "./KeyBenefits";
 import ProductsUsed from "./ProductsUsed";
 
-export default function (){
+export default function industries(){
     return(
         <div>
-           <IndustriesBanner/>
+            <ScrollRing/>
+           <AgricultureBanner/>
            <Agriculture/>
            <ProductsUsed/>
+           <KeyBenefits/>
+           <FAQs/>
         </div>
     )
 }

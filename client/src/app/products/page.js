@@ -1,3 +1,4 @@
+import ScrollRing from "@/component/scroller/ScrollRing";
 import Bushings from "./Bushings";
 import MechanicalFaceSeals from "./MechanicalFaceSeals";
 import PrecisionComponents from "./PrecisionComponents";
@@ -6,9 +7,11 @@ import PumpValvesComponents from "./PumpValvesComponents";
 import SAPHubBearings from "./SAPHubBearings";
 import SinteredProducts from "./SinteredProducts";
 
-export default function(){
+export default function product(){
     return(
         <div>
+            <ScrollRing/>
+            
             <ProductBanner/>
             <MechanicalFaceSeals/>
             <Bushings/>

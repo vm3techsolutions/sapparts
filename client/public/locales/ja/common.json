@@ -30,77 +30,11 @@
   "Our Products": "私たちの製品",
   "Products Description": "当社は、建設、鉱業、防衛、トランスミッション、農業機器向けに特別に設計された機械式フェイスシール／フローティングシールおよび特殊表面処理製品のメーカー、デザイナー、サプライヤーです。",
  
-  "productList": [
-    {
-      "id": 1,
-      "title": "機械式フェイスシール",
-      "description": "この便利なツールは、すべてのレイアウトニーズに対応するダミーテキストを作成します。",
-      "image": "/assets/home/ourProduct1.png",
-      "link": "/products/1"
-    },
-    {
-      "id": 2,
-      "title": "ブッシング",
-      "description": "この便利なツールは、すべてのレイアウトニーズに対応するダミーテキストを作成します。",
-      "image": "/assets/home/ourProduct1.png",
-      "link": "/products/2"
-    },
-    {
-      "id": 3,
-      "title": "焼結製品",
-      "description": "この便利なツールは、すべてのレイアウトニーズに対応するダミーテキストを作成します。",
-      "image": "/assets/home/ourProduct1.png",
-      "link": "/products/3"
-    },
-    {
-      "id": 4,
-      "title": "ポンプ＆バルブ部品",
-      "description": "この便利なツールは、すべてのレイアウトニーズに対応するダミーテキストを作成します。",
-      "image": "/assets/home/ourProduct1.png",
-      "link": "/products/4"
-    },
-    {
-      "id": 5,
-      "title": "SAP ハブベアリング",
-      "description": "この便利なツールは、すべてのレイアウトニーズに対応するダミーテキストを作成します。",
-      "image": "/assets/home/ourProduct1.png",
-      "link": "/products/5"
-    },
-    {
-      "id": 6,
-      "title": "精密部品",
-      "description": "この便利なツールは、すべてのレイアウトニーズに対応するダミーテキストを作成します。",
-      "image": "/assets/home/ourProduct1.png",
-      "link": "/products/6"
-    }
-  ],
+ 
 
-
-"Industries We Serve": "私たちがサービスを提供する業界",
-  "Industry Description": "私たちは、パフォーマンスと革新を促進するオーダーメイドのソリューションで、さまざまな業界に誇りを持ってサービスを提供しています。私たちの深い業界知識は、ユニークなビジネス目標と運用上の課題に合わせた効果的な結果をもたらします。",
+"Industries We Serve": "対応業種",
+  "Industry Description": "当社は、性能と革新を推進するために特化されたソリューションを提供し、幅広い業界に誇りを持って対応しています。業界に関する深い知識により、各企業のビジネス目標や運用上の課題に即した効果的な成果を提供しています。私たちの専門分野は以下の業界に及びます：",
   
-  "industryList": [
-    {
-      "id": 1,
-    "title": "建設",
-    "image": "/assets/home/industriesWeServe1.png"
-  },
-  {
-    "id": 2,
-    "title": "鉱業",
-    "image": "/assets/home/industriesWeServe2.png"
-  },
-  {
-    "id": 3,
-    "title": "産業",
-    "image": "/assets/home/industriesWeServe3.png"
-  },
-  {
-    "id": 4,
-    "title": "農業",
-    "image": "/assets/home/industriesWeServe4.png"
-  }
-],
 
 
   "Why Choose Us": "私たちを選ぶ理由",
@@ -113,7 +47,7 @@
 
 
   "Innovation Title": "革新",
-  "Innovation Desc": "革新はSAPパーツの強みであり、私たちの中核的価値観です。すべての業務で革新的な思考文化を積極的に取り入れています。",
+  "Technology & Innovation Description": "革新はSAPパーツの強みであり、私たちの中核的価値観です。すべての業務で革新的な思考文化を積極的に取り入れています。",
 
   
 
@@ -127,12 +61,7 @@
   "Read More": "続きを読む",
 
 
-
-  "We Care Title": "私たちは思いやり、貢献します！",
-  "We Care Description": "この便利なツールは、レイアウトのニーズに合わせてダミーテキストを作成するのに役立ちます。新機能を徐々に追加しています。",
-
-
-  "We Care, We Contribute!": "私たちは思いやり、貢献します！",
+  "“We Care, We Contribute!”": "“私たちは思いやり、貢献します！”",
   "We care Description" : "この便利なツールは、すべてのレイアウト作成に役立つダミーテキストを生成します。新しい機能を順次追加しています。",
 
 

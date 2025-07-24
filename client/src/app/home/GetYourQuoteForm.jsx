@@ -123,7 +123,7 @@ export default function QuoteFormSection() {
             <button
               type="submit"
               disabled={loading}
-              className="bg-[#FACC48] text-[#363636] px-5 py-2 rounded font-semibold hover:brightness-110 transition"
+              className="bg-[#FACC48] text-[#363636] px-5 py-2 rounded font-semibold hover:bg-white transition"
             >
               {loading ? t('Button Sending') : t('Button Send')}
             </button>

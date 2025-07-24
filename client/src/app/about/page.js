@@ -8,7 +8,7 @@ import Milestones from "./Milestones";
 import MissionVision from "./MissionVision";
 import Roadmap from "./Roadmap";
 
-export default function (){
+export default function AboutPage(){
     return(
         <div>
             <AboutBanner/>

@@ -8,8 +8,9 @@ export default function Footer() {
   const { t } = useTranslation();
 
   return (
-    <footer className="bg-[#363636] text-white">
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-0 px-6 md:px-10 pt-6 pb-3">
+    <footer className="bg-[#363636] text-white mt-5">
+      {/* Main Footer Content */}
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-0  px-6 md:px-10 pt-6 pb-3">
         {/* Logo and Description */}
         <div className="md:pt-10">
           <Image

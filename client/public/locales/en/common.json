@@ -29,78 +29,12 @@
 
   "Our Products": "Our Products",
   "Products Description": "We are a Manufacturer, Designer and Supplier of technologically enriched and specially designed Mechanical Face Seal/ Floating Seals and Special surface treated Products for Construction, Mining, Defence, Transmission, and Agriculture Equipments.",
-  
-  "productList": [
-    {
-      "id": 1,
-      "title": "Mechanical Face Seals",
-      "description": "This handy tool helps you create dummy text for all your layout needs.",
-      "image": "/assets/home/ourProduct1.png",
-      "link": "/products/1"
-    },
-    {
-      "id": 2,
-      "title": "Bushings",
-      "description": "This handy tool helps you create dummy text for all your layout needs.",
-      "image": "/assets/home/ourProduct1.png",
-      "link": "/products/2"
-    },
-    {
-      "id": 3,
-      "title": "Sintered Products",
-      "description": "This handy tool helps you create dummy text for all your layout needs.",
-      "image": "/assets/home/ourProduct1.png",
-      "link": "/products/3"
-    },
-    {
-      "id": 4,
-      "title": "Pump & Valves Components",
-      "description": "This handy tool helps you create dummy text for all your layout needs.",
-      "image": "/assets/home/ourProduct1.png",
-      "link": "/products/4"
-    },
-    {
-      "id": 5,
-      "title": "SAP Hub Bearings",
-      "description": "This handy tool helps you create dummy text for all your layout needs.",
-      "image": "/assets/home/ourProduct1.png",
-      "link": "/products/5"
-    },
-    {
-      "id": 6,
-      "title": "Precision Components",
-      "description": "This handy tool helps you create dummy text for all your layout needs.",
-      "image": "/assets/home/ourProduct1.png",
-      "link": "/products/6"
-    }
-  ], 
 
 
-  "Industries We Serve": "Our Products",
-  "Industry Description": "We are a Manufacturer, Designer and Supplier of technologically enriched and specially designed Mechanical Face Seal/ Floating Seals and Special surface treated Products for Construction, Mining, Defence, Transmission, and Agriculture Equipments.",
+  "Industries We Serve": "Industries We Serve",
+  "Industry Description": "We proudly cater to a wide range of industries with tailored solutions that drive performance and innovation. Our deep industry knowledge enables us to deliver impactful results that align with unique business goals and operational challenges. Our expertise spans across:",
   
-  "industryList": [
-    {
-      "id": 1,
-    "title": "Construction",
-    "image": "/assets/home/industriesWeServe1.png"
-  },
-  {
-    "id": 2,
-    "title": "Mining",
-    "image": "/assets/home/industriesWeServe2.png"
-  },
-  {
-    "id": 3,
-    "title": "Industrial",
-    "image": "/assets/home/industriesWeServe3.png"
-  },
-  {
-    "id": 4,
-    "title": "Agriculture",
-    "image": "/assets/home/industriesWeServe4.png"
-  }
-],
+
 
 "Why Choose Us" : "Why Choose Us",
 "Why Choose Us Desc" : " At SAP Parts, we combine industry expertise, innovation, and a client-first approach to deliver solutions that make a measurable difference. Here’s why partners trust us.",
@@ -112,7 +46,7 @@
 
 
  "Innovation Title": "Innovation",
-  "Innovation Desc": "Innovation is the USP of SAP Parts. Moreover it is our core value and we intend to proactively employ innovative thinking culture in all our operations.",
+  "Technology & Innovation Description": "Innovation is the USP of SAP Parts. Moreover it is our core value and we intend to proactively employ innovative thinking culture in all our operations.",
 
 
   "Global Reach" : "Global Reach",
@@ -123,12 +57,9 @@
   "Recent Blogs Desc" : "Innovation is the USP of SAP Parts. Moreover it is our core value and we intend to proactively employ innovative thinking culture in all our operations.",
   "Read More" : "Read More",
 
-  "We Care Title": "We Care, We Contribute!",
-  "We Care Description": "This handy tool helps you create dummy text for all your layout needs. We are gradually adding new features.",
-
-
-   "We Care, We Contribute!": "We Care, We Contribute!",
-   "We care Description" : "This handy tool helps you create dummy text for all your layout needs. We are gradually adding new This handy tool helps you create dummy text for all your layout needs. We are gradually adding new ",
+  
+   "“We Care, We Contribute!”": "“We Care, We Contribute!”",
+   "We care Description" : "This handy tool helps you create dummy text for all your layout needs. We are gradually adding new This handy tool helps you create dummy text for all your layout needs. We are gradually adding new",
 
 
 

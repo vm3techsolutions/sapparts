@@ -9,7 +9,8 @@ import "swiper/css/navigation";
 import { useTranslation } from "react-i18next";
 
 export default function IndustriesSection() {
-  const { t } = useTranslation("common");
+ const { t, i18n } = useTranslation();
+  const currentLang = i18n.language || "en";
   const [industries, setIndustries] = useState([]);
 
   useEffect(() => {
@@ -55,26 +56,26 @@ export default function IndustriesSection() {
               <div className="relative group overflow-hidden rounded-md shadow-md">
                 <Image
                   src={industry.image}
-                  alt={industry.title}
+                  alt={industry.title[currentLang]}
                   width={400}
                   height={300}
-                  className="w-full h-[55vh] object-cover"
+                  className="w-full h-[55vh] object-cover transition-transform duration-300 ease-in-out group-hover:scale-110"
                 />
 
                 <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 w-[85%] z-10">
-                  <div className="relative w-full min-h-[48px]">
-                    <button className="w-full bg-white text-[#1C3C88] py-2 px-4 rounded-md font-medium shadow-md relative overflow-hidden group min-h-[48px]">
+                  <Link href={industry.link || "#"}>
+                    <div className="w-full bg-[#FACC48] text-[#363636] py-2 px-4 rounded-md font-medium shadow-md relative overflow-hidden group min-h-[48px] text-center cursor-pointer">
+                      {/* Title (default state) */}
                       <span className="block group-hover:opacity-0 transition-opacity duration-300">
-                        {industry.title}
+                        {industry.title[currentLang]}
                       </span>
-                      <Link
-                        href={industry.link || "#"}
-                        className="absolute inset-0 flex justify-center items-center text-sm text-white bg-[#1C3C88] rounded-md opacity-0 group-hover:opacity-100 transition-opacity duration-300"
-                      >
+
+                      {/* Know More (hover state) */}
+                      <span className="absolute inset-0 flex justify-center items-center text-sm text-white bg-[#1C3C88] rounded-md opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                         {t("Know More")}
-                      </Link>
-                    </button>
-                  </div>
+                      </span>
+                    </div>
+                  </Link>
                 </div>
               </div>
             </SwiperSlide>
