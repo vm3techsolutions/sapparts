@@ -1,16 +1,30 @@
+
+
 [
   {
     "id": 1,
     "image": "/assets/home/innovation1.png",
-    "title": "Process Innovation",
-    "description": "Mechanical Face Seals are specifically engineered for rotating applications in extremely arduous environments where they withstand severe wear and prevent ingress of harsh and abrasive external media.",
-    "link": "/process-innovation"
+    "link": "/innovation/1",
+    "title": {
+      "en": "Innovative Casting",
+      "ja": "革新的な鋳造"
+    },
+    "description": {
+      "en": "We use advanced casting methods to enhance product durability and precision.",
+      "ja": "製品の耐久性と精度を高めるために先進的な鋳造技術を使用しています。"
+    }
   },
   {
     "id": 2,
     "image": "/assets/home/innovation2.png",
-    "title": "Product Innovation",
-    "description": "Mechanical Face Seals are specifically engineered for rotating applications in extremely arduous environments where they withstand severe wear and prevent ingress of harsh and abrasive external media.",
-    "link": "/product-innovation"
+    "link": "/innovation/2",
+    "title": {
+      "en": "Smart Machining",
+      "ja": "スマート機械加工"
+    },
+    "description": {
+      "en": "Automated machining ensures accuracy and consistency across components.",
+      "ja": "自動化された機械加工により、部品の精度と一貫性が確保されます。"
+    }
   }
 ]

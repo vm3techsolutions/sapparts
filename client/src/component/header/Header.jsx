@@ -4,32 +4,42 @@ import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { FiMenu, FiX } from "react-icons/fi";
+import { useTranslation } from "react-i18next";
+
+
 
 export default function Header() {
-  const [language, setLanguage] = useState("English");
+  const { t, i18n } = useTranslation();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [industryOpen, setIndustryOpen] = useState(false);
   const pathname = usePathname();
 
+ const [language, setLanguage] = useState(i18n.language || "en");
+  const changeLanguage = (lng) => {
+    i18n.changeLanguage(lng);
+    setLanguage(lng);
+  };
+
   const navLinks = [
-    { name: "Strategy", href: "/strategy" },
+    { name: t("Strategy"), href: "/strategy" },
     {
-      name: "Industries",
+      name: t("Industries"),
       href: "#",
       subLinks: [
-        { name: "Agriculture", href: "/industries/agriculture" },
-        { name: "Automotive", href: "/industries/automotive" },
-        { name: "Construction", href: "/industries/construction" },
-        { name: "Defence", href: "/industries/defence" },
-        { name: "Industrial", href: "/industries/industrial" },
-        { name: "Mining", href: "/industries/mining" },
-        { name: "High-Tech", href: "/industries/high-tech" },
+        { name: t("Agriculture"), href: "/industries/agriculture" },
+        { name: t("Automotive"), href: "/industries/automotive" },
+        { name: t("Construction"), href: "/industries/construction" },
+        { name: t("Defence"), href: "/industries/defence" },
+        { name: t("Industrial"), href: "/industries/industrial" },
+        { name: t("Mining"), href: "/industries/mining" },
+        { name: t("High-Tech"), href: "/industries/high-tech" },
       ],
     },
-    { name: "Products", href: "/products" },
-    { name: "Technology & Innovation", href: "/technology" },
+
+    { name: t("Products"), href: "/products" },
+    { name: t("Technology & Innovation"), href: "/technology" },
     {
-      name: "Resources",
+      name: t("Resources"),
       href: "#",
       subLinks: [
         { name: "Seals Assembly Guide", href: "/industries/agriculture" },
@@ -39,9 +49,10 @@ export default function Header() {
       ],
     },
    
-    { name: "Sustainability", href: "/sustainability" },
-    { name: "About", href: "/about" },
-    { name: "Career", href: "/career" },
+    { name: t("Sustainability"), href: "/sustainability" },
+    { name: t("About"), href: "/about" },
+    { name: t("Career"), href: "/career" },
+
   ];
 
   return (
@@ -101,13 +112,13 @@ export default function Header() {
           {/* Contact Us Button */}
           <Link href="/contact">
             <button className="ml-2 bg-[#0E509E] text-white px-2 py-0.5 rounded hover:bg-[#FACC48] hover:text-black text-md">
-              Contact Us
+              {t("Contact Us")}
             </button>
           </Link>
 
           {/* Language Selector */}
           <div className="hidden md:block">
-            <select
+            {/* <select
               value={language}
               onChange={(e) => setLanguage(e.target.value)}
               className="bg-[#0E509E] text-white hover:bg-[#FACC48] hover:text-black px-2 py-1 rounded text-md"
@@ -116,6 +127,16 @@ export default function Header() {
               <option>Hindi</option>
               <option>German</option>
               <option>Spanish</option>
+            </select> */}
+            <select
+              value={language}
+              onChange={(e) => changeLanguage(e.target.value)}
+              className= "bg-[#0E509E] text-white hover:bg-[#FACC48] hover:text-black px-2 py-1 rounded text-md"
+            >
+              <option value="en">English</option>
+              <option value="ja">Japanese</option>
+              {/* <option value="hi">Hindi</option>
+              <option value="de">German</option> */}
             </select>
           </div>
         </nav>

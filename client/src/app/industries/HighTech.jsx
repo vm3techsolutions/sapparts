@@ -1,58 +1,31 @@
 "use client";
 import Image from "next/image";
 import React from "react";
+import { useTranslation } from "react-i18next";
 
-export default function HighTechSection() {
+export default function AutomotiveSection() {
+    const {t} = useTranslation();
   return (
     <div className="Section bg-white">
-      <div className="flex flex-col md:flex-row gap-8 items-start">
+      <div className="flex flex-col md:flex-row sm:gap-8 items-start">
         {/* Mobile View - Title */}
-        <h2 className="Heading block md:hidden text-center">High - Tech</h2>
+        <h2 className="Heading block md:hidden text-center">{t("Supporting Innovation with Precision Engineering")}</h2>
 
-        {/* Right Side - Image (1st on mobile) */}
-        <div className="w-full md:w-[320px] flex-shrink-0 order-1 md:order-2">
+        {/* Left Side - Image */}
+        <div className="w-full md:w-1/2 sm:p-4">
           <Image
-            src="/assets/industries/HighTech.png"
-            alt="High - Tech"
+            src="/assets/industries/Hi-Tech1.png"
+            alt="Supporting Innovation with Precision Engineering"
             width={300}
             height={370}
-            className="w-full sm:h-[80vh] rounded shadow-md -mt-4 md:mt-10"
+            className="w-full h-auto sm:h-[70vh] rounded   object-cover"
           />
         </div>
 
-        {/* Left Side - Description (2nd on mobile) */}
-        <div className="flex-1 order-2 md:order-1">
-          <h2 className="Heading hidden md:block">High - Tech</h2>
-          <p className="Paragraph">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
-            vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis
-            venenatis. Proin viverra risus a eros volutpat tempor. In quis arcu et
-            eros porta lobortis sit amet at magna. Phasellus in libero et massa
-            volutpat convallis. Morbi ut est nec nulla facilisis condimentum. Sed
-            at sapien eget nunc iaculis dapibus a ac eros. Curabitur aliquam,
-            urna eu fermentum fringilla, nunc urna consequat nisi, non commodo
-            sapien turpis a erat.
-          </p>
-          <p className="Paragraph -mt-4">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
-            vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis
-            venenatis. Proin viverra risus a eros volutpat tempor. In quis arcu et
-            eros porta lobortis sit amet at magna. Phasellus in libero et massa
-            volutpat convallis. Morbi ut est nec nulla facilisis condimentum. Sed
-            at sapien eget nunc iaculis dapibus a ac eros. Curabitur aliquam,
-            urna eu fermentum fringilla, nunc urna consequat nisi, non commodo
-            sapien turpis a erat.
-          </p>
-          <p className="Paragraph -mt-4">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
-            vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis
-            venenatis. Proin viverra risus a eros volutpat tempor. In quis arcu et
-            eros porta lobortis sit amet at magna. Phasellus in libero et massa
-            volutpat convallis. Morbi ut est nec nulla facilisis condimentum. Sed
-            at sapien eget nunc iaculis dapibus a ac eros. Curabitur aliquam,
-            urna eu fermentum fringilla, nunc urna consequat nisi, non commodo
-            sapien turpis a erat.
-          </p>
+        {/* Right Side - Text */}
+        <div className="w-full md:w-1/2 mt-6 sm:mt-2">
+          <h2 className="text-[#0E509E] text-4xl mb-4 font-bold hidden md:block">{t("Supporting Innovation with Precision Engineering")}</h2>
+          <p className="Paragraph">{t("HighTech-Paragraph")}</p>
         </div>
       </div>
     </div>

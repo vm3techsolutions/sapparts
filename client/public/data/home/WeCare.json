@@ -6,6 +6,7 @@
     "number": "01",
     "link": "/education"
   },
+
   {
     "id": 2,
     "title": "Environment",
@@ -13,6 +14,7 @@
     "number": "02",
     "link": "/environment"
   },
+
   {
     "id": 3,
     "title": "Healthcare",
@@ -20,6 +22,7 @@
     "number": "03",
     "link": "/healthcare"
   },
+
   {
     "id": 4,
     "title": "Community",

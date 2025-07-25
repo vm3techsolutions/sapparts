@@ -1,25 +1,30 @@
 "use client";
 import { useEffect, useState } from "react";
 import Link from "next/link";
+import { useTranslation } from 'react-i18next';
 
 export default function ProductsPage() {
+    const { t, i18n } = useTranslation();
+  const currentLang = i18n.language || "en";
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
     fetch("/data/home/Products.json")
       .then((res) => res.json())
-      .then((data) => setProducts(data));
+      .then((data) => {
+        if (Array.isArray(data)) {
+          setProducts(data);
+        } else {
+          console.error("Expected array, got:", data);
+        }
+      })
+      .catch((err) => console.error("Fetch error:", err));
   }, []);
 
   return (
     <div className="Section bg-white">
-      <h2 className="Heading text-center">Our Products</h2>
-
-      <p className="Paragraph text-center">
-        We are a Manufacturer, Designer and Supplier of technologically enriched and specially designed Mechanical Face Seal/ 
-        Floating Seals and Special surface treated Products for Construction, Mining, Defence, Transmission, and 
-        Agriculture Equipments.
-      </p>
+      <h2 className="Heading text-center">{t('Our Products')}</h2>
+      <p className="Paragraph text-center">{t("Products Description")}</p>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 sm:gap-16 gap-8">
         {products.map((item) => (
@@ -31,26 +36,28 @@ export default function ProductsPage() {
             <div className="absolute inset-0 z-0">
               <img
                 src={item.image}
-                alt={item.title}
+                // alt={item.title}
+                alt= {item.title[currentLang]}
                 className="h-full w-full object-cover opacity-0 group-hover:opacity-100 transition-opacity duration-500"
               />
               {/* Black overlay */}
               <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-60 transition-opacity duration-500"></div>
             </div>
 
-            {/* Content Layer */}
             <div className="relative h-full w-full z-10 flex flex-col justify-between py-10 px-7 transition-colors duration-500 group-hover:text-white">
               <h3 className="text-2xl font-semibold text-[#0E509E] group-hover:text-white transition-colors duration-300">
-                {item.title}
+                {item.title[currentLang]}
               </h3>
 
+              {/* Description */}
               <div className="flex-grow flex items-center">
-                <p className="text-md">{item.description}</p>
+                <p className="text-md">{item.description[currentLang]}</p>
               </div>
 
+              {/* Button */}
               <Link href={item.link}>
-                <button className="Button mt-4 border-[#0E509E] text-[#0E509E] group-hover:border-white group-hover:text-white transition-colors duration-300">
-                  Know More
+                <button className="Button mt-4 group-hover:border-white group-hover:text-white transition-colors duration-300">
+                 {t("Know More")}
                 </button>
               </Link>
             </div>
@@ -60,3 +67,4 @@ export default function ProductsPage() {
     </div>
   );
 }
+

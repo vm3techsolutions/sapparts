@@ -1,43 +1,80 @@
 [
   {
     "id": 1,
-    "title": "Mechanical Face Seals",
-    "description": "This handy tool helps you create dummy text for all your layout needs.",
+    "title": {
+      "en" : "Mechanical Face Seals",
+      "ja" : "機械式フェイスシール"
+    },
+    "description": {
+      "en" : "This handy tool helps you create dummy text for all your layout needs.",
+      "ja" : "この便利なツールは、すべてのレイアウトニーズに対応するダミーテキストを作成します。"
+    },
+
     "image": "/assets/home/ProductWithBG.png",
     "link": "/products/1"
   },
   {
     "id": 2,
-    "title": "Bushings",
-    "description": "This handy tool helps you create dummy text for all your layout needs.",
+    "title": {
+      "en" : "Bushings" ,
+      "ja" : "ブッシング"
+    },
+    "description": {
+      "en" : "This handy tool helps you create dummy text for all your layout needs.",
+      "ja" : "この便利なツールは、すべてのレイアウトニーズに対応するダミーテキストを作成します。"
+    },
     "image": "/assets/home/OurProduct-2.jpg",
     "link": "/products/2"
   },
   {
     "id": 3,
-    "title": "Sintered Products",
-    "description": "This handy tool helps you create dummy text for all your layout needs.",
+    "title": {
+      "en" : "Sintered Products",
+      "ja" : "焼結製品"
+    },
+    "description": {
+      "en" : "This handy tool helps you create dummy text for all your layout needs.",
+      "ja" : "この便利なツールは、すべてのレイアウトニーズに対応するダミーテキストを作成します。"
+    },
     "image": "/assets/home/OurProduct-3.jpg",
     "link": "/products/3"
   },
   {
     "id": 4,
-    "title": "Pump & Valves Components",
-    "description": "This handy tool helps you create dummy text for all your layout needs.",
+    "title": {
+      "en" : "Pump & Valves Components",
+      "ja" : "ポンプ＆バルブ部品"
+    },
+    "description": {
+      "en" : "This handy tool helps you create dummy text for all your layout needs.",
+      "ja" : "この便利なツールは、すべてのレイアウトニーズに対応するダミーテキストを作成します。"
+    },
     "image": "/assets/home/ourProduct1.png",
     "link": "/products/4"
   },
   {
     "id": 5,
-    "title": "SAP Hub Bearings",
-    "description": "This handy tool helps you create dummy text for all your layout needs.",
+    "title": {
+      "en" : "SAP Hub Bearings",
+      "ja" : "SAP ハブベアリング"
+    },
+    "description": {
+      "en" : "This handy tool helps you create dummy text for all your layout needs.",
+      "ja" : "この便利なツールは、すべてのレイアウトニーズに対応するダミーテキストを作成します。"
+    },
     "image": "/assets/home/ourProduct1.png",
     "link": "/products/5"
   },
   {
     "id": 6,
-    "title": "Precision Components",
-    "description": "This handy tool helps you create dummy text for all your layout needs.",
+    "title": {
+      "en" : "Precision Components",
+      "ja" : "精密部品"
+    },
+    "description": {
+      "en" : "This handy tool helps you create dummy text for all your layout needs.",
+      "ja" : "この便利なツールは、すべてのレイアウトニーズに対応するダミーテキストを作成します。"
+    },
     "image": "/assets/home/OurProduct-6.jpg",
     "link": "/products/6"
   }

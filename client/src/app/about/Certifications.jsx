@@ -1,5 +1,6 @@
 "use client";
 import Image from "next/image";
+import { useTranslation } from "react-i18next";
 
 const certifications = [
   {
@@ -21,10 +22,11 @@ const certifications = [
 ];
 
 export default function CertificationsSection() {
+  const {t} = useTranslation()
   return (
     <div className="bg-white Section">
       <h2 className="Heading text-center">
-        Certifications
+       {t("Certifications")}
       </h2>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6  mx-auto mt-4">

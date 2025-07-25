@@ -10,6 +10,7 @@ import RecentBlogs from "./home/RecentBlogs";
 import WeCare from "./home/WeCare";
 import GetYourQuoteForm from "./home/GetYourQuoteForm";
 
+
 export default function Home() {
   return (
     <div>

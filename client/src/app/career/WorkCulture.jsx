@@ -2,8 +2,10 @@
 import Image from "next/image";
 import Link from "next/link";
 import { FiArrowRight } from "react-icons/fi";
+import { useTranslation } from "react-i18next";
 
 export default function StrategySection() {
+  const {t} = useTranslation()
   return (
     <div className="Section bg-white">
       <div className="max-w-7xl mx-auto flex flex-col-reverse md:flex-row items-center justify-between gap-8">
@@ -34,18 +36,18 @@ export default function StrategySection() {
 
         {/* Right Content */}
         <div className="max-w-xl">
-          <h2 className="Heading">Work Culture</h2>
+          <h2 className="Heading">{t("Work Culture")}</h2>
           <p className="Paragraph text-left">
-            This handy tool helps you create dummy text for all your layout needs. We are gradually adding new 
+           {t("This handy tool helps you create dummy text for all your layout needs. We are gradually adding new")}
           </p>
 
           <div className="space-y-8 mt-6">
             {[
-              "Quality-Driven Environment",
-              "Collaborative Teamwork",
-              "Continuous Improvement",
-              "Employee Skill Development",
-              "Safety & Accountability"
+             t("Quality-Driven Environment"),
+              t("Collaborative Teamwork"),
+              t("Continuous Improvement"),
+              t("Employee Skill Development"),
+              t("Safety & Accountability")
             ].map((item, index) => (
               <Link
                 key={index}

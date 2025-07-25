@@ -1,13 +1,15 @@
 "use client";
 import Image from "next/image";
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 export default function AutomotiveSection() {
+    const {t} = useTranslation();
   return (
     <div className="Section bg-white">
       <div className="flex flex-col md:flex-row sm:gap-8 items-start">
         {/* Mobile View - Title */}
-        <h2 className="Heading block md:hidden text-center">Supporting Innovation with Precision Engineering</h2>
+        <h2 className="Heading block md:hidden text-center">{t("Supporting Innovation with Precision Engineering")}</h2>
 
         {/* Left Side - Image */}
         <div className="w-full md:w-1/2 sm:p-4">
@@ -22,13 +24,8 @@ export default function AutomotiveSection() {
 
         {/* Right Side - Text */}
         <div className="w-full md:w-1/2 mt-6 sm:mt-2">
-          <h2 className="text-[#0E509E] text-4xl mb-4 font-bold hidden md:block">
-           Supporting Innovation with Precision Engineering
-          </h2>
-          <p className="Paragraph">
-           In the precision-driven hi-tech industry, where even microscopic friction and metal-to-metal contact can significantly impact performance, SAP parts provide advanced solutions for ultra-smooth operation and minimal wear. From semiconductor manufacturing to other sensitive and high-performance equipment, our components are designed with exacting tolerances to ensure the reliability, precision, and longevity of vital systems.
-
-          </p>
+          <h2 className="text-[#0E509E] text-4xl mb-4 font-bold hidden md:block">{t("Supporting Innovation with Precision Engineering")}</h2>
+          <p className="Paragraph">{t("HighTech-Paragraph")}</p>
         </div>
       </div>
     </div>

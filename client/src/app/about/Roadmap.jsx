@@ -131,16 +131,17 @@
 // }
 
 
-
 "use client";
 import Image from "next/image";
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 export default function Roadmap() {
+  const {t} = useTranslation()
   return (
     <div className="Section bg-white py-10">
       <h2 className="Heading text-center text-3xl sm:text-4xl font-bold text-[#0E509E] mb-8">
-        Roadmap to 2030
+        {t("Roadmap to 2030")}
       </h2>
 
       <div className="flex justify-center">

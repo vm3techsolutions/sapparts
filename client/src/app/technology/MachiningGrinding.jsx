@@ -1,10 +1,12 @@
 "use client";
 import Image from "next/image";
+import { useTranslation } from "react-i18next";
 
 export default function MachiningGrinding() {
+  const {t} = useTranslation()
   return (
     <div className="Section bg-white px-6 py-12 md:py-20">
-      <h2 className="Heading">Machining & Grinding</h2>
+      <h2 className="Heading">{t("Machining & Grinding")}</h2>
       <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-start sm:gap-20 gap-10">
         {/* Left Side - Images */}
         <div className="w-full lg:w-1/2 flex flex-col gap-4">
@@ -47,32 +49,32 @@ export default function MachiningGrinding() {
           
           <ul className="space-y-4 text-md  leading-6">
             <li>
-              <strong className="text-black text-lg">• Ring Rolling Forging</strong><br />
-              Alloy Steel rings made from ring rolling process
+              <strong className="text-black text-lg">• {t("Ring Rolling Forging")}</strong><br />
+              {t("Alloy Steel rings made from ring rolling process")}
             </li>
             <li>
-              <strong className="text-black text-lg">• Machining</strong><br />
-              CNC Machines VTL
+              <strong className="text-black text-lg">• {t("Machining")}</strong><br />
+              {t("CNC Machines VTL")}
             </li>
             <li>
-              <strong className="text-black text-lg">• Heat Treatment</strong><br />
-              In-house Sealed quench Furnace by Ipsen Germany:<br />
-              <span className="ml-4 block">• Case Carburizing</span>
-              <span className="ml-4 block">• Nitriding</span>
-              <span className="ml-4 block">• Through Hardening</span>
-              <span className="ml-4 block">• Carbo Nitriding</span>
+              <strong className="text-black text-lg">• {t("Heat Treatment")}</strong><br />
+              {t("In-house Sealed quench Furnace by Ipsen Germany")}:<br />
+              <span className="ml-4 block">• {t("Case Carburizing")}</span>
+              <span className="ml-4 block">• {t("Nitriding")}</span>
+              <span className="ml-4 block">• {t("Through Hardening")}</span>
+              <span className="ml-4 block">• {t("Carbo Nitriding")}</span>
             </li>
             <li>
-              <strong className="text-black text-lg">• Grinding</strong><br />
-              OD grinding machine Max OD - 200 mm
+              <strong className="text-black text-lg">• {t("Grinding")}</strong><br />
+              {t("OD grinding machine Max OD - 200 mm")}
             </li>
             <li>
-              <strong className="text-black text-lg">• Bore Grinding</strong><br />
-              In-house bore grinding machine Max ID – 170 mm
+              <strong className="text-black text-lg">• {t("Bore Grinding")}</strong><br />
+              {t("In-house bore grinding machine Max ID – 170 mm")}
             </li>
             <li>
-              <strong className="text-black text-lg">• Surface Treatments</strong><br />
-              Wear Resistant coating
+              <strong className="text-black text-lg">• {t("Surface Treatments")}</strong><br />
+              {t("Wear Resistant coating")}
             </li>
           </ul>
         </div>
