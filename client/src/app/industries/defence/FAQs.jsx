@@ -68,7 +68,7 @@ export default function FaqSection() {
             <div className="bg-[#D9D9D9]/20 rounded-md overflow-hidden">
               <button
                 onClick={() => toggleFAQ(index)}
-                className="w-full flex justify-between items-center px-6 py-4 text-left text-[#363636]/80 font-medium focus:outline-none text-[25px]"
+                className="w-full flex justify-between items-center px-6 py-4 text-left text-[#363636]/80 font-medium focus:outline-none sm:text-[25px] text-md"
               >
                  <span>{faq.question[currentLang]}</span>
                 <span className="ml-4">
@@ -81,7 +81,7 @@ export default function FaqSection() {
 
             {/* Answer Div (separate and spaced) */}
             {openIndex === index && (
-              <div className="mt-3 px-6 py-4 text-[#363636]/70 bg-[#D9D9D9]/20 text-base rounded-md">
+              <div className="mt-3 px-6 py-4 text-[#363636]/70 bg-[#D9D9D9]/20 text-sm sm:text-base rounded-md">
                  {faq.answer[currentLang]}
               </div>
             )}

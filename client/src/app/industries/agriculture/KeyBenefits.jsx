@@ -44,7 +44,7 @@ export default function KeyBenefitsSection() {
               className="bg-[#FACC48]/30 border border-white rounded-lg p-6 flex flex-col items-center text-center transition-shadow duration-300 hover:shadow-md hover:shadow-[#fff]"
             >
               <FaCheckCircle className="text-3xl mb-4 " />
-              <p className="text-sm font-medium">{benefit}</p>
+              <p className="text-lg md:text-xl font-semibold">{benefit}</p>
             </div>
           ))}
         </div>

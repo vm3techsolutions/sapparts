@@ -48,21 +48,21 @@ export default function CertificationsSection() {
         {certifications.map((cert, index) => (
           <div
             key={index}
-            className="overflow-hidden bg-white flex flex-col items-center gap-4 w-full"
+            className="overflow-hidden  flex flex-col items-center gap-4 w-full"
           >
             {/* Image Box */}
-            <div className="border border-[#FACC48] rounded-md w-full max-w-[300px]">
+            <div className="border border-[#FACC48] rounded-md w-full max-w-[270px]">
               <Image
                 src={cert.src}
                 alt={`Certificate ${index + 1}`}
                 width={300}
                 height={400}
-                className="object-contain h-auto w-full"
+                className="object-contain h-auto w-full rounded-md transition-transform duration-500 ease-in-out transform hover:scale-105"
               />
             </div>
 
             {/* Text Box */}
-            <div className="text-center bg-[#0E509E] py-2 px-3 rounded-md w-full text-white max-w-[250px]">
+            <div className="text-center bg-[#0E509E] py-2 px-3 rounded-md w-full text-white max-w-[270px]">
               <p className="text-lg font-semibold">{cert.year}</p>
               <p className="text-sm mt-1">{cert.label?.[currentLang] || ""}</p>
             </div>

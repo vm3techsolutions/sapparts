@@ -12,15 +12,16 @@ export default function AutomotiveSection() {
         <h2 className="Heading block md:hidden text-center">{t("Supporting Core Industrial Operations")}</h2>
 
         {/* Left Side - Image */}
-        <div className="w-full md:w-1/2 sm:p-4">
-          <Image
-            src="/assets/industries/Industrial1.png"
-            alt=" Supporting Core Industrial Operations"
-            width={300}
-            height={370}
-            className="w-full h-auto sm:h-[70vh] rounded   object-cover"
-          />
-        </div>
+       <div className="w-full md:w-1/2 sm:p-4">
+  <Image
+    src="/assets/industries/Industrial1.png"
+    alt="Supporting Core Industrial Operations"
+    width={300}
+    height={370}
+    className="w-full h-auto sm:h-[70vh] rounded  transition-transform duration-500 ease-in-out transform hover:scale-105"
+  />
+</div>
+
 
         {/* Right Side - Text */}
         <div className="w-full md:w-1/2 mt-6 sm:mt-2">

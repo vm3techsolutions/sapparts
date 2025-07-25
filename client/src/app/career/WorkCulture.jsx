@@ -18,7 +18,7 @@ export default function StrategySection() {
               alt="Strategy Image 1"
               width={250}
               height={250}
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover transition-transform duration-500 ease-in-out transform hover:scale-105"
             />
           </div>
 
@@ -29,7 +29,7 @@ export default function StrategySection() {
               alt="Strategy Image 2"
               width={250}
               height={250}
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover transition-transform duration-500 ease-in-out transform hover:scale-105"
             />
           </div>
         </div>

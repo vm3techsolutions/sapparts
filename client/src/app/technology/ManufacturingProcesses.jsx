@@ -17,7 +17,7 @@ export default function ManufacturingProcesses() {
               alt="Manufacturing Image 1"
               width={800}
               height={600}
-              className="w-full sm:h-[65vh] rounded shadow"
+              className="w-full sm:h-[65vh] rounded shadow  transition-transform duration-300 hover:scale-105"
             />
           </div>
           {/* Bottom Images in a row */}
@@ -27,14 +27,14 @@ export default function ManufacturingProcesses() {
               alt="Manufacturing Image 2"
               width={400}
               height={300}
-              className="w-1/2 h-auto rounded shadow"
+              className="w-1/2 h-auto rounded shadow  transition-transform duration-300 hover:scale-105"
             />
             <Image
               src="/assets/technology/Manufacturing3.png"
               alt="Manufacturing Image 3"
               width={400}
               height={300}
-              className="w-1/2 h-auto rounded shadow"
+              className="w-1/2 h-auto rounded shadow  transition-transform duration-300 hover:scale-105"
             />
           </div>
         </div>

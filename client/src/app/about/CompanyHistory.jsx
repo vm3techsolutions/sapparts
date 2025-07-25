@@ -35,7 +35,8 @@ export default function CompanyHistory() {
               alt="Company History Image"
               width={500}
               height={500}
-              className="object-cover w-full sm:h-[90vh]"
+              className="object-cover w-full sm:h-[90vh] transition-transform duration-500 ease-in-out transform hover:scale-105"
+  
             />
           </div>
         </div>

@@ -18,7 +18,7 @@ export default function SinteringFacilities() {
             alt="Sintering Facilities"
             width={800}
             height={500}
-            className="w-full sm:h-[65vh] rounded shadow"
+            className="w-full sm:h-[65vh] rounded shadow  transition-transform duration-300 hover:scale-105"
           />
         </div>
 

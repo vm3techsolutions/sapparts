@@ -17,7 +17,7 @@ export default function MachiningGrinding() {
               alt="Ring Rolling Forging"
               width={800}
               height={500}
-              className="w-full sm:h-[65vh] rounded shadow"
+              className="w-full sm:h-[65vh] rounded shadow  transition-transform duration-300 hover:scale-105"
             />
           </div>
 
@@ -29,7 +29,7 @@ export default function MachiningGrinding() {
                 alt="Machining Equipment"
                 width={400}
                 height={300}
-                className="w-full h-60 rounded shadow"
+                className="w-full h-60 rounded shadow  transition-transform duration-300 hover:scale-105"
               />
             </div>
             <div className="w-1/2">
@@ -38,7 +38,7 @@ export default function MachiningGrinding() {
                 alt="Grinding Machine"
                 width={400}
                 height={300}
-                className="w-full h-60 rounded shadow"
+                className="w-full h-60 rounded shadow  transition-transform duration-300 hover:scale-105"
               />
             </div>
           </div>

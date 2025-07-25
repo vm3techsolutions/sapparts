@@ -12,15 +12,16 @@ export default function AutomotiveSection() {
         <h2 className="Heading block md:hidden text-center">{t("Supporting the Backbone of Farming Operations")}</h2>
 
         {/* Left Side - Image */}
-        <div className="w-full md:w-1/2 sm:p-4">
-          <Image
-            src="/assets/industries/agriculture/Supporting.png"
-            alt=" Supporting the Backbone of Farming Operations"
-            width={300}
-            height={370}
-            className="w-full h-auto sm:h-[70vh] rounded   object-cover"
-          />
-        </div>
+        <div className="w-full md:w-1/2 sm:p-4 overflow-hidden">
+  <Image
+    src="/assets/industries/agriculture/Supporting.png"
+    alt="Supporting the Backbone of Farming Operations"
+    width={300}
+    height={370}
+    className="w-full h-auto sm:h-[70vh] rounded object-cover transition-transform duration-300 ease-in-out hover:scale-110"
+  />
+</div>
+
 
         {/* Right Side - Text */}
         <div className="w-full md:w-1/2 mt-6 sm:mt-2">

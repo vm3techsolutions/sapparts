@@ -18,7 +18,7 @@ export default function ManufacturingPlantsSection() {
             alt="Pune Plant"
             width={400}
             height={250}
-            className="rounded-md mb-3 object-cover w-full"
+            className="rounded-md mb-3 object-cover w-full transition-transform duration-500 ease-in-out transform hover:scale-105"
           />
           <p><span className="font-bold">{t("Location")}</span>: {t("Pune")}</p>
           <p><span className="font-bold">{t("Products")}</span>: {t("Mechanical Face Seals & PM Sintered Parts")}</p>
@@ -33,7 +33,7 @@ export default function ManufacturingPlantsSection() {
             alt="India Map"
             width={400}
             height={320}
-            className="w-full h-auto mx-auto"
+            className="w-full h-auto mx-auto transition-transform duration-500 ease-in-out transform hover:scale-105"
           />
         </div>
 
@@ -44,7 +44,7 @@ export default function ManufacturingPlantsSection() {
             alt="Solapur Plant"
             width={400}
             height={250}
-            className="rounded-md mb-3 object-cover w-full"
+            className="rounded-md mb-3 object-cover w-full transition-transform duration-500 ease-in-out transform hover:scale-105"
           />
           <p><span className="font-bold">{t("Location")}</span>: {t("Solapur")}</p>
           <p><span className="font-bold">{t("Products")}</span>: {t("Agri Hubs, Bushings, Precision Parts")}</p>

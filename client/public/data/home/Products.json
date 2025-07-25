@@ -23,7 +23,7 @@
       "en" : "This handy tool helps you create dummy text for all your layout needs.",
       "ja" : "この便利なツールは、すべてのレイアウトニーズに対応するダミーテキストを作成します。"
     },
-    "image": "/assets/home/OurProduct-2.jpg",
+    "image": "/assets/home/Bushing1.png",
     "link": "/products/2"
   },
   {
@@ -36,7 +36,7 @@
       "en" : "This handy tool helps you create dummy text for all your layout needs.",
       "ja" : "この便利なツールは、すべてのレイアウトニーズに対応するダミーテキストを作成します。"
     },
-    "image": "/assets/home/OurProduct-3.jpg",
+    "image": "/assets/home/Sintered1.png",
     "link": "/products/3"
   },
   {
@@ -75,7 +75,7 @@
       "en" : "This handy tool helps you create dummy text for all your layout needs.",
       "ja" : "この便利なツールは、すべてのレイアウトニーズに対応するダミーテキストを作成します。"
     },
-    "image": "/assets/home/OurProduct-6.jpg",
+    "image": "/assets/home/Precision1.png",
     "link": "/products/6"
   }
 ]

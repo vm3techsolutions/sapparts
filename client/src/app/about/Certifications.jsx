@@ -41,7 +41,8 @@ export default function CertificationsSection() {
                 alt={`Certificate ${index + 1}`}
                 width={300}
                 height={400}
-                className="object-contain h-auto w-full"
+                className="object-contain h-auto w-full rounded-md  transition-transform duration-500 ease-in-out transform hover:scale-105"
+          
               />
             </div>
             <div className="w-full text-center rounded-md bg-[#FACC48] py-1 -px-2 font-semibold text-md text-black">

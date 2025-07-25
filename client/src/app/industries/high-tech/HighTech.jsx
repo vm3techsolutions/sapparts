@@ -13,14 +13,15 @@ export default function AutomotiveSection() {
 
         {/* Left Side - Image */}
         <div className="w-full md:w-1/2 sm:p-4">
-          <Image
-            src="/assets/industries/Hi-Tech1.png"
-            alt="Supporting Innovation with Precision Engineering"
-            width={300}
-            height={370}
-            className="w-full h-auto sm:h-[70vh] rounded   object-cover"
-          />
-        </div>
+  <Image
+    src="/assets/industries/Hi-Tech1.png"
+    alt="Supporting Innovation with Precision Engineering"
+    width={300}
+    height={370}
+    className="w-full h-auto sm:h-[70vh] rounded  transition-transform duration-500 ease-in-out transform hover:scale-105"
+  />
+</div>
+
 
         {/* Right Side - Text */}
         <div className="w-full md:w-1/2 mt-6 sm:mt-2">

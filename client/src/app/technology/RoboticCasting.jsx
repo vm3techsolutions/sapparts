@@ -19,7 +19,7 @@ export default function RoboticCasting() {
             alt="Robotic Casting"
             width={800}
             height={500}
-            className="w-full sm:h-[65vh] rounded shadow"
+            className="w-full sm:h-[65vh] rounded shadow  transition-transform duration-300 hover:scale-105"
           />
         </div>
 

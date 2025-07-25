@@ -6,7 +6,7 @@ export default function MachineImage() {
     <div className="w-full bg-white flex justify-center items-center sm:px-4 ">
       <div className="">
         <Image
-          src="/assets/career/CareerBanner.png" 
+          src="/assets/career/CareerBanner2.png" 
           alt="CNC Machining"
           width={933}
           height={512}

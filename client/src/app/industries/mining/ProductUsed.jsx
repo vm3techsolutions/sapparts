@@ -64,7 +64,7 @@ export default function ProductsUsed() {
               alt={item.label[currentLang] || "product image"}
                 width={180}
                 height={140}
-                className="object-contain w-[250px] h-[180px] border-2 border-[#FACC48] rounded-xl"
+                className="object-contain w-[250px] h-[180px] border-2 border-[#FACC48] rounded-xl transition-transform duration-300 ease-in-out hover:scale-110"
               />
               <div
                 className={`w-[180px] text-center py-2 px-1 bg-[#FACC48] mt-2 rounded-lg`}
@@ -91,7 +91,7 @@ export default function ProductsUsed() {
                 alt={item.label[currentLang] || "product image"}
                 width={180}
                 height={140}
-                className="object-contain w-[250px] h-[180px] border-2 border-[#FACC48] rounded-xl"
+                className="object-contain w-[250px] h-[180px] border-2 border-[#FACC48] rounded-xl transition-transform duration-300 ease-in-out hover:scale-110"
               />
               <div
                 className={`w-[180px] text-center py-2 px-1 bg-[#FACC48] mt-2 rounded-lg`}

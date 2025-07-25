@@ -202,16 +202,17 @@ export default function ContributionSection() {
             ))}
           </div>
 
-          {/* Center Image */}
-          <div className="flex items-stretch justify-center">
-            <Image
-              src="/assets/home/weCare.png"
-              alt="“We Care. We Contribute.”"
-              width={300}
-              height={400}
-              className="object-contain"
-            />
-          </div>
+          {/* Center Image - hidden on mobile */}
+<div className="hidden md:flex items-stretch justify-center overflow-hidden">
+  <Image
+    src="/assets/home/weCare.png"
+    alt="“We Care. We Contribute.”"
+    width={300}
+    height={400}
+    className="object-contain transition-transform duration-300 ease-in-out hover:scale-110"
+  />
+</div>
+
 
           {/* Right Cards */}
           <div className="flex flex-col justify-between gap-6">
@@ -230,11 +231,12 @@ export default function ContributionSection() {
           </div>
         </div>
 
-        <div className="mt-10 text-center">
-          <Link href={sectionData.knowMoreLink}>
-            <button className="Button">{t("Know More")}</button>
-          </Link>
-        </div>
+      {/* "Know More" Button - hidden on mobile */}
+<div className="hidden md:block mt-10 text-center">
+  <Link href={sectionData.knowMoreLink}>
+    <button className="Button">{t("Know More")}</button>
+  </Link>
+</div>
       </div>
     </div>
   );

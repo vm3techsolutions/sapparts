@@ -12,15 +12,16 @@ export default function AutomotiveSection() {
         <h2 className="Heading block md:hidden text-center">{t("Powering Performance in Harsh Mining Environments")}</h2>
 
         {/* Left Side - Image */}
-        <div className="w-full md:w-1/2 sm:p-4">
-          <Image
-            src="/assets/industries/Mining1.png"
-            alt="Powering Performance in Harsh Mining Environments"
-            width={300}
-            height={370}
-            className="w-full h-auto sm:h-[70vh] rounded   object-cover"
-          />
-        </div>
+       <div className="w-full md:w-1/2 sm:p-4">
+  <Image
+    src="/assets/industries/Mining1.png"
+    alt="Powering Performance in Harsh Mining Environments"
+    width={300}
+    height={370}
+    className="w-full h-auto sm:h-[70vh] rounded  transition-transform duration-500 ease-in-out transform hover:scale-105"
+  />
+</div>
+
 
         {/* Right Side - Text */}
         <div className="w-full md:w-1/2 mt-6 sm:mt-2">
