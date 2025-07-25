@@ -2,13 +2,15 @@
 import Image from "next/image";
 import React from "react";
 import { FaCheckCircle } from "react-icons/fa";
+import { useTranslation } from "react-i18next";
 
 export default function KeyBenefitsSection() {
+  const {t} = useTranslation();
   const benefits = [
-    "Extreme Wear Resistance",
-    "Extended Component Life",
-    "Heavy Load Tolerance",
-    " Reliability in Remote Operations",
+    t("Extreme Wear Resistance"),
+    t("Extended Component Life"),
+    t("Heavy Load Tolerance"),
+    t("Reliability in Remote Operations"),
   ];
 
   return (
@@ -28,12 +30,8 @@ export default function KeyBenefitsSection() {
 
       {/* Overlay content */}
       <div className="relative z-10 max-w-7xl mx-auto sm:px-20 py-10 text-center">
-        <h2 className="text-3xl md:text-4xl font-bold text-[#FACC48] mb-4">
-          Key Benefits
-        </h2>
-        <p className="text-lg md:text-xl font-medium mb-10">
-          Built for Field Performance, Trusted by OEMs Globally
-        </p>
+        <h2 className="text-3xl md:text-4xl font-bold text-[#FACC48] mb-4">{t("key_benefits_heading")}</h2>
+        <p className="text-lg md:text-xl font-medium mb-10">{t("key_benefits_subheading")}</p>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 sm:gap-14 gap-6 px-10 sm:px-0">
           {benefits.map((benefit, index) => (

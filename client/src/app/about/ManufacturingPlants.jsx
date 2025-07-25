@@ -1,10 +1,12 @@
 "use client";
 import Image from "next/image";
+import { useTranslation } from "react-i18next";
 
 export default function ManufacturingPlantsSection() {
+  const {t} = useTranslation();
   return (
     <div className="bg-white Section">
-      <h2 className="Heading text-center">Manufacturing Plants</h2>
+      <h2 className="Heading text-center">{t("Manufacturing Plants")}</h2>
 
       {/* Cards & Map */}
       <div className="relative flex flex-col lg:flex-row justify-center items-center gap-10 sm:gap-0 mt-12">
@@ -18,10 +20,10 @@ export default function ManufacturingPlantsSection() {
             height={250}
             className="rounded-md mb-3 object-cover w-full"
           />
-          <p><span className="font-bold">Location</span>: Pune</p>
-          <p><span className="font-bold">Products</span>: Mechanical Face Seals & PM Sintered Parts</p>
-          <p><span className="font-bold">Key Processes</span>: Centrifugal Casting, Machining, Lapping, Elastomer Molding</p>
-          <p><span className="font-bold">Facility</span>: Area: 2.5 Acres<br />Built-up: 80,000 Sqft.</p>
+          <p><span className="font-bold">{t("Location")}</span>: {t("Pune")}</p>
+          <p><span className="font-bold">{t("Products")}</span>: {t("Mechanical Face Seals & PM Sintered Parts")}</p>
+          <p><span className="font-bold">{t("Key Processes")}</span>: {t("Centrifugal Casting, Machining, Lapping, Elastomer Molding")}</p>
+          <p><span className="font-bold">Facility</span>: {t("Area: 2.5 Acres")}<br />{t("Built-up: 80,000 Sqft.")}</p>
         </div>
 
         {/* Map (centered and responsive) */}
@@ -44,10 +46,10 @@ export default function ManufacturingPlantsSection() {
             height={250}
             className="rounded-md mb-3 object-cover w-full"
           />
-          <p><span className="font-bold">Location</span>: Solapur</p>
-          <p><span className="font-bold">Products</span>: Agri Hubs, Bushings, Precision Parts</p>
-          <p><span className="font-bold">Key Processes</span>: SQF-nitriding, Carburizing, Grinding, Machining</p>
-          <p><span className="font-bold">Facility</span>: Area: 65 Acres<br />Built-up: 100,000 Sqft.</p>
+          <p><span className="font-bold">{t("Location")}</span>: {t("Solapur")}</p>
+          <p><span className="font-bold">{t("Products")}</span>: {t("Agri Hubs, Bushings, Precision Parts")}</p>
+          <p><span className="font-bold">{t("Key Processes")}</span>:{t("SQF-nitriding, Carburizing, Grinding, Machining")}</p>
+          <p><span className="font-bold">{t("Facility")}</span>: {t("Area: 65 Acres")}<br />{t("Built-up: 100,000 Sqft.")}</p>
         </div>
       </div>
     </div>

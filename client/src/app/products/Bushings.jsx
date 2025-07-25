@@ -1,8 +1,10 @@
 "use client";
 import Image from "next/image";
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 export default function BushingsSection() {
+  const {t} = useTranslation()
   return (
     <div className="Section bg-white">
       {/* Main Content */}
@@ -10,43 +12,43 @@ export default function BushingsSection() {
         {/* Left Text Content */}
         <div className="w-full md:w-1/2 order-3 md:order-1">
           {/* Desktop Title */}
-          <h2 className="Heading mb-4 hidden md:block">Bushings</h2>
+          <h2 className="Heading mb-4 hidden md:block">{t("Bushings")}</h2>
 
           {/* Alloy Steel Bushings */}
           <div className="flex items-start mb-2">
-            <span className="font-semibold w-48">Alloy Steel Bushings :</span>
-            <span className="text-md text-[#000000]">Carburizing and Nitriding</span>
+            <span className="font-semibold w-48">{t("Alloy Steel Bushings")} :</span>
+            <span className="text-md text-[#000000]">{t("Carburizing and Nitriding")}</span>
           </div>
 
           <div className="flex items-start mb-3">
-            <span className="font-semibold w-48">Materials :</span>
-            <span className="text-md text-[#000000]">100Cr6, 20MnCr5, C-45, 4140</span>
+            <span className="font-semibold w-48">{t("Materials")} :</span>
+            <span className="text-md text-[#000000]">{t("100Cr6, 20MnCr5, C-45, 4140")}</span>
           </div>
 
           {/* Non-Ferrous Bushings */}
           <div className="flex items-start mb-3">
-            <span className="font-semibold w-48">Non-Ferrous Bushings :</span>
-            <span className="text-md text-[#000000]">Sintering and CentriCast</span>
+            <span className="font-semibold w-48">{t("Non-Ferrous Bushings")} :</span>
+            <span className="text-md text-[#000000]">{t("Sintering and CentriCast")}</span>
           </div>
 
           <div className="flex items-start mb-3">
-            <span className="font-semibold w-48">Materials :</span>
-            <span className="text-md text-[#000000]">C93200, SAE660</span>
+            <span className="font-semibold w-48">{t("Materials")} :</span>
+            <span className="text-md text-[#000000]">{t("C93200, SAE660")}</span>
           </div>
 
           <div className="flex items-start mb-4">
-            <span className="font-semibold w-48">Spinodal Alloy :</span>
-            <span className="text-md text-[#000000]">Nickel-Tin-Cu Alloy</span>
+            <span className="font-semibold w-48">{t("Spinodal Alloy")} :</span>
+            <span className="text-md text-[#000000]">{t("Nickel-Tin-Cu Alloy")}</span>
           </div>
 
           {/* Applications */}
           <div className="flex items-start">
-            <span className="font-semibold w-48">Applications :</span>
+            <span className="font-semibold w-48">{t("Applications")} :</span>
             <span className="text-md text-[#000000]">
-              1. Excavators, Backhoe Loaders : Boom Arm and Bucket Link Joints <br />
-              2. Tractor and Agriculture Equiped Axles : Center Sleeve and King Pins <br />
-              3. Hydraulic Cylinder : Tail and Eye End <br />
-              4. Reach Stackers : Pivot Joints
+              1. {t("Excavators, Backhoe Loaders : Boom Arm and Bucket Link Joints")} <br />
+              2. {t("Tractor and Agriculture Equiped Axles : Center Sleeve and King Pins")} <br />
+              3. {t("Hydraulic Cylinder : Tail and Eye End")} <br />
+              4. {t("Reach Stackers : Pivot Joints")}
             </span>
           </div>
         </div>
@@ -54,7 +56,7 @@ export default function BushingsSection() {
         {/* Right Image */}
         <div className="w-full md:w-1/2 flex flex-col items-center order-2 md:order-2">
           {/* Mobile Title */}
-          <h2 className="Heading mb-4 block md:hidden text-center">Bushings</h2>
+          <h2 className="Heading mb-4 block md:hidden text-center">{t("Bushings")}</h2>
 
           <div className="border border-[#FACC48] rounded-md">
             <Image

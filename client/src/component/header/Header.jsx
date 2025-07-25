@@ -123,8 +123,8 @@ export default function Header() {
             >
               <option value="en">English</option>
               <option value="ja">Japanese</option>
-              <option value="hi">Hindi</option>
-              <option value="de">German</option>
+              {/* <option value="hi">Hindi</option>
+              <option value="de">German</option> */}
             </select>
           </div>
         </nav>

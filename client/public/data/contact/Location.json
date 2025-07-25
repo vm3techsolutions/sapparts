@@ -1,37 +1,70 @@
 [
   {
-    "name": "India",
-    "company": "SAP Parts Pvt. Ltd.",
+    "name": {
+      "en" : "India",
+      "ja" : "インド"
+    },
+    "company":{
+      "en" :  "SAP Parts Pvt. Ltd.",
+      "ja" : "SAPパーツ株式会社"
+    },
     "image": "/assets/contact/India.png",
-    "address": "Gat.No.1087/04, Pune-Nagar-Pimple Jagtap Road, Sanaswadi, Tal.Shirur, Maharashtra 412208, INDIA.",
+    "address": {
+      "en" : "Gat.No.1087/04, Pune-Nagar-Pimple Jagtap Road, Sanaswadi, Tal.Shirur, Maharashtra 412208, INDIA.",
+      "ja" : "Gat.No.1087/04、プネ-ナガル-ピンプル・ジャグタップ・ロード、サナスワディ、タル・シルール、マハラシュトラ州 412208、インド"
+    },
     "contacts": [
       {
-        "title": "Sales and Marketing :",
+        "title": {
+          "en" : "Sales and Marketing :",
+          "ja" : "営業・マーケティング："
+        },
         "phone": "+91 - 9561562597 / 9225546956",
         "email": "sales@sapparts.com"
       },
       {
-        "title": "Human Resource :",
+        "title": {
+          "en" : "Human Resource :",
+          "ja" : "人事部："
+        },
         "phone": "+91 - 9822171240",
         "email": "admin@sapparts.com"
       },
       {
-        "title": "Visa and Consulate Services :",
+        "title": {
+          "en" : "Visa and Consulate Services :",
+          "ja" : "ビザおよび領事サービス: "
+        },
         "phone": "+91 - 9561562597 / 9225546956",
         "email": "sales@sapparts.com"
       },
       {
-        "title": "Purchasing :",
+        "title": {
+          "en" : "Purchasing :",
+          "ja" : "購入: "
+        },
         "phone": "+91 - 9975684469",
         "email": "purchase@sapparts.com"
       }
     ]
   },
+
+
   {
-    "name": "Europe",
-    "company": "SAP Parts-Europe GMBH.",
+    "name": {
+      "en" : "Europe",
+      "ja" : "ヨーロッパ"
+    },
+    "company": {
+      "en" : "SAP Parts-Europe GMBH.",
+      "ja" : "SAPパーツ・ヨーロッパGMBH"
+    },
     "image": "/assets/contact/Europe.png",
-    "address": "Johannes Orlowski Lucasstr. 24, 51379 Leverkusen,Germany",
+    "address": {
+      "en" : "Johannes Orlowski Lucasstr. 24, 51379 Leverkusen,Germany",
+      "ja" : "ヨハネス・オルロフスキーLucas通り24番地、51379 レバークーゼン、ドイツ"
+    },
+
     "contacts": [
       {
        
@@ -47,13 +80,29 @@
       }
     ]
   },
+  
   {
-    "name": "America",
-    "company": "Grizzly Supplies Ltd.",
+    "name": {
+      "en" : "America",
+      "ja" : "アメリカ"
+    },
+    "company": {
+      "en" : "Grizzly Supplies Ltd.",
+      "ja" : "グリズリー・サプライズ株式会社"
+    },
     "image": "/assets/contact/America.png",
-    "address": "19269, 96th Ave Surrey, BC V4N 4C4",
-    "company1": "Grizzly Supplies - USA",
-    "address1": "17300 West Valley Hwy Tukwila, WA, 98188",
+    "address": {
+      "en" : "19269, 96th Ave Surrey, BC V4N 4C4",
+      "ja" : "19269、96番通り、サリー、ブリティッシュコロンビア州 V4N 4C4、カナダ"
+    },
+    "company1": {
+      "en" : "Grizzly Supplies - USA",
+      "ja" : "グリズリー・サプライズ - アメリカ"
+    },
+    "address1": {
+      "en" : "17300 West Valley Hwy Tukwila, WA, 98188",
+      "ja" : "17300 ウェスト・バレー・ハイウェイ、タックウィラ、ワシントン州、98188、アメリカ"
+    },
     "contacts": [
       {
 

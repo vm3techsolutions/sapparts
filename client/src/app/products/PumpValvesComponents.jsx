@@ -1,8 +1,10 @@
 "use client";
 import Image from "next/image";
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 export default function PumpAndValvesSection() {
+  const {t} = useTranslation()
   return (
     <div className="Section bg-white">
       <div className="flex flex-col md:flex-row items-start gap-10 mx-auto max-w-5xl">
@@ -10,7 +12,7 @@ export default function PumpAndValvesSection() {
         <div className="w-full md:w-1/3 flex flex-col items-center order-2 md:order-2">
           {/* Mobile Title */}
           <h2 className="Heading mb-4 block md:hidden text-center">
-            Pump and Valves Components
+            {t("Pump and Valves Components")}
           </h2>
 
           <div className="border border-[#FACC48] rounded-md">
@@ -28,32 +30,28 @@ export default function PumpAndValvesSection() {
         <div className="w-full md:w-2/3 order-3 md:order-1">
           {/* Desktop Title */}
           <h2 className="Heading mb-4 hidden md:block">
-            Pump and Valves Components
+            {t("Pump and Valves Components")}
           </h2>
 
           <div className="mb-3">
-            <span className="font-semibold">Materials :</span>
-            <p className="text-md text-[#000000] mt-1">Lorem Ipsum</p>
+            <span className="font-semibold">{t("Materials")} :</span>
+            <p className="text-md text-[#000000] mt-1">{t("Lorem Ipsum")}</p>
           </div>
 
           <p className="text-md text-[#000000] mb-3">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
-            vitae eros eget tellus tristique bibendum.
+            {t("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum.")}
           </p>
 
           <p className="text-md text-[#000000] mb-3">
-            Lorem ipsum dolor sit amet,
+            {t("Lorem ipsum dolor sit amet,")}
           </p>
 
           <p className="text-md text-[#000000] mb-3">
-            <span className="font-semibold">Sizes :</span> Lorem ipsum dolor
-            sit amet,
+            <span className="font-semibold">{t("Sizes")} :</span> {t("Lorem ipsum dolor sit amet,")}
           </p>
 
           <p className="text-md text-[#000000] mb-3">
-            <span className="font-semibold">Applications :</span> Lorem ipsum
-            dolor sit amet, consectetur adipiscing elit. Praesent vitae eros
-            eget tellus tristique bibendum.
+            <span className="font-semibold">{t("Applications")} :</span> {t("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum.")}
           </p>
         </div>
       </div>

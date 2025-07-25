@@ -1,8 +1,10 @@
 "use client";
 import Image from "next/image";
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 export default function CentrifugalCasting() {
+  const {t} = useTranslation()
   return (
     <div className="Section bg-[#F5F5F5] px-6 py-12 md:py-20">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row-reverse items-center  gap-10">
@@ -10,7 +12,7 @@ export default function CentrifugalCasting() {
         {/* Right Side (Mobile First) - Title + Image */}
         <div className="w-full md:w-1/2">
           <h2 className="Heading">
-            Centrifugal Casting
+            {t("Centrifugal Casting")}
           </h2>
           <Image
             src="/assets/technology/Centrifugal1.png"
@@ -25,23 +27,23 @@ export default function CentrifugalCasting() {
         <div className="w-full md:w-1/2  space-y-6">
           <ul className="space-y-4 text-md leading-6">
             <li>
-              <strong className="text-black text-xl">• Centricast</strong><br />
-              Robotic Centrifugal Casting - Alloy Cast Iron
+              <strong className="text-black text-xl">• {t("Centricast")}</strong><br />
+              {t("Robotic Centrifugal Casting - Alloy Cast Iron")}
             </li>
             <li>
-              <strong className="text-black text-xl">• Centrifugal Casting</strong><br />
-              Ni-Hard &amp; High Chrome Alloy White Cast Iron
+              <strong className="text-black text-xl">• {t("Centrifugal Casting")}</strong><br />
+              {t("Ni-Hard")} &amp; {t("High Chrome Alloy White Cast Iron")}
             </li>
             <li>
-              <strong className="text-black text-xl">• Precision Machining</strong><br />
-              CNC Machining &lt; 400 mm Dia.<br />
-              VTL Machining &lt; 1500 mm Dia.
+              <strong className="text-black text-xl">• {t("Precision Machining")}</strong><br />
+              {t("CNC Machining")} &lt; 400 {t("mm Dia.")}<br />
+              {t("VTL Machining")} &lt; 1500 {t("mm Dia.")}
             </li>
             <li>
-              <strong className="text-black text-xl">• Heat Treatment</strong><br />
-              Cryogenic (Sub-Zero Temp.) Liquid Nitrogen treatment<br />
-              Destabilization of Castings<br />
-              Induction Hardening
+              <strong className="text-black text-xl">• {t("Heat Treatment")}</strong><br />
+              {t("Cryogenic (Sub-Zero Temp.) Liquid Nitrogen treatment")}<br />
+              {t("Destabilization of Castings")}<br />
+              {t("Induction Hardening")}
             </li>
           </ul>
         </div>

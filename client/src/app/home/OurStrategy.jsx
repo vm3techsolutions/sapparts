@@ -117,10 +117,10 @@ export default function StrategySection() {
 
         {/* Right Content */}
         <div className="max-w-xl">
-          <h2 className="Heading">{t('our statergy')}</h2>
+          <h2 className="Heading">{t('Our Statergy')}</h2>
 
           <p className="Paragraph text-left">
-            {t('Our-Strategy-Paragraph')}
+            {t('Our-Statergy-Description')}
           </p>
 
           <div className="space-y-8 mt-6">

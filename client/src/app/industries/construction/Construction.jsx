@@ -1,14 +1,15 @@
 "use client";
 import Image from "next/image";
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 export default function AutomotiveSection() {
+  const {t} = useTranslation();
   return (
     <div className="Section bg-white">
       <div className="flex flex-col md:flex-row sm:gap-8 items-start">
         {/* Mobile View - Title */}
-        <h2 className="Heading block md:hidden text-center"> Engineered for Extreme Demands
-</h2>
+        <h2 className="Heading block md:hidden text-center">{t("Engineered for Extreme Demands")}</h2>
 
         {/* Left Side - Image */}
         <div className="w-full md:w-1/2 sm:p-4">
@@ -23,14 +24,8 @@ export default function AutomotiveSection() {
 
         {/* Right Side - Text */}
         <div className="w-full md:w-1/2 mt-6 sm:mt-2">
-          <h2 className="text-[#0E509E] text-4xl mb-4 font-bold hidden md:block">
-            Engineered for Extreme Demands
-
-          </h2>
-          <p className="Paragraph">
-           Construction equipment operates in exceptionally demanding environments, where heavy loads, constant motion, and exposure to abrasive materials pose immense challenges. In such conditions, effective friction management and the effective management of metal-to-metal contact are absolutely crucial for operational integrity. Our products are specifically developed to endure these harsh realities, significantly extending the lifespan of vital machinery like excavators, bulldozers, and cranes. This enhanced durability directly translates to minimized downtime for construction projects and ultimately maximizes overall project efficiency.
-
-          </p>
+          <h2 className="text-[#0E509E] text-4xl mb-4 font-bold hidden md:block">{t("Engineered for Extreme Demands")}</h2>
+          <p className="Paragraph">{t("Construction-Paragraph")}</p>
         </div>
       </div>
     </div>

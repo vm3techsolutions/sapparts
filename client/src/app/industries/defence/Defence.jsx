@@ -1,13 +1,15 @@
 "use client";
 import Image from "next/image";
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 export default function AutomotiveSection() {
+  const {t} = useTranslation();
   return (
     <div className="Section bg-white">
       <div className="flex flex-col md:flex-row sm:gap-8 items-start">
         {/* Mobile View - Title */}
-        <h2 className="Heading block md:hidden text-center"> Engineered for Critical Missions</h2>
+        <h2 className="Heading block md:hidden text-center">{t("Engineered for Critical Missions")}</h2>
 
         {/* Left Side - Image */}
         <div className="w-full md:w-1/2 sm:p-4">
@@ -22,13 +24,8 @@ export default function AutomotiveSection() {
 
         {/* Right Side - Text */}
         <div className="w-full md:w-1/2 mt-6 sm:mt-2">
-          <h2 className="text-[#0E509E] text-4xl mb-4 font-bold hidden md:block">
-            Engineered for Critical Missions
-          </h2>
-          <p className="Paragraph">
-            In the critical defence industry, where reliability and operational integrity are absolutely paramount, our SAP Parts Products are engineered to control friction. We understand that specialized vehicles, weapon systems, and support equipment demand components that perform flawlessly under extreme stress and diverse conditions. By safeguarding these vital defence assets, our products ensure their readiness and effectiveness, directly contributing to mission success.
-
-          </p>
+          <h2 className="text-[#0E509E] text-4xl mb-4 font-bold hidden md:block">{t("Engineered for Critical Missions")}</h2>
+          <p className="Paragraph">{t("Defence-Paragraph")}</p>
         </div>
       </div>
     </div>

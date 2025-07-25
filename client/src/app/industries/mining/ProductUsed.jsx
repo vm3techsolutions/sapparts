@@ -2,20 +2,30 @@
 "use client";
 import Image from "next/image";
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 const products = [
   {
-    label: "Mechanical Face Seals",
+    label: {
+      "en" : "Mechanical Face Seals",
+      "ja" : "メカニカルフェイスシール"
+    },
     src: "/assets/industries/Mechanical Face Seals5.jpg",
     highlight: false,
   },
   {
-    label: "Bushings",
+    label: {
+      "en" : "Bushings",
+      "ja" : "ブッシング"
+    },
     src: "/assets/industries/Bushings5.jpg",
     highlight: false,
   },
   {
-    label: "Pump & Valves Components",
+    label: {
+      "en" : "Pump & Valves Components",
+      "ja" : "ポンプおよびバルブ部品"
+    },
     src: "/assets/industries/SinteredProducts7.jpg",
     highlight: false,
   },
@@ -32,12 +42,14 @@ const products = [
 ];
 
 export default function ProductsUsed() {
+    const { t, i18n } = useTranslation();
+    const currentLang = i18n.language || "en";
   const firstRow = products.slice(0, 3);
   const secondRow = products.slice(3);
 
   return (
     <div className="Section bg-white">
-      <h2 className="Heading text-center">Products Used</h2>
+      <h2 className="Heading text-center">{t("Products Used")}</h2>
 
       <div className="flex flex-col items-center sm:gap-y-16 gap-y-10   mt-8">
         {/* First Row - 3 items */}
@@ -49,7 +61,7 @@ export default function ProductsUsed() {
             >
               <Image
                 src={item.src}
-                alt={item.label}
+              alt={item.label[currentLang] || "product image"}
                 width={180}
                 height={140}
                 className="object-contain w-[250px] h-[180px] border-2 border-[#FACC48] rounded-xl"
@@ -60,7 +72,7 @@ export default function ProductsUsed() {
                 <p
                   className={`text-sm font-semibold  text-[#363636]`}
                 >
-                  {item.label}
+                {item.label?.[currentLang] || item.label["en"]}
                 </p>
               </div>
             </div>
@@ -76,7 +88,7 @@ export default function ProductsUsed() {
             >
               <Image
                 src={item.src}
-                alt={item.label}
+                alt={item.label[currentLang] || "product image"}
                 width={180}
                 height={140}
                 className="object-contain w-[250px] h-[180px] border-2 border-[#FACC48] rounded-xl"
@@ -87,7 +99,7 @@ export default function ProductsUsed() {
                 <p
                  className={`text-sm font-semibold  text-[#363636]`}
                 >
-                  {item.label}
+               {item.label?.[currentLang] || item.label["en"]}
                 </p>
               </div>
             </div>

@@ -1,7 +1,9 @@
 "use client";
 import React, { useState } from "react";
+import { useTranslation } from "react-i18next";
 
 export default function ContactSection() {
+  const {t} = useTranslation();
   const [formData, setFormData] = useState({
     name: "",
     phone: "",
@@ -24,23 +26,18 @@ export default function ContactSection() {
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-start justify-between sm:gap-10">
         {/* Left Side Content */}
         <div className="md:w-1/2 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold text-[#0E509E] mb-4 sm:text-left">
-            Contact Us
-          </h2>
-          <p className="Paragraph sm:text-left font-semibold">
-            Let’s start a conversation – we’d love to hear from you!
-          </p>
+          <h2 className="text-3xl md:text-4xl font-bold text-[#0E509E] mb-4 sm:text-left">{t("Contact Us")}</h2>
+          <p className="Paragraph sm:text-left font-semibold">{t("Contact Description")}</p>
         </div>
 
         {/* Right Side Form */}
         <form
           onSubmit={handleSubmit}
-          className="md:w-1/2 bg-[#F5F5F5] p-6 rounded-md shadow-sm w-full"
-        >
+          className="md:w-1/2 bg-[#F5F5F5] p-6 rounded-md shadow-sm w-full">
           <input
             type="text"
             name="name"
-            placeholder="Full Name"
+            placeholder={t("Full Name")}
             value={formData.name}
             onChange={handleChange}
             className="w-full mb-4 px-4 py-2  bg-white "
@@ -51,7 +48,7 @@ export default function ContactSection() {
             <input
               type="text"
               name="phone"
-              placeholder="Phone no."
+              placeholder={t("Phone no.")}
               value={formData.phone}
               onChange={handleChange}
               className="w-full md:w-1/2 px-4 py-2 bg-white "
@@ -60,7 +57,7 @@ export default function ContactSection() {
             <input
               type="email"
               name="email"
-              placeholder="Email"
+              placeholder={t("Email")}
               value={formData.email}
               onChange={handleChange}
               className="w-full md:w-1/2 px-4 py-2 bg-white "
@@ -70,7 +67,7 @@ export default function ContactSection() {
 
           <textarea
             name="message"
-            placeholder="Message"
+            placeholder={t("Message")}
             value={formData.message}
             onChange={handleChange}
             rows="5"
@@ -81,14 +78,11 @@ export default function ContactSection() {
          <div className="w-full flex justify-center">
   <button
     type="submit"
-    className="bg-[#0E509E] hover:bg-[#FACC48] hover:text-black text-white font-semibold py-1 px-6 rounded"
-  >
-    Submit
+    className="bg-[#0E509E] hover:bg-[#FACC48] hover:text-black text-white font-semibold py-1 px-6 rounded">{t("Submit")}
   </button>
 </div>
-
-        </form>
-      </div>
-    </section>
+</form>
+</div>
+</section>
   );
 }
