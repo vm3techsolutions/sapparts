@@ -2,6 +2,7 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import { useTranslation } from 'react-i18next';
+import Image from "next/image";
 
 export default function ProductsPage() {
     const { t, i18n } = useTranslation();
@@ -33,16 +34,17 @@ export default function ProductsPage() {
             className="relative h-80 w-full overflow-hidden shadow-md bg-white text-[#363636] group transition-all duration-500"
           >
             {/* Image Layer - hidden by default, shown on hover */}
-            <div className="absolute inset-0 z-0">
-              <img
-                src={item.image}
-                // alt={item.title}
-                alt= {item.title[currentLang]}
-                className="h-full w-full object-cover opacity-0 group-hover:opacity-100 transition-opacity duration-500"
-              />
-              {/* Black overlay */}
-              <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-60 transition-opacity duration-500"></div>
-            </div>
+           <div className="absolute inset-0 z-0">
+  <Image
+    src={item.image}
+    alt={item.title[currentLang]}
+    fill
+    className="object-cover opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+    sizes="100vw"
+  />
+  {/* Black overlay */}
+  <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-60 transition-opacity duration-500"></div>
+</div>
 
             <div className="relative h-full w-full z-10 flex flex-col justify-between py-10 px-7 transition-colors duration-500 group-hover:text-white">
               <h3 className="text-2xl font-semibold text-[#0E509E] group-hover:text-white transition-colors duration-300">

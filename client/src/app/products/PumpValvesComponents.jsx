@@ -21,7 +21,7 @@ export default function PumpAndValvesSection() {
               alt="Pump and Valves"
               width={400}
               height={400}
-              className="object-contain md:h-[70vh] md:w-[60vh]"
+              className="object-contain md:h-[70vh] md:w-[60vh] transition-transform duration-300 ease-in-out group-hover:scale-110"
             />
           </div>
         </div>

@@ -56,17 +56,20 @@ export default function Footer() {
         </div>
 
         {/* Products */}
-        <div>
-          <h3 className="text-[#FACC48] font-semibold text-lg mb-3">
-            {t("Products")}
-          </h3>
-          <ul className="space-y-2 text-md">
-            <li><Link href="/products/product-a">Product A</Link></li>
-            <li><Link href="/products/product-b">Product B</Link></li>
-            <li><Link href="/products/product-c">Product C</Link></li>
-            <li><Link href="/products/product-d">Product D</Link></li>
-          </ul>
-        </div>
+       <div>
+  <h3 className="text-[#FACC48] font-semibold text-lg mb-3">
+    {t("Products")}
+  </h3>
+  <ul className="space-y-2 text-md">
+    <li><Link href="/products/mechanical-face-seals">Mechanical Face Seals</Link></li>
+    <li><Link href="/products/bushings">Bushings</Link></li>
+    <li><Link href="/products/sintered-products">Sintered Products</Link></li>
+    <li><Link href="/products/pump-valves-components">Pump & Valves Components</Link></li>
+    <li><Link href="/products/sap-hub-bearings">SAP Hub Bearings</Link></li>
+    <li><Link href="/products/precision-components">Precision Components</Link></li>
+  </ul>
+</div>
+
 
         {/* Contact Info */}
         <div>

@@ -10,7 +10,8 @@ export default function Header() {
   const { t, i18n } = useTranslation();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [industryOpen, setIndustryOpen] = useState(false);
-  const [resourceOpen, setResourceOpen] = useState(false); // Added for Resources dropdown
+  const [productOpen, setProductOpen] = useState(false);
+  const [resourceOpen, setResourceOpen] = useState(false);
   const pathname = usePathname();
 
   const [language, setLanguage] = useState(i18n.language || "en");
@@ -34,15 +35,26 @@ export default function Header() {
         { name: t("High-Tech"), href: "/industries/high-tech" },
       ],
     },
-    { name: t("Products"), href: "/products" },
+    {
+      name: t("Products"),
+      href: "#",
+      subLinks: [
+        { name: "Mechanical Face Seals", href: "/products/mechanical-face-seals" },
+        { name: "Bushings", href: "/products/bushings" },
+        { name: "Sintered Products", href: "/products/sintered-products" },
+        { name: "Pump & Valves Components", href: "/products/pump-valves-components" },
+        { name: "SAP Hub Bearings", href: "/products/sap-hub-bearings" },
+        { name: "Precision Components", href: "/products/precision-components" },
+      ],
+    },
     { name: t("Technology & Innovation"), href: "/technology" },
     {
       name: t("Resources"),
       href: "#",
       subLinks: [
-        { name: "Seals Assembly Guide", href: "/industries/agriculture" },
-        { name: "Seal-O-Fix", href: "/industries/automotive" },
-        { name: "Seal For Rotovator", href: "/industries/construction" },
+        { name: "Seals Assembly Guide", href: "/MaintenanceTips/SealsAssemblyGuide" },
+        { name: "Seal-O-Fix", href: "/MaintenanceTips/Seal-O-Fix" },
+        { name: "Seal For Rotovator", href: "/MaintenanceTips/SealForRotovator" },
       ],
     },
     { name: t("Sustainability"), href: "/sustainability" },
@@ -53,7 +65,6 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 bg-white shadow">
       <div className="flex items-center justify-between px-4 sm:px-10 py-2">
-        {/* Logo */}
         <Link href="/" className="flex items-center">
           <Image
             src="/assets/home/headerLogo.png"
@@ -64,7 +75,6 @@ export default function Header() {
           />
         </Link>
 
-        {/* Desktop Navbar */}
         <nav className="hidden md:flex items-center gap-1 text-[#0E509E] text-md font-medium">
           {navLinks.map((link) => {
             const isActive = pathname === link.href;
@@ -77,15 +87,11 @@ export default function Header() {
                 ) : (
                   <Link
                     href={link.href}
-                    className={`px-2 py-1 ${
-                      isActive ? "text-[#003d7a]" : ""
-                    } hover:text-[#FACC48]`}
+                    className={`px-2 py-1 ${isActive ? "text-[#003d7a]" : ""} hover:text-[#FACC48]`}
                   >
                     {link.name}
                   </Link>
                 )}
-
-                {/* Dropdown */}
                 {link.subLinks && (
                   <ul className="absolute top-full left-0 mt-1 bg-white border rounded shadow-sm opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-all duration-200 z-50">
                     {link.subLinks.map((sub) => (
@@ -103,15 +109,11 @@ export default function Header() {
               </div>
             );
           })}
-
-          {/* Contact Us Button */}
           <Link href="/contact">
             <button className="ml-2 bg-[#0E509E] text-white px-2 py-0.5 rounded hover:bg-[#FACC48] hover:text-black text-md">
               {t("Contact Us")}
             </button>
           </Link>
-
-          {/* Language Selector (Desktop) */}
           <div className="hidden md:block ml-2">
             <select
               value={language}
@@ -124,7 +126,6 @@ export default function Header() {
           </div>
         </nav>
 
-        {/* Mobile Menu Toggle */}
         <div className="md:hidden">
           <button onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>
             {mobileMenuOpen ? (
@@ -136,13 +137,13 @@ export default function Header() {
         </div>
       </div>
 
-      {/* Mobile Menu */}
       {mobileMenuOpen && (
         <div className="md:hidden bg-white px-4 py-3">
           <ul className="flex flex-col gap-3 text-[#0E509E] text-sm font-medium">
             {navLinks.map((link) => {
               const isIndustry = link.name === t("Industries");
               const isResource = link.name === t("Resources");
+              const isProduct = link.name === t("Products");
 
               if (isIndustry) {
                 return (
@@ -162,6 +163,35 @@ export default function Header() {
                               onClick={() => {
                                 setMobileMenuOpen(false);
                                 setIndustryOpen(false);
+                              }}
+                              className="block"
+                            >
+                              {sub.name}
+                            </Link>
+                          </li>
+                        ))}
+                      </ul>
+                    )}
+                  </li>
+                );
+              } else if (isProduct) {
+                return (
+                  <li key={link.name}>
+                    <button
+                      className="w-full text-left font-medium flex items-center gap-1"
+                      onClick={() => setProductOpen(!productOpen)}
+                    >
+                      {link.name} <FiChevronDown className="text-sm" />
+                    </button>
+                    {productOpen && (
+                      <ul className="ml-4 mt-1 space-y-1">
+                        {link.subLinks.map((sub) => (
+                          <li key={sub.name}>
+                            <Link
+                              href={sub.href}
+                              onClick={() => {
+                                setMobileMenuOpen(false);
+                                setProductOpen(false);
                               }}
                               className="block"
                             >
@@ -216,7 +246,6 @@ export default function Header() {
                 );
               }
             })}
-
             <li>
               <Link href="/contact" onClick={() => setMobileMenuOpen(false)}>
                 <button className="bg-[#0E509E] text-white hover:bg-[#FACC48] hover:text-black px-4 py-2 rounded w-full mt-2">
@@ -226,7 +255,6 @@ export default function Header() {
             </li>
           </ul>
 
-          {/* Mobile Language Selector */}
           <div className="mt-4">
             <select
               value={language}
