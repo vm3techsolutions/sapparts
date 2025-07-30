@@ -7,9 +7,9 @@ export default function Timeline() {
   const{t} = useTranslation()
   return (
     <div className="Section bg-white">
-      {/* <h2 className="Heading text-center">{t("Milestones")}</h2> */}
+      <h2 className="Heading text-center ">{t("Milestones")}</h2>
 
-      <div className="relative w-full  mx-auto mt-8">
+      <div className="relative w-full  mx-auto -mt-4">
         <Image
           src="/assets/about/Milestones2.png" 
           alt="Milestones"
