@@ -3,6 +3,7 @@ import React from "react";
 
 export default function SealFeatureSection() {
   return (
+    
     <section className="Section bg-white">
       <div className="">
         {/* Title */}

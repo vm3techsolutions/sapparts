@@ -1,6 +1,6 @@
 export default function TechnicalSpecs() {
   return (
-    <div className="Section bg-white">
+    <div className="Section bg-white -mt-10">
       <h2 className="Heading text-center mb-2">
         Technical Specifications
       </h2>

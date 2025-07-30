@@ -40,10 +40,10 @@ export default function HousingGrrove() {
 
 <div className="flex flex-col md:flex-row sm:gap-8 items-start">
         {/* Mobile View - Title */}
-        <h2 className="Heading block md:hidden text-center pt-10">Installation of Seal inside the Housing Groove:</h2>
+        <h2 className="Heading block md:hidden text-center -mt-10 sm:-mt-0 sm:pt-10">Installation of Seal inside the Housing Groove:</h2>
 
          {/* Left Side - Text */}
-        <div className="w-full mt-6 sm:mt-2">
+        <div className="w-full mt-2 sm:mt-2">
            <ul>
             <li className="flex items-start gap-2 pt-1" ><FaRegArrowAltCircleRight className="text-[16px] flex-shrink-0 mt-1"/> Never use Rubber O–Rings with Blow holes/ damages.</li>
            <li className="flex items-start gap-2 pt-1"><FaRegArrowAltCircleRight className="text-[16px] flex-shrink-0 mt-1"/>Never allow Sealing surface be dirty, it should be cleaned well before Assembly.</li>

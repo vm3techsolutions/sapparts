@@ -27,7 +27,7 @@ export default function LocationSection() {
     <div className="bg-white Section">
       <h2 className="Heading text-center">{t("Location")}</h2>
 
-      {/* Image Row with mobile info */}
+      {/* Image Row with Mobile Info */}
       <div className="max-w-8xl flex flex-wrap justify-center gap-16 mb-10">
         {locations.map((loc) => (
           <div key={loc.name[currentLang]} className="w-full sm:w-auto">
@@ -56,11 +56,11 @@ export default function LocationSection() {
               </div>
             </div>
 
-            {/* Show info below image in mobile view */}
+            {/* Mobile View Info Centered */}
             {active.name === loc.name && (
-              <div className="block sm:hidden mt-4 bg-[#F5F5F5] rounded-lg p-4">
+              <div className="block sm:hidden mt-4 bg-[#F5F5F5] rounded-lg p-4 text-center">
                 {active.company && (
-                  <div className="text-center mb-2">
+                  <div className="mb-4">
                     <FaMapMarkerAlt className="text-[#FACC48] text-xl mx-auto mb-1" />
                     <h3 className="text-lg font-semibold text-[#0E509E]">
                       {active.company?.[currentLang]}
@@ -72,7 +72,7 @@ export default function LocationSection() {
                 )}
 
                 {active.company1 && (
-                  <div className="text-center mb-2">
+                  <div className="mb-4">
                     <h3 className="text-lg font-semibold text-[#0E509E]">
                       {active.company1?.[currentLang]}
                     </h3>
@@ -82,22 +82,22 @@ export default function LocationSection() {
                   </div>
                 )}
 
-                <div className="grid gap-4 text-sm mt-2">
+                <div className="grid gap-4 text-sm mt-4">
                   {active.contacts.map((item, idx) => (
                     <div key={idx}>
                       {item.title && (
-                        <h4 className="font-semibold text-[18px] mb-1">
+                        <h4 className="font-semibold text-[18px] mb-2">
                           {typeof item.title === "string"
                             ? item.title
                             : item.title?.[currentLang] || ""}
                         </h4>
                       )}
-                      <div className="flex items-start gap-2 mb-1">
-                        <FaPhoneAlt className="text-[#FACC48] mt-1 text-lg" />
+                      <div className="flex justify-center items-center gap-2 mb-2">
+                        <FaPhoneAlt className="text-[#FACC48] text-lg" />
                         <p className="text-[16px]">{item.phone}</p>
                       </div>
-                      <div className="flex items-start gap-2">
-                        <FaEnvelope className="text-[#FACC48] mt-1 text-lg" />
+                      <div className="flex justify-center items-center gap-2">
+                        <FaEnvelope className="text-[#FACC48] text-lg" />
                         <p className="text-[16px]">{item.email}</p>
                       </div>
                     </div>
@@ -127,7 +127,7 @@ export default function LocationSection() {
           </p>
         )}
 
-        {/* Company 2 (optional) */}
+        {/* Company 2 */}
         {active.company1 && (
           <div className="flex flex-col items-center justify-center mb-4">
             <h3 className="text-[24px] font-semibold text-center text-[#0E509E]">
@@ -142,7 +142,7 @@ export default function LocationSection() {
           </p>
         )}
 
-        {/* Contacts - 2 column grid */}
+        {/* Desktop Contacts: 2 Column Grid */}
         <div className="grid sm:grid-cols-2 gap-x-20 gap-y-8 text-center">
           {active.contacts.map((item, idx) => (
             <div key={idx}>
@@ -154,14 +154,14 @@ export default function LocationSection() {
                 </h4>
               )}
 
-              <div className="flex items-center justify-center gap-3 mb-2">
+              <div className="flex justify-center items-center gap-3 mb-2">
                 <FaPhoneAlt className="text-[#FACC48] text-xl" />
                 <p className="font-normal text-[#000000] text-[18px]">
                   {item.phone}
                 </p>
               </div>
 
-              <div className="flex items-center justify-center gap-3">
+              <div className="flex justify-center items-center gap-3">
                 <FaEnvelope className="text-[#FACC48] text-xl" />
                 <p className="font-normal text-[#000000] text-[18px]">
                   {item.email}

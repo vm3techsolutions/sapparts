@@ -21,7 +21,7 @@ export default function SealOFix() {
 
           {/* Directions For Use: */}
           <div>
-           <h3 className = "text-2xl  font-bold hidden md:block mb-2">Directions For Use:</h3> 
+           <h3 className = "text-2xl  font-bold  mb-2">Directions For Use:</h3> 
            <ul>
             <li className="flex items-start gap-2 pt-1 " ><FaRegArrowAltCircleRight className="text-[16px] flex-shrink-0 mt-1"/>Before Cleansing the Sealing Surface, be sure that all surfaces are cool to touch.</li>
            <li className="flex items-start gap-2 pt-1"><FaRegArrowAltCircleRight className="text-[16px] flex-shrink-0 mt-1" /> Do not apply in direct sunlight or if air temperature is above 100 F.</li>
@@ -34,7 +34,7 @@ export default function SealOFix() {
 
              {/* Storage: */}
           <div className="pt-10 ">
-           <h3 className = "text-2xl  font-bold hidden md:block mb-2  ">Storage</h3> 
+           <h3 className = "text-2xl  font-bold  mb-2  ">Storage</h3> 
            <ul>
             <li className="flex items-start gap-2 pt-1" ><FaRegArrowAltCircleRight className="text-[16px] flex-shrink-0 mt-1"/>SAP Seal-O-Fix, shall be ideally stored in a cool, dry location in containers at a temperature between 8 and 49 C (46 and 120F).</li>
            <li className="flex items-start gap-2 pt-1"><FaRegArrowAltCircleRight className="text-[16px] flex-shrink-0 mt-1"/> Optimal storage is at the lower end of this range.</li>
@@ -44,7 +44,7 @@ export default function SealOFix() {
 
              {/* Causion: */}
           <div className="pt-10 ">
-           <h3 className = "text-2xl  font-bold hidden md:block mb-2  ">Causion</h3> 
+           <h3 className = "text-2xl  font-bold  mb-2  ">Causion</h3> 
            <ul>
             <li className="flex items-start gap-2 pt-1" ><FaRegArrowAltCircleRight className="text-[16px] flex-shrink-0 mt-1"/>Flammable Composition.</li>
            <li className="flex items-start gap-2 pt-1"><FaRegArrowAltCircleRight className="text-[16px] flex-shrink-0 mt-1"/> Aerosol Can.</li>

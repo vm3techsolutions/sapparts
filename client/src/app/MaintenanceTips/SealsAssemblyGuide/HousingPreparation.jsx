@@ -14,8 +14,8 @@ export default function HousingPreparation() {
         {/* <h3 className = "text-[#000000]">Housing Preparation:</h3>  */}
 
          {/* Left Side - Text */}
-        <div className="w-full md:w-1/2 mt-6 sm:mt-2">
-          <h3 className = "text-[#000000] text-2xl mb-4 font-bold hidden md:block">Housing Preparation:</h3>
+        <div className="w-full md:w-1/2 -mt-10  sm:mt-2 ">
+          <h3 className = "text-[#000000] text-2xl mb-4 font-bold ">Housing Preparation:</h3>
           <p className="Paragraph">The housing components which contact the rubber toric rings (3 and 4 a) must be free from foreign parti-cles, etc before installing the seal. This should be done using a lint free wipe and a non-petroleum based solvent especially SAP Parts Seal-O-Fix Spray. <br/><br/>
           Dry with a clean wipe. Remove any foreign material from the rubber torics (2), the ramps (7) and the lips (8) of both seal rings.<br/><br/>
           Place the rubber torics on the metal seal ring at the bottom of the seal ring ramp and against the bottom of the seal ring ramp and against the, retaining lip.<br/><br/>
@@ -53,8 +53,8 @@ export default function HousingPreparation() {
     
 
          {/* Left Side - Text */}
-        <div className="w-full md:w-1/2 mt-6 sm:mt-2 ">
-          <h3 className = "text-[#000000] text-2xl mb-4 font-bold hidden md:block">Approved Assembly Lubricants:</h3>
+        <div className="w-full md:w-1/2 -mt-6 sm:mt-2 ">
+          <h3 className = "text-[#000000] text-2xl mb-4 font-bold ">Approved Assembly Lubricants:</h3>
           <p className="Paragraph">SAP Parts - Seal-O-Fix Spray / Isopropyl Alcohol* Follow all the safety practices for handling volatile solvents. Do not use any other oil that leaves oil film or do not evaporates.
           </p>
       
