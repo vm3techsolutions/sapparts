@@ -1,12 +1,12 @@
 import Image from "next/image";
-import React from "react";
+
 
 export default function MachineImage() {
   return (
     <div className="w-full bg-white flex justify-center items-center sm:px-4 ">
       <div className="">
         <Image
-          src="/assets/products//MechanicalFaceSealBanner.png" 
+          src="/assets/products/BushingBanner.png" 
           alt="CNC Machining"
           width={933}
           height={512}

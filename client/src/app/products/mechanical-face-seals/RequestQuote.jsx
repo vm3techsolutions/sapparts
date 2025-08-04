@@ -25,13 +25,14 @@ export default function RequestQuote() {
 
         {/* Right Section - Image with spacing */}
         <div className="md:w-1/2 pl-0 md:pl-6">
-          <Image
-            src="/assets/products/RequestQuote.png" 
-            alt="Request a Quote"
-            width={600}
-            height={400}
-            className="rounded-md object-cover transition-transform duration-500 ease-in-out transform hover:scale-95"
-          />
+         <Image
+  src="/assets/products/RequestQuote.png"
+  alt="Request a Quote"
+  width={600}
+  height={400}
+  className="rounded-md object-cover transition-transform duration-500 ease-in-out transform hover:scale-95"
+/>
+
         </div>
       </div>
     </section>

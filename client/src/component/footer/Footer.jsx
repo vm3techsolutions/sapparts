@@ -28,7 +28,7 @@ export default function Footer() {
           <h3 className="text-[#FACC48] font-semibold text-lg mb-3">
             {t("Quick Links")}
           </h3>
-          <ul className="space-y-2 text-md">
+          <ul className="space-y-4 text-md">
             <li><Link href="/strategy">{t("Strategy")}</Link></li>
             <li><Link href="/technology">{t("Technology")}</Link></li>
             <li><Link href="/resources">{t("Resources")}</Link></li>
@@ -41,10 +41,10 @@ export default function Footer() {
 
         {/* Industries */}
         <div className="md:ml-5">
-          <h3 className="text-[#FACC48] font-semibold text-lg mb-">
+          <h3 className="text-[#FACC48] font-semibold text-lg mb-3">
             {t("Industries")}
           </h3>
-          <ul className="space-y-2 text-md">
+          <ul className="space-y-4 text-md">
             <li><Link href="/industries/agriculture">{t("Agriculture")}</Link></li>
             <li><Link href="/industries/automotive">{t("Automotive")}</Link></li>
             <li><Link href="/industries/construction">{t("Construction")}</Link></li>
@@ -60,7 +60,7 @@ export default function Footer() {
   <h3 className="text-[#FACC48] font-semibold text-lg mb-3">
     {t("Products")}
   </h3>
-  <ul className="space-y-2 text-md">
+  <ul className="space-y-4 text-md ">
     <li><Link href="/products/mechanical-face-seals">Mechanical Face Seals</Link></li>
     <li><Link href="/products/bushings">Bushings</Link></li>
     <li><Link href="/products/sintered-products">Sintered Products</Link></li>

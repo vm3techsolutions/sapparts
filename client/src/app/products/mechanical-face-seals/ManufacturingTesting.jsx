@@ -1,4 +1,3 @@
-// components/ManufacturingTesting.js
 
 
 export default function ManufacturingTesting() {
@@ -18,14 +17,15 @@ export default function ManufacturingTesting() {
         {/* Left Card */}
         <div className="bg-white rounded-xl shadow-md p-6 transition-all duration-300 group hover:bg-[#0E509E] hover:text-white border border-[#000000]/10">
           <h3 className="text-2xl font-bold text-[#0E509E] group-hover:text-white mb-2">
-            In–House Production Capabilities
+           Manufacturing & Design Features
+
           </h3>
           <hr className="w-10 border-t-2 border-yellow-400 mb-4" />
           <ul className="list-disc font-semibold mt-8 list-inside space-y-5 text-[#363636] group-hover:text-white">
-            <li>CNC Turning, VMC, Bore & Centerless Grinding</li>
-            <li>German SQF Ipsen Heat Treatment Plant</li>
+            <li>Two geometrically identical metal rings installed face-to-face in matching housings, supported by elastomer rings (DO‑type) or trapezoid Torric rings (DF‑type)</li>
+            <li>Housing geometry and ramp angle are optimized for oil retention and ring preload </li>
             <li>
-              Surface Treatments: CED Coating, MoS₂, WS₂, Zn Plating
+              Custom seal designs available for non-standard sizes, housing configurations, or novel elastomer/metal materials
             </li>
           </ul>
         </div>
@@ -33,16 +33,17 @@ export default function ManufacturingTesting() {
         {/* Right Card */}
         <div className="bg-white rounded-xl shadow-md p-6 transition-all duration-300 group hover:bg-[#0E509E] hover:text-white border border-[#000000]/10">
           <h3 className="text-2xl font-bold text-[#0E509E] group-hover:text-white mb-2">
-            Testing & Quality Assurance
+           Testing & Validation
+
           </h3>
           <hr className="w-10 border-t-2 border-yellow-400 mb-4" />
           <ul className="list-disc font-semibold mt-8 list-inside space-y-5 text-[#363636] group-hover:text-white">
-            <li>Micro Vickers Hardness & Roughness Testing</li>
-            <li>Load Testing up to 50T with ±30° axial rotation</li>
+            <li>Each seal undergoes rigorous assembly tolerance and face flatness testing</li>
+            <li>Performance proven for continuous peripheral speeds up to 10 m/s and operating temperatures from –55 °C to +200 °C</li>
             <li>
-              Inverted Microscopy, Roundness, and Counter Tracers
+             Validated for performance in corrosive and abrasive media in compliance with international standards
             </li>
-            <li>ISO 9001:2015 Certified Processes</li>
+           
           </ul>
         </div>
       </div>

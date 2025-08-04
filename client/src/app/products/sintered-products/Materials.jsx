@@ -1,5 +1,3 @@
-// components/MaterialsSizes.js
-
 
 export default function MaterialsSizes() {
   return (
@@ -12,16 +10,22 @@ export default function MaterialsSizes() {
         {/* Left Column */}
         <div className="text-[#0E509E] ">
           <h3 className="text-2xl font-semibold text-center mb-4">
-            Steel Hardened Bushings
+            Material Grades
+
           </h3>
           <ul className="text-[#363636] font-semibold space-y-5 list-disc list-outside pl-4">
-            <li>OD Range: 20 mm to 300 mm</li>
+            <li>Iron-Carbon (Fe-C)</li>
             <li>
-              Materials: 100Cr6, 20MnCr5, C45, SAE 4140, SCM415, ST52, 16MnCr5, FE510
+             Iron-Copper-Carbon (Fe-Cu-C)
             </li>
             <li>
-              Surface Treatments: Case Carburizing, Nitriding,
-              Nitro–Carburizing, Carbo–Nitriding, Induction Hardening
+             Copper-Infiltrated Iron
+            </li>
+            <li>
+             Bronze-Based (CuSn, CuZn)
+            </li>
+            <li>
+            Alloy Additives: Nickel, Molybdenum, Graphite
             </li>
           </ul>
         </div>
@@ -34,23 +38,20 @@ export default function MaterialsSizes() {
         {/* Right Column */}
         <div className="text-[#0E509E]">
           <h3 className="text-2xl font-semibold text-center mb-4">
-            Non-Ferrous Bushings
+            Sizing & Tolerances
+
           </h3>
           <ul className="text-[#363636] font-semibold space-y-5 list-disc list-outside pl-4">
-            <li>OD Range: 50 mm to 300 mm</li>
+            <li>Density: 6.0 – 7.2 g/cm³</li>
             <li>
-              Materials:
-              <br />
-              Bronze: C96900, C93200, C86500, CuSn8P
-              <br />
-              Brass: C86300, CuZn39Pb3
+             Tolerance: Up to ±0.02 mm
             </li>
             <li>
-              Tolerances
-              <br />
-              Machined to ±0.02 mm
-              
-              Optimized for high-load press–fit and sliding assemblies
+             Surface Finish: Steam treated / resin impregnated / machined / coated
+
+            </li>
+               <li>
+            Customization: Based on client drawing or use case
             </li>
           </ul>
         </div>

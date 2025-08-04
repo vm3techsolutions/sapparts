@@ -1,4 +1,3 @@
-// components/MaterialsSizes.js
 
 
 export default function MaterialsSizes() {

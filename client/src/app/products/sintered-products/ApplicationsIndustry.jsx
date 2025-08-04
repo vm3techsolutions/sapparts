@@ -6,39 +6,41 @@ const useCases = [
   {
     id: 1,
     icon: "/assets/products/Applications1.png",
-    title: "Construction & Mining Equipment",
+    title: "Automotive",
     points: [
-      "Excavator boom, arm, bucket linkages",
-      "Backhoe loader joints",
-      "Hydraulic cylinders (tail & eye ends)"
+      "Transmission gears",
+      "Synchronizer hubs",
+      "Locking rings"
     ]
   },
   {
     id: 2,
     icon: "/assets/products/Applications2.png",
-    title: "Agricultural Machinery",
+    title: "Agriculture",
     points: [
-      "Tractor kingpins",
-      "Pillow blocks and central sleeves",
-      "Plough joints and pivot points"
+      "Clutch bushings",
+      "Power take-off (PTO) shafts",
+      "Precision bearings"
     ]
   },
   {
     id: 3,
     icon: "/assets/products/Applications3.png",
-    title: "Automotive & Transmission",
+    title: "Electrical",
     points: [
-      "Gearbox and axle components",
-      "Synchronizer hubs"
+      "Armatures",
+      "Contact plates",
+      "Magnetically soft components"
     ]
   },
   {
     id: 4,
     icon: "/assets/products/Applications4.png",
-    title: "Defence & Heavy Engineering",
+    title: "Industrial Machinery",
     points: [
-      "Industrial actuators",
-      "Military mobility systems"
+      "Conveyor bushings",
+      "Hydraulic valves",
+      "Small mechanisms requiring tight tolerances and low friction"
     ]
   }
 ];

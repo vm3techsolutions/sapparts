@@ -8,9 +8,8 @@ const useCases = [
     icon: "/assets/products/Applications1.png",
     title: "Construction & Mining Equipment",
     points: [
-      "Excavator boom, arm, bucket linkages",
-      "Backhoe loader joints",
-      "Hydraulic cylinders (tail & eye ends)"
+      "Seals for axle, roller, transmission, and cabin applications exposed to sand, grit, mud, and dust"
+      
     ]
   },
   {
@@ -18,27 +17,16 @@ const useCases = [
     icon: "/assets/products/Applications2.png",
     title: "Agricultural Machinery",
     points: [
-      "Tractor kingpins",
-      "Pillow blocks and central sleeves",
-      "Plough joints and pivot points"
+      "Used in rotating joints, undercarriage, and PTO systems where lubricant and debris ingress resistance is critical"
+     
     ]
   },
   {
     id: 3,
     icon: "/assets/products/Applications3.png",
-    title: "Automotive & Transmission",
+    title: "Industrial & Heavy Engineering",
     points: [
-      "Gearbox and axle components",
-      "Synchronizer hubs"
-    ]
-  },
-  {
-    id: 4,
-    icon: "/assets/products/Applications4.png",
-    title: "Defence & Heavy Engineering",
-    points: [
-      "Industrial actuators",
-      "Military mobility systems"
+      "Heavy axle and shaft sealing under extreme contamination, vibration, and load"
     ]
   }
 ];
@@ -68,7 +56,7 @@ export default function ApplicationsUseCases() {
                 {item.title}
               </h3>
               <span className="w-20 h-[2px] bg-[#FACC48] my-2" />
-              <ul className="text-[#363636] group-hover:text-white space-y-2 text-md font-semibold mt-1 mb-2">
+              <ul className="text-[#363636] group-hover:text-white space-y-2 text-md font-semibold mt-1 mb-2 px-6" >
                 {item.points.map((point, idx) => (
                   <li key={idx}>{point}</li>
                 ))}

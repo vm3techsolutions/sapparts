@@ -1,0 +1,40 @@
+// components/ProductOverview.js
+import Image from "next/image";
+
+
+export default function ProductOverview() {
+  return (
+    <section className="Section bg-white ">
+      <div className="flex flex-col md:flex-row items-center gap-20 mx-auto">
+        
+        {/* Left: Image with double dashed border */}
+        <div className="border-[3px] border-dashed border-yellow-400 p-6 ">
+          <div className="border-[3px] border-dashed border-yellow-400 p- ">
+            <div className="w-[280px] md:w-[400px]">
+              <Image
+                src="/assets/products/ProductOverview.png" 
+                alt="Bushings"
+                width={600}
+                height={400}
+                className="object-contain transition-transform duration-500 ease-in-out transform hover:scale-105"
+              />
+            </div>
+          </div>
+        </div>
+
+        {/* Right: Text */}
+        <div className="-mt-8 sm:-mt-0">
+          <h2 className="Heading">
+            Product Overview
+          </h2>
+          <p className="Paragraph">
+           SAP Parts™ specializes in high-performance sintered components produced through advanced powder metallurgy. Designed for precision, durability, and cost-efficiency, these components serve critical roles in automotive, agricultural, electrical, and industrial applications.
+          </p>
+          <p className="Paragraph">
+           Our in-house sintering facilities and German furnace technology enable consistent part quality across standard and custom designs—meeting both Indian and global OEM standards.
+          </p>
+        </div>
+      </div>
+    </section>
+  );
+}

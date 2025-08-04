@@ -6,39 +6,29 @@ const useCases = [
   {
     id: 1,
     icon: "/assets/products/Applications1.png",
-    title: "Construction & Mining Equipment",
+    title: "Construction & Mining",
     points: [
-      "Excavator boom, arm, bucket linkages",
-      "Backhoe loader joints",
-      "Hydraulic cylinders (tail & eye ends)"
+      "Excavator joints, cabin assemblies, and heavy-load pivoting systems",
+      "Mechanical face seals and bushings for high-friction joints"
     ]
   },
   {
     id: 2,
     icon: "/assets/products/Applications2.png",
-    title: "Agricultural Machinery",
+    title: " Agriculture & OEM Machinery",
     points: [
-      "Tractor kingpins",
-      "Pillow blocks and central sleeves",
-      "Plough joints and pivot points"
+      "Bushings and lock assemblies for tractors and harvesters",
+      "Components designed for dust, mud, and moisture-rich environments"
+      
     ]
   },
   {
     id: 3,
     icon: "/assets/products/Applications3.png",
-    title: "Automotive & Transmission",
+    title: "Defence, Transmission & Heavy Engineering",
     points: [
-      "Gearbox and axle components",
-      "Synchronizer hubs"
-    ]
-  },
-  {
-    id: 4,
-    icon: "/assets/products/Applications4.png",
-    title: "Defence & Heavy Engineering",
-    points: [
-      "Industrial actuators",
-      "Military mobility systems"
+      "High-tolerance components for mobility systems and structural joints",
+      "Cabin hinges and lock systems for defence vehicles and industrial enclosures"
     ]
   }
 ];

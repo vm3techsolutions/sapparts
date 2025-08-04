@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import React from "react";
+
 import { FaCheckCircle } from "react-icons/fa";
 import { useTranslation } from "react-i18next";
 
