@@ -5,6 +5,7 @@ import Footer from "@/component/footer/Footer";
 import Preloader from "@/component/preloader/Preloader";
 // import ScrollRing from "@/component/scroller/ScrollRing";
 import TranslationProvider from "@/component/TranslationProvider";
+import BannerImage from "@/component/banner/BanerIMG";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -32,7 +33,7 @@ export default function RootLayout({ children }) {
          <TranslationProvider/>
         <Preloader/>
           <Header />
-         
+         <BannerImage/>
           {children}
           <Footer />
        

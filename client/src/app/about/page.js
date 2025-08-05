@@ -1,4 +1,4 @@
-import AboutBanner from "./AboutBanner";
+
 import AwardsRecognitions from "./AwardsRecognitions";
 import Certifications from "./Certifications";
 import CompanyHistory from "./CompanyHistory";
@@ -11,7 +11,7 @@ import Roadmap from "./Roadmap";
 export default function AboutPage(){
     return(
         <div>
-            <AboutBanner/>
+            
             <CompanyHistory/>
             <Milestones/>
             <MissionVision/>

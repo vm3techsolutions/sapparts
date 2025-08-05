@@ -6,13 +6,13 @@ import ManufacturingProcesses from "./ManufacturingProcesses";
 import RoboticCasting from "./RoboticCasting";
 import SinteringFacilities from "./SinteringFacilities";
 import SurfaceTreatment from "./SurfaceTreatment";
-import TechnologyBanner from "./TechnologyBanner";
+    
 
 export default function technology(){
     return(
         <div>
             <ScrollRing/>
-            <TechnologyBanner/>
+            
             <ManufacturingProcesses/>
             <CentrifugalCasting/>
             <MachiningGrinding/>
