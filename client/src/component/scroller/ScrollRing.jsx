@@ -28,7 +28,7 @@ export default function ScrollRing() {
   }
 
   return (
-    <div className="hidden md:block  fixed sm:top-[62px] left-0 w-full z-10 pointer-events-none bg-[#FACC48]">
+    <div className="hidden md:block  fixed sm:top-[62px] left-0 w-full z-30 pointer-events-none bg-[#FACC48]">
       <div className="relative w-full h-[50px]">
         <div
           className="absolute top-0"

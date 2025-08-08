@@ -47,7 +47,7 @@ import "./globals.css";
 import Header from "@/component/header/Header";
 import Footer from "@/component/footer/Footer";
 import Preloader from "@/component/preloader/Preloader";
-import ScrollRing from "@/component/scroller/ScrollRing";
+// import ScrollRing from "@/component/scroller/ScrollRing";
 import TranslationProvider from "@/component/TranslationProvider";
 import BannerImage from "@/component/banner/BanerIMG";
 
@@ -64,7 +64,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
-        <ScrollRing/>
+        {/* <ScrollRing/> */}
         <TranslationProvider>
           <Preloader />
           <Header />
