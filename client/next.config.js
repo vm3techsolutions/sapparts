@@ -1,7 +1,7 @@
 const nextConfig = {
-output : 'standalone',
+output : 'export',
   images: {
-    unoptimized: false, 
+    unoptimized: true, // <- required for static export
   },
 };
 
