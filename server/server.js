@@ -19,7 +19,7 @@ const auth = new google.auth.GoogleAuth({
 const SHEET_ID = process.env.GOOGLE_SHEET_ID;
 const sheetName = process.env.GOOGLE_SHEET_NAME;
 
-app.post('/submit-form', async (req, res) => {
+app.post('/api/submit-form', async (req, res) => {
   const { name, email, phone, topic, message } = req.body;
 
   try {

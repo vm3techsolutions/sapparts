@@ -7,7 +7,7 @@ import React from "react";
 const bannerImageMap = {
    "/": "/assets/home/homeBanner.png",
 
-  "/strategy": "/assets/banners/strategy.png",
+  "/strategy": "/assets/strategy/StrategyBanner.png",
 
   "/industries/agriculture": "/assets/industries/AgricultureBanner2.png",
   "/industries/automotive": "/assets/industries/AutomotiveBanner.png",
@@ -38,7 +38,7 @@ const bannerImageMap = {
   "/MaintenanceTips/Seal-O-Fix": "/assets/home/homeBanner.png",
   "/MaintenanceTips/SealForRotovator": "/assets/home/homeBanner.png",
 
-  "/sustainability": "/assets/banners/sustainability.png",
+  "/sustainability": "/assets/sustainability/SustainabilityBanner.png",
   "/about": "/assets/home/homeBanner.png",
   "/career": "/assets/career/CareerBanner2.png",
   "/contact": "/assets/contact/contactBanner2.png",
