@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function EducationSection() {
   return (
-    <section className="bg-white Section">
+    <section className="bg-white Section sm:-mt-16">
       <div className=" mx-auto">
         
         {/* Title & Subtitle */}
