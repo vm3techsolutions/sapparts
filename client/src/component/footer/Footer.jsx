@@ -74,9 +74,9 @@ export default function Footer() {
         {/* Contact Info */}
         <div>
           <h3 className="text-[#FACC48] font-semibold text-lg mb-3">{t("Get in Touch")}</h3>
-          <p className="text-md text-gray-300 mb-2">{t("Address")}:</p>
-          <p className="text-md text-gray-300 my-5">{t("Phone")}: +91 12345 12345</p>
-          <p className="text-md text-gray-300 my-5">{t("Email")}: sales@sapparts.com</p>
+          <p className="text-md text-gray-300 mb-2">{t("Address")}</p>
+          <p className="text-md text-gray-300 my-5">{t("Phone")}: +91 - 9225546956</p>
+          <p className="text-md text-gray-300 my-5">{t("Email")}:  sales@sapparts.com </p>
           <div className="flex items-center gap-3 text-[#363636] text-2xl">
             <Link href="#"><FaFacebookF className="rounded-full bg-[#FACC48] p-1" /></Link>
             <Link href="#"><FaInstagram className="rounded-full bg-[#FACC48] p-1" /></Link>

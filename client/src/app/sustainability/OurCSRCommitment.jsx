@@ -4,7 +4,7 @@ export default function FoundationSection() {
     <section className="Section bg-white">
       {/* Title */}
       <h2 className="Heading text-center">
-         CSR Commitment
+        Our CSR Commitment
       </h2>
 
       {/* Paragraph */}
