@@ -11,6 +11,7 @@ export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const pathname = usePathname();
   const [language, setLanguage] = useState(i18n.language || "en");
+  const [openDropdown, setOpenDropdown] = useState(null);
 
   const changeLanguage = (lng) => {
     i18n.changeLanguage(lng);
@@ -86,22 +87,31 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 bg-white shadow">
       <div className="flex items-center justify-between px-4 sm:px-10 py-2">
+        {/* Logo */}
         <Link href="/" className="flex items-center">
-          <Image src="/assets/home/headerLogo.png" alt="SAP Parts" width={120} height={40} priority />
+          <Image
+            src="/assets/home/headerLogo.png"
+            alt="SAP Parts"
+            width={120}
+            height={40}
+            priority
+          />
         </Link>
 
+        {/* Desktop Nav */}
         <nav className="hidden md:flex items-center gap-1 text-[#0E509E] text-md font-medium">
           {navLinks.map((link) => (
             <div key={link.name} className="relative group">
               {link.subLinks ? (
                 <span className="px-2 py-1 cursor-pointer flex items-center gap-1 text-[#0E509E] group-hover:text-[#FACC48] hover:text-[#FACC48] transition-colors duration-200">
-  {link.name} <FiChevronDown className="text-sm mt-[1px]" />
-</span>
-
+                  {link.name} <FiChevronDown className="text-sm mt-[1px]" />
+                </span>
               ) : (
                 <Link
                   href={link.href}
-                  className={`px-2 py-1 ${pathname === link.href ? "text-[#003d7a]" : ""} hover:text-[#FACC48]`}
+                  className={`px-2 py-1 ${
+                    pathname === link.href ? "text-[#003d7a]" : ""
+                  } hover:text-[#FACC48]`}
                 >
                   {link.name}
                 </Link>
@@ -162,6 +172,7 @@ export default function Header() {
           </div>
         </nav>
 
+        {/* Mobile Button */}
         <div className="md:hidden">
           <button onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>
             {mobileMenuOpen ? (
@@ -172,6 +183,70 @@ export default function Header() {
           </button>
         </div>
       </div>
+
+      {/* Mobile Nav */}
+      {mobileMenuOpen && (
+        <div className="md:hidden bg-white border-t shadow px-4 py-3 space-y-2">
+          {navLinks.map((link, idx) => (
+            <div key={link.name}>
+              {link.subLinks ? (
+                <>
+                  <button
+                    onClick={() =>
+                      setOpenDropdown(openDropdown === idx ? null : idx)
+                    }
+                    className="flex justify-between items-center w-full text-left text-[#0E509E] font-medium py-1"
+                  >
+                    {link.name}
+                    <FiChevronDown
+                      className={`transition-transform ${
+                        openDropdown === idx ? "rotate-180" : ""
+                      }`}
+                    />
+                  </button>
+                  {openDropdown === idx && (
+                    <div className="pl-4 space-y-1">
+                      {link.subLinks.map((sub) => (
+                        <Link
+                          key={sub.name}
+                          href={sub.href}
+                          className="block text-sm text-[#0E509E] hover:text-[#FACC48] py-1"
+                        >
+                          {sub.name}
+                        </Link>
+                      ))}
+                    </div>
+                  )}
+                </>
+              ) : (
+                <Link
+                  href={link.href}
+                  className="block text-[#0E509E] font-medium py-1 hover:text-[#FACC48]"
+                >
+                  {link.name}
+                </Link>
+              )}
+            </div>
+          ))}
+
+          <Link href="/contact">
+            <button className="w-full bg-[#0E509E] text-white py-2 rounded hover:bg-[#FACC48] hover:text-black text-md mt-2">
+              {t("Contact Us")}
+            </button>
+          </Link>
+
+          <div className="mt-2">
+            <select
+              value={language}
+              onChange={(e) => changeLanguage(e.target.value)}
+              className="w-full bg-[#0E509E] text-white py-2 rounded text-sm focus:outline-none hover:bg-[#FACC48] hover:text-black"
+            >
+              <option value="en">English</option>
+              <option value="ja">Japanese</option>
+            </select>
+          </div>
+        </div>
+      )}
     </header>
   );
 }
