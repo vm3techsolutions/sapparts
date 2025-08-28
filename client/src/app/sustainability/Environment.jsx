@@ -1,15 +1,18 @@
 "use client";
 import Image from "next/image";
+import { useTranslation } from "react-i18next";
 
 export default function Environment() {
+  const { t } = useTranslation();
+
   return (
     <section className="bg-white Section">
       <div className="mx-auto">
         {/* Title & Subtitle */}
         <div className="text-center md:text-right">
-          <h2 className="Heading text-[#0E509E]">Environment</h2>
+          <h2 className="Heading text-[#0E509E]">{t("environment.title")}</h2>
           <p className="text-lg font-medium text-[#FACC48] mt-1">
-            Protecting Today, Preserving Tomorrow
+            {t("environment.subtitle")}
           </p>
         </div>
 
@@ -19,38 +22,40 @@ export default function Environment() {
           <div className="md:w-[65%] w-full flex items-start">
             <div>
               <p className="text-gray-700 leading-relaxed">
-                We understand that our planet’s resources are precious and
-                limited. At Sapparts, we integrate eco-conscious practices into
-                our operations and extend our responsibility beyond our
-                facilities to contribute to a greener tomorrow.
+                {t("environment.description")}
               </p>
 
               {/* Initiatives */}
-              <h3 className="mt-6 font-bold text-gray-900">Our Initiatives :</h3>
+              <h3 className="mt-6 font-bold text-gray-900">
+                {t("environment.initiativesTitle")}:
+              </h3>
               <ul className="mt-2 space-y-3 text-gray-700">
                 <li>
-                  <span className="font-semibold">• Tree Plantation Drives:</span>{" "}
-                  Supporting afforestation projects and green belt development in
-                  local communities.
+                  <span className="font-semibold">
+                    • {t("environment.initiatives.treePlantation.title")}:
+                  </span>{" "}
+                  {t("environment.initiatives.treePlantation.desc")}
                 </li>
                 <li>
-                  <span className="font-semibold">• Sustainable Practices:</span>{" "}
-                  Reducing energy use, managing waste responsibly, and encouraging
-                  recycling within our operations.
+                  <span className="font-semibold">
+                    • {t("environment.initiatives.sustainablePractices.title")}:
+                  </span>{" "}
+                  {t("environment.initiatives.sustainablePractices.desc")}
                 </li>
                 <li>
-                  <span className="font-semibold">• Awareness Campaigns: </span>{" "}
-                  Educating communities and employees on environmental
-                  conservation and eco-friendly practices.
+                  <span className="font-semibold">
+                    • {t("environment.initiatives.awarenessCampaigns.title")}:
+                  </span>{" "}
+                  {t("environment.initiatives.awarenessCampaigns.desc")}
                 </li>
               </ul>
 
               {/* Impact */}
-              <h3 className="mt-6 font-bold text-gray-900">Impact :</h3>
+              <h3 className="mt-6 font-bold text-gray-900">
+                {t("environment.impactTitle")}:
+              </h3>
               <p className="text-gray-700 mt-2 leading-relaxed">
-                By reducing our carbon footprint and promoting green practices, we
-                create healthier ecosystems and contribute to long-term
-                sustainability for future generations.
+                {t("environment.impactDesc")}
               </p>
             </div>
           </div>
@@ -60,7 +65,7 @@ export default function Environment() {
             <div className="border-2 border-[#FACC48] rounded-lg overflow-hidden">
               <Image
                 src="/assets/sustainability/Environment.png"
-                alt="Environment"
+                alt={t("environment.title")}
                 width={500}
                 height={350}
                 className="w-full h-auto object-cover"

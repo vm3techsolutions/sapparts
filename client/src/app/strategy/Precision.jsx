@@ -1,51 +1,45 @@
 "use client";
 import React from "react";
-
-const features = [
-  {
-    title: "Design Expertise",
-    description:
-      "Our engineers use advanced design tools and simulations to create parts that meet exact specifications while considering real-world conditions.",
-  },
-  {
-    title: "Strict Quality Control",
-    description:
-      "Every product is tested against international standards using cutting-edge inspection tools. Nothing leaves our facility without passing rigorous quality checks.",
-  },
-  {
-    title: "Industry Insights",
-    description:
-      "By studying market trends and industry shifts, we anticipate challenges customers may face tomorrow.",
-  },
-  {
-    title: "Tailored Approach",
-    description:
-      "Instead of offering “one-size-fits-all” products, we focus on developing solutions that are relevant and specific.",
-  },
-  {
-    title: "Extended Life Cycles",
-    description:
-      "Our components reduce the need for frequent replacements, cutting costs and reducing waste.",
-  },
-  {
-    title: "Sustainable Value",
-    description:
-      "Products that last longer support our customers’ goals of efficiency and responsible resource use.",
-  },
-  {
-    title: "Scalable Solutions",
-    description:
-      "We design products that serve both local needs and global applications.",
-  },
-];
+import { useTranslation } from "react-i18next";
 
 export default function FeaturesSection() {
+  const { t } = useTranslation();
+
+  const features = [
+    {
+      title: t("features.box1.title"),
+      description: t("features.box1.desc"),
+    },
+    {
+      title: t("features.box2.title"),
+      description: t("features.box2.desc"),
+    },
+    {
+      title: t("features.box3.title"),
+      description: t("features.box3.desc"),
+    },
+    {
+      title: t("features.box4.title"),
+      description: t("features.box4.desc"),
+    },
+    {
+      title: t("features.box5.title"),
+      description: t("features.box5.desc"),
+    },
+    {
+      title: t("features.box6.title"),
+      description: t("features.box6.desc"),
+    },
+    {
+      title: t("features.box7.title"),
+      description: t("features.box7.desc"),
+    },
+  ];
+
   return (
     <section className="bg-[#FACC48] Section">
       {/* Section Title */}
-      <h2 className=" text-center Heading">
-        Precision at Every Stage
-      </h2>
+      <h2 className="text-center Heading">{t("features.title")}</h2>
 
       <div className="flex flex-col items-center gap-10 mt-4">
         {/* Row 1: First 4 Cards */}

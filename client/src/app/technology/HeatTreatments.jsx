@@ -1,54 +1,50 @@
 "use client";
+import { useTranslation } from "react-i18next";
 
 export default function HeatTreatments() {
-  const processes = [
-    {
-      title: "Hardening and Tempering",
-      desc: "This basic process makes steel harder and stronger. We heat the part up, cool it very quickly in a process called quenching, and then heat it again at a lower temperature (tempering) to make it less brittle.",
-    },
-    {
-      title: "Cryogenic Treatment",
-      desc: "We make our parts even tougher by cooling them down to extremely low temperatures, as low as -196°C. This changes the metal's structure to make it much more resistant to wear and helps it keep its shape perfectly.",
-    },
-    {
-      title: "Induction Hardening",
-      desc: "This method uses a special coil to heat just the surface of a part very quickly before cooling it down. The result is a part with a super hard outer layer and a softer, tougher core, which is great for parts that take a lot of wear on the outside.",
-    },
-    {
-      title: "Carburizing, Nitriding, & Nitrocarburizing",
-      desc: "These are processes where we put carbon, nitrogen, or both into the surface of the steel. This creates a hard, durable outer layer, or 'case,' while the inside of the part stays tough.",
-    },
-    {
-      title: "Laser Treatment",
-      desc: "For very specific spots, we use a laser to heat and harden just that area. This lets us make certain parts of a component stronger without affecting the rest of it.",
-    },
-    {
-      title: "Plug Quenching",
-      desc: "This is a smart way to cool down thin or ring-shaped parts to prevent them from bending or warping. We hold the part in a special tool while it cools, so it stays perfectly in shape.",
-    },
-  ];
+   const {t} = useTranslation()
+const processes = [
+  {
+    title: t("process.hardening.title"),
+    desc: t("process.hardening.desc"),
+  },
+  {
+    title: t("process.cryogenic.title"),
+    desc: t("process.cryogenic.desc"),
+  },
+  {
+    title: t("process.induction.title"),
+    desc: t("process.induction.desc"),
+  },
+  {
+    title: t("process.carburizing.title"),
+    desc: t("process.carburizing.desc"),
+  },
+  {
+    title: t("process.laser.title"),
+    desc: t("process.laser.desc"),
+  },
+  {
+    title: t("process.plugquenching.title"),
+    desc: t("process.plugquenching.desc"),
+  },
+];
 
   return (
     <section className="Section bg-white">
       <div className=" mx-auto text-center">
         {/* Title */}
-        <h2 className="Heading text-center">Heat Treatments</h2>
+        <h2 className="Heading text-center">{t("Heat Treatments")}</h2>
         <p className="Paragraph text-center sm:px-16">
-          At SAP Parts, we have special ways to make our metal parts strong and
-          durable. We use a set of advanced treatments and high-tech furnaces to
-          change the metal's structure so it's perfect for the job it needs to
-          do.
+         {t("At SAP Parts")}
         </p>
         <p className="Paragraph text-center sm:px-16">
-          We have our own in-house furnaces, including custom ones and
-          high-quality IPSen furnaces. This gives us full control over the
-          process, allowing us to precisely manage temperature and timing to get
-          the exact properties we need.
+          {t(" We have our own")}
         </p>
 
         {/* Subtitle */}
         <h3 className="mt-8 text-xl font-semibold text-[#0E509E]">
-          Our Core Heat Treatment Processes
+         {t(" Our Core Heat Treatment Processes")}
         </h3>
       </div>
 

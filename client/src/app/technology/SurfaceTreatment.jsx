@@ -1,29 +1,35 @@
+"use client";
+
+import { useTranslation } from "react-i18next";
+
 export default function SurfaceTreatment() {
+  const { t } = useTranslation();
+
   const treatments = [
     {
       number: "01",
-      title: "Shot Blasting",
-      desc: "This controlled process uses a high velocity stream of media to clean the surface, impart a specific profile, and induce compressive residual stress.",
+      title: t("surface.treatments.1.title"),
+      desc: t("surface.treatments.1.desc"),
     },
     {
       number: "02",
-      title: "Amorphous Mn Phosphating",
-      desc: "A chemical conversion coating that forms a non-crystalline phosphate layer.",
+      title: t("surface.treatments.2.title"),
+      desc: t("surface.treatments.2.desc"),
     },
     {
       number: "03",
-      title: "Cathodic Electro–Deposition (CED) Coating",
-      desc: "An electrolytic process that applies a uniform polymer film with precise thickness.",
+      title: t("surface.treatments.3.title"),
+      desc: t("surface.treatments.3.desc"),
     },
     {
       number: "04",
-      title: "MOS2 & WS2 Coatings",
-      desc: "Molybdenum Disulfide (MoS2) & Tungsten Disulfide (WS2) are lamellar solid lubricants applied to reduce the coefficient of friction and prevent adhesive wear under high-contact pressure loads.",
+      title: t("surface.treatments.4.title"),
+      desc: t("surface.treatments.4.desc"),
     },
     {
       number: "05",
-      title: "Zn Passivation",
-      desc: "A chemical treatment applied to a zinc-coated surface to form a passive film.",
+      title: t("surface.treatments.5.title"),
+      desc: t("surface.treatments.5.desc"),
     },
   ];
 
@@ -31,22 +37,19 @@ export default function SurfaceTreatment() {
     <section className="Section bg-white">
       {/* Title */}
       <div className="text-center mx-auto">
-        <h2 className="text-3xl md:text-4xl font-bold text-[#FACC48] ">
-          Surface Treatment & Coatings
+        <h2 className="text-3xl md:text-4xl font-bold text-[#FACC48]">
+          {t("surface.title")}
         </h2>
         <h3 className="text-xl md:text-xl font-semibold text-[#0E509E] mt-2">
-          Precision Surface Treatments and Coatings
+          {t("surface.subtitle")}
         </h3>
         <p className="Paragraph text-center mt-3">
-          SAP Parts employs a suite of technically advanced surface treatment
-          and coating processes to engineer metal components for maximum
-          performance and longevity in the most demanding off-highway
-          applications.
+          {t("surface.description")}
         </p>
       </div>
 
       {/* First Row: 3 cards */}
-      <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6  mx-auto">
+      <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mx-auto">
         {treatments.slice(0, 3).map((item, idx) => (
           <div
             key={idx}

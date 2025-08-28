@@ -1,28 +1,29 @@
 "use client";
 import Image from "next/image";
+import { useTranslation } from "react-i18next";
 
 export default function EducationSection() {
+  const { t } = useTranslation();
+
   return (
     <section className="bg-white Section sm:-mt-16">
-      <div className=" mx-auto">
-        
+      <div className="mx-auto">
         {/* Title & Subtitle */}
         <div className="text-center md:text-left">
-          <h2 className="Heading text-[#0E509E]">Education</h2>
+          <h2 className="Heading text-[#0E509E]">{t("education.title")}</h2>
           <p className="text-lg font-medium text-[#FACC48] mt-1">
-            Shaping Minds, Building Futures
+            {t("education.subtitle")}
           </p>
         </div>
 
         {/* Image + Content */}
         <div className="flex flex-col md:flex-row gap-10 mt-8">
-          
           {/* Left Side - Image */}
           <div className="md:w-[35%] w-full">
             <div className="border-2 border-[#FACC48] rounded-lg overflow-hidden">
               <Image
                 src="/assets/sustainability/Education.png"
-                alt="Education"
+                alt={t("education.title")}
                 width={500}
                 height={350}
                 className="w-full h-auto object-cover"
@@ -34,38 +35,40 @@ export default function EducationSection() {
           <div className="md:w-[65%] w-full flex items-start">
             <div>
               <p className="text-gray-700 leading-relaxed">
-                We believe education is the most powerful tool for empowerment. By
-                investing in education, we aim to create opportunities, uplift
-                underprivileged communities, and nurture the next generation of
-                leaders and innovators.
+                {t("education.description")}
               </p>
 
               {/* Initiatives */}
-              <h3 className="mt-6 font-bold text-gray-900">Our Initiatives :</h3>
+              <h3 className="mt-6 font-bold text-gray-900">
+                {t("education.initiativesTitle")}:
+              </h3>
               <ul className="mt-2 space-y-3 text-gray-700">
                 <li>
-                  <span className="font-semibold">• Scholarships & Support:</span>{" "}
-                  Providing financial assistance, books, and resources to students
-                  from disadvantaged backgrounds.
+                  <span className="font-semibold">
+                    • {t("education.initiatives.scholarships.title")}:
+                  </span>{" "}
+                  {t("education.initiatives.scholarships.desc")}
                 </li>
                 <li>
-                  <span className="font-semibold">• Skill Development:</span>{" "}
-                  Organizing training and vocational programs to equip youth with
-                  employable skills.
+                  <span className="font-semibold">
+                    • {t("education.initiatives.skillDevelopment.title")}:
+                  </span>{" "}
+                  {t("education.initiatives.skillDevelopment.desc")}
                 </li>
                 <li>
-                  <span className="font-semibold">• School Partnerships:</span>{" "}
-                  Supporting local schools with infrastructure, technology, and
-                  learning materials to improve the quality of education.
+                  <span className="font-semibold">
+                    • {t("education.initiatives.schoolPartnerships.title")}:
+                  </span>{" "}
+                  {t("education.initiatives.schoolPartnerships.desc")}
                 </li>
               </ul>
 
               {/* Impact */}
-              <h3 className="mt-6 font-bold text-gray-900">Impact :</h3>
+              <h3 className="mt-6 font-bold text-gray-900">
+                {t("education.impactTitle")}:
+              </h3>
               <p className="text-gray-700 mt-2 leading-relaxed">
-                Education opens doors to brighter futures. Through our efforts, we
-                help children dream bigger, encourage young adults to become
-                self-reliant, and support families in breaking the cycle of poverty.
+                {t("education.impactDesc")}
               </p>
             </div>
           </div>

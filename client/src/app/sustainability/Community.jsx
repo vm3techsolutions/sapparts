@@ -1,15 +1,18 @@
 "use client";
 import Image from "next/image";
+import { useTranslation } from "react-i18next";
 
 export default function Community() {
+  const { t } = useTranslation();
+
   return (
     <section className="bg-white Section">
       <div className="mx-auto">
         {/* Title & Subtitle */}
         <div className="text-center md:text-right">
-          <h2 className="Heading text-[#0E509E]">Community</h2>
+          <h2 className="Heading text-[#0E509E]">{t("community.title")}</h2>
           <p className="text-lg font-medium text-[#FACC48] mt-1">
-            Empowering Communities, Enriching Lives
+            {t("community.subtitle")}
           </p>
         </div>
 
@@ -19,40 +22,40 @@ export default function Community() {
           <div className="md:w-[65%] w-full flex items-start">
             <div>
               <p className="text-gray-700 leading-relaxed">
-                We believe in giving back to the communities that support us.
-                Beyond business, we focus on improving quality of life, fostering
-                inclusion, and creating opportunities for growth within the
-                neighborhoods we operate.
+                {t("community.description")}
               </p>
 
               {/* Initiatives */}
-              <h3 className="mt-6 font-bold text-gray-900">Our Initiatives :</h3>
+              <h3 className="mt-6 font-bold text-gray-900">
+                {t("community.initiativesTitle")}:
+              </h3>
               <ul className="mt-2 space-y-3 text-gray-700">
                 <li>
-                  <span className="font-semibold">• Livelihood Support:</span>{" "}
-                  Helping women, youth, and marginalized groups with training and
-                  income-generating opportunities.
+                  <span className="font-semibold">
+                    • {t("community.initiatives.livelihoodSupport.title")}:
+                  </span>{" "}
+                  {t("community.initiatives.livelihoodSupport.desc")}
                 </li>
                 <li>
                   <span className="font-semibold">
-                    • Infrastructure Development:
+                    • {t("community.initiatives.infrastructureDevelopment.title")}:
                   </span>{" "}
-                  Supporting projects such as clean drinking water systems,
-                  sanitation facilities, and community centers.
+                  {t("community.initiatives.infrastructureDevelopment.desc")}
                 </li>
                 <li>
-                  <span className="font-semibold">• Cultural Engagement: </span>{" "}
-                  Encouraging local arts, sports, and traditions to promote unity
-                  and cultural pride.
+                  <span className="font-semibold">
+                    • {t("community.initiatives.culturalEngagement.title")}:
+                  </span>{" "}
+                  {t("community.initiatives.culturalEngagement.desc")}
                 </li>
               </ul>
 
               {/* Impact */}
-              <h3 className="mt-6 font-bold text-gray-900">Impact :</h3>
+              <h3 className="mt-6 font-bold text-gray-900">
+                {t("community.impactTitle")}:
+              </h3>
               <p className="text-gray-700 mt-2 leading-relaxed">
-                By empowering communities, we create an environment where
-                individuals feel supported, included, and capable of building
-                better lives for themselves and their families.
+                {t("community.impactDesc")}
               </p>
             </div>
           </div>
@@ -62,7 +65,7 @@ export default function Community() {
             <div className="border-2 border-[#FACC48] rounded-lg overflow-hidden">
               <Image
                 src="/assets/sustainability/Community.png"
-                alt="Community"
+                alt={t("community.title")}
                 width={500}
                 height={350}
                 className="w-full h-auto object-cover"

@@ -343,5 +343,384 @@
   "Robotic Near–Net Shape vertical Centrifugal Castings Process" : "Robotic Near–Net Shape vertical Centrifugal Castings Process",
   "Controlled Solidification with Thermal Analyzers" : "Controlled Solidification with Thermal Analyzers",
   "Proprietary alloy Cast Iron Materials" : "Proprietary alloy Cast Iron Materials",
-  "High Productivity Robotic Pouring and Automatic Inoculation" : "High Productivity Robotic Pouring and Automatic Inoculation"
+  "High Productivity Robotic Pouring and Automatic Inoculation" : "High Productivity Robotic Pouring and Automatic Inoculation",
+
+
+  "Casting Process": "Cker kaCentrifugal Casting Process",
+  "SAP Parts CENTRiCAST": "SAP Parts CENTRiCAST Process is a specialized centrifugal casting method that uses centrifugal force to produce high-quality, dense, and durable metal components like rings, sleeves, and bushings. It is particularly effective for creating wear-resistant parts from materials like Carbidic Graphitic Ni-Hard Alloy White Cast Iron.",
+  "Unique Manufacturing Processes": "Unique Manufacturing Processes",
+  "CENTRiCAST Process": "CENTRiCAST Process",
+  " This is SAP Parts": " This is SAP Parts&apos; core technology, a highly controlled centrifugal asting method. This directed solidification pushes impurities towards the inner diameter of the casting, leaving a pure, strong outer layer critical for wear-resistant applications.",
+  "Robotic Near–Net–Shape Casting": "Robotic Near–Net–Shape Casting",
+  "SAP Parts integrates advanced ": "SAP Parts integrates advanced robotics into its casting process. Robots handle critical tasks with extreme precision, from mold preparation to pouring molten metal. This level of control minimizes human error and allows for the creation of parts that are very close to their final dimensions, significantly reducing costly post-casting machining.",
+  "Proprietary Materials": "Proprietary Materials",
+  "SAP Parts has developed": "SAP Parts has developed its own proprietary metallurgical grades to meet specific performance demands that generic alloys cannot. These materials are formulated and produced exclusively using the CENTRiCAST process.",
+  "JaliKayas":"JaliKayas",
+  " This grade is engineered": " This grade is engineered for high abrasion resistances. Its composition is designed with a high volume of very fine, hard carbides, which resist the cutting and scratching action of abrasive particles. The CENTRiCAST process ensures these carbides are uniformly distributed.",
+  "KrsNayas": "KrsNayas",
+  " This grade is developed": "This grade is developed for high wear and impact resistance. KrsNayas balances extreme hardness with a degree of toughness. Its unique microstructure allows it to resist wear while withstanding fatigue and fracture that can occur under repeated impact.",
+
+  "Heat Treatments": "Heat Treatments",
+  "At SAP Parts": " At SAP Parts, we have special ways to make our metal parts strong and          durable. We use a set of advanced treatments and high-tech furnaces to change the metal's structure so it's perfect for the job it needs to do.",
+  " We have our own": "We have our own in-house furnaces, including custom ones and high-quality IPSen furnaces. This gives us full control over the process, allowing us to precisely manage temperature and timing to get the exact properties we need.",
+  " Our Core Heat Treatment Processes": " Our Core Heat Treatment Processes",
+
+    "process": {
+    "hardening": {
+      "title": "Hardening and Tempering",
+      "desc": "This basic process makes steel harder and stronger. We heat the part up, cool it very quickly in a process called quenching, and then heat it again at a lower temperature (tempering) to make it less brittle."
+    },
+    "cryogenic": {
+      "title": "Cryogenic Treatment",
+      "desc": "We make our parts even tougher by cooling them down to extremely low temperatures, as low as -196°C. This changes the metal's structure to make it much more resistant to wear and helps it keep its shape perfectly."
+    },
+    "induction": {
+      "title": "Induction Hardening",
+      "desc": "This method uses a special coil to heat just the surface of a part very quickly before cooling it down. The result is a part with a super hard outer layer and a softer, tougher core, which is great for parts that take a lot of wear on the outside."
+    },
+    "carburizing": {
+      "title": "Carburizing, Nitriding, & Nitrocarburizing",
+      "desc": "These are processes where we put carbon, nitrogen, or both into the surface of the steel. This creates a hard, durable outer layer, or 'case,' while the inside of the part stays tough."
+    },
+    "laser": {
+      "title": "Laser Treatment",
+      "desc": "For very specific spots, we use a laser to heat and harden just that area. This lets us make certain parts of a component stronger without affecting the rest of it."
+    },
+    "plugquenching": {
+      "title": "Plug Quenching",
+      "desc": "This is a smart way to cool down thin or ring-shaped parts to prevent them from bending or warping. We hold the part in a special tool while it cools, so it stays perfectly in shape."
+    }
+  },
+   "precisionMachining": {
+    "title": "Precision Machining",
+    "topDesc": "At SAP Parts, we don't just cast high-performance materials; we finish them with a level of precision that meets the most stringent industry standards. Our state-of-the-art machining capabilities are designed to produce components with the complex geometries and exacting tolerances required for modern heavy industries.",
+    "cards": [
+      {
+        "title": "Advanced CNC Machining",
+        "desc": "Our foundation is built on the power of CNC Turning and Vertical Machining Centers (VMC). These automated systems allow us to perform complex, multi-axis operations with unmatched accuracy. We routinely achieve sub-micron-level tolerances and superior surface finishes, ensuring that every component delivers a perfect fit and reliable performance. This precision is essential for parts that must operate flawlessly under extreme conditions."
+      },
+      {
+        "title": "EDM Wire Cutting",
+        "desc": "For materials too hard or profiles too intricate for traditional cutting tools, we utilize Electrical Discharge Machining (EDM). Our wire cutting process uses an electrically charged wire to precisely slice through metal, regardless of its hardness. This capability enables us to create intricate internal shapes, sharp corners, and complex, non-linear profiles that are impossible to produce with conventional machining methods."
+      },
+      {
+        "title": "Customized SPMs",
+        "desc": "To address unique production challenges and facilitate the development of innovative products, we design and build Customized Special Purpose Machines (SPMs). These bespoke machines are engineered to automate highly specific tasks and machine unusual geometries that fall outside the scope of standard equipment. This flexibility allows us to create components with tailored specifications, giving our clients a significant competitive edge."
+      }
+    ],
+    "bottomDesc": "Our comprehensive approach to precision machining, from initial casting to final finishing, ensures that every component we deliver is a perfect embodiment of quality, accuracy, and engineering excellence."
+  },
+
+    "grinding": {
+    "title": "Grinding and Superfinishing",
+    "description": "SAP Parts' commitment to quality is underscored by its advanced precision grinding capabilities, which are essential for achieving the extremely tight tolerances and superior surface finishes required for high-performance components. Our state-of-the-art grinding machines are an integral part of our manufacturing process, ensuring that products such as bushings, sleeves, bearings, and metal face seals perform flawlessly in demanding applications.",
+    "subtitle": "Our Precision Grinding Processes",
+    "processes": {
+      "centerless": {
+        "title": "Centerless Grinding",
+        "desc": "This process is employed for grinding the external diameter of cylindrical parts without the need for a central mount. It is highly efficient for high-volume production and ensures exceptional concentricity and dimensional accuracy, which is vital for components like shafts and pins."
+      },
+      "bore": {
+        "title": "Bore Grinding",
+        "desc": "To achieve precise internal diameters, we utilize bore grinding. This method is crucial for components such as bushings and sleeves, where the inner surface must meet exacting specifications for fit and function. Bore grinding ensures the component can house other parts with minimal friction and maximum stability."
+      },
+      "surface": {
+        "title": "Surface Grinding",
+        "desc": "We employ surface grinding to produce flat, parallel surfaces with a high degree of flatness and a smooth finish. This process is essential for components like metal face seals, where a perfectly flat surface is required for a reliable, leak-proof seal. Our advanced surface grinding setups ensure that every part meets the highest standards for flatness and parallelism."
+      }
+    }
+  },
+
+   "machineImage": {
+    "title": "Lapping & Superfinishing",
+    "para1": "SAP Parts' lapping and superfinishing capabilities represent a key expertise, particularly for the production of highly reliable metal face seals. This advanced multi-stage process refines the surface characteristics of components to achieve a level of precision that is essential for flawless sealing, a capability born from decades of dedicated research and hands-on experience in the field.",
+    "para2": "This unparalleled expertise is embodied in SAP Parts' self-made Special Purpose Lapping Machines (SPLMs), which are engineered through a proprietary, time-tested process to deliver predictable and repeatable surface properties with exceptional consistency. These machines are custom-built and fine-tuned for the specific materials and geometries of our components, making our process truly unique and inimitable.",
+    "para3": "The outcome of these precise processes is a seal with meticulously controlled surface properties. These attributes—including Roughness, Flatness, and Bearing Ratio—are achieved with great accuracy and skill for the seals to perform predictably. By controlling these key parameters through their proprietary SPMs and time-tested methods, SAP Parts can deliver lapped seals that provide the highest level of performance and reliability in the industry."
+  } ,
+
+    "elastomer": {
+    "title": "Elastomer Moulding and Polymer Products",
+    "description": "At SAP Parts, our in-house elastomer manufacturing shop provides us with a distinct advantage in producing highly reliable O-rings and T-rings for metal face seals. This integrated capability allows for complete control over the entire process, from material selection to the final product.",
+    "box1": {
+      "title": "Diverse Material Expertise",
+      "desc": "We work with a wide range of high-performance rubber grades, including NBR, HNBR, NBR-LT, FKM, and Silicone, ensuring we can select the perfect material to meet your application's specific demands."
+    },
+    "box2": {
+      "title": "Application-Specific Development",
+      "desc": "Our dedicated R&D team develops and validates proprietary elastomer solutions tailored for the harsh conditions of off-highway applications."
+    },
+    "box3": {
+      "title": "Rigorous Validation",
+      "desc": "Through advanced testing protocols that simulate real-world environments, we precisely characterize a polymer's performance against stresses like high-speed rotation and extreme temperatures."
+    },
+    "box4": {
+      "title": "Proven Reliability",
+      "desc": "This meticulous, scientific approach guarantees that our elastomer components are not only perfectly matched to their metal counterparts but are also proven to provide predictable and durable sealing performance."
+    }
+  },
+
+   "surface": {
+    "title": "Surface Treatment & Coatings",
+    "subtitle": "Precision Surface Treatments and Coatings",
+    "description": "SAP Parts employs a suite of technically advanced surface treatment and coating processes to engineer metal components for maximum performance and longevity in the most demanding off-highway applications.",
+    "treatments": {
+      "1": {
+        "title": "Shot Blasting",
+        "desc": "This controlled process uses a high velocity stream of media to clean the surface, impart a specific profile, and induce compressive residual stress."
+      },
+      "2": {
+        "title": "Amorphous Mn Phosphating",
+        "desc": "A chemical conversion coating that forms a non-crystalline phosphate layer."
+      },
+      "3": {
+        "title": "Cathodic Electro–Deposition (CED) Coating",
+        "desc": "An electrolytic process that applies a uniform polymer film with precise thickness."
+      },
+      "4": {
+        "title": "MOS2 & WS2 Coatings",
+        "desc": "Molybdenum Disulfide (MoS2) & Tungsten Disulfide (WS2) are lamellar solid lubricants applied to reduce the coefficient of friction and prevent adhesive wear under high-contact pressure loads."
+      },
+      "5": {
+        "title": "Zn Passivation",
+        "desc": "A chemical treatment applied to a zinc-coated surface to form a passive film."
+      }
+    }
+  },
+
+    "quoting": {
+    "imageAlt": "Workers performing validation tests",
+    "title": "Quoting performance validation",
+    "desc1": {
+      "before": "To ensure the reliability of these treatments, SAP Parts utilizes advanced, in-house test protocols:",
+      "bold": "Continuous Salt Spray Test:",
+      "after": "It rigorously evaluates the coating's ability to withstand harsh corrosive environments over an extended period."
+    },
+    "desc2": {
+      "bold": "Electro potentiometric Analysis:",
+      "after": "A sophisticated electrochemical technique used to precisely measure and characterize the corrosion potential and galvanic behavior of the coated material, providing a quantitative assessment of its protective properties."
+    },
+    "desc3": {
+      "bold": "Adhesion Testing:",
+      "after": "This protocol measures the bond strength between the coating and the substrate."
+    }
+  } ,
+
+    "powder": {
+    "title": "Powder Metallurgy – Sintering Process",
+    "subtitle1": "Precision Powder Metallurgy for Complex Geometries",
+    "desc1": "SAP Parts possesses a unique and advanced capability in the design, development, and manufacturing of powder metallurgy sintered products. At our state-of-the-art facility, we leverage proprietary processes and specialized equipment to produce components with intricate geometries that meet the rigorous demands of off-highway applications. This in-house expertise ensures full control over every stage of production, from powder compaction to final sintering, guaranteeing consistent quality and performance.",
+    "desc2": "Our core strength lies in our sophisticated Hot Air Rapid De-lube Sintering Furnace. This cutting-edge equipment is the heart of our operation, offering a level of control and precision that sets us apart. For the cleanest possible parts, the furnace features a hot air rapid delubing system with electric heating.",
+    "desc3": "The sintering process itself is managed with exceptional accuracy. The furnace is equipped with multi-zone sintering sections and Refractory Embedded Heaters, allowing for precise temperature profiles and uniform heating. All processes are monitored and managed by a comprehensive SCADA system, which provides customized furnace control and a robust quality management framework, ensuring every sintered component meets the highest standards for strength, durability, and reliability.",
+    "subtitle2": "Integrated Tooling & Prototyping",
+    "desc4": "A key component of our powder metallurgy capability is our in-house expertise in designing and developing tooling for various intricate profiles. This allows us to rapidly create prototypes and mass-produce complex components such as sleeves, gears, latches, and many more. By managing the entire tooling process internally, we can ensure the highest level of precision and consistency, reducing lead times and providing a seamless transition from design to final production. This integrated approach ensures that even the most complex geometries are manufactured with exceptional accuracy and efficiency."
+  },
+
+    "foundation": {
+    "title": "Our CSR Commitment",
+    "desc": "At Sapparts, we believe that true growth is meaningful only when it contributes to the well-being of people, society, and the environment. Beyond business, we see it as our responsibility to create a positive impact that lasts. Our CSR initiatives are guided by four core focus areas: Education, Environment, Healthcare, and Community."
+  },
+
+   "education": {
+    "title": "Education",
+    "subtitle": "Shaping Minds, Building Futures",
+    "description": "We believe education is the most powerful tool for empowerment. By investing in education, we aim to create opportunities, uplift underprivileged communities, and nurture the next generation of leaders and innovators.",
+    "initiativesTitle": "Our Initiatives",
+    "initiatives": {
+      "scholarships": {
+        "title": "Scholarships & Support",
+        "desc": "Providing financial assistance, books, and resources to students from disadvantaged backgrounds."
+      },
+      "skillDevelopment": {
+        "title": "Skill Development",
+        "desc": "Organizing training and vocational programs to equip youth with employable skills."
+      },
+      "schoolPartnerships": {
+        "title": "School Partnerships",
+        "desc": "Supporting local schools with infrastructure, technology, and learning materials to improve the quality of education."
+      }
+    },
+    "impactTitle": "Impact",
+    "impactDesc": "Education opens doors to brighter futures. Through our efforts, we help children dream bigger, encourage young adults to become self-reliant, and support families in breaking the cycle of poverty."
+  },
+
+   "environment": {
+    "title": "Environment",
+    "subtitle": "Protecting Today, Preserving Tomorrow",
+    "description": "We understand that our planet’s resources are precious and limited. At Sapparts, we integrate eco-conscious practices into our operations and extend our responsibility beyond our facilities to contribute to a greener tomorrow.",
+    "initiativesTitle": "Our Initiatives",
+    "initiatives": {
+      "treePlantation": {
+        "title": "Tree Plantation Drives",
+        "desc": "Supporting afforestation projects and green belt development in local communities."
+      },
+      "sustainablePractices": {
+        "title": "Sustainable Practices",
+        "desc": "Reducing energy use, managing waste responsibly, and encouraging recycling within our operations."
+      },
+      "awarenessCampaigns": {
+        "title": "Awareness Campaigns",
+        "desc": "Educating communities and employees on environmental conservation and eco-friendly practices."
+      }
+    },
+    "impactTitle": "Impact",
+    "impactDesc": "By reducing our carbon footprint and promoting green practices, we create healthier ecosystems and contribute to long-term sustainability for future generations."
+  },
+
+    "foundation": {
+    "title": "Our Promise to Society",
+    "description": "At Sapparts, CSR is not an obligation—it is a commitment. We see ourselves as partners in the progress of the communities we touch. Through education, environment, healthcare, and community initiatives, we aim to create long-lasting impact that goes beyond business success.",
+    "subDescription": "Together, we build stronger people, a healthier planet, and a brighter future."
+  },
+
+   "healthcare": {
+    "title": "Healthcare",
+    "subtitle": "Health as the Foundation of Progress",
+    "description": "A healthy society is a strong society. We are committed to improving access to healthcare, promoting wellness, and supporting medical initiatives that make essential services available to those in need.",
+    "initiativesTitle": "Our Initiatives",
+    "initiatives": {
+      "medicalCamps": {
+        "title": "Medical Camps",
+        "desc": "Organizing free health check-ups, eye camps, and vaccination drives in underserved areas."
+      },
+      "healthAwareness": {
+        "title": "Health Awareness",
+        "desc": "Promoting preventive healthcare through workshops on nutrition, hygiene, and fitness."
+      },
+      "supportPrograms": {
+        "title": "Support Programs",
+        "desc": "Assisting local hospitals and clinics with resources, equipment, and emergency aid."
+      }
+    },
+    "impactTitle": "Impact",
+    "impactDesc": "Our healthcare initiatives help reduce medical disparities, raise awareness about preventive care, and improve the overall well-being of communities, ensuring that progress is not hindered by lack of access to health services."
+  },
+
+   "community": {
+    "title": "Community",
+    "subtitle": "Empowering Communities, Enriching Lives",
+    "description": "We believe in giving back to the communities that support us. Beyond business, we focus on improving quality of life, fostering inclusion, and creating opportunities for growth within the neighborhoods we operate.",
+    "initiativesTitle": "Our Initiatives",
+    "initiatives": {
+      "livelihoodSupport": {
+        "title": "Livelihood Support",
+        "desc": "Helping women, youth, and marginalized groups with training and income-generating opportunities."
+      },
+      "infrastructureDevelopment": {
+        "title": "Infrastructure Development",
+        "desc": "Supporting projects such as clean drinking water systems, sanitation facilities, and community centers."
+      },
+      "culturalEngagement": {
+        "title": "Cultural Engagement",
+        "desc": "Encouraging local arts, sports, and traditions to promote unity and cultural pride."
+      }
+    },
+    "impactTitle": "Impact",
+    "impactDesc": "By empowering communities, we create an environment where individuals feel supported, included, and capable of building better lives for themselves and their families."
+  },
+
+    "foundation": {
+    "title": "The Foundation of Everything We Do",
+    "description": "At Sapparts, engineering is not just a process—it is the foundation of our identity. With decades of experience in precision manufacturing, we have built a reputation for delivering components that are not only reliable but also trusted by industries worldwide. Engineering excellence is our promise, ensuring that every solution we deliver is crafted with care, accuracy, and innovation. We believe innovation should never be innovation for its own sake. True innovation begins by listening to customers, understanding their unique challenges, and designing solutions that truly make a difference. For us, customers are not just buyers—they are partners in shaping better, smarter, and more efficient products. Sustainability is more than a responsibility—it’s a mindset. We are committed to building products and processes that contribute to a better tomorrow. For us, sustainability and longevity go hand in hand: by making products that last longer, we reduce waste, conserve resources, and support a greener future. Our reach is global—but our approach is local. We combine the strength of international expertise with the trust of local relationships. This dual focus ensures that our customers receive world-class products backed by personalized support wherever they are."
+  },
+
+   "features": {
+    "title": "Precision at Every Stage",
+    "list": [
+      {
+        "title": "Design Expertise",
+        "description": "Our engineers use advanced design tools and simulations to create parts that meet exact specifications while considering real-world conditions."
+      },
+      {
+        "title": "Strict Quality Control",
+        "description": "Every product is tested against international standards using cutting-edge inspection tools. Nothing leaves our facility without passing rigorous quality checks."
+      },
+      {
+        "title": "Industry Insights",
+        "description": "By studying market trends and industry shifts, we anticipate challenges customers may face tomorrow."
+      },
+      {
+        "title": "Tailored Approach",
+        "description": "Instead of offering “one-size-fits-all” products, we focus on developing solutions that are relevant and specific."
+      },
+      {
+        "title": "Extended Life Cycles",
+        "description": "Our components reduce the need for frequent replacements, cutting costs and reducing waste."
+      },
+      {
+        "title": "Sustainable Value",
+        "description": "Products that last longer support our customers’ goals of efficiency and responsible resource use."
+      },
+      {
+        "title": "Scalable Solutions",
+        "description": "We design products that serve both local needs and global applications."
+      }
+    ]
+  },
+
+   "featureCards": {
+    "title": "Innovation Through Engineering",
+    "description": "Excellence is not just about maintaining standards—it’s about pushing them higher. Our engineering teams constantly explore new materials, technologies, and methods to improve product performance and durability. We believe innovation should never be innovation for its own sake. True innovation begins by listening to customers, understanding their unique challenges, and designing solutions that truly make a difference. For us, customers are not just buyers—they are partners in shaping better, smarter, and more efficient products.",
+    "box1": {
+      "title": "Customized Engineering",
+      "desc": "From redesigning existing parts to creating completely new solutions, we adapt our engineering to customer requirements."
+    },
+    "box2": {
+      "title": "Technology Integration",
+      "desc": "We leverage new technologies, better materials, advanced machining, and smarter designs to deliver superior results."
+    },
+    "box3": {
+      "title": "Agile Development",
+      "desc": "Our flexible processes allow us to respond quickly to customer needs, reducing time-to-market for customized products."
+    },
+    "box4": {
+      "title": "Energy Efficiency",
+      "desc": "Optimized manufacturing processes reduce energy consumption."
+    },
+    "box5": {
+      "title": "Waste Reduction",
+      "desc": "Smart production methods ensure minimal scrap and better resource utilization."
+    },
+    "box6": {
+      "title": "Recycling Initiatives",
+      "desc": "We reuse materials wherever possible, ensuring circular benefits."
+    }
+  },
+
+    "features": {
+    "title": "Precision at Every Stage",
+    "box1": {
+      "title": "Design Expertise",
+      "desc": "Our engineers use advanced design tools and simulations to create parts that meet exact specifications while considering real-world conditions."
+    },
+    "box2": {
+      "title": "Strict Quality Control",
+      "desc": "Every product is tested against international standards using cutting-edge inspection tools. Nothing leaves our facility without passing rigorous quality checks."
+    },
+    "box3": {
+      "title": "Industry Insights",
+      "desc": "By studying market trends and industry shifts, we anticipate challenges customers may face tomorrow."
+    },
+    "box4": {
+      "title": "Tailored Approach",
+      "desc": "Instead of offering “one-size-fits-all” products, we focus on developing solutions that are relevant and specific."
+    },
+    "box5": {
+      "title": "Extended Life Cycles",
+      "desc": "Our components reduce the need for frequent replacements, cutting costs and reducing waste."
+    },
+    "box6": {
+      "title": "Sustainable Value",
+      "desc": "Products that last longer support our customers’ goals of efficiency and responsible resource use."
+    },
+    "box7": {
+      "title": "Scalable Solutions",
+      "desc": "We design products that serve both local needs and global applications."
+    }
+  },
+
+    "centerSection": {
+    "title": "Commitment to Excellence",
+    "description": "Our journey in engineering is not static—it evolves every day. By combining our legacy of expertise with modern tools, sustainability practices, and a customer-first mindset, we continue to raise the bar for what engineering excellence means in today’s world. Engineering excellence is more than a standard—it’s a responsibility. A responsibility to deliver value, build trust, and contribute to the success of every customer we serve. We treat innovation as a journey we take together with our customers. By combining their vision with our engineering expertise, we create solutions that go beyond expectations. At Sapparts, every innovation starts with a customer—and ends with customer success. We believe sustainability is not a trend—it’s a necessity. By focusing on durability, responsible manufacturing, and eco-conscious innovation, we ensure that our progress today protects opportunities for the generations of tomorrow. At Sapparts, sustainability is built into every product, every process, and every partnership. At Sapparts, our goal is simple: to be a global company that feels like a local partner. With international expertise and local commitment, we ensure that no matter where our customers are, they always feel supported, valued, and understood."
+  }
+
 }
