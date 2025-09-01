@@ -1,32 +1,28 @@
+"use client";
+import { useTranslation } from "react-i18next";
 
 export default function MaterialsSizes() {
+  const { t } = useTranslation();
+
+  const leftPoints = t("materialsSizes2.left.points", { returnObjects: true });
+  const rightPoints = t("materialsSizes2.right.points", { returnObjects: true });
+
   return (
     <section className="bg-[#FACC48] Section">
       <h2 className="Heading text-center">
-        Materials, Sizes, and Tolerances
+        {t("materialsSizes2.sectionTitle")}
       </h2>
 
-      <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 sm:gap-0 items-start mt-9 ">
+      <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 sm:gap-0 items-start mt-9">
         {/* Left Column */}
-        <div className="text-[#0E509E] ">
+        <div className="text-[#0E509E]">
           <h3 className="text-2xl font-semibold text-center mb-4">
-            Material Grades
-
+            {t("materialsSizes2.left.title")}
           </h3>
           <ul className="text-[#363636] font-semibold space-y-5 list-disc list-outside pl-4">
-            <li>Iron-Carbon (Fe-C)</li>
-            <li>
-             Iron-Copper-Carbon (Fe-Cu-C)
-            </li>
-            <li>
-             Copper-Infiltrated Iron
-            </li>
-            <li>
-             Bronze-Based (CuSn, CuZn)
-            </li>
-            <li>
-            Alloy Additives: Nickel, Molybdenum, Graphite
-            </li>
+            {leftPoints.map((point, idx) => (
+              <li key={idx}>{point}</li>
+            ))}
           </ul>
         </div>
 
@@ -38,21 +34,12 @@ export default function MaterialsSizes() {
         {/* Right Column */}
         <div className="text-[#0E509E]">
           <h3 className="text-2xl font-semibold text-center mb-4">
-            Sizing & Tolerances
-
+            {t("materialsSizes2.right.title")}
           </h3>
           <ul className="text-[#363636] font-semibold space-y-5 list-disc list-outside pl-4">
-            <li>Density: 6.0 – 7.2 g/cm³</li>
-            <li>
-             Tolerance: Up to ±0.02 mm
-            </li>
-            <li>
-             Surface Finish: Steam treated / resin impregnated / machined / coated
-
-            </li>
-               <li>
-            Customization: Based on client drawing or use case
-            </li>
+            {rightPoints.map((point, idx) => (
+              <li key={idx}>{point}</li>
+            ))}
           </ul>
         </div>
       </div>

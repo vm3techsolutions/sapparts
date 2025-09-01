@@ -721,6 +721,495 @@
     "centerSection": {
     "title": "Commitment to Excellence",
     "description": "Our journey in engineering is not static—it evolves every day. By combining our legacy of expertise with modern tools, sustainability practices, and a customer-first mindset, we continue to raise the bar for what engineering excellence means in today’s world. Engineering excellence is more than a standard—it’s a responsibility. A responsibility to deliver value, build trust, and contribute to the success of every customer we serve. We treat innovation as a journey we take together with our customers. By combining their vision with our engineering expertise, we create solutions that go beyond expectations. At Sapparts, every innovation starts with a customer—and ends with customer success. We believe sustainability is not a trend—it’s a necessity. By focusing on durability, responsible manufacturing, and eco-conscious innovation, we ensure that our progress today protects opportunities for the generations of tomorrow. At Sapparts, sustainability is built into every product, every process, and every partnership. At Sapparts, our goal is simple: to be a global company that feels like a local partner. With international expertise and local commitment, we ensure that no matter where our customers are, they always feel supported, valued, and understood."
+  },
+
+   "products": {
+    "mechanicalFaceSeals": "Mechanical Face Seals",
+    "bushings": "Bushings",
+    "sinteredProducts": "Sintered Products",
+    "pumpValvesComponents": "Pump & Valves Components",
+    "sapHubBearings": "SAP Hub Bearings",
+    "precisionComponents": "Precision Components"
+  },
+
+  "FPhone": "Phone: +91 - 9225546956",
+  "FEmail": "Email: sales@sapparts.com",
+
+   "productOverview": {
+    "title": "Product Overview",
+    "description": "Designed for rotating applications in abrasive and abrasive environments, SAP Parts™ Mechanical Face Seals deliver unmatched durability and wear performance. These robust seals use lapped metal-on-metal faces, supported by elastomeric preloading elements, ensuring static sealing and long operational lifetimes without leakage."
+  },
+
+   "applications": {
+    "sectionTitle": "Applications & Industry Use Cases",
+    "case1": {
+      "title": "Construction & Mining Equipment",
+      "point1": "Seals for axle, roller, transmission, and cabin applications exposed to sand, grit, mud, and dust"
+    },
+    "case2": {
+      "title": "Agricultural Machinery",
+      "point1": "Used in rotating joints, undercarriage, and PTO systems where lubricant and debris ingress resistance is critical"
+    },
+    "case3": {
+      "title": "Industrial & Heavy Engineering",
+      "point1": "Heavy axle and shaft sealing under extreme contamination, vibration, and load"
+    }
+  },
+
+   "technicalSpecs": {
+    "sectionTitle": "Technical Specifications & Features",
+    "feature": "Feature",
+    "benefit": "Benefit",
+    "row1": {
+      "feature": "Precision-lapped metal seal faces",
+      "benefit": "Smooth interruption-free contact; no micro-scratches"
+    },
+    "row2": {
+      "feature": "Self-renewing seal geometry",
+      "benefit": "Maintains sealing performance as wear progresses"
+    },
+    "row3": {
+      "feature": "Elastomeric preloaded O-rings or Torric rings",
+      "benefit": "Constant axial contact and torque transmission"
+    },
+    "row4": {
+      "feature": "Supports peripheral sliding speeds up to ~5–10 m/s",
+      "benefit": "Prevents cold welding while enabling wear control"
+    },
+    "row5": {
+      "feature": "Special alloy materials (Ni-Hard cast iron, forged steel)",
+      "benefit": "High hardness (58–75 HRC), exceptional wear and corrosion resistance"
+    },
+    "row6": {
+      "feature": "CED coatings available",
+      "benefit": "Adds salt-spray protection (≥1000 h as per ASTM B117)"
+    },
+    "row7": {
+      "feature": "Multiple elastomer options (NBR, Viton, HNBR)",
+      "benefit": "Temperature, chemical, and wear resistance tailored to your application"
+    }
+  },
+
+    "materialsSizes": {
+    "sectionTitle": "Materials, Sizes, and Tolerances",
+    "metalSealRings": {
+      "title": "Metal Seal Rings:",
+      "detail1": "Ni-Hard Cast Iron: Carbide-martensite structure, naturally 58–64 HRC",
+      "detail2": "Forged Steel (SAE 52100-grade): Tempered martensite, up to 65 HRC for maximum wear resistance"
+    },
+    "elastomer": {
+      "title": "Elastomer Elements:",
+      "detail1": "NBR, NBR-LT, HNBR, Viton (FKM), Silicone selected per temperature, oil or abrasion requirements"
+    },
+    "sizeRange": "Size Range: OD from 50 mm up to 1300 mm",
+    "oRingCompression": "O-Ring Compression: ~25% volumetric compressed in housing ramp profile for optimal sealing and alignment",
+    "surfaceFinish": {
+      "title": "Surface Finish:",
+      "detail1": "Machining quality of Rz 10 µm (Ra ≤ 6.5 µm), scratch/pore-free housing & seal surfaces recommended"
+    }
+  },
+
+   "manufacturingTesting": {
+    "sectionTitle": "Manufacturing & Testing Capabilities (Product-Specific)",
+    "description": "SAP Parts™ manufactures bushings in a vertically integrated facility, ensuring full control over quality, material traceability, and turnaround time.",
+    "left": {
+      "title": "Manufacturing & Design Features",
+      "features": [
+        "Two geometrically identical metal rings installed face-to-face in matching housings, supported by elastomer rings (DO-type) or trapezoid Torric rings (DF-type)",
+        "Housing geometry and ramp angle are optimized for oil retention and ring preload",
+        "Custom seal designs available for non-standard sizes, housing configurations, or novel elastomer/metal materials"
+      ]
+    },
+    "right": {
+      "title": "Testing & Validation",
+      "features": [
+        "Each seal undergoes rigorous assembly tolerance and face flatness testing",
+        "Performance proven for continuous peripheral speeds up to 10 m/s and operating temperatures from –55 °C to +200 °C",
+        "Validated for performance in corrosive and abrasive media in compliance with international standards"
+      ]
+    }
+  },
+
+  "requestQuote": {
+    "title": "Request a Quote",
+    "subtitle": "Let’s Build with Precision",
+    "description": "Looking for a bushing that resists wear, delivers performance, and reduces maintenance? Our engineering team is ready to help you customise or select the perfect fit.",
+    "button": "Get A Quote",
+    "imageAlt": "Request a Quote"
+  },
+
+   "productOverview": {
+    "title": "Product Overview",
+    "subtitleLine1": "High-Performance Steel & Non-Ferrous Bushings",
+    "subtitleLine2": "Precision-Engineered. Heat-Treated. Built to Endure.",
+    "description": "SAP Parts™ offers an extensive range of hardened steel and non-ferrous bushings designed for high-load, wear-intensive environments. With in-house heat treatment and CNC machining capabilities, our bushings deliver tight tolerances, extended service life, and superior load-bearing performance for demanding OEM applications.",
+    "imageAlt": "Bushings"
+  },
+
+   "applications": {
+    "sectionTitle": "Applications & Industry Use Cases",
+    "case1": {
+      "title": "Construction & Mining Equipment",
+      "point1": "Excavator boom, arm, bucket linkages",
+      "point2": "Backhoe loader joints",
+      "point3": "Hydraulic cylinders (tail & eye ends)"
+    },
+    "case2": {
+      "title": "Agricultural Machinery",
+      "point1": "Tractor kingpins",
+      "point2": "Pillow blocks and central sleeves",
+      "point3": "Plough joints and pivot points"
+    },
+    "case3": {
+      "title": "Automotive & Transmission",
+      "point1": "Gearbox and axle components",
+      "point2": "Synchronizer hubs"
+    },
+    "case4": {
+      "title": "Defence & Heavy Engineering",
+      "point1": "Industrial actuators",
+      "point2": "Military mobility systems"
+    }
+  },
+
+  "technicalSpecs": {
+  "sectionTitle": "Technical Specifications & Features",
+  "table": {
+    "feature": "Feature",
+    "benefit": "Benefit",
+    "rows": {
+      "row1": {
+        "feature": "Alloy steel grades (e.g., 100Cr6, SCM415, 20MnCr5)",
+        "benefit": "High wear resistance under continuous load"
+      },
+      "row2": {
+        "feature": "Oil-grooved bushing profiles",
+        "benefit": "Enhanced lubrication, reduced friction, longer operational life"
+      },
+      "row3": {
+        "feature": "Case carburizing / nitriding",
+        "benefit": "Improved hardness, fatigue strength, and corrosion resistance"
+      },
+      "row4": {
+        "feature": "Induction hardening",
+        "benefit": "Targeted surface strengthening for high-load zones"
+      },
+      "row5": {
+        "feature": "Tight tolerance machining",
+        "benefit": "Accurate press-fits and extended part life"
+      },
+      "row6": {
+        "feature": "Custom diameters (30–300 mm)",
+        "benefit": "Direct interchangeability with OEM and aftermarket parts"
+      }
+    }
   }
+},
+
+"materialsSizes": {
+  "sectionTitle": "Materials, Sizes, and Tolerances",
+  "steel": {
+    "title": "Steel Hardened Bushings",
+    "points": {
+      "point1": "OD Range: 20 mm to 300 mm",
+      "point2": "Materials: 100Cr6, 20MnCr5, C45, SAE 4140, SCM415, ST52, 16MnCr5, FE510",
+      "point3": "Surface Treatments: Case Carburizing, Nitriding, Nitro–Carburizing, Carbo–Nitriding, Induction Hardening"
+    }
+  },
+  "nonFerrous": {
+    "title": "Non-Ferrous Bushings",
+    "points": {
+      "point1": "OD Range: 50 mm to 300 mm",
+      "point2": "Materials:\nBronze: C96900, C93200, C86500, CuSn8P\nBrass: C86300, CuZn39Pb3",
+      "point3": "Tolerances\nMachined to ±0.02 mm\nOptimized for high-load press–fit and sliding assemblies"
+    }
+  }
+},
+
+"manufacturingTesting": {
+  "sectionTitle": "Manufacturing & Testing Capabilities (Product-Specific)",
+  "description": "SAP Parts™ manufactures bushings in a vertically integrated facility, ensuring full control over quality, material traceability, and turnaround time.",
+  "leftCard": {
+    "title": "In–House Production Capabilities",
+    "points": {
+      "point1": "CNC Turning, VMC, Bore & Centerless Grinding",
+      "point2": "German SQF Ipsen Heat Treatment Plant",
+      "point3": "Surface Treatments: CED Coating, MoS₂, WS₂, Zn Plating"
+    }
+  },
+  "rightCard": {
+    "title": "Testing & Quality Assurance",
+    "points": {
+      "point1": "Micro Vickers Hardness & Roughness Testing",
+      "point2": "Load Testing up to 50T with ±30° axial rotation",
+      "point3": "Inverted Microscopy, Roundness, and Counter Tracers",
+      "point4": "ISO 9001:2015 Certified Processes"
+    }
+  }
+},
+
+"productOverview": {
+  "sectionTitle": "Product Overview",
+  "description1": "SAP Parts™ specializes in high-performance sintered components produced through advanced powder metallurgy. Designed for precision, durability, and cost-efficiency, these components serve critical roles in automotive, agricultural, electrical, and industrial applications.",
+  "description2": "Our in-house sintering facilities and German furnace technology enable consistent part quality across standard and custom designs—meeting both Indian and global OEM standards."
+},
+
+"applicationsUseCases": {
+  "sectionTitle": "Applications & Industry Use Cases",
+  "case1": {
+    "title": "Automotive",
+    "points": [
+      "Transmission gears",
+      "Synchronizer hubs",
+      "Locking rings"
+    ]
+  },
+  "case2": {
+    "title": "Agriculture",
+    "points": [
+      "Clutch bushings",
+      "Power take-off (PTO) shafts",
+      "Precision bearings"
+    ]
+  },
+  "case3": {
+    "title": "Electrical",
+    "points": [
+      "Armatures",
+      "Contact plates",
+      "Magnetically soft components"
+    ]
+  },
+  "case4": {
+    "title": "Industrial Machinery",
+    "points": [
+      "Conveyor bushings",
+      "Hydraulic valves",
+      "Small mechanisms requiring tight tolerances and low friction"
+    ]
+  }
+},
+
+"technicalSpecs2": {
+  "sectionTitle": "Technical Specifications & Features",
+  "table": {
+    "headers": {
+      "feature": "Feature",
+      "benefit": "Benefit"
+    },
+    "rows": [
+      {
+        "feature": "Consistent Porosity Control",
+        "benefit": "Retains lubrication; enables material and weight optimization"
+      },
+      {
+        "feature": "Tight Dimensional Accuracy",
+        "benefit": "Ideal for press-fit and precision assembly"
+      },
+      {
+        "feature": "Wear & Corrosion Resistance",
+        "benefit": "Reliable performance in exposed and high-cycle environments"
+      },
+      {
+        "feature": "Self-Lubricating Options",
+        "benefit": "Perfect for dry-run conditions and inaccessible maintenance zones"
+      },
+      {
+        "feature": "Cost-Effective Manufacturing",
+        "benefit": "Best suited for medium to high-volume production with repeatable precision"
+      },
+      {
+        "feature": "Secondary Operations",
+        "benefit": "Machining, steam treatment, heat treatment, resin impregnation, sizing"
+      }
+    ]
+  }
+},
+
+"materialsSizes2": {
+  "sectionTitle": "Materials, Sizes, and Tolerances",
+  "left": {
+    "title": "Material Grades",
+    "points": [
+      "Iron-Carbon (Fe-C)",
+      "Iron-Copper-Carbon (Fe-Cu-C)",
+      "Copper-Infiltrated Iron",
+      "Bronze-Based (CuSn, CuZn)",
+      "Alloy Additives: Nickel, Molybdenum, Graphite"
+    ]
+  },
+  "right": {
+    "title": "Sizing & Tolerances",
+    "points": [
+      "Density: 6.0 – 7.2 g/cm³",
+      "Tolerance: Up to ±0.02 mm",
+      "Surface Finish: Steam treated / resin impregnated / machined / coated",
+      "Customization: Based on client drawing or use case"
+    ]
+  }
+},
+
+"manufacturingTesting2": {
+  "sectionTitle": "Manufacturing & Testing Capabilities (Product-Specific)",
+  "left": {
+    "title": "Manufacturing Process Flow",
+    "points": [
+      "Powder Blending & Mixing",
+      "Cold Pressing (50–1000 tons)",
+      "Sintering (controlled atmospheres up to 1120°C)",
+      "Sizing & Co-Infiltration",
+      "Secondary Machining / Surface Treatments",
+      "Final Quality Inspection & Validation"
+    ]
+  },
+  "right": {
+    "title": "Testing & Validation",
+    "description": "Each component undergoes multi-level quality testing:",
+    "points": [
+      "Density & Porosity Analysis",
+      "Hardness & Load Testing",
+      "Fatigue & Wear Performance",
+      "Dimensional & Surface Roughness Checks",
+      "Microstructure Evaluation"
+    ]
+  }
+},
+"productOverview": {
+  "title": "Product Overview",
+  "subtitle": "High-Performance Steel & Non-Ferrous Bushings\nPrecision-Engineered. Heat-Treated. Built to Endure.",
+  "description": "SAP Parts™ offers an extensive range of hardened steel and non-ferrous bushings designed for high-load, wear-intensive environments. With in-house heat treatment and CNC machining capabilities, our bushings deliver tight tolerances, extended service life, and superior load-bearing performance for demanding OEM applications."
+},
+
+ "applicationsUseCases": {
+    "sectionTitle": "Applications & Industry Use Cases",
+    "case1": {
+      "title": "Construction & Mining Equipment",
+      "points": [
+        "Excavator boom, arm, bucket linkages",
+        "Backhoe loader joints",
+        "Hydraulic cylinders (tail & eye ends)"
+      ]
+    },
+    "case2": {
+      "title": "Agricultural Machinery",
+      "points": [
+        "Tractor kingpins",
+        "Pillow blocks and central sleeves",
+        "Plough joints and pivot points"
+      ]
+    },
+    "case3": {
+      "title": "Automotive & Transmission",
+      "points": [
+        "Gearbox and axle components",
+        "Synchronizer hubs"
+      ]
+    },
+    "case4": {
+      "title": "Defence & Heavy Engineering",
+      "points": [
+        "Industrial actuators",
+        "Military mobility systems"
+      ]
+    }
+  },
+
+   "technicalSpecs": {
+    "sectionTitle": "Technical Specifications & Features",
+    "feature": "Feature",
+    "benefit": "Benefit",
+    "rows": [
+      {
+        "feature": "Alloy steel grades (e.g., 100Cr6, SCM415, 20MnCr5)",
+        "benefit": "High wear resistance under continuous load"
+      },
+      {
+        "feature": "Oil-grooved bushing profiles",
+        "benefit": "Enhanced lubrication, reduced friction, longer operational life"
+      },
+      {
+        "feature": "Case carburizing / nitriding",
+        "benefit": "Improved hardness, fatigue strength, and corrosion resistance"
+      },
+      {
+        "feature": "Induction hardening",
+        "benefit": "Targeted surface strengthening for high-load zones"
+      },
+      {
+        "feature": "Tight tolerance machining",
+        "benefit": "Accurate press-fits and extended part life"
+      },
+      {
+        "feature": "Custom diameters (30–300 mm)",
+        "benefit": "Direct interchangeability with OEM and aftermarket parts"
+      }
+    ]
+  },
+
+    "materialsSizes": {
+    "sectionTitle": "Materials, Sizes, and Tolerances",
+    "steelBushings": {
+      "title": "Steel Hardened Bushings",
+      "points": [
+        "OD Range: 20 mm to 300 mm",
+        "Materials: 100Cr6, 20MnCr5, C45, SAE 4140, SCM415, ST52, 16MnCr5, FE510",
+        "Surface Treatments: Case Carburizing, Nitriding, Nitro–Carburizing, Carbo–Nitriding, Induction Hardening"
+      ]
+    },
+    "nonFerrousBushings": {
+      "title": "Non-Ferrous Bushings",
+      "points": [
+        "OD Range: 50 mm to 300 mm",
+        "Materials: Bronze: C96900, C93200, C86500, CuSn8P | Brass: C86300, CuZn39Pb3",
+        "Tolerances: Machined to ±0.02 mm, optimized for high-load press–fit and sliding assemblies"
+      ]
+    }
+  },
+
+   "materialsSizes": {
+    "sectionTitle": "Materials, Sizes, and Tolerances",
+    "steel": {
+      "title": "Steel Hardened Bushings",
+      "points": [
+        "OD Range: 20 mm to 300 mm",
+        "Materials: 100Cr6, 20MnCr5, C45, SAE 4140, SCM415, ST52, 16MnCr5, FE510",
+        "Surface Treatments: Case Carburizing, Nitriding, Nitro–Carburizing, Carbo–Nitriding, Induction Hardening"
+      ]
+    },
+    "nonFerrous": {
+      "title": "Non-Ferrous Bushings",
+      "points": [
+        "OD Range: 50 mm to 300 mm",
+        "Materials:\nBronze: C96900, C93200, C86500, CuSn8P\nBrass: C86300, CuZn39Pb3",
+        "Tolerances\nMachined to ±0.02 mm\nOptimized for high-load press–fit and sliding assemblies"
+      ]
+    }
+  },
+   "manufacturingTesting": {
+    "sectionTitle": "Manufacturing & Testing Capabilities (Product-Specific)",
+    "intro": "SAP Parts™ manufactures bushings in a vertically integrated facility, ensuring full control over quality, material traceability, and turnaround time.",
+    "cards": {
+      "production": {
+        "title": "In–House Production Capabilities",
+        "points": [
+          "CNC Turning, VMC, Bore & Centerless Grinding",
+          "German SQF Ipsen Heat Treatment Plant",
+          "Surface Treatments: CED Coating, MoS₂, WS₂, Zn Plating"
+        ]
+      },
+      "testing": {
+        "title": "Testing & Quality Assurance",
+        "points": [
+          "Micro Vickers Hardness & Roughness Testing",
+          "Load Testing up to 50T with ±30° axial rotation",
+          "Inverted Microscopy, Roundness, and Counter Tracers",
+          "ISO 9001:2015 Certified Processes"
+        ]
+      }
+    }
+  }
+
+
+
 
 }

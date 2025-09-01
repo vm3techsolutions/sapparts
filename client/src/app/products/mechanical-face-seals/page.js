@@ -4,7 +4,8 @@ import BushingsCenterIMG from "./CenterIMG";
 import ManufacturingTesting from "./ManufacturingTesting";
 import Materials from "./Materials";
 import ProductOverview from "./ProductOverview";
-import RequestQuote from "./RequestQuote";
+import RequestQuote1 from "./RequestQuote1";
+
 import TechnicalSpecification from "./TechnicalSpecification";
 import ScrollRing from "@/component/scroller/ScrollRing";
 
@@ -20,7 +21,7 @@ export default function product(){
           <Materials/>
           <BushingsCenterIMG/>
           <ManufacturingTesting/>
-          <RequestQuote/>
+          <RequestQuote1/>
 
         </div>
     )

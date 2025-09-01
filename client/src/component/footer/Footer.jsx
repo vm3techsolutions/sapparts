@@ -7,6 +7,15 @@ import { useTranslation } from "react-i18next";
 export default function Footer() {
   const { t } = useTranslation();
 
+  const productLinks = [
+    { href: "/products/mechanical-face-seals", label: t("products.mechanicalFaceSeals") },
+    { href: "/products/bushings", label: t("products.bushings") },
+    { href: "/products/sintered-products", label: t("products.sinteredProducts") },
+    { href: "/products/pump-valves-components", label: t("products.pumpValvesComponents") },
+    { href: "/products/sap-hub-bearings", label: t("products.sapHubBearings") },
+    { href: "/products/precision-components", label: t("products.precisionComponents") },
+  ];
+
   return (
     <footer className="bg-[#363636] text-white mt-5">
       {/* Main Footer Content */}
@@ -56,27 +65,23 @@ export default function Footer() {
         </div>
 
         {/* Products */}
-       <div>
-  <h3 className="text-[#FACC48] font-semibold text-lg mb-3">
-    {t("Products")}
-  </h3>
-  <ul className="space-y-4 text-md ">
-    <li><Link href="/products/mechanical-face-seals">Mechanical Face Seals</Link></li>
-    <li><Link href="/products/bushings">Bushings</Link></li>
-    <li><Link href="/products/sintered-products">Sintered Products</Link></li>
-    <li><Link href="/products/pump-valves-components">Pump & Valves Components</Link></li>
-    <li><Link href="/products/sap-hub-bearings">SAP Hub Bearings</Link></li>
-    <li><Link href="/products/precision-components">Precision Components</Link></li>
-  </ul>
-</div>
-
+        <div>
+          <h3 className="text-[#FACC48] font-semibold text-lg mb-3">{t("Products")}</h3>
+          <ul className="space-y-4 text-md">
+            {productLinks.map((product, index) => (
+              <li key={index}>
+                <Link href={product.href}>{product.label}</Link>
+              </li>
+            ))}
+          </ul>
+        </div>
 
         {/* Contact Info */}
         <div>
           <h3 className="text-[#FACC48] font-semibold text-lg mb-3">{t("Get in Touch")}</h3>
           <p className="text-md text-gray-300 mb-2">{t("Address")}</p>
-          <p className="text-md text-gray-300 my-5">{t("Phone")}: +91 - 9225546956</p>
-          <p className="text-md text-gray-300 my-5">{t("Email")}:  sales@sapparts.com </p>
+          <p className="text-md text-gray-300 my-5">{t("FPhone")}</p>
+          <p className="text-md text-gray-300 my-5">{t("FEmail")}</p>
           <div className="flex items-center gap-3 text-[#363636] text-2xl">
             <Link href="#"><FaFacebookF className="rounded-full bg-[#FACC48] p-1" /></Link>
             <Link href="#"><FaInstagram className="rounded-full bg-[#FACC48] p-1" /></Link>

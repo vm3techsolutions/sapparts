@@ -1,55 +1,41 @@
-// components/ApplicationsUseCases.js
+"use client";
 import Image from "next/image";
+    import { useTranslation } from "react-i18next";
 
+    export default function ApplicationsUseCases() {
+      const { t } = useTranslation();
 
-const useCases = [
-  {
-    id: 1,
-    icon: "/assets/products/Applications1.png",
-    title: "Automotive",
-    points: [
-      "Transmission gears",
-      "Synchronizer hubs",
-      "Locking rings"
-    ]
-  },
-  {
-    id: 2,
-    icon: "/assets/products/Applications2.png",
-    title: "Agriculture",
-    points: [
-      "Clutch bushings",
-      "Power take-off (PTO) shafts",
-      "Precision bearings"
-    ]
-  },
-  {
-    id: 3,
-    icon: "/assets/products/Applications3.png",
-    title: "Electrical",
-    points: [
-      "Armatures",
-      "Contact plates",
-      "Magnetically soft components"
-    ]
-  },
-  {
-    id: 4,
-    icon: "/assets/products/Applications4.png",
-    title: "Industrial Machinery",
-    points: [
-      "Conveyor bushings",
-      "Hydraulic valves",
-      "Small mechanisms requiring tight tolerances and low friction"
-    ]
-  }
-];
+      const useCases = [
+        {
+          id: 1,
+          icon: "/assets/products/Applications1.png",
+          title: t("applicationsUseCases.case1.title"),
+          points: t("applicationsUseCases.case1.points", { returnObjects: true }),
+        },
+        {
+          id: 2,
+          icon: "/assets/products/Applications2.png",
+          title: t("applicationsUseCases.case2.title"),
+          points: t("applicationsUseCases.case2.points", { returnObjects: true }),
+        },
+    {
+      id: 3,
+      icon: "/assets/products/Applications3.png",
+      title: t("applicationsUseCases.case3.title"),
+      points: t("applicationsUseCases.case3.points", { returnObjects: true }),
+    },
+    {
+      id: 4,
+      icon: "/assets/products/Applications4.png",
+      title: t("applicationsUseCases.case4.title"),
+      points: t("applicationsUseCases.case4.points", { returnObjects: true }),
+    },
+  ];
 
-export default function ApplicationsUseCases() {
   return (
     <section className="Section bg-white">
       <h2 className="Heading text-center ">
-        Applications & Industry Use Cases
+        {t("applicationsUseCases.sectionTitle")}
       </h2>
 
       <div className="grid md:grid-cols-2 gap-10 mx-auto">
@@ -64,7 +50,7 @@ export default function ApplicationsUseCases() {
                 alt={item.title}
                 width={60}
                 height={60}
-                className="mb-4 transition-all duration-300 group-hover:brightness-0 group-hover:invert h-[15vh] w-[15vh] "
+                className="mb-4 transition-all duration-300 group-hover:brightness-0 group-hover:invert h-[15vh] w-[15vh]"
               />
               <h3 className="text-2xl font-bold text-[#0E509E] group-hover:text-white">
                 {item.title}
