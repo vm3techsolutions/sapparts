@@ -9,39 +9,39 @@ export default function ApplicationsUseCases() {
     {
       id: 1,
       icon: "/assets/products/Applications1.png",
-      title: t("applications.case1.title"),
+      title: t("applications2.case1.title"),
       points: [
-        t("applications.case1.point1"),
-        t("applications.case1.point2"),
-        t("applications.case1.point3"),
+        t("applications2.case1.point1"),
+        t("applications2.case1.point2"),
+        t("applications2.case1.point3"),
       ],
     },
     {
       id: 2,
       icon: "/assets/products/Applications2.png",
-      title: t("applications.case2.title"),
+      title: t("applications2.case2.title"),
       points: [
-        t("applications.case2.point1"),
-        t("applications.case2.point2"),
-        t("applications.case2.point3"),
+        t("applications2.case2.point1"),
+        t("applications2.case2.point2"),
+        t("applications2.case2.point3"),
       ],
     },
     {
       id: 3,
       icon: "/assets/products/Applications3.png",
-      title: t("applications.case3.title"),
+      title: t("applications2.case3.title"),
       points: [
-        t("applications.case3.point1"),
-        t("applications.case3.point2"),
+        t("applications2.case3.point1"),
+        t("applications2.case3.point2"),
       ],
     },
     {
       id: 4,
       icon: "/assets/products/Applications4.png",
-      title: t("applications.case4.title"),
+      title: t("applications2.case4.title"),
       points: [
-        t("applications.case4.point1"),
-        t("applications.case4.point2"),
+        t("applications2.case4.point1"),
+        t("applications2.case4.point2"),
       ],
     },
   ];
@@ -49,7 +49,7 @@ export default function ApplicationsUseCases() {
   return (
     <section className="Section bg-white">
       <h2 className="Heading text-center">
-        {t("applications.sectionTitle")}
+        {t("applications2.sectionTitle")}
       </h2>
 
       <div className="grid md:grid-cols-2 gap-10 mx-auto">

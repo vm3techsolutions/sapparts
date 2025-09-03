@@ -17,6 +17,28 @@
   "Contact Us": "Contact Us",
   "Get A Quote": "Get A Quote",
 
+  "Products1": "Products",
+  "MechanicalFaceSeals1": "Mechanical Face Seals",
+  "Bushings1": "Bushings",
+  "SinteredProducts1": "Sintered Products",
+  "PumpValvesComponents1": "Pump & Valves Components",
+  "SAPHubsBearings1": "SAP Hub Bearings",
+  "PrecisionComponents1": "Precision Components",
+  "TechnologyInnovation1": "Technology & Innovation",
+  "Resources1": "Resources",
+  "Media1": "Media",
+  "PressRelease1": "Press Release",
+  "ProductLaunch1": "Product Launch",
+  "IndustryNews1": "Industry News",
+  "CaseStudy1": "Case Study",
+  "ClientSuccess11": "Client Success 1",
+  "ClientSuccess21": "Client Success 2",
+  "ClientSuccess31": "Client Success 3",
+  "MaintenanceTips1": "Maintenance Tips",
+  "SealsAssemblyGuide1": "Seals Assembly Guide",
+  "SealOFix1": "Seal-O-Fix",
+  "SealForRotovator1": "Seal For Rotovator",
+
   "Footer Description": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type",
   "Quick Links": "Quick Links",
   "Technology": "Technology",
@@ -353,7 +375,7 @@
   " This is SAP Parts": " This is SAP Parts&apos; core technology, a highly controlled centrifugal asting method. This directed solidification pushes impurities towards the inner diameter of the casting, leaving a pure, strong outer layer critical for wear-resistant applications.",
   "Robotic Near–Net–Shape Casting": "Robotic Near–Net–Shape Casting",
   "SAP Parts integrates advanced ": "SAP Parts integrates advanced robotics into its casting process. Robots handle critical tasks with extreme precision, from mold preparation to pouring molten metal. This level of control minimizes human error and allows for the creation of parts that are very close to their final dimensions, significantly reducing costly post-casting machining.",
-  "Proprietary Materials": "Proprietary Materials",
+  
   "SAP Parts has developed": "SAP Parts has developed its own proprietary metallurgical grades to meet specific performance demands that generic alloys cannot. These materials are formulated and produced exclusively using the CENTRiCAST process.",
   "JaliKayas":"JaliKayas",
   " This grade is engineered": " This grade is engineered for high abrasion resistances. Its composition is designed with a high volume of very fine, hard carbides, which resist the cutting and scratching action of abrasive particles. The CENTRiCAST process ensures these carbides are uniformly distributed.",
@@ -566,7 +588,7 @@
     "impactDesc": "By reducing our carbon footprint and promoting green practices, we create healthier ecosystems and contribute to long-term sustainability for future generations."
   },
 
-    "foundation": {
+    "foundation3": {
     "title": "Our Promise to Society",
     "description": "At Sapparts, CSR is not an obligation—it is a commitment. We see ourselves as partners in the progress of the communities we touch. Through education, environment, healthcare, and community initiatives, we aim to create long-lasting impact that goes beyond business success.",
     "subDescription": "Together, we build stronger people, a healthier planet, and a brighter future."
@@ -618,7 +640,7 @@
     "impactDesc": "By empowering communities, we create an environment where individuals feel supported, included, and capable of building better lives for themselves and their families."
   },
 
-    "foundation": {
+    "foundation2": {
     "title": "The Foundation of Everything We Do",
     "description": "At Sapparts, engineering is not just a process—it is the foundation of our identity. With decades of experience in precision manufacturing, we have built a reputation for delivering components that are not only reliable but also trusted by industries worldwide. Engineering excellence is our promise, ensuring that every solution we deliver is crafted with care, accuracy, and innovation. We believe innovation should never be innovation for its own sake. True innovation begins by listening to customers, understanding their unique challenges, and designing solutions that truly make a difference. For us, customers are not just buyers—they are partners in shaping better, smarter, and more efficient products. Sustainability is more than a responsibility—it’s a mindset. We are committed to building products and processes that contribute to a better tomorrow. For us, sustainability and longevity go hand in hand: by making products that last longer, we reduce waste, conserve resources, and support a greener future. Our reach is global—but our approach is local. We combine the strength of international expertise with the trust of local relationships. This dual focus ensures that our customers receive world-class products backed by personalized support wherever they are."
   },
@@ -686,7 +708,7 @@
     }
   },
 
-    "features": {
+    "featuress": {
     "title": "Precision at Every Stage",
     "box1": {
       "title": "Design Expertise",
@@ -838,7 +860,7 @@
     "imageAlt": "Request a Quote"
   },
 
-   "productOverview": {
+   "productOverview2": {
     "title": "Product Overview",
     "subtitleLine1": "High-Performance Steel & Non-Ferrous Bushings",
     "subtitleLine2": "Precision-Engineered. Heat-Treated. Built to Endure.",
@@ -846,7 +868,7 @@
     "imageAlt": "Bushings"
   },
 
-   "applications": {
+   "applications2": {
     "sectionTitle": "Applications & Industry Use Cases",
     "case1": {
       "title": "Construction & Mining Equipment",
@@ -872,7 +894,7 @@
     }
   },
 
-  "technicalSpecs": {
+  "technicalSpecs3": {
   "sectionTitle": "Technical Specifications & Features",
   "table": {
     "feature": "Feature",
@@ -906,7 +928,7 @@
   }
 },
 
-"materialsSizes": {
+"materialsSizes3": {
   "sectionTitle": "Materials, Sizes, and Tolerances",
   "steel": {
     "title": "Steel Hardened Bushings",
@@ -926,7 +948,7 @@
   }
 },
 
-"manufacturingTesting": {
+"manufacturingTesting3": {
   "sectionTitle": "Manufacturing & Testing Capabilities (Product-Specific)",
   "description": "SAP Parts™ manufactures bushings in a vertically integrated facility, ensuring full control over quality, material traceability, and turnaround time.",
   "leftCard": {
@@ -948,7 +970,7 @@
   }
 },
 
-"productOverview": {
+"productOverview3": {
   "sectionTitle": "Product Overview",
   "description1": "SAP Parts™ specializes in high-performance sintered components produced through advanced powder metallurgy. Designed for precision, durability, and cost-efficiency, these components serve critical roles in automotive, agricultural, electrical, and industrial applications.",
   "description2": "Our in-house sintering facilities and German furnace technology enable consistent part quality across standard and custom designs—meeting both Indian and global OEM standards."
@@ -1074,13 +1096,13 @@
     ]
   }
 },
-"productOverview": {
+"productOverview4": {
   "title": "Product Overview",
   "subtitle": "High-Performance Steel & Non-Ferrous Bushings\nPrecision-Engineered. Heat-Treated. Built to Endure.",
   "description": "SAP Parts™ offers an extensive range of hardened steel and non-ferrous bushings designed for high-load, wear-intensive environments. With in-house heat treatment and CNC machining capabilities, our bushings deliver tight tolerances, extended service life, and superior load-bearing performance for demanding OEM applications."
 },
 
- "applicationsUseCases": {
+ "applicationsUseCases4": {
     "sectionTitle": "Applications & Industry Use Cases",
     "case1": {
       "title": "Construction & Mining Equipment",
@@ -1114,7 +1136,7 @@
     }
   },
 
-   "technicalSpecs": {
+   "technicalSpecs4": {
     "sectionTitle": "Technical Specifications & Features",
     "feature": "Feature",
     "benefit": "Benefit",
@@ -1146,7 +1168,7 @@
     ]
   },
 
-    "materialsSizes": {
+    "materialsSizes4": {
     "sectionTitle": "Materials, Sizes, and Tolerances",
     "steelBushings": {
       "title": "Steel Hardened Bushings",
@@ -1166,26 +1188,8 @@
     }
   },
 
-   "materialsSizes": {
-    "sectionTitle": "Materials, Sizes, and Tolerances",
-    "steel": {
-      "title": "Steel Hardened Bushings",
-      "points": [
-        "OD Range: 20 mm to 300 mm",
-        "Materials: 100Cr6, 20MnCr5, C45, SAE 4140, SCM415, ST52, 16MnCr5, FE510",
-        "Surface Treatments: Case Carburizing, Nitriding, Nitro–Carburizing, Carbo–Nitriding, Induction Hardening"
-      ]
-    },
-    "nonFerrous": {
-      "title": "Non-Ferrous Bushings",
-      "points": [
-        "OD Range: 50 mm to 300 mm",
-        "Materials:\nBronze: C96900, C93200, C86500, CuSn8P\nBrass: C86300, CuZn39Pb3",
-        "Tolerances\nMachined to ±0.02 mm\nOptimized for high-load press–fit and sliding assemblies"
-      ]
-    }
-  },
-   "manufacturingTesting": {
+
+   "manufacturingTesting4": {
     "sectionTitle": "Manufacturing & Testing Capabilities (Product-Specific)",
     "intro": "SAP Parts™ manufactures bushings in a vertically integrated facility, ensuring full control over quality, material traceability, and turnaround time.",
     "cards": {
@@ -1207,9 +1211,401 @@
         ]
       }
     }
+  },
+
+    "productOverview5": {
+    "alt": "Bushings",
+    "title": "Product Overview",
+    "subtitle": "High-Performance Steel & Non-Ferrous Bushings\nPrecision-Engineered. Heat-Treated. Built to Endure.",
+    "description": "SAP Parts™ offers an extensive range of hardened steel and non-ferrous bushings designed for high-load, wear-intensive environments. With in-house heat treatment and CNC machining capabilities, our bushings deliver tight tolerances, extended service life, and superior load-bearing performance for demanding OEM applications."
+  },
+
+   "applicationsUseCases5": {
+    "sectionTitle": "Applications & Industry Use Cases",
+    "case1": {
+      "title": "Construction & Mining Equipment",
+      "points": [
+        "Excavator boom, arm, bucket linkages",
+        "Backhoe loader joints",
+        "Hydraulic cylinders (tail & eye ends)"
+      ]
+    },
+    "case2": {
+      "title": "Agricultural Machinery",
+      "points": [
+        "Tractor kingpins",
+        "Pillow blocks and central sleeves",
+        "Plough joints and pivot points"
+      ]
+    },
+    "case3": {
+      "title": "Automotive & Transmission",
+      "points": [
+        "Gearbox and axle components",
+        "Synchronizer hubs"
+      ]
+    },
+    "case4": {
+      "title": "Defence & Heavy Engineering",
+      "points": [
+        "Industrial actuators",
+        "Military mobility systems"
+      ]
+    }
+  },
+
+    "technicalSpecs5": {
+    "sectionTitle": "Technical Specifications & Features",
+    "feature": "Feature",
+    "benefit": "Benefit",
+    "rows": [
+      {
+        "feature": "Alloy steel grades (e.g., 100Cr6, SCM415, 20MnCr5)",
+        "benefit": "High wear resistance under continuous load"
+      },
+      {
+        "feature": "Oil-grooved bushing profiles",
+        "benefit": "Enhanced lubrication, reduced friction, longer operational life"
+      },
+      {
+        "feature": "Case carburizing / nitriding",
+        "benefit": "Improved hardness, fatigue strength, and corrosion resistance"
+      },
+      {
+        "feature": "Induction hardening",
+        "benefit": "Targeted surface strengthening for high-load zones"
+      },
+      {
+        "feature": "Tight tolerance machining",
+        "benefit": "Accurate press-fits and extended part life"
+      },
+      {
+        "feature": "Custom diameters (30–300 mm)",
+        "benefit": "Direct interchangeability with OEM and aftermarket parts"
+      }
+    ]
+  },
+
+    "materialsSizes5": {
+    "sectionTitle": "Materials, Sizes, and Tolerances",
+    "steel": {
+      "title": "Steel Hardened Bushings",
+      "points": [
+        "OD Range: 20 mm to 300 mm",
+        "Materials: 100Cr6, 20MnCr5, C45, SAE 4140, SCM415, ST52, 16MnCr5, FE510",
+        "Surface Treatments: Case Carburizing, Nitriding, Nitro–Carburizing, Carbo–Nitriding, Induction Hardening"
+      ]
+    },
+    "nonFerrous": {
+      "title": "Non-Ferrous Bushings",
+      "points": [
+        "OD Range: 50 mm to 300 mm",
+        "Materials: Bronze: C96900, C93200, C86500, CuSn8P | Brass: C86300, CuZn39Pb3",
+        "Tolerances: Machined to ±0.02 mm | Optimized for high-load press–fit and sliding assemblies"
+      ]
+    }
+  },
+
+    "manufacturingTesting5": {
+    "sectionTitle": "Manufacturing & Testing Capabilities (Product-Specific)",
+    "description": "SAP Parts™ manufactures bushings in a vertically integrated facility, ensuring full control over quality, material traceability, and turnaround time.",
+    "production": {
+      "title": "In–House Production Capabilities",
+      "points": [
+        "CNC Turning, VMC, Bore & Centerless Grinding",
+        "German SQF Ipsen Heat Treatment Plant",
+        "Surface Treatments: CED Coating, MoS₂, WS₂, Zn Plating"
+      ]
+    },
+    "testing": {
+      "title": "Testing & Quality Assurance",
+      "points": [
+        "Micro Vickers Hardness & Roughness Testing",
+        "Load Testing up to 50T with ±30° axial rotation",
+        "Inverted Microscopy, Roundness, and Counter Tracers",
+        "ISO 9001:2015 Certified Processes"
+      ]
+    }
+  },
+
+    "productOverview6": {
+    "title": "Product Overview",
+    "imageAlt": "Bushings",
+    "paragraphs": [
+      "SAP Parts™ offers a comprehensive suite of high-precision components, engineered for durability, dimensional accuracy, and performance under extreme operating conditions. From bushings and seals to hinges and locking assemblies, every component is designed to meet OEM-level requirements in critical applications.",
+      "These parts are manufactured with micron-level tolerances and machined to outer diameter (OD) ranges from 30 mm to 200 mm, ensuring compatibility across heavy engineering, agriculture, and industrial segments."
+    ]
+  },
+
+    "applicationsUseCases6": {
+    "sectionTitle": "Applications & Industry Use Cases",
+    "case1": {
+      "title": "Construction & Mining",
+      "points": [
+        "Excavator joints, cabin assemblies, and heavy-load pivoting systems",
+        "Mechanical face seals and bushings for high-friction joints"
+      ]
+    },
+    "case2": {
+      "title": "Agriculture & OEM Machinery",
+      "points": [
+        "Bushings and lock assemblies for tractors and harvesters",
+        "Components designed for dust, mud, and moisture-rich environments"
+      ]
+    },
+    "case3": {
+      "title": "Defence, Transmission & Heavy Engineering",
+      "points": [
+        "High-tolerance components for mobility systems and structural joints",
+        "Cabin hinges and lock systems for defence vehicles and industrial enclosures"
+      ]
+    }
+  },
+
+    "technicalSpecs6": {
+    "sectionTitle": "Technical Specifications & Features",
+    "tableHeaders": {
+      "feature": "Feature",
+      "benefit": "Benefit"
+    },
+    "items": [
+      {
+        "feature": "Alloy Steel Grades (100Cr6, SCM415)",
+        "benefit": "High wear resistance and load-bearing strength"
+      },
+      {
+        "feature": "Oil-Grooved Bushing Profiles",
+        "benefit": "Optimised lubrication and friction reduction for longer part life"
+      },
+      {
+        "feature": "Floating Seal Geometry",
+        "benefit": "Reliable sealing under axial misalignment and debris exposure"
+      },
+      {
+        "feature": "Tight Tolerance Machining",
+        "benefit": "Consistent performance and part interchangeability across assemblies"
+      },
+      {
+        "feature": "Surface Treatments (e.g., MoS₂, CED)",
+        "benefit": "Enhanced corrosion resistance, fatigue strength, and life cycle durability"
+      }
+    ]
+  },
+
+    "materialsSizes6": {
+    "sectionTitle": "Materials, Sizes, and Tolerances",
+    "subTitle": "Key Component Types and Ranges",
+    "items": [
+      "Alloy Steel Bushings: 100Cr6, SAE 4140, SAE 8620, C45, 20MnCr5, 55Si7, SCM415",
+      "Oil-Grooved Bushings: Available in straight, helical, and custom profiles",
+      "Floating Seals: Duo-Cone and mechanical face seal variants",
+      "Cabin Hinges & Lock Assemblies: Designed to micron-level precision",
+      "OD Range: 30 mm to 200 mm",
+      "Tolerances: Precision-machined for OEM-fit, typically within ±0.02 mm"
+    ]
+  },
+
+    "manufacturingTesting6": {
+    "sectionTitle": "Manufacturing & Testing Capabilities (Product-Specific)",
+    "description": "All precision components are manufactured in SAP Parts™’ integrated facility equipped for high-volume, high-complexity production.",
+    "inHouse": {
+      "title": "In–House Capabilities",
+      "items": [
+        "CNC, VMC, and centerless grinding",
+        "Surface treatment: CED Coating, MoS₂, WS₂",
+        "Heat treatments: Case carburizing, induction hardening"
+      ]
+    },
+    "testing": {
+      "title": "Testing & Validation",
+      "items": [
+        "Micro Vickers Hardness Testing",
+        "Surface Roughness and Roundness Inspection",
+        "Load Endurance Testing and Axial Misalignment Simulations",
+        "ISO 9001:2015 Certified Quality Processes"
+      ]
+    }
+  },
+
+   "SealsAssemblyGuideTitle1": "Seals Assembly Guide",
+  "GuidelinesTitle1": "Guidelines For Duo-Cone Seals Installation",
+  "MechanicalSealDesignTitle1": "Mechanical Seal Design",
+  "MechanicalSealDesignDesc1": "Mechanical Face Seals are fitted in Groove of retaining housing groove, to form the sealing at the adjoining faces. Metal faces are precision Lapped. The ramp angle of Seal and Housings are slightly different and form a wedge for the rubber ring to slide into and form a compressed profile giving load on the seals and making it intact.",
+  "TerminologyTitle1": "Terminology:",
+  "SealRing1": "Seal Ring",
+  "RubberToric1": "Rubber Toric",
+  "HousingRetainer1": "Housing Retainer",
+  "HousingRamp1": "Housing Ramp",
+  "SealRingHousing1": "Seal Ring Housing",
+  "SealRingFace1": "Seal Ring Face",
+  "SealRingRamp1": "Seal Ring Ramp",
+  "SealRingRetainingLip1": "Seal Ring Retaining Lip",
+  "InstallationTool1": "Installation Tool",
+
+   "HousingPreparationTitle1": "Housing Preparation:",
+  "HousingPreparationDesc1": "The housing components which contact the rubber toric rings (3 and 4 a) must be free from foreign particles, etc before installing the seal. This should be done using a lint free wipe and a non-petroleum based solvent especially SAP Parts Seal-O-Fix Spray.\n\nDry with a clean wipe. Remove any foreign material from the rubber torics (2), the ramps (7) and the lips (8) of both seal rings.\n\nPlace the rubber torics on the metal seal ring at the bottom of the seal ring ramp and against the retaining lip.\n\nMake sure the O-Rings remain straight on the rim and not squeezed or twisted as it may lead to improper installation of the float seal.",
+  "ApprovedAssemblyLubricantsTitle1": "Approved Assembly Lubricants:",
+  "ApprovedAssemblyLubricantsDesc1": "SAP Parts - Seal-O-Fix Spray / Isopropyl Alcohol* Follow all the safety practices for handling volatile solvents. Do not use any other oil that leaves oil film or does not evaporate.",
+
+  "SealInstallationToolTitle1": "SAP Parts Seal Installation Tool:",
+  "SealInstallationToolDesc1": "Below is how the Seal installation tool looks like. It consists of a circular bracket type polyamide ring with steel clamping arrangement and check nut, that holds the seal with O-Ring in the special groove made at the face of bracket ring and pushes the O–ring in the housing groove.",
+  "DuoConeInstallationTitle1": "Duo Cone Seal Installation Process:",
+  "DuoConeInstallationDesc1": "It is always recommended the Duo Cone / Metal Face Float Seals must be installed using proper Installation Tool only.",
+  "StepsByStepTitle1": "Steps By Step Seal Installation:",
+  "Step11": "1. Arrange Right Duo cone Seal, Installation Tool, Seal-O-Fix Spray, Mallet, Lint Free Cloth, etc. as shown below before starting actual seal installation in the housing cavity.",
+  "Step21": "2. Check you are using appropriate tool part number and design provided by SAP Parts for the Seal. Note: Each seal has different Tool. Check Seal face, O-Ring & housings are clean and free from any mechanical damage, dent etc.",
+  "Step31": "3. Apply Seal-O-Fix on Seal face and clean the Seal using Lint Free Wipe. Ensure the seal face be thoroughly cleaned and no fine particles of dust should remain on it.",
+  "Step41": "4. Put the O-Ring on the Seal Ramp and check it is properly sleeved, Check there is no skewing or twisting of O-Ring.",
+  "Step51": "5. Hold the O-Ring on the Seal Ramp and engage the Lip of the tool between the gap of O-Ring and seal face inside the circular guide way groove of the Tool.",
+  "Step61": "6. Bring the edges of clamp close to each other and tighten the check nut provided on tool so as to hold the seal firmly in the clamp formed.",
+  "Step71": "7. This makes the Seal Guided in the Install Tool.",
+
+  
+  "HousingGrooveTitle1": "Installation of Seal inside the Housing Groove:",
+  "HousingGrooveStep11": "1. For installation of Seal, arrange a cleaned Seal & cleaned, wiped housing. Put the Seal on the Housing",
+  "HousingGrooveStep21": "2. Hold the O-Ring in the Fixture and form the tool guide assembly as explained above.",
+  "HousingGrooveStep31": "3. Hold the Seal and O-Ring Firmly and see O-Ring is not twisted. Locate the seal & tool on groove opening.",
+  "HousingGrooveStep41": "4. Press the fixture with even load on the Guide Plate, and experience the O-Ring insertion jerk, inside the housing.",
+  "HousingGrooveDesc1": "Small Rings can be manually fixed, for big rings apply even and gentle pressure around the rim of guide plate using wooden mallet.",
+  
+  "HousingGrooveTitle2": "Installation of Seal inside the Housing Groove:",
+  "HousingGrooveWarning11": "Never use Rubber O–Rings with Blow holes/ damages.",
+  "HousingGrooveWarning21": "Never allow Sealing surface be dirty, it should be cleaned well before Assembly.",
+  "HousingGrooveWarning31": "Never try hammering on sealing surface and never use sharp tools to locate O-Rings.",
+  
+  "HousingGrooveTitle3": "Installation of Seal inside the Housing Groove:",
+  "HousingGrooveInstruction11": "Clean the Sealing Surface thoroughly before installation.",
+  "HousingGrooveInstruction21": "Use Seal–O-Fix Spray.",
+  "HousingGrooveInstruction31": "Check for Sealing edge free from dust, dirt, hair, etc.",
+  "HousingGrooveInstruction41": "Always use only lint free Wipes/Cloths, Never use tissue Paper or cotton waste.",
+  "HousingGrooveInstruction51": "While completing the final assembly of the unit, make sure that both seals are in correct housings together.",
+  "HousingGrooveInstruction61": "High impact can scratch or break the seal components.",
+
+  
+  "SealOFixTitle": "Seal-O-Fix",
+
+  "DirectionsTitle": "Directions For Use:",
+  "Directions1": "Before Cleansing the Sealing Surface, be sure that all surfaces are cool to touch.",
+  "Directions2": "Do not apply in direct sunlight or if air temperature is above 100 F.",
+  "Directions3": "Use Eye Protection Glass and Face Mask while applying.",
+  "Directions4": "Apply SAP Seal-O-Fix-Spray on Housing Surface.",
+  "Directions5": "Immediately assemble Seal with Fixture Provided.",
+  "Directions6": "Do not Use any other Oil For Seal Fitment in Housings.",
+
+  "StorageTitle": "Storage",
+  "Storage1": "SAP Seal-O-Fix, shall be ideally stored in a cool, dry location in containers at a temperature between 8 and 49 C (46 and 120F).",
+  "Storage2": "Optimal storage is at the lower end of this range.",
+  "Storage3": "Do not inhale.",
+
+  "CautionTitle": "Caution",
+  "Caution1": "Flammable Composition.",
+  "Caution2": "Aerosol Can.",
+  "Caution3": "Do not spray on flame or hot surfaces.",
+  "Caution4": "Please store in cool place away from heat & sunlight.",
+
+   "ProductDescriptionTitle": "Product Description",
+  "ProductDescriptionText": "SAP Seal-O-Fix is a specially developed Solution for Duo Cone Seal assembly in the housings and for heavy duty cleansing purpose. Surface Cleaning jobs that ordinary de-greasers cannot handle are served effectively with SAP Seal-O-Fix. It is a ready-to-use solvent based composition, powerful cleaning emulsifiers and soluble grease cutting solvent. It cuts heavy sticky rust, dust and soils quickly from the seal housing surface with no harsh fumes or unpleasant odors. This is a Proprietary Product Developed by SAP PARTS specially for Duo Cone Seals.",
+
+  "ProductBenefitsTitle": "Product Benefits",
+  "ProductBenefits1": "Powerful and fast acting.",
+  "ProductBenefits2": "SAP Seal-O-Fix is absolutely safe on metal, rubber and painted surfaces.",
+  "ProductBenefits3": "Will not harm marking, chrome or engraving. Ensures complete removal of all oil and grease deposits prior to Duo Cone seal assembly.",
+  "ProductBenefits4": "Convenient and safe to use on all types of Mechanical Seals.",
+  "ProductBenefits5": "The only effective surface preparation spray for the removal of Silicone Oils.",
+
+  "PropertiesTitle": "Properties Of Material",
+  "Properties1": "Chemical Type: Mineral Oils / Solvent based / NON CFC",
+  "Properties2": "Containing proprietary ingredients, Surfactants and Conditioners",
+  "Properties3": "Appearance: Clear BRIGHT Liquid.",
+  "Properties4": "Odor: SOLVENT, SPECIFIC",
+  "Properties5": "Flash Point: 50 DEGREE.CEL",
+  "Properties6": "Specific Gravity: 0.80",
+
+   
+
+   "housing": {
+    "sections": [
+      {
+        "title": "Application Of Mechanical Seals In Rotovator Assembly",
+        "paragraphs": [
+          "A Rotovator is also called as Rotary tiller, which consists of a steel frame, a rotary shaft on which blades are mounted, power transmission system and gearbox. The blades are of Ltype, made from medium carbon steel or alloy steel, hardened and tempered to suitable hardness. The PTO of tractor drives the rotovator. Rotary motion of the PTO is transmitted to the shaft carrying the blades through gearbox and transmission system. A good seedbed and pulverization of the soil is achieved in a single pass of the rotovator.<br/><br/>Rotavator is the most efficient system when we ask for a definitive tillage solution. Irrespective of the soil type, the conditions or amount of residues: The result is always the best. It can be adjusted to get many different working depths and soil finish with very easy changes. The Rotovator is also the most versatile implement for two purposes.<br/>1. Crumbling: It can be set from a very coarse tillage to a very fine finish<br/>2. Residues mixing: It can cope with high amounts of weeds or trash without blocking and giving the most perfect mixture of the residues. The benefits are a complete clean surface and easy incorporation of organic material to the soil."
+        ],
+        "images": [
+          { "src": "/assets/industries/agriculture/Supporting.png", "width": 300, "height": 370 },
+          { "src": "/assets/industries/agriculture/Supporting.png", "width": 300, "height": 370 }
+        ]
+      },
+      {
+        "title": "Application Of Mechanical Face Seals",
+        "paragraphs": [
+          "Rotavators become the most sophisticated machines in their category. The rotor bearing units are protected with mechanical face seals, giving a longer life to the units that can be 2 or 3 times longer than the normal system with plain oil seals."
+        ],
+        "images": [
+          { "src": "/assets/industries/agriculture/Supporting.png", "width": 200, "height": 270 }
+        ]
+      },
+      {
+        "title": "Application Of Working Principle",
+        "paragraphs": [
+          "In the application, one of the metal seal is always stationery while other is rotating with respect to the roller. Friction in the lapped faces transmits the load and sealing causes retention of oil in the small cavity formed by the faces. The Flat Portion of seal will start wear from the end i.e. from OD and will go on towards ID till it reaches to the area where spherical radius starts."
+        ],
+        "images": [
+          { "src": "/assets/industries/agriculture/Supporting.png", "width": 200, "height": 270 }
+        ]
+      },
+      {
+        "title": "Application Of Assembly",
+        "paragraphs": [
+          "The centre rotor bearings are enclosed in an oil bath and the support axle and its bearings are sealed with metal face seals."
+        ],
+        "images": [
+          { "src": "/assets/industries/agriculture/Supporting.png", "width": 200, "height": 270 }
+        ]
+      }
+    ],
+    "advantagesTitle": "Advantages:",
+    "advantages": [
+      "Simple, reliable design",
+      "High sealing effect against dirt, dust, water and abrasive media from outside and oil and grease from the inside.",
+      "Cost effective, Simple installation, Long Service life.",
+      "Self centering to compensate for shaft eccentricity or misalignment."
+    ],
+    "imageAlt": "Supporting the Backbone of Farming Operations"
+  },
+
+    "seals": {
+    "title": "Seal For Rotovator",
+    "subtitle1": "Precision Engineered, High Quality & Heavy Duty Seals",
+    "subtitle2": "SAP Parts Heavy Duty Seals are manufactured in the state of the art facility.",
+    "qualityTitle": "Quality Assurance:",
+    "qualityPoints": [
+      "Speciality Quality Instrumentation.",
+      "Surface Roughness Testing.",
+      "Hardness Testing.",
+      "Microscopic Image Analyzing.",
+      "Surface Finish Testing.",
+      "Seal Flatness Testing.",
+      "Oil Leakage Testing.",
+      "Endurance Testing & Validation.",
+      "Accelerated Seal life Test Rig.",
+      "Seal Face Load estimation M/c."
+    ],
+    "featuresTitle": "Mechanical Face Seal Features:",
+    "featurePoints": [
+      "Corrosion Resistant.",
+      "Precision lapped Rings.",
+      "Minimum face load variations.",
+      "Special Seal and O - ring materials.",
+      "Long Life - Warranted.",
+      "Self-renewing sealing surfaces.",
+      "Heavy Duty Applications."
+    ],
+    "images": [
+      "/assets/industries/agriculture/Supporting.png",
+      "/assets/industries/agriculture/Supporting.png"
+    ],
+    "imageAlt": "Supporting the Backbone of Farming Operations"
   }
-
-
 
 
 }

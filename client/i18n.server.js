@@ -3,7 +3,7 @@ import { initReactI18next } from 'react-i18next';
 import fs from 'fs';
 import path from 'path';
 
-const supportedLngs = ['en', 'ja'];
+const supportedLngs = ['en', 'ja','de'];
 const ns = ['common'];
 
 if (!i18n.isInitialized) {

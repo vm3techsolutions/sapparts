@@ -1,116 +1,134 @@
 [
   {
     "title": {
-      "en" : "Senior Developer – S/4 Procurement",
-      "ja" : "シニア開発者 – S/4購買"
+      "en": "Senior Developer – S/4 Procurement",
+      "ja": "シニア開発者 – S/4購買",
+      "de": "Senior Entwickler – S/4 Beschaffung"
     },
     "location": {
-      "en" : "Bangalore",
-      "ja" : "バンガロール"
+      "en": "Bangalore",
+      "ja": "バンガロール",
+      "de": "Bangalore"
     },
     "position": {
-      "en" : "The Senior Developer – S/4 ",
-      "ja" : "シニア開発者 – S/4"
+      "en": "The Senior Developer – S/4 ",
+      "ja": "シニア開発者 – S/4",
+      "de": "Der Senior Entwickler – S/4"
     },
     "description": {
-      "en" : "Procurement role at SAP ....",
-      "ja" : "SAP における S/4 調達分野のシニア開発者"
+      "en": "Procurement role at SAP ....",
+      "ja": "SAP における S/4 調達分野のシニア開発者",
+      "de": "Beschaffungsrolle bei SAP ...."
     }
   },
-
-    {
-    "title": {
-      "en" : "Senior Developer – S/4 Procurement",
-      "ja" : "シニア開発者 – S/4購買"
-    },
-    "location": {
-      "en" : "Bangalore",
-      "ja" : "バンガロール"
-    },
-    "position": {
-      "en" : "The Senior Developer – S/4 ",
-      "ja" : "シニア開発者 – S/4"
-    },
-    "description": {
-      "en" : "Procurement role at SAP ....",
-      "ja" : "SAP における S/4 調達分野のシニア開発者"
-    }
-  },
-  
-   {
-    "title": {
-      "en" : "Senior Developer – S/4 Procurement",
-      "ja" : "シニア開発者 – S/4購買"
-    },
-    "location": {
-      "en" : "Bangalore",
-      "ja" : "バンガロール"
-    },
-    "position": {
-      "en" : "The Senior Developer – S/4 ",
-      "ja" : "シニア開発者 – S/4"
-    },
-    "description": {
-      "en" : "Procurement role at SAP ....",
-      "ja" : "SAP における S/4 調達分野のシニア開発者"
-    }
-  },
-  
-   {
-    "title": {
-      "en" : "Senior Developer – S/4 Procurement",
-      "ja" : "シニア開発者 – S/4購買"
-    },
-    "location": {
-      "en" : "Bangalore",
-      "ja" : "バンガロール"
-    },
-    "position": {
-      "en" : "The Senior Developer – S/4 ",
-      "ja" : "シニア開発者 – S/4"
-    },
-    "description": {
-      "en" : "Procurement role at SAP ....",
-      "ja" : "SAP における S/4 調達分野のシニア開発者"
-    }
-  },
-  
   {
     "title": {
-      "en" : "Senior Developer – S/4 Procurement",
-      "ja" : "シニア開発者 – S/4購買"
+      "en": "Senior Developer – S/4 Procurement",
+      "ja": "シニア開発者 – S/4購買",
+      "de": "Senior Entwickler – S/4 Beschaffung"
     },
     "location": {
-      "en" : "Bangalore",
-      "ja" : "バンガロール"
+      "en": "Bangalore",
+      "ja": "バンガロール",
+      "de": "Bangalore"
     },
     "position": {
-      "en" : "The Senior Developer – S/4 ",
-      "ja" : "シニア開発者 – S/4"
+      "en": "The Senior Developer – S/4 ",
+      "ja": "シニア開発者 – S/4",
+      "de": "Der Senior Entwickler – S/4"
     },
     "description": {
-      "en" : "Procurement role at SAP ....",
-      "ja" : "SAP における S/4 調達分野のシニア開発者"
+      "en": "Procurement role at SAP ....",
+      "ja": "SAP における S/4 調達分野のシニア開発者",
+      "de": "Beschaffungsrolle bei SAP ...."
     }
   },
-  
- {
+  {
     "title": {
-      "en" : "Senior Developer – S/4 Procurement",
-      "ja" : "シニア開発者 – S/4購買"
+      "en": "Senior Developer – S/4 Procurement",
+      "ja": "シニア開発者 – S/4購買",
+      "de": "Senior Entwickler – S/4 Beschaffung"
     },
     "location": {
-      "en" : "Bangalore",
-      "ja" : "バンガロール"
+      "en": "Bangalore",
+      "ja": "バンガロール",
+      "de": "Bangalore"
     },
     "position": {
-      "en" : "The Senior Developer – S/4 ",
-      "ja" : "シニア開発者 – S/4"
+      "en": "The Senior Developer – S/4 ",
+      "ja": "シニア開発者 – S/4",
+      "de": "Der Senior Entwickler – S/4"
     },
     "description": {
-      "en" : "Procurement role at SAP ....",
-      "ja" : "SAP における S/4 調達分野のシニア開発者"
+      "en": "Procurement role at SAP ....",
+      "ja": "SAP における S/4 調達分野のシニア開発者",
+      "de": "Beschaffungsrolle bei SAP ...."
+    }
+  },
+  {
+    "title": {
+      "en": "Senior Developer – S/4 Procurement",
+      "ja": "シニア開発者 – S/4購買",
+      "de": "Senior Entwickler – S/4 Beschaffung"
+    },
+    "location": {
+      "en": "Bangalore",
+      "ja": "バンガロール",
+      "de": "Bangalore"
+    },
+    "position": {
+      "en": "The Senior Developer – S/4 ",
+      "ja": "シニア開発者 – S/4",
+      "de": "Der Senior Entwickler – S/4"
+    },
+    "description": {
+      "en": "Procurement role at SAP ....",
+      "ja": "SAP における S/4 調達分野のシニア開発者",
+      "de": "Beschaffungsrolle bei SAP ...."
+    }
+  },
+  {
+    "title": {
+      "en": "Senior Developer – S/4 Procurement",
+      "ja": "シニア開発者 – S/4購買",
+      "de": "Senior Entwickler – S/4 Beschaffung"
+    },
+    "location": {
+      "en": "Bangalore",
+      "ja": "バンガロール",
+      "de": "Bangalore"
+    },
+    "position": {
+      "en": "The Senior Developer – S/4 ",
+      "ja": "シニア開発者 – S/4",
+      "de": "Der Senior Entwickler – S/4"
+    },
+    "description": {
+      "en": "Procurement role at SAP ....",
+      "ja": "SAP における S/4 調達分野のシニア開発者",
+      "de": "Beschaffungsrolle bei SAP ...."
+    }
+  },
+  {
+    "title": {
+      "en": "Senior Developer – S/4 Procurement",
+      "ja": "シニア開発者 – S/4購買",
+      "de": "Senior Entwickler – S/4 Beschaffung"
+    },
+    "location": {
+      "en": "Bangalore",
+      "ja": "バンガロール",
+      "de": "Bangalore"
+    },
+    "position": {
+      "en": "The Senior Developer – S/4 ",
+      "ja": "シニア開発者 – S/4",
+      "de": "Der Senior Entwickler – S/4"
+    },
+    "description": {
+      "en": "Procurement role at SAP ....",
+      "ja": "SAP における S/4 調達分野のシニア開発者",
+      "de": "Beschaffungsrolle bei SAP ...."
     }
   }
-  
 ]

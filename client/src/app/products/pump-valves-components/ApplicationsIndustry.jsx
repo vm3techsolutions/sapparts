@@ -9,33 +9,33 @@ export default function ApplicationsUseCases() {
     {
       id: 1,
       icon: "/assets/products/Applications1.png",
-      title: t("applicationsUseCases.case1.title"),
-      points: t("applicationsUseCases.case1.points", { returnObjects: true }),
+      title: t("applicationsUseCases4.case1.title"),
+      points: t("applicationsUseCases4.case1.points", { returnObjects: true }),
     },
     {
       id: 2,
       icon: "/assets/products/Applications2.png",
-      title: t("applicationsUseCases.case2.title"),
-      points: t("applicationsUseCases.case2.points", { returnObjects: true }),
+      title: t("applicationsUseCases4.case2.title"),
+      points: t("applicationsUseCases4.case2.points", { returnObjects: true }),
     },
     {
       id: 3,
       icon: "/assets/products/Applications3.png",
-      title: t("applicationsUseCases.case3.title"),
-      points: t("applicationsUseCases.case3.points", { returnObjects: true }),
+      title: t("applicationsUseCases4.case3.title"),
+      points: t("applicationsUseCases4.case3.points", { returnObjects: true }),
     },
     {
       id: 4,
       icon: "/assets/products/Applications4.png",
-      title: t("applicationsUseCases.case4.title"),
-      points: t("applicationsUseCases.case4.points", { returnObjects: true }),
+      title: t("applicationsUseCases4.case4.title"),
+      points: t("applicationsUseCases4.case4.points", { returnObjects: true }),
     },
   ];
 
   return (
     <section className="Section bg-white">
       <h2 className="Heading text-center">
-        {t("applicationsUseCases.sectionTitle")}
+        {t("applicationsUseCases4.sectionTitle")}
       </h2>
 
       <div className="grid md:grid-cols-2 gap-10 mx-auto">

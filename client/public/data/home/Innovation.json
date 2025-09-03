@@ -1,5 +1,3 @@
-
-
 [
   {
     "id": 1,
@@ -7,11 +5,13 @@
     "link": "/innovation/1",
     "title": {
       "en": "Innovative Casting",
-      "ja": "革新的な鋳造"
+      "ja": "革新的な鋳造",
+      "de": "Innovatives Gießen"
     },
     "description": {
       "en": "We use advanced casting methods to enhance product durability and precision.",
-      "ja": "製品の耐久性と精度を高めるために先進的な鋳造技術を使用しています。"
+      "ja": "製品の耐久性と精度を高めるために先進的な鋳造技術を使用しています。",
+      "de": "Wir verwenden fortschrittliche Gießverfahren, um die Haltbarkeit und Präzision der Produkte zu verbessern."
     }
   },
   {
@@ -20,11 +20,13 @@
     "link": "/innovation/2",
     "title": {
       "en": "Smart Machining",
-      "ja": "スマート機械加工"
+      "ja": "スマート機械加工",
+      "de": "Intelligente Bearbeitung"
     },
     "description": {
       "en": "Automated machining ensures accuracy and consistency across components.",
-      "ja": "自動化された機械加工により、部品の精度と一貫性が確保されます。"
+      "ja": "自動化された機械加工により、部品の精度と一貫性が確保されます。",
+      "de": "Automatisierte Bearbeitung gewährleistet Genauigkeit und Konsistenz über alle Komponenten hinweg."
     }
   }
 ]

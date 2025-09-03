@@ -2,26 +2,29 @@
   {
     "id": 1,
     "title": {
-      "en" : "Mechanical Face Seals",
-      "ja" : "機械式フェイスシール"
+      "en": "Mechanical Face Seals",
+      "ja": "機械式フェイスシール",
+      "de": "Mechanische Gleitringdichtungen"
     },
     "description": {
-      "en" : "This handy tool helps you create dummy text for all your layout needs.",
-      "ja" : "この便利なツールは、すべてのレイアウトニーズに対応するダミーテキストを作成します。"
+      "en": "This handy tool helps you create dummy text for all your layout needs.",
+      "ja": "この便利なツールは、すべてのレイアウトニーズに対応するダミーテキストを作成します。",
+      "de": "Dieses praktische Tool hilft Ihnen, Blindtext für all Ihre Layout-Bedürfnisse zu erstellen."
     },
-
     "image": "/assets/home/ProductWithBG.png",
     "link": "/products/1"
   },
   {
     "id": 2,
     "title": {
-      "en" : "Bushings" ,
-      "ja" : "ブッシング"
+      "en": "Bushings",
+      "ja": "ブッシング",
+      "de": "Buchsen"
     },
     "description": {
-      "en" : "This handy tool helps you create dummy text for all your layout needs.",
-      "ja" : "この便利なツールは、すべてのレイアウトニーズに対応するダミーテキストを作成します。"
+      "en": "This handy tool helps you create dummy text for all your layout needs.",
+      "ja": "この便利なツールは、すべてのレイアウトニーズに対応するダミーテキストを作成します。",
+      "de": "Dieses praktische Tool hilft Ihnen, Blindtext für all Ihre Layout-Bedürfnisse zu erstellen."
     },
     "image": "/assets/home/Bushing1.png",
     "link": "/products/2"
@@ -29,12 +32,14 @@
   {
     "id": 3,
     "title": {
-      "en" : "Sintered Products",
-      "ja" : "焼結製品"
+      "en": "Sintered Products",
+      "ja": "焼結製品",
+      "de": "Sinterprodukte"
     },
     "description": {
-      "en" : "This handy tool helps you create dummy text for all your layout needs.",
-      "ja" : "この便利なツールは、すべてのレイアウトニーズに対応するダミーテキストを作成します。"
+      "en": "This handy tool helps you create dummy text for all your layout needs.",
+      "ja": "この便利なツールは、すべてのレイアウトニーズに対応するダミーテキストを作成します。",
+      "de": "Dieses praktische Tool hilft Ihnen, Blindtext für all Ihre Layout-Bedürfnisse zu erstellen."
     },
     "image": "/assets/home/Sintered1.png",
     "link": "/products/3"
@@ -42,12 +47,14 @@
   {
     "id": 4,
     "title": {
-      "en" : "Pump & Valves Components",
-      "ja" : "ポンプ＆バルブ部品"
+      "en": "Pump & Valves Components",
+      "ja": "ポンプ＆バルブ部品",
+      "de": "Pumpen- und Ventilkomponenten"
     },
     "description": {
-      "en" : "This handy tool helps you create dummy text for all your layout needs.",
-      "ja" : "この便利なツールは、すべてのレイアウトニーズに対応するダミーテキストを作成します。"
+      "en": "This handy tool helps you create dummy text for all your layout needs.",
+      "ja": "この便利なツールは、すべてのレイアウトニーズに対応するダミーテキストを作成します。",
+      "de": "Dieses praktische Tool hilft Ihnen, Blindtext für all Ihre Layout-Bedürfnisse zu erstellen."
     },
     "image": "/assets/home/ourProduct1.png",
     "link": "/products/4"
@@ -55,12 +62,14 @@
   {
     "id": 5,
     "title": {
-      "en" : "SAP Hub Bearings",
-      "ja" : "SAP ハブベアリング"
+      "en": "SAP Hub Bearings",
+      "ja": "SAP ハブベアリング",
+      "de": "SAP-Nabenlager"
     },
     "description": {
-      "en" : "This handy tool helps you create dummy text for all your layout needs.",
-      "ja" : "この便利なツールは、すべてのレイアウトニーズに対応するダミーテキストを作成します。"
+      "en": "This handy tool helps you create dummy text for all your layout needs.",
+      "ja": "この便利なツールは、すべてのレイアウトニーズに対応するダミーテキストを作成します。",
+      "de": "Dieses praktische Tool hilft Ihnen, Blindtext für all Ihre Layout-Bedürfnisse zu erstellen."
     },
     "image": "/assets/home/ourProduct1.png",
     "link": "/products/5"
@@ -68,12 +77,14 @@
   {
     "id": 6,
     "title": {
-      "en" : "Precision Components",
-      "ja" : "精密部品"
+      "en": "Precision Components",
+      "ja": "精密部品",
+      "de": "Präzisionskomponenten"
     },
     "description": {
-      "en" : "This handy tool helps you create dummy text for all your layout needs.",
-      "ja" : "この便利なツールは、すべてのレイアウトニーズに対応するダミーテキストを作成します。"
+      "en": "This handy tool helps you create dummy text for all your layout needs.",
+      "ja": "この便利なツールは、すべてのレイアウトニーズに対応するダミーテキストを作成します。",
+      "de": "Dieses praktische Tool hilft Ihnen, Blindtext für all Ihre Layout-Bedürfnisse zu erstellen."
     },
     "image": "/assets/home/Precision1.png",
     "link": "/products/6"

@@ -3,22 +3,22 @@ import { useTranslation } from "react-i18next";
 
 export default function TechnicalSpecs() {
   const { t } = useTranslation();
-  const specs = t("technicalSpecs.rows", { returnObjects: true });
+  const specs = t("technicalSpecs4.rows", { returnObjects: true });
 
   return (
     <div className="Section bg-white">
       <h2 className="Heading text-center mb-2">
-        {t("technicalSpecs.sectionTitle")}
+        {t("technicalSpecs4.sectionTitle")}
       </h2>
 
       <table className="w-full border-collapse text-center mx-auto">
         <thead>
           <tr>
             <th className="bg-[#D9D9D9]/60 text-[#363636] px-4 py-3 border-2 border-[#0E509E] w-[40%]">
-              {t("technicalSpecs.feature")}
+              {t("technicalSpecs4.feature")}
             </th>
             <th className="bg-[#D9D9D9]/60 text-[#363636] px-4 py-3 border-2 border-[#0E509E] w-[60%]">
-              {t("technicalSpecs.benefit")}
+              {t("technicalSpecs4.benefit")}
             </th>
           </tr>
         </thead>

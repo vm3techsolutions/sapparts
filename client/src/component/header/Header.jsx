@@ -33,52 +33,52 @@ export default function Header() {
         { name: t("High-Tech"), href: "/industries/high-tech" },
       ],
     },
+   {
+  name: t("Products1"),
+  href: "#",
+  subLinks: [
+    { name: t("MechanicalFaceSeals1"), href: "/products/mechanical-face-seals" },
+    { name: t("Bushings1"), href: "/products/bushings" },
+    { name: t("SinteredProducts1"), href: "/products/sintered-products" },
+    { name: t("PumpValvesComponents1"), href: "/products/pump-valves-components" },
+    { name: t("SAPHubsBearings1"), href: "/products/sap-hub-bearings" },
+    { name: t("PrecisionComponents1"), href: "/products/precision-components" },
+  ],
+},
+{ name: t("TechnologyInnovation1"), href: "/technology" },
+{
+  name: t("Resources1"),
+  href: "#",
+  subLinks: [
     {
-      name: t("Products"),
+      name: t("Media1"),
       href: "#",
       subLinks: [
-        { name: "Mechanical Face Seals", href: "/products/mechanical-face-seals" },
-        { name: "Bushings", href: "/products/bushings" },
-        { name: "Sintered Products", href: "/products/sintered-products" },
-        { name: "Pump & Valves Components", href: "/products/pump-valves-components" },
-        { name: "SAP Hub Bearings", href: "/products/sap-hub-bearings" },
-        { name: "Precision Components", href: "/products/precision-components" },
+        { name: t("PressRelease1"), href: "/resources/media/press-release" },
+        { name: t("ProductLaunch1"), href: "/resources/media/product-launch" },
+        { name: t("IndustryNews1"), href: "/resources/media/industry-news" },
       ],
     },
-    { name: t("Technology & Innovation"), href: "/technology" },
     {
-      name: t("Resources"),
+      name: t("CaseStudy1"),
       href: "#",
       subLinks: [
-        {
-          name: "Media",
-          href: "#",
-          subLinks: [
-            { name: "Press Release", href: "/resources/media/press-release" },
-            { name: "Product Launch", href: "/resources/media/product-launch" },
-            { name: "Industry News", href: "/resources/media/industry-news" },
-          ],
-        },
-        {
-          name: "Case Study",
-          href: "#",
-          subLinks: [
-            { name: "Client Success 1", href: "/resources/case-study/success-1" },
-            { name: "Client Success 2", href: "/resources/case-study/success-2" },
-            { name: "Client Success 3", href: "/resources/case-study/success-3" },
-          ],
-        },
-        {
-          name: "Maintenance Tips",
-          href: "#",
-          subLinks: [
-            { name: "Seals Assembly Guide", href: "/MaintenanceTips/SealsAssemblyGuide" },
-            { name: "Seal-O-Fix", href: "/MaintenanceTips/Seal-O-Fix" },
-            { name: "Seal For Rotovator", href: "/MaintenanceTips/SealForRotovator" },
-          ],
-        },
+        { name: t("ClientSuccess11"), href: "/resources/case-study/success-1" },
+        { name: t("ClientSuccess21"), href: "/resources/case-study/success-2" },
+        { name: t("ClientSuccess31"), href: "/resources/case-study/success-3" },
       ],
     },
+    {
+      name: t("MaintenanceTips1"),
+      href: "#",
+      subLinks: [
+        { name: t("SealsAssemblyGuide1"), href: "/MaintenanceTips/SealsAssemblyGuide" },
+        { name: t("SealOFix1"), href: "/MaintenanceTips/Seal-O-Fix" },
+        { name: t("SealForRotovator1"), href: "/MaintenanceTips/SealForRotovator" },
+      ],
+    },
+  ],
+},
     { name: t("Sustainability"), href: "/sustainability" },
     { name: t("About"), href: "/about" },
     { name: t("Career"), href: "/career" },
@@ -168,6 +168,7 @@ export default function Header() {
             >
               <option value="en">English</option>
               <option value="ja">Japanese</option>
+              <option value="de">German</option>
             </select>
           </div>
         </nav>
@@ -243,6 +244,7 @@ export default function Header() {
             >
               <option value="en">English</option>
               <option value="ja">Japanese</option>
+              <option value="de">German</option>
             </select>
           </div>
         </div>

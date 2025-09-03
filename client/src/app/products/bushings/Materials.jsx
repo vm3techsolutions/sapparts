@@ -7,19 +7,19 @@ export default function MaterialsSizes() {
   return (
     <section className="bg-[#FACC48] Section">
       <h2 className="Heading text-center">
-        {t("materialsSizes.sectionTitle")}
+        {t("materialsSizes3.sectionTitle")}
       </h2>
 
       <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 sm:gap-0 items-start mt-9">
         {/* Left Column */}
         <div className="text-[#0E509E]">
           <h3 className="text-2xl font-semibold text-center mb-4">
-            {t("materialsSizes.steel.title")}
+            {t("materialsSizes3.steel.title")}
           </h3>
           <ul className="text-[#363636] font-semibold space-y-5 list-disc list-outside pl-4">
-            <li>{t("materialsSizes.steel.points.point1")}</li>
-            <li>{t("materialsSizes.steel.points.point2")}</li>
-            <li>{t("materialsSizes.steel.points.point3")}</li>
+            <li>{t("materialsSizes3.steel.points.point1")}</li>
+            <li>{t("materialsSizes3.steel.points.point2")}</li>
+            <li>{t("materialsSizes3.steel.points.point3")}</li>
           </ul>
         </div>
 
@@ -31,17 +31,17 @@ export default function MaterialsSizes() {
         {/* Right Column */}
         <div className="text-[#0E509E]">
           <h3 className="text-2xl font-semibold text-center mb-4">
-            {t("materialsSizes.nonFerrous.title")}
+            {t("materialsSizes3.nonFerrous.title")}
           </h3>
           <ul className="text-[#363636] font-semibold space-y-5 list-disc list-outside pl-4">
-            <li>{t("materialsSizes.nonFerrous.points.point1")}</li>
+            <li>{t("materialsSizes3.nonFerrous.points.point1")}</li>
             <li>
-              {t("materialsSizes.nonFerrous.points.point2").split("\n").map((line, idx) => (
+              {t("materialsSizes3.nonFerrous.points.point2").split("\n").map((line, idx) => (
                 <p key={idx}>{line}</p>
               ))}
             </li>
             <li>
-              {t("materialsSizes.nonFerrous.points.point3").split("\n").map((line, idx) => (
+              {t("materialsSizes3.nonFerrous.points.point3").split("\n").map((line, idx) => (
                 <p key={idx}>{line}</p>
               ))}
             </li>

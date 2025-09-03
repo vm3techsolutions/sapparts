@@ -3,7 +3,8 @@
     "id": 1,
     "title": {
       "en": "Construction",
-      "ja": "建設"
+      "ja": "建設",
+      "de": "Bauwesen"
     },
     "image": "/assets/home/industriesWeServe1.png",
     "link": "/industries/construction"
@@ -12,7 +13,8 @@
     "id": 2,
     "title": {
       "en": "Mining",
-      "ja": "鉱業"
+      "ja": "鉱業",
+      "de": "Bergbau"
     },
     "image": "/assets/home/industriesWeServe2.png",
     "link": "/industries/mining"
@@ -21,7 +23,8 @@
     "id": 3,
     "title": {
       "en": "Industrial",
-      "ja": "産業"
+      "ja": "産業",
+      "de": "Industrie"
     },
     "image": "/assets/home/industriesWeServe3.png",
     "link": "/industries/industrial"
@@ -30,7 +33,8 @@
     "id": 4,
     "title": {
       "en": "Agriculture",
-      "ja": "農業"
+      "ja": "農業",
+      "de": "Landwirtschaft"
     },
     "image": "/assets/home/industriesWeServe4.png",
     "link": "/industries/agriculture"
@@ -39,7 +43,8 @@
     "id": 5,
     "title": {
       "en": "Automotive",
-      "ja": "自動車"
+      "ja": "自動車",
+      "de": "Automobil"
     },
     "image": "/assets/home/industriesWeServe5.png",
     "link": "/industries/automotive"
@@ -48,7 +53,8 @@
     "id": 6,
     "title": {
       "en": "High-Tech",
-      "ja": "ハイテク"
+      "ja": "ハイテク",
+      "de": "Hightech"
     },
     "image": "/assets/home/industriesWeServe6.png",
     "link": "/industries/high-tech"
@@ -57,7 +63,8 @@
     "id": 7,
     "title": {
       "en": "Defence",
-      "ja": "防衛"
+      "ja": "防衛",
+      "de": "Verteidigung"
     },
     "image": "/assets/home/industriesWeServe7.png",
     "link": "/industries/defence"

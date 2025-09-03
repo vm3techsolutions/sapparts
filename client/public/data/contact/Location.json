@@ -1,47 +1,54 @@
 [
   {
     "name": {
-      "en" : "India",
-      "ja" : "インド"
+      "en": "India",
+      "ja": "インド",
+      "de": "Indien"
     },
-    "company":{
-      "en" :  "SAP Parts Pvt. Ltd.",
-      "ja" : "SAPパーツ株式会社"
+    "company": {
+      "en": "SAP Parts Pvt. Ltd.",
+      "ja": "SAPパーツ株式会社",
+      "de": "SAP Parts Pvt. Ltd."
     },
     "image": "/assets/contact/India.png",
     "address": {
-      "en" : "Gat.No.1087/04, Pune-Nagar-Pimple Jagtap Road, Sanaswadi, Tal.Shirur, Maharashtra 412208, INDIA.",
-      "ja" : "Gat.No.1087/04、プネ-ナガル-ピンプル・ジャグタップ・ロード、サナスワディ、タル・シルール、マハラシュトラ州 412208、インド"
+      "en": "Gat.No.1087/04, Pune-Nagar-Pimple Jagtap Road, Sanaswadi, Tal.Shirur, Maharashtra 412208, INDIA.",
+      "ja": "Gat.No.1087/04、プネ-ナガル-ピンプル・ジャグタップ・ロード、サナスワディ、タル・シルール、マハラシュトラ州 412208、インド",
+      "de": "Gat.No.1087/04, Pune-Nagar-Pimple Jagtap Road, Sanaswadi, Tal.Shirur, Maharashtra 412208, INDIEN."
     },
     "contacts": [
       {
         "title": {
-          "en" : "Sales and Marketing :",
-          "ja" : "営業・マーケティング："
+          "en": "Sales and Marketing :",
+          "ja": "営業・マーケティング：",
+          "de": "Vertrieb und Marketing:"
         },
         "phone": "+91 - 9561562597 / 9225546956",
         "email": "sales@sapparts.com"
       },
       {
         "title": {
-          "en" : "Human Resource :",
-          "ja" : "人事部："
+          "en": "Human Resource :",
+          "ja": "人事部：",
+          "de": "Personalwesen:"
         },
         "phone": " +91 - 9096252970/ 9225546956",
         "email": "hrd@sapparts.com"
       },
       {
         "title": {
-          "en" : "Visa and Consulate Services :",
-          "ja" : "ビザおよび領事サービス: "
+          "en": "Visa and Consulate Services :",
+          "ja": "ビザおよび領事サービス:",
+          "de": "Visa- und Konsulatsdienste:"
         },
         "phone": "+91 - 9822171240",
-        "email": "admin@sapparts.com "
+        "email": "admin@sapparts.com"
       },
       {
         "title": {
-          "en" : "Purchasing :",
-          "ja" : "購入: "
+          "en": "Purchasing :",
+          "ja": "購入:",
+          "de": "Einkauf:"
         },
         "phone": "+91 - 9975684469",
         "email": "purchase@sapparts.com"
@@ -49,68 +56,88 @@
     ]
   },
 
-
   {
     "name": {
-      "en" : "Europe",
-      "ja" : "ヨーロッパ"
+      "en": "Europe",
+      "ja": "ヨーロッパ",
+      "de": "Europa"
     },
     "company": {
-      "en" : "SAP Parts-Europe GMBH.",
-      "ja" : "SAPパーツ・ヨーロッパGMBH"
+      "en": "SAP Parts-Europe GMBH.",
+      "ja": "SAPパーツ・ヨーロッパGMBH",
+      "de": "SAP Parts-Europe GMBH."
     },
     "image": "/assets/contact/Europe.png",
     "address": {
-      "en" : "Johannes Orlowski Lucasstr. 24, 51379 Leverkusen,Germany",
-      "ja" : "ヨハネス・オルロフスキーLucas通り24番地、51379 レバークーゼン、ドイツ"
+      "en": "Johannes Orlowski Lucasstr. 24, 51379 Leverkusen, Germany",
+      "ja": "ヨハネス・オルロフスキーLucas通り24番地、51379 レバークーゼン、ドイツ",
+      "de": "Johannes Orlowski Lucasstr. 24, 51379 Leverkusen, Deutschland"
     },
-
     "contacts": [
       {
-       
-        "phone": " 00492174 - 4959827",
+        "title": {
+          "en": "Purchasing :",
+          "ja": "購入:",
+          "de": "Einkauf:"
+        },
+        "phone": "00492174 - 4959827",
         "email": "purchase@sapparts.com"
-        
       },
       {
-        
-        "phone": "0049 163 8330200",
+        "title": {
+          "en": "Purchasing :",
+          "ja": "購入:",
+          "de": "Einkauf:"
+        },
+        "phone": "0049 163 8330200",
         "email": "purchase@sapparts.com"
-       
       }
     ]
   },
-  
+
   {
     "name": {
-      "en" : "America",
-      "ja" : "アメリカ"
+      "en": "America",
+      "ja": "アメリカ",
+      "de": "Amerika"
     },
     "company": {
-      "en" : "Grizzly Supplies Ltd.",
-      "ja" : "グリズリー・サプライズ株式会社"
+      "en": "Grizzly Supplies Ltd.",
+      "ja": "グリズリー・サプライズ株式会社",
+      "de": "Grizzly Supplies Ltd."
     },
     "image": "/assets/contact/America.png",
     "address": {
-      "en" : "19269, 96th Ave Surrey, BC V4N 4C4",
-      "ja" : "19269、96番通り、サリー、ブリティッシュコロンビア州 V4N 4C4、カナダ"
+      "en": "19269, 96th Ave Surrey, BC V4N 4C4",
+      "ja": "19269、96番通り、サリー、ブリティッシュコロンビア州 V4N 4C4、カナダ",
+      "de": "19269, 96th Ave Surrey, BC V4N 4C4, Kanada"
     },
     "company1": {
-      "en" : "Grizzly Supplies - USA",
-      "ja" : "グリズリー・サプライズ - アメリカ"
+      "en": "Grizzly Supplies - USA",
+      "ja": "グリズリー・サプライズ - アメリカ",
+      "de": "Grizzly Supplies - USA"
     },
     "address1": {
-      "en" : "17300 West Valley Hwy Tukwila, WA, 98188",
-      "ja" : "17300 ウェスト・バレー・ハイウェイ、タックウィラ、ワシントン州、98188、アメリカ"
+      "en": "17300 West Valley Hwy Tukwila, WA, 98188",
+      "ja": "17300 ウェスト・バレー・ハイウェイ、タックウィラ、ワシントン州、98188、アメリカ",
+      "de": "17300 West Valley Hwy Tukwila, WA, 98188, USA"
     },
     "contacts": [
       {
-
+        "title": {
+          "en": "Purchasing :",
+          "ja": "購入:",
+          "de": "Einkauf:"
+        },
         "phone": "1-877-505-0155 (Toll Free)",
         "email": "purchase@sapparts.com"
       },
       {
-
+        "title": {
+          "en": "Purchasing :",
+          "ja": "購入:",
+          "de": "Einkauf:"
+        },
         "phone": "1-877-505-0155 (Toll Free)",
         "email": "purchase@sapparts.com"
       }

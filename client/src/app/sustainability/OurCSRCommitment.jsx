@@ -9,12 +9,12 @@ export default function FoundationSection() {
     <section className="Section bg-white">
       {/* Title */}
       <h2 className="Heading text-center">
-        {t("foundation.title")}
+        {t("foundation2.title")}
       </h2>
 
       {/* Paragraph */}
       <p className="Paragraph text-center sm:px-16">
-        {t("foundation.desc")}
+        {t("foundation2.description")}
       </p>
     </section>
   );

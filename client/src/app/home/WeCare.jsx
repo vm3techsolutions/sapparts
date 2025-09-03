@@ -104,8 +104,8 @@ import { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 
 export default function ContributionSection() {
-      const { t, i18n } = useTranslation();
-    const currentLang = i18n.language || "en";
+  const { t, i18n } = useTranslation();
+  const currentLang = i18n.language || "en";
   const [cards, setCards] = useState([]);
   const sectionData = {
     title: t("“We Care, We Contribute!”"),
@@ -114,17 +114,19 @@ export default function ContributionSection() {
     knowMoreLink: "/contribution",
   };
 
-  // Static cards data (previously from JSON)
+  // Static cards data (with German added)
   const staticCards = [
     {
       id: 1,
       title: {
-        "en" : "Education",
-        "ja" : "教育"
+        en: "Education",
+        ja: "教育",
+        de: "Bildung",
       },
       desc: {
-        "en" : "This handy tool helps you create dummy text for all your layout needs. We are gradually adding new",
-        "ja" : "この便利なツールは、すべてのレイアウトのニーズに合わせてダミーテキストを作成するのに役立ちます。私たちは新しい内容を徐々に追加しています。"
+        en: "This handy tool helps you create dummy text for all your layout needs. We are gradually adding new",
+        ja: "この便利なツールは、すべてのレイアウトのニーズに合わせてダミーテキストを作成するのに役立ちます。私たちは新しい内容を徐々に追加しています。",
+        de: "Dieses praktische Tool hilft Ihnen, Blindtext für all Ihre Layout-Bedürfnisse zu erstellen. Wir fügen nach und nach neue Inhalte hinzu.",
       },
       number: "01",
       link: "/education",
@@ -132,12 +134,14 @@ export default function ContributionSection() {
     {
       id: 2,
       title: {
-        "en" : "Environment",
-        "ja" : "環境"
+        en: "Environment",
+        ja: "環境",
+        de: "Umwelt",
       },
       desc: {
-        "en" : "This handy tool helps you create dummy text for all your layout needs. We are gradually adding new",
-        "ja" : "この便利なツールは、すべてのレイアウトのニーズに合わせてダミーテキストを作成するのに役立ちます。私たちは新しい内容を徐々に追加しています。"
+        en: "This handy tool helps you create dummy text for all your layout needs. We are gradually adding new",
+        ja: "この便利なツールは、すべてのレイアウトのニーズに合わせてダミーテキストを作成するのに役立ちます。私たちは新しい内容を徐々に追加しています。",
+        de: "Dieses praktische Tool hilft Ihnen, Blindtext für all Ihre Layout-Bedürfnisse zu erstellen. Wir fügen nach und nach neue Inhalte hinzu.",
       },
       number: "02",
       link: "/environment",
@@ -145,12 +149,14 @@ export default function ContributionSection() {
     {
       id: 3,
       title: {
-        "en" : "Healthcare",
-        "ja" : '健康医療'
+        en: "Healthcare",
+        ja: "健康医療",
+        de: "Gesundheitswesen",
       },
       desc: {
-        "en" : "This handy tool helps you create dummy text for all your layout needs. We are gradually adding new",
-        "ja" : "この便利なツールは、すべてのレイアウトのニーズに合わせてダミーテキストを作成するのに役立ちます。私たちは新しい内容を徐々に追加しています。"
+        en: "This handy tool helps you create dummy text for all your layout needs. We are gradually adding new",
+        ja: "この便利なツールは、すべてのレイアウトのニーズに合わせてダミーテキストを作成するのに役立ちます。私たちは新しい内容を徐々に追加しています。",
+        de: "Dieses praktische Tool hilft Ihnen, Blindtext für all Ihre Layout-Bedürfnisse zu erstellen. Wir fügen nach und nach neue Inhalte hinzu.",
       },
       number: "03",
       link: "/healthcare",
@@ -158,12 +164,14 @@ export default function ContributionSection() {
     {
       id: 4,
       title: {
-        "en" : "Community",
-        "ja" : "ィ共同体"
+        en: "Community",
+        ja: "共同体",
+        de: "Gemeinschaft",
       },
       desc: {
-        "en" : "This handy tool helps you create dummy text for all your layout needs. We are gradually adding new",
-        "ja" : "この便利なツールは、すべてのレイアウトのニーズに合わせてダミーテキストを作成するのに役立ちます。私たちは新しい内容を徐々に追加しています。"
+        en: "This handy tool helps you create dummy text for all your layout needs. We are gradually adding new",
+        ja: "この便利なツールは、すべてのレイアウトのニーズに合わせてダミーテキストを作成するのに役立ちます。私たちは新しい内容を徐々に追加しています。",
+        de: "Dieses praktische Tool hilft Ihnen, Blindtext für all Ihre Layout-Bedürfnisse zu erstellen. Wir fügen nach und nach neue Inhalte hinzu.",
       },
       number: "04",
       link: "/community",
@@ -191,7 +199,9 @@ export default function ContributionSection() {
             {leftCards.map((item) => (
               <div key={item.id} className="bg-[#F6F8FC]/50 p-6 text-left h-full">
                 <div className="flex items-center justify-between mb-2">
-                  <h3 className="text-[#0E509E] font-semibold text-lg">{item.title[currentLang]}</h3>
+                  <h3 className="text-[#0E509E] font-semibold text-lg">
+                    {item.title[currentLang]}
+                  </h3>
                   <p className="text-[#FACC48]/50 font-bold text-5xl">{item.number}</p>
                 </div>
                 <p className="text-md text-[#363636] my-6">{item.desc[currentLang]}</p>
@@ -202,24 +212,25 @@ export default function ContributionSection() {
             ))}
           </div>
 
-          {/* Center Image - hidden on mobile */}
-<div className="hidden md:flex items-stretch justify-center overflow-hidden">
-  <Image
-    src="/assets/home/weCare.png"
-    alt="“We Care. We Contribute.”"
-    width={300}
-    height={400}
-    className="object-contain transition-transform duration-300 ease-in-out hover:scale-110"
-  />
-</div>
-
+          {/* Center Image */}
+          <div className="hidden md:flex items-stretch justify-center overflow-hidden">
+            <Image
+              src="/assets/home/weCare.png"
+              alt="“We Care. We Contribute.”"
+              width={300}
+              height={400}
+              className="object-contain transition-transform duration-300 ease-in-out hover:scale-110"
+            />
+          </div>
 
           {/* Right Cards */}
           <div className="flex flex-col justify-between gap-6">
             {rightCards.map((item) => (
               <div key={item.id} className="bg-[#F6F8FC]/50 p-6 text-left h-full">
                 <div className="flex items-center justify-between mb-2">
-                  <h3 className="text-[#0E509E] font-semibold text-lg">{item.title[currentLang]}</h3>
+                  <h3 className="text-[#0E509E] font-semibold text-lg">
+                    {item.title[currentLang]}
+                  </h3>
                   <p className="text-[#FACC48]/50 font-bold text-5xl">{item.number}</p>
                 </div>
                 <p className="text-md text-[#363636] my-6">{item.desc[currentLang]}</p>
@@ -231,12 +242,12 @@ export default function ContributionSection() {
           </div>
         </div>
 
-      {/* "Know More" Button - hidden on mobile */}
-<div className="hidden md:block mt-10 text-center">
-  <Link href={sectionData.knowMoreLink}>
-    <button className="Button">{t("Know More")}</button>
-  </Link>
-</div>
+        {/* "Know More" Button */}
+        <div className="hidden md:block mt-10 text-center">
+          <Link href={sectionData.knowMoreLink}>
+            <button className="Button">{t("Know More")}</button>
+          </Link>
+        </div>
       </div>
     </div>
   );

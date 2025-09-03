@@ -27,13 +27,13 @@ export default function ProductOverview() {
         {/* Right: Text */}
         <div className="-mt-8 sm:-mt-0">
           <h2 className="Heading">
-            {t("productOverview.sectionTitle")}
+            {t("productOverview3.sectionTitle")}
           </h2>
           <p className="Paragraph">
-            {t("productOverview.description1")}
+            {t("productOverview3.description1")}
           </p>
           <p className="Paragraph">
-            {t("productOverview.description2")}
+            {t("productOverview3.description2")}
           </p>
         </div>
       </div>
