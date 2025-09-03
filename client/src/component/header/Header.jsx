@@ -99,7 +99,7 @@ export default function Header() {
         </Link>
 
         {/* Desktop Nav */}
-        <nav className="hidden md:flex items-center gap-1 text-[#0E509E] text-md font-medium">
+        <nav className="hidden md:flex items-center gap-0.5 text-[#0E509E] text-md font-medium">
           {navLinks.map((link) => (
             <div key={link.name} className="relative group">
               {link.subLinks ? (

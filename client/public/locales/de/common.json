@@ -1010,7 +1010,603 @@
         "Kleine Mechanismen mit engen Toleranzen und geringer Reibung"
       ]
     }
+  },
+
+  "technicalSpecs2": {
+    "sectionTitle": "Technische Spezifikationen & Merkmale",
+    "table": {
+      "headers": {
+        "feature": "Merkmal",
+        "benefit": "Vorteil"
+      },
+      "rows": [
+        {
+          "feature": "Konstante Porositätskontrolle",
+          "benefit": "Hält Schmierung zurück; ermöglicht Material- und Gewichtsoptimierung"
+        },
+        {
+          "feature": "Hohe Maßgenauigkeit",
+          "benefit": "Ideal für Presspassungen und Präzisionsmontage"
+        },
+        {
+          "feature": "Verschleiß- & Korrosionsbeständigkeit",
+          "benefit": "Zuverlässige Leistung in exponierten und hochzyklischen Umgebungen"
+        },
+        {
+          "feature": "Selbstschmierende Optionen",
+          "benefit": "Perfekt für Trockenlaufbedingungen und schwer zugängliche Wartungsbereiche"
+        },
+        {
+          "feature": "Kosteneffiziente Fertigung",
+          "benefit": "Am besten geeignet für mittlere bis hohe Stückzahlen mit wiederholbarer Präzision"
+        },
+        {
+          "feature": "Sekundäre Bearbeitungsschritte",
+          "benefit": "Bearbeitung, Dampfbehandlung, Wärmebehandlung, Harzimprägnierung, Kalibrieren"
+        }
+      ]
+    }
+  },
+
+  "materialsSizes2": {
+    "sectionTitle": "Materialien, Größen und Toleranzen",
+    "left": {
+      "title": "Materialqualitäten",
+      "points": [
+        "Eisen-Kohlenstoff (Fe-C)",
+        "Eisen-Kupfer-Kohlenstoff (Fe-Cu-C)",
+        "Kupferinfiltriertes Eisen",
+        "Bronzebasiert (CuSn, CuZn)",
+        "Legierungszusätze: Nickel, Molybdän, Graphit"
+      ]
+    },
+    "right": {
+      "title": "Größen & Toleranzen",
+      "points": [
+        "Dichte: 6,0 – 7,2 g/cm³",
+        "Toleranz: Bis zu ±0,02 mm",
+        "Oberflächenfinish: Dampfbehandelt / harzimprägniert / bearbeitet / beschichtet",
+        "Anpassung: Basierend auf Kundendzeichnung oder Anwendungsfall"
+      ]
+    }
+  },
+
+  "manufacturingTesting2": {
+    "sectionTitle": "Fertigungs- & Testmöglichkeiten (produktspezifisch)",
+    "left": {
+      "title": "Fertigungsprozessablauf",
+      "points": [
+        "Pulvermischen & -mischen",
+        "Kaltpressen (50–1000 Tonnen)",
+        "Sintern (kontrollierte Atmosphären bis 1120 °C)",
+        "Kalibrieren & Koinfiltration",
+        "Sekundärbearbeitung / Oberflächenbehandlungen",
+        "Endgültige Qualitätsprüfung & Validierung"
+      ]
+    },
+    "right": {
+      "title": "Tests & Validierung",
+      "description": "Jede Komponente durchläuft mehrstufige Qualitätsprüfungen:",
+      "points": [
+        "Dichte- & Porositätsanalyse",
+        "Härte- & Belastungstests",
+        "Ermüdungs- & Verschleißtests",
+        "Maß- & Oberflächenrauheitsprüfung",
+        "Mikrostrukturanalyse"
+      ]
+    }
+  },
+
+  "productOverview4": {
+    "title": "Produktübersicht",
+    "subtitle": "Hochleistungs-Stahl- & NichteisenbuchsenPräzisionsgefertigt. Wärmebehandelt. Gebaut für Langlebigkeit.",
+    "description": "SAP Parts™ bietet eine breite Palette gehärteter Stahl- und Nichteisenbuchsen, die für hochbelastete, verschleißintensive Umgebungen entwickelt wurden. Mit eigener Wärmebehandlung und CNC-Bearbeitung bieten unsere Buchsen enge Toleranzen, verlängerte Lebensdauer und überlegene Tragfähigkeit für anspruchsvolle OEM-Anwendungen."
+  },
+
+  "applicationsUseCases4": {
+    "sectionTitle": "Anwendungen & Branchenanwendungsfälle",
+    "case1": {
+      "title": "Bau- & Bergbaumaschinen",
+      "points": [
+        "Baggerausleger-, Arm- und Schaufelverbindungen",
+        "Baggerlader-Gelenke",
+        "Hydraulikzylinder (Kolben- & Augeenden)"
+      ]
+    },
+    "case2": {
+      "title": "Landwirtschaftsmaschinen",
+      "points": [
+        "Traktor-Königsbolzen",
+        "Lagerböcke und Zentrallager",
+        "Pflugverbindungen und Drehpunkte"
+      ]
+    },
+    "case3": {
+      "title": "Automobil & Getriebe",
+      "points": [
+        "Getriebe- und Achskomponenten",
+        "Synchronisiernaben"
+      ]
+    },
+    "case4": {
+      "title": "Verteidigung & Schwermaschinenbau",
+      "points": [
+        "Industrielle Aktuatoren",
+        "Militärische Mobilitätssysteme"
+      ]
+    }
+  },
+
+   "technicalSpecs4": {
+    "sectionTitle": "Technical Specifications & Features",
+    "feature": "Feature",
+    "benefit": "Benefit",
+    "rows": [
+      {
+        "feature": "Alloy steel grades (e.g., 100Cr6, SCM415, 20MnCr5)",
+        "benefit": "High wear resistance under continuous load"
+      },
+      {
+        "feature": "Oil-grooved bushing profiles",
+        "benefit": "Enhanced lubrication, reduced friction, longer operational life"
+      },
+      {
+        "feature": "Case carburizing / nitriding",
+        "benefit": "Improved hardness, fatigue strength, and corrosion resistance"
+      },
+      {
+        "feature": "Induction hardening",
+        "benefit": "Targeted surface strengthening for high-load zones"
+      },
+      {
+        "feature": "Tight tolerance machining",
+        "benefit": "Accurate press-fits and extended part life"
+      },
+      {
+        "feature": "Custom diameters (30–300 mm)",
+        "benefit": "Direct interchangeability with OEM and aftermarket parts"
+      }
+    ]
+  },
+
+    "materialsSizes4": {
+    "sectionTitle": "Materials, Sizes, and Tolerances",
+    "steelBushings": {
+      "title": "Steel Hardened Bushings",
+      "points": [
+        "OD Range: 20 mm to 300 mm",
+        "Materials: 100Cr6, 20MnCr5, C45, SAE 4140, SCM415, ST52, 16MnCr5, FE510",
+        "Surface Treatments: Case Carburizing, Nitriding, Nitro–Carburizing, Carbo–Nitriding, Induction Hardening"
+      ]
+    },
+    "nonFerrousBushings": {
+      "title": "Non-Ferrous Bushings",
+      "points": [
+        "OD Range: 50 mm to 300 mm",
+        "Materials: Bronze: C96900, C93200, C86500, CuSn8P | Brass: C86300, CuZn39Pb3",
+        "Tolerances: Machined to ±0.02 mm, optimized for high-load press–fit and sliding assemblies"
+      ]
+    }
+  },
+
+
+   "manufacturingTesting4": {
+    "sectionTitle": "Manufacturing & Testing Capabilities (Product-Specific)",
+    "intro": "SAP Parts™ manufactures bushings in a vertically integrated facility, ensuring full control over quality, material traceability, and turnaround time.",
+    "cards": {
+      "production": {
+        "title": "In–House Production Capabilities",
+        "points": [
+          "CNC Turning, VMC, Bore & Centerless Grinding",
+          "German SQF Ipsen Heat Treatment Plant",
+          "Surface Treatments: CED Coating, MoS₂, WS₂, Zn Plating"
+        ]
+      },
+      "testing": {
+        "title": "Testing & Quality Assurance",
+        "points": [
+          "Micro Vickers Hardness & Roughness Testing",
+          "Load Testing up to 50T with ±30° axial rotation",
+          "Inverted Microscopy, Roundness, and Counter Tracers",
+          "ISO 9001:2015 Certified Processes"
+        ]
+      }
+    }
+  },
+
+    "productOverview5": {
+    "alt": "Bushings",
+    "title": "Product Overview",
+    "subtitle": "High-Performance Steel & Non-Ferrous BushingsPrecision-Engineered. Heat-Treated. Built to Endure.",
+    "description": "SAP Parts™ offers an extensive range of hardened steel and non-ferrous bushings designed for high-load, wear-intensive environments. With in-house heat treatment and CNC machining capabilities, our bushings deliver tight tolerances, extended service life, and superior load-bearing performance for demanding OEM applications."
+  },
+
+   "applicationsUseCases5": {
+    "sectionTitle": "Applications & Industry Use Cases",
+    "case1": {
+      "title": "Construction & Mining Equipment",
+      "points": [
+        "Excavator boom, arm, bucket linkages",
+        "Backhoe loader joints",
+        "Hydraulic cylinders (tail & eye ends)"
+      ]
+    },
+    "case2": {
+      "title": "Agricultural Machinery",
+      "points": [
+        "Tractor kingpins",
+        "Pillow blocks and central sleeves",
+        "Plough joints and pivot points"
+      ]
+    },
+    "case3": {
+      "title": "Automotive & Transmission",
+      "points": [
+        "Gearbox and axle components",
+        "Synchronizer hubs"
+      ]
+    },
+    "case4": {
+      "title": "Defence & Heavy Engineering",
+      "points": [
+        "Industrial actuators",
+        "Military mobility systems"
+      ]
+    }
+  },
+
+   "technicalSpecs5": {
+    "sectionTitle": "Technische Spezifikationen & Merkmale",
+    "feature": "Merkmal",
+    "benefit": "Vorteil",
+    "rows": [
+      {
+        "feature": "Legierte Stahlgüten (z. B. 100Cr6, SCM415, 20MnCr5)",
+        "benefit": "Hohe Verschleißfestigkeit unter Dauerbelastung"
+      },
+      {
+        "feature": "Ölgenutete Buchsenprofile",
+        "benefit": "Verbesserte Schmierung, reduzierte Reibung, längere Lebensdauer"
+      },
+      {
+        "feature": "Aufkohlen / Nitrieren",
+        "benefit": "Verbesserte Härte, Ermüdungsfestigkeit und Korrosionsbeständigkeit"
+      },
+      {
+        "feature": "Induktionshärten",
+        "benefit": "Gezielte Oberflächenverstärkung für Hochlastzonen"
+      },
+      {
+        "feature": "Präzisionsbearbeitung mit engen Toleranzen",
+        "benefit": "Exakte Presspassungen und verlängerte Lebensdauer"
+      },
+      {
+        "feature": "Sonderdurchmesser (30–300 mm)",
+        "benefit": "Direkter Austausch mit OEM- und Aftermarket-Teilen"
+      }
+    ]
+  },
+
+  "materialsSizes5": {
+    "sectionTitle": "Materialien, Größen und Toleranzen",
+    "steel": {
+      "title": "Gehärtete Stahlbuchsen",
+      "points": [
+        "AD-Bereich: 20 mm bis 300 mm",
+        "Materialien: 100Cr6, 20MnCr5, C45, SAE 4140, SCM415, ST52, 16MnCr5, FE510",
+        "Oberflächenbehandlungen: Aufkohlen, Nitrieren, Nitrocarburieren, Carbonitrieren, Induktionshärten"
+      ]
+    },
+    "nonFerrous": {
+      "title": "Nichteisen-Buchsen",
+      "points": [
+        "AD-Bereich: 50 mm bis 300 mm",
+        "Materialien: Bronze: C96900, C93200, C86500, CuSn8P | Messing: C86300, CuZn39Pb3",
+        "Toleranzen: Bearbeitet bis ±0,02 mm | Optimiert für Hochlast-Presspassungen und Gleitlagerungen"
+      ]
+    }
+  },
+
+  "manufacturingTesting5": {
+    "sectionTitle": "Fertigungs- & Testmöglichkeiten (produktspezifisch)",
+    "description": "SAP Parts™ fertigt Buchsen in einer vertikal integrierten Anlage und gewährleistet so volle Kontrolle über Qualität, Materialrückverfolgbarkeit und Durchlaufzeit.",
+    "production": {
+      "title": "Interne Produktionskapazitäten",
+      "points": [
+        "CNC-Drehen, VMC, Bohr- & spitzenloses Schleifen",
+        "Deutsche SQF Ipsen-Wärmebehandlungsanlage",
+        "Oberflächenbehandlungen: CED-Beschichtung, MoS₂, WS₂, Zn-Beschichtung"
+      ]
+    },
+    "testing": {
+      "title": "Prüfung & Qualitätssicherung",
+      "points": [
+        "Mikro-Vickers-Härte- & Rauheitsprüfung",
+        "Belastungstests bis 50T mit ±30° axialer Drehung",
+        "Inversmikroskopie, Rundheits- und Konturmessgeräte",
+        "ISO 9001:2015 zertifizierte Prozesse"
+      ]
+    }
+  },
+
+  "productOverview6": {
+    "title": "Produktübersicht",
+    "imageAlt": "Buchsen",
+    "paragraphs": [
+      "SAP Parts™ bietet ein umfassendes Sortiment hochpräziser Komponenten, die für Langlebigkeit, Maßgenauigkeit und Leistung unter extremen Einsatzbedingungen entwickelt wurden. Von Buchsen und Dichtungen bis hin zu Scharnieren und Verriegelungsbaugruppen ist jedes Teil so konstruiert, dass es den OEM-Anforderungen in kritischen Anwendungen entspricht.",
+      "Diese Teile werden mit Toleranzen im Mikrometerbereich gefertigt und auf Außendurchmesser (AD)-Bereiche von 30 mm bis 200 mm bearbeitet, wodurch sie für den Schwermaschinenbau, die Landwirtschaft und den Industriesektor geeignet sind."
+    ]
+  },
+
+  "applicationsUseCases6": {
+    "sectionTitle": "Anwendungen & Branchenanwendungsfälle",
+    "case1": {
+      "title": "Bau & Bergbau",
+      "points": [
+        "Baggergelenke, Kabinenbaugruppen und Hochlast-Drehsysteme",
+        "Gleitringdichtungen und Buchsen für hochreibende Gelenke"
+      ]
+    },
+    "case2": {
+      "title": "Landwirtschaft & OEM-Maschinen",
+      "points": [
+        "Buchsen und Verriegelungsbaugruppen für Traktoren und Mähdrescher",
+        "Komponenten für staubige, schlammige und feuchte Umgebungen"
+      ]
+    },
+    "case3": {
+      "title": "Verteidigung, Getriebe & Schwermaschinenbau",
+      "points": [
+        "Hochpräzise Komponenten für Mobilitätssysteme und Strukturverbindungen",
+        "Kabinen-Scharniere und Verriegelungssysteme für Militärfahrzeuge und Industriegehäuse"
+      ]
+    }
+  },
+
+    "technicalSpecs6": {
+    "sectionTitle": "Technische Spezifikationen & Merkmale",
+    "tableHeaders": {
+      "feature": "Merkmal",
+      "benefit": "Vorteil"
+    },
+    "items": [
+      {
+        "feature": "Legierte Stahlgüten (100Cr6, SCM415)",
+        "benefit": "Hohe Verschleißfestigkeit und Tragfähigkeit"
+      },
+      {
+        "feature": "Ölgenutete Buchsenprofile",
+        "benefit": "Optimierte Schmierung und Reibungsreduzierung für längere Lebensdauer"
+      },
+      {
+        "feature": "Schwimmende Dichtungsgeometrie",
+        "benefit": "Zuverlässige Abdichtung bei axialem Versatz und Schmutzeinwirkung"
+      },
+      {
+        "feature": "Präzisionsbearbeitung mit engen Toleranzen",
+        "benefit": "Konstante Leistung und Austauschbarkeit der Teile in Baugruppen"
+      },
+      {
+        "feature": "Oberflächenbehandlungen (z. B. MoS₂, CED)",
+        "benefit": "Verbesserte Korrosionsbeständigkeit, Ermüdungsfestigkeit und Lebensdauer"
+      }
+    ]
+  },
+
+  "materialsSizes6": {
+    "sectionTitle": "Materialien, Größen und Toleranzen",
+    "subTitle": "Wichtige Komponententypen und Bereiche",
+    "items": [
+      "Legierte Stahlbuchsen: 100Cr6, SAE 4140, SAE 8620, C45, 20MnCr5, 55Si7, SCM415",
+      "Ölgenutete Buchsen: Erhältlich in geraden, spiralförmigen und kundenspezifischen Profilen",
+      "Schwimmende Dichtungen: Duo-Cone- und Gleitringdichtungsvarianten",
+      "Kabinen-Scharniere & Verriegelungsbaugruppen: Mit Präzision im Mikrometerbereich gefertigt",
+      "AD-Bereich: 30 mm bis 200 mm",
+      "Toleranzen: Präzisionsbearbeitung für OEM-Passung, typischerweise innerhalb von ±0,02 mm"
+    ]
+  },
+
+  "manufacturingTesting6": {
+    "sectionTitle": "Fertigungs- & Testmöglichkeiten (produktspezifisch)",
+    "description": "Alle Präzisionskomponenten werden in der integrierten Anlage von SAP Parts™ gefertigt, die für Großserien- und Hochkomplexitätsproduktion ausgestattet ist.",
+    "inHouse": {
+      "title": "Interne Fähigkeiten",
+      "items": [
+        "CNC-, VMC- und spitzenloses Schleifen",
+        "Oberflächenbehandlung: CED-Beschichtung, MoS₂, WS₂",
+        "Wärmebehandlungen: Aufkohlen, Induktionshärten"
+      ]
+    },
+    "testing": {
+      "title": "Prüfung & Validierung",
+      "items": [
+        "Mikro-Vickers-Härteprüfung",
+        "Oberflächenrauheits- und Rundheitsprüfung",
+        "Belastungs- und Dauerlaufprüfungen sowie Simulationen axialer Fehlstellungen",
+        "ISO 9001:2015 zertifizierte Qualitätsprozesse"
+      ]
+    }
+  },
+
+    "SealsAssemblyGuideTitle1": "Montageanleitung für Dichtungen",
+  "GuidelinesTitle1": "Richtlinien für die Installation von Duo-Cone-Dichtungen",
+  "MechanicalSealDesignTitle1": "Mechanische Dichtkonstruktion",
+  "MechanicalSealDesignDesc1": "Mechanische Gleitringdichtungen werden in die Nut des Haltegehäuses eingesetzt, um die Abdichtung an den angrenzenden Flächen zu bilden. Die Metallflächen sind präzisionsgeläppt. Der Rampenwinkel von Dichtung und Gehäuse ist leicht unterschiedlich und bildet einen Keil, in den der Gummiring hineingleitet und ein komprimiertes Profil bildet, das die Dichtungen belastet und sie intakt macht.",
+  "TerminologyTitle1": "Terminologie:",
+  "SealRing1": "Dichtring",
+  "RubberToric1": "Gummitorus",
+  "HousingRetainer1": "Gehäusehalter",
+  "HousingRamp1": "Gehäserampe",
+  "SealRingHousing1": "Dichtringgehäuse",
+  "SealRingFace1": "Dichtringfläche",
+  "SealRingRamp1": "Dichtringrampe",
+  "SealRingRetainingLip1": "Dichtring-Haltesteg",
+  "InstallationTool1": "Montagewerkzeug",
+
+   "HousingPreparationTitle1": "Gehäusevorbereitung:",
+  "HousingPreparationDesc1": "Die Gehäuseteile, die mit den Gummitorringen (3 und 4 a) in Kontakt kommen, müssen vor der Installation der Dichtung frei von Fremdpartikeln sein. Dies sollte mit einem fusselfreien Tuch und einem nicht auf Erdöl basierenden Lösungsmittel erfolgen, insbesondere SAP Parts Seal-O-Fix Spray.Mit einem sauberen Tuch trocken wischen. Entfernen Sie alle Fremdmaterialien von den Gummitoren (2), den Rampen (7) und den Lippen (8) beider Dichtungsringe.Platzieren Sie die Gummitoren auf dem Metall-Dichtring am Boden der Dichtringrampe und an der Haltekante.Stellen Sie sicher, dass die O-Ringe auf der Felge gerade bleiben und nicht zusammengedrückt oder verdreht werden, da dies zu einer unsachgemäßen Installation der Schwimmdichtung führen kann.",
+  "ApprovedAssemblyLubricantsTitle1": "Zugelassene Montage-Schmierstoffe:",
+  "ApprovedAssemblyLubricantsDesc1": "SAP Parts - Seal-O-Fix Spray / Isopropylalkohol* Befolgen Sie alle Sicherheitspraktiken für den Umgang mit flüchtigen Lösungsmitteln. Verwenden Sie kein anderes Öl, das einen Ölfilm hinterlässt oder nicht verdunstet.",
+
+   "SealInstallationToolTitle1": "SAP Parts Dichtungsinstallationswerkzeug:",
+  "SealInstallationToolDesc1": "Unten sehen Sie, wie das Dichtungsinstallationswerkzeug aussieht. Es besteht aus einem runden Haltering aus Polyamid mit Stahlklemme und Sicherungsmutter, die die Dichtung mit O-Ring in der speziell an der Ringfläche gefertigten Nut hält und den O-Ring in die Gehäusenut drückt.",
+  "DuoConeInstallationTitle1": "Duo Cone Dichtungsinstallationsprozess:",
+  "DuoConeInstallationDesc1": "Es wird immer empfohlen, dass Duo Cone / Metal Face Float Dichtungen nur mit dem richtigen Installationswerkzeug installiert werden.",
+  "StepsByStepTitle1": "Schritt-für-Schritt Dichtungsinstallation:",
+  "Step11": "1. Ordnen Sie das rechte Duo Cone Dichtung, Installationswerkzeug, Seal-O-Fix Spray, Hammer, fusselfreies Tuch usw. wie unten gezeigt an, bevor Sie mit der eigentlichen Installation der Dichtung in der Gehäusekammer beginnen.",
+  "Step21": "2. Überprüfen Sie, ob Sie die richtige Werkzeug-Teilenummer und das von SAP Parts bereitgestellte Design für die Dichtung verwenden. Hinweis: Jede Dichtung hat ein anderes Werkzeug. Prüfen Sie, ob Dichtungsfläche, O-Ring & Gehäuse sauber und frei von mechanischen Schäden oder Dellen sind.",
+  "Step31": "3. Tragen Sie Seal-O-Fix auf die Dichtungsfläche auf und reinigen Sie die Dichtung mit einem fusselfreien Tuch. Stellen Sie sicher, dass die Dichtungsfläche gründlich gereinigt ist und keine Staubpartikel darauf verbleiben.",
+  "Step41": "4. Setzen Sie den O-Ring auf die Dichtungsrampe und prüfen Sie, ob er richtig aufgezogen ist. Prüfen Sie, dass der O-Ring nicht verdreht oder schief sitzt.",
+  "Step51": "5. Halten Sie den O-Ring auf der Dichtungsrampe und führen Sie die Lippe des Werkzeugs in die Lücke zwischen O-Ring und Dichtungsfläche im kreisförmigen Führungsweg des Werkzeugs ein.",
+  "Step61": "6. Bringen Sie die Klammerkanten zusammen und ziehen Sie die am Werkzeug befindliche Sicherungsmutter fest, um die Dichtung fest in der gebildeten Klammer zu halten.",
+  "Step71": "7. Dies führt dazu, dass die Dichtung im Installationswerkzeug geführt wird.",
+
+    "HousingGrooveTitle1": "Installation der Dichtung in der Gehäusenut:",
+  "HousingGrooveStep11": "1. Für die Installation der Dichtung reinigen Sie die Dichtung und das Gehäuse und legen Sie die Dichtung auf das Gehäuse.",
+  "HousingGrooveStep21": "2. Halten Sie den O-Ring in der Vorrichtung und bilden Sie die Werkzeugführungsbaugruppe wie oben beschrieben.",
+  "HousingGrooveStep31": "3. Halten Sie die Dichtung und den O-Ring fest und prüfen Sie, dass der O-Ring nicht verdreht ist. Platzieren Sie die Dichtung und das Werkzeug an der Nutöffnung.",
+  "HousingGrooveStep41": "4. Drücken Sie die Vorrichtung gleichmäßig auf die Führungsplatte und spüren Sie den O-Ring-Einsetzstoß im Gehäuse.",
+  "HousingGrooveDesc1": "Kleine Ringe können manuell befestigt werden, bei großen Ringen gleichmäßigen und sanften Druck mit einem Holzhammer auf den Rand der Führungsplatte ausüben.",
+  
+  "HousingGrooveTitle2": "Installation der Dichtung in der Gehäusenut:",
+  "HousingGrooveWarning11": "Verwenden Sie niemals Gummi-O-Ringe mit Blaslöchern/Beschädigungen.",
+  "HousingGrooveWarning21": "Lassen Sie die Dichtfläche niemals schmutzig, sie sollte vor der Montage gut gereinigt werden.",
+  "HousingGrooveWarning31": "Versuchen Sie niemals, auf der Dichtfläche zu hämmern, und verwenden Sie keine scharfen Werkzeuge, um O-Ringe zu platzieren.",
+  
+  "HousingGrooveTitle3": "Installation der Dichtung in der Gehäusenut:",
+  "HousingGrooveInstruction11": "Reinigen Sie die Dichtfläche gründlich vor der Installation.",
+  "HousingGrooveInstruction21": "Verwenden Sie Seal–O-Fix Spray.",
+  "HousingGrooveInstruction31": "Überprüfen Sie, ob die Dichtkante frei von Staub, Schmutz, Haaren usw. ist.",
+  "HousingGrooveInstruction41": "Verwenden Sie immer nur fusselfreie Tücher, niemals Taschentücher oder Baumwollabfälle.",
+  "HousingGrooveInstruction51": "Stellen Sie beim Abschluss der Endmontage sicher, dass beide Dichtungen korrekt im Gehäuse sitzen.",
+  "HousingGrooveInstruction61": "Starke Stöße können die Dichtungskomponenten zerkratzen oder beschädigen.",
+
+    "SealOFixTitle": "Seal-O-Fix",
+
+  "DirectionsTitle": "Anweisungen zur Verwendung:",
+  "Directions1": "Vor der Reinigung der Dichtfläche sicherstellen, dass alle Oberflächen abgekühlt sind.",
+  "Directions2": "Nicht in direktem Sonnenlicht oder bei einer Lufttemperatur über 38°C (100 F) anwenden.",
+  "Directions3": "Schutzbrille und Gesichtsmaske während der Anwendung verwenden.",
+  "Directions4": "SAP Seal-O-Fix-Spray auf die Gehäuseoberfläche auftragen.",
+  "Directions5": "Sofort die Dichtung mit dem bereitgestellten Werkzeug montieren.",
+  "Directions6": "Keine anderen Öle für die Dichtungsinstallation in Gehäusen verwenden.",
+
+  "StorageTitle": "Lagerung",
+  "Storage1": "SAP Seal-O-Fix sollte idealerweise an einem kühlen, trockenen Ort in Behältern bei Temperaturen zwischen 8 und 49°C (46 und 120F) gelagert werden.",
+  "Storage2": "Optimale Lagerung am unteren Ende dieses Bereichs.",
+  "Storage3": "Nicht einatmen.",
+
+  "CautionTitle": "Vorsicht",
+  "Caution1": "Entzündliche Zusammensetzung.",
+  "Caution2": "Drucksprühdose.",
+  "Caution3": "Nicht auf Flammen oder heiße Oberflächen sprühen.",
+  "Caution4": "Bitte an einem kühlen Ort fern von Hitze und Sonnenlicht lagern.",
+
+   "ProductDescriptionTitle": "Produktbeschreibung",
+  "ProductDescriptionText": "SAP Seal-O-Fix ist eine speziell entwickelte Lösung für die Montage von Duo Cone Dichtungen in Gehäusen und für schwere Reinigungsarbeiten. Oberflächenreinigungsarbeiten, die normale Entfetter nicht bewältigen können, werden effektiv mit SAP Seal-O-Fix durchgeführt. Es handelt sich um eine gebrauchsfertige, lösungsmittelbasierte Zusammensetzung mit leistungsstarken Reinigungs-Emulgatoren und löslichen fettlösenden Lösungsmitteln. Es entfernt schnell starken, klebrigen Rost, Staub und Schmutz von der Dichtungsoberfläche, ohne starke Dämpfe oder unangenehme Gerüche. Dies ist ein proprietäres Produkt, das speziell von SAP PARTS für Duo Cone Dichtungen entwickelt wurde.",
+
+  "ProductBenefitsTitle": "Produktvorteile",
+  "ProductBenefits1": "Leistungsstark und schnell wirkend.",
+  "ProductBenefits2": "SAP Seal-O-Fix ist absolut sicher auf Metall, Gummi und lackierten Oberflächen.",
+  "ProductBenefits3": "Schadet weder Markierungen, Chrom noch Gravuren. Sorgt für vollständige Entfernung aller Öl- und Fettablagerungen vor der Montage der Duo Cone Dichtung.",
+  "ProductBenefits4": "Bequem und sicher für alle Arten von mechanischen Dichtungen.",
+  "ProductBenefits5": "Das einzige wirksame Oberflächenvorbereitungs-Spray zur Entfernung von Silikonölen.",
+
+  "PropertiesTitle": "Materialeigenschaften",
+  "Properties1": "Chemischer Typ: Mineralöle / Lösungsmittelbasiert / NON CFC",
+  "Properties2": "Enthält proprietäre Inhaltsstoffe, Tenside und Conditioner",
+  "Properties3": "Aussehen: Klare, helle Flüssigkeit.",
+  "Properties4": "Geruch: LÖSUNGSMITTEL, SPEZIFISCH",
+  "Properties5": "Flammpunkt: 50 Grad Celsius",
+  "Properties6": "Dichte: 0,80",
+
+   
+
+    "housing": {
+    "sections": [
+      {
+        "title": "Anwendung von mechanischen Dichtungen in der Rotovator-Montage",
+        "paragraphs": [
+          "Ein Rotovator, auch Rotary Tiller genannt, besteht aus einem Stahlrahmen, einer rotierenden Welle mit montierten Klingen, einem Kraftübertragungssystem und einem Getriebe. Die Klingen sind vom L-Typ, aus mittlerem Kohlenstoffstahl oder Legierungsstahl, gehärtet und angelassen. Die PTO des Traktors treibt den Rotovator an. Die Drehbewegung der PTO wird über Getriebe und Antriebssystem auf die Welle übertragen, die die Klingen trägt. Ein gutes Saatbett und die Zerkleinerung des Bodens werden in einem Durchgang erreicht.<br/><br/>Der Rotovator ist das effizienteste System, wenn eine definitive Bodenbearbeitungslösung gefragt ist. Unabhängig von Bodentyp, Bedingungen oder Restmengen: Das Ergebnis ist immer das Beste. Er kann leicht auf verschiedene Arbeitstiefen und Bodenausführungen eingestellt werden. Der Rotovator ist auch das vielseitigste Gerät für zwei Zwecke:<br/>1. Zerkleinerung: Von sehr grob bis sehr fein einstellbar<br/>2. Restmischung: Kann große Mengen Unkraut oder Pflanzenreste verarbeiten, ohne zu blockieren, und sorgt für die perfekte Mischung der Reste. Vorteile sind eine saubere Oberfläche und die einfache Einarbeitung von organischem Material in den Boden."
+        ],
+        "images": [
+          { "src": "/assets/industries/agriculture/Supporting.png", "width": 300, "height": 370 },
+          { "src": "/assets/industries/agriculture/Supporting.png", "width": 300, "height": 370 }
+        ]
+      },
+      {
+        "title": "Anwendung von mechanischen Gesichts-Dichtungen",
+        "paragraphs": [
+          "Rotovatoren werden zu den fortschrittlichsten Maschinen ihrer Kategorie. Die Rotorlager-Einheiten sind mit mechanischen Gesichts-Dichtungen geschützt, was eine 2- bis 3-fach längere Lebensdauer als bei normalen Systems mit Öl-Siegeln ermöglicht."
+        ],
+        "images": [
+          { "src": "/assets/industries/agriculture/Supporting.png", "width": 200, "height": 270 }
+        ]
+      },
+      {
+        "title": "Anwendung des Funktionsprinzips",
+        "paragraphs": [
+          "Bei der Anwendung ist eine der Metall-Dichtungen immer stationär, während die andere in Bezug auf die Walze rotiert. Die Reibung der gelappten Flächen überträgt die Last, und die Abdichtung hält das Öl in der kleinen Kammer, die durch die Flächen gebildet wird. Der flache Teil der Dichtung beginnt am Ende (OD) zu verschleißen und geht Richtung ID, bis der Bereich erreicht ist, in dem der Kugelradius beginnt."
+        ],
+        "images": [
+          { "src": "/assets/industries/agriculture/Supporting.png", "width": 200, "height": 270 }
+        ]
+      },
+      {
+        "title": "Anwendung der Montage",
+        "paragraphs": [
+          "Die zentralen Rotorlager sind in einem Ölbad eingeschlossen, und die Tragachse und deren Lager sind mit Metall-Gesichts-Dichtungen abgedichtet."
+        ],
+        "images": [
+          { "src": "/assets/industries/agriculture/Supporting.png", "width": 200, "height": 270 }
+        ]
+      }
+    ],
+    "advantagesTitle": "Vorteile:",
+    "advantages": [
+      "Einfaches, zuverlässiges Design",
+      "Hohe Abdichtung gegen Schmutz, Staub, Wasser und abrasive Medien von außen sowie Öl und Fett von innen.",
+      "Kosteneffizient, einfache Installation, lange Lebensdauer.",
+      "Selbstzentrierend zur Kompensation von Wellenexzentrizität oder Fehlstellung."
+    ],
+    "imageAlt": "Unterstützt das Rückgrat der Landwirtschaft"
+  },
+
+   "seals": {
+    "title": "Dichtung für Rotovator",
+    "subtitle1": "Präzisionsgefertigte, hochwertige & robuste Dichtungen",
+    "subtitle2": "SAP Parts Hochleistungsdichtungen werden in modernsten Einrichtungen hergestellt.",
+    "qualityTitle": "Qualitätssicherung:",
+    "qualityPoints": [
+      "Spezial-Qualitätsinstrumentierung.",
+      "Oberflächenrauheitsprüfung.",
+      "Härteprüfung.",
+      "Mikroskopische Bildanalyse.",
+      "Oberflächenfinish-Prüfung.",
+      "Dichtungsflachheitsprüfung.",
+      "Ölleckageprüfung.",
+      "Dauertest & Validierung.",
+      "Beschleunigte Lebensdauertest-Vorrichtung.",
+      "Dichtungsflächenlastabschätzung Maschine."
+    ],
+    "featuresTitle": "Merkmale der mechanischen Flachdichtung:",
+    "featurePoints": [
+      "Korrosionsbeständig.",
+      "Präzisionsgeschliffene Ringe.",
+      "Minimale Gesichtsbelastungsschwankungen.",
+      "Spezielle Dichtungen und O-Ring-Materialien.",
+      "Lange Lebensdauer - garantiert.",
+      "Selbst erneuernde Dichtflächen.",
+      "Für Schwerlastanwendungen geeignet."
+    ],
+    "images": [
+      "/assets/industries/agriculture/Supporting.png",
+      "/assets/industries/agriculture/Supporting.png"
+    ],
+    "imageAlt": "Unterstützt das Rückgrat der Landwirtschaft"
   }
+
+
 
 
 
