@@ -5,47 +5,54 @@ import { useTranslation } from 'react-i18next';
 const faqs = [
   {
     question: {
-      'en' : 'Do you offer custom gearing for tractor manufacturers?',
-      'ja' : 'トラクターメーカー向けにカスタムギアの提供はありますか？'
-    },
-    answer:
-      {
-        'en' : 'This handy tool helps you create dummy text for all your layout needs. We are gradually adding new.',
-        'ja' : 'この便利なツールを使えば、レイアウトのあらゆるニーズに対応するダミーテキストを簡単に作成できます。私たちは新しい機能を段階的に追加しています。'
-      },
-      
-  },
-  {
-    question: {
-      'en' : 'Do you offer custom gearing for tractor manufacturers?',
-      'ja' : 'トラクターメーカー向けにカスタムギアの提供はしていますか？'
+      'en': 'Do you offer custom gearing for tractor manufacturers?',
+      'ja': 'トラクターメーカー向けにカスタムギアの提供はありますか？',
+      'de': 'Bieten Sie maßgeschneiderte Getriebe für Traktorenhersteller an?'
     },
     answer: {
-      'en' : 'This handy tool helps you create dummy text for all your layout needs. We are gradually adding new.',
-      'ja' : 'この便利なツールを使えば、レイアウトのあらゆるニーズに対応するダミーテキストを簡単に作成できます。私たちは新しい機能を段階的に追加しています。'
+      'en': 'This handy tool helps you create dummy text for all your layout needs. We are gradually adding new.',
+      'ja': 'この便利なツールを使えば、レイアウトのあらゆるニーズに対応するダミーテキストを簡単に作成できます。私たちは新しい機能を段階的に追加しています。',
+      'de': 'Mit diesem praktischen Tool können Sie Blindtext für alle Ihre Layoutbedürfnisse erstellen. Wir fügen nach und nach neue Funktionen hinzu.'
     },
   },
   {
     question: {
-      'en' : 'Do you offer custom gearing for tractor manufacturers?',
-      'ja' : 'トラクター製造業者向けにカスタムギアの提供はありますか？'
+      'en': 'Do you offer custom gearing for tractor manufacturers?',
+      'ja': 'トラクターメーカー向けにカスタムギアの提供はしていますか？',
+      'de': 'Bieten Sie maßgeschneiderte Getriebe für Traktorenhersteller an?'
     },
     answer: {
-      'en' : 'This handy tool helps you create dummy text for all your layout needs. We are gradually adding new.',
-      'ja' : 'この便利なツールを使えば、レイアウトのあらゆるニーズに対応するダミーテキストを簡単に作成できます。私たちは新しい機能を段階的に追加しています。'
+      'en': 'This handy tool helps you create dummy text for all your layout needs. We are gradually adding new.',
+      'ja': 'この便利なツールを使えば、レイアウトのあらゆるニーズに対応するダミーテキストを簡単に作成できます。私たちは新しい機能を段階的に追加しています。',
+      'de': 'Mit diesem praktischen Tool können Sie Blindtext für alle Ihre Layoutbedürfnisse erstellen. Wir fügen nach und nach neue Funktionen hinzu.'
     },
   },
   {
     question: {
-      'en' : 'Do you offer custom gearing for tractor manufacturers?',
-      'ja' : 'トラクター製造業者向けにカスタムギアの提供はありますか？'
+      'en': 'Do you offer custom gearing for tractor manufacturers?',
+      'ja': 'トラクター製造業者向けにカスタムギアの提供はありますか？',
+      'de': 'Bieten Sie maßgeschneiderte Getriebe für Traktorenhersteller an?'
     },
     answer: {
-      'en' : 'This handy tool helps you create dummy text for all your layout needs. We are gradually adding new.',
-      'ja' : 'この便利なツールを使えば、レイアウトのあらゆるニーズに対応するダミーテキストを簡単に作成できます。私たちは新しい機能を段階的に追加しています。'
+      'en': 'This handy tool helps you create dummy text for all your layout needs. We are gradually adding new.',
+      'ja': 'この便利なツールを使えば、レイアウトのあらゆるニーズに対応するダミーテキストを簡単に作成できます。私たちは新しい機能を段階的に追加しています。',
+      'de': 'Mit diesem praktischen Tool können Sie Blindtext für alle Ihre Layoutbedürfnisse erstellen. Wir fügen nach und nach neue Funktionen hinzu.'
+    },
+  },
+  {
+    question: {
+      'en': 'Do you offer custom gearing for tractor manufacturers?',
+      'ja': 'トラクター製造業者向けにカスタムギアの提供はありますか？',
+      'de': 'Bieten Sie maßgeschneiderte Getriebe für Traktorenhersteller an?'
+    },
+    answer: {
+      'en': 'This handy tool helps you create dummy text for all your layout needs. We are gradually adding new.',
+      'ja': 'この便利なツールを使えば、レイアウトのあらゆるニーズに対応するダミーテキストを簡単に作成できます。私たちは新しい機能を段階的に追加しています。',
+      'de': 'Mit diesem praktischen Tool können Sie Blindtext für alle Ihre Layoutbedürfnisse erstellen. Wir fügen nach und nach neue Funktionen hinzu.'
     },
   },
 ];
+
 
 export default function FaqSection() {
   const { t, i18n } = useTranslation();

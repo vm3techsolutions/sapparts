@@ -1,3 +1,44 @@
+// "use client";
+// import { useTranslation } from "react-i18next";
+
+// export default function TechnicalSpecs() {
+//   const { t } = useTranslation();
+//   const specs = t("technicalSpecs4.rows", { returnObjects: true });
+
+//   return (
+//     <div className="Section bg-white">
+//       <h2 className="Heading text-center mb-2">
+//         {t("technicalSpecs4.sectionTitle")}
+//       </h2>
+
+//       <table className="w-full border-collapse text-center mx-auto">
+//         <thead>
+//           <tr>
+//             <th className="bg-[#D9D9D9]/60 text-[#363636] px-4 py-3 border-2 border-[#0E509E] w-[40%]">
+//               {t("technicalSpecs4.feature")}
+//             </th>
+//             <th className="bg-[#D9D9D9]/60 text-[#363636] px-4 py-3 border-2 border-[#0E509E] w-[60%]">
+//               {t("technicalSpecs4.benefit")}
+//             </th>
+//           </tr>
+//         </thead>
+//         <tbody>
+//           {Array.isArray(specs) &&
+//             specs.map((row, index) => (
+//               <tr key={index} className="bg-[#D9D9D9]/15">
+//                 <td className="border-2 border-[#0E509E] text-[#0E509E] px-4 py-3">
+//                   {row.feature}
+//                 </td>
+//                 <td className="border-2 border-[#0E509E] text-[#0E509E] px-4 py-3">
+//                   {row.benefit}
+//                 </td>
+//               </tr>
+//             ))}
+//         </tbody>
+//       </table>
+//     </div>
+//   );
+// }
 "use client";
 import { useTranslation } from "react-i18next";
 
@@ -23,7 +64,7 @@ export default function TechnicalSpecs() {
           </tr>
         </thead>
         <tbody>
-          {Array.isArray(specs) &&
+          {Array.isArray(specs) ? (
             specs.map((row, index) => (
               <tr key={index} className="bg-[#D9D9D9]/15">
                 <td className="border-2 border-[#0E509E] text-[#0E509E] px-4 py-3">
@@ -33,7 +74,17 @@ export default function TechnicalSpecs() {
                   {row.benefit}
                 </td>
               </tr>
-            ))}
+            ))
+          ) : (
+            <tr>
+              <td
+                colSpan={2}
+                className="border-2 border-[#0E509E] text-red-500 px-4 py-3"
+              >
+                ⚠ No specs available
+              </td>
+            </tr>
+          )}
         </tbody>
       </table>
     </div>

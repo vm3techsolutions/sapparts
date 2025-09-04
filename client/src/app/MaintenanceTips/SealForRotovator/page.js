@@ -1,3 +1,4 @@
+// "use client"
 import ApplicationOfMechanicalSeals from "./ApplicationOfMechanicalSeals ";
 
 import SealForRotovator from "./SealForRotovator";
