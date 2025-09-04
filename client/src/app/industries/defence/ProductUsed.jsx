@@ -6,37 +6,52 @@ import { useTranslation } from "react-i18next";
 
 const products = [
   {
-   label: {
-      "en" : "Mechanical Face Seals",
-      "ja" : "メカニカルフェイスシール"
+    label: {
+      "en": "Mechanical Face Seals",
+      "ja": "メカニカルフェイスシール",
+      "de": "Mechanische Dichtungen"
     },
     src: "/assets/industries/Mechanical Face Seals3.jpg",
     highlight: false,
   },
   {
     label: {
-      "en" : "Bushings",
-      "ja" : "ブッシング"
+      "en": "Bushings",
+      "ja": "ブッシング",
+      "de": "Buchsen"
     },
     src: "/assets/industries/Bushings3.jpg",
     highlight: false,
   },
-//   {
-//     label: "Sintered Products",
-//     src: "/assets/industries/agriculture/APU3.png",
-//     highlight: false,
-//   },
-//   {
-//     label: "SAP Hub Bearings",
-//     src: "/assets/industries/agriculture/APU4.png",
-//     highlight: false,
-//   },
-//   {
-//     label: "Precision Components",
-//     src: "/assets/industries/agriculture/APU5.png",
-//     highlight: true,
-//   },
+  // {
+  //   label: {
+  //     "en": "Sintered Products",
+  //     "ja": "しょうけつせいひん",
+  //     "de": "Gesinterte Produkte"
+  //   },
+  //   src: "/assets/industries/agriculture/APU3.png",
+  //   highlight: false,
+  // },
+  // {
+  //   label: {
+  //     "en": "SAP Hub Bearings",
+  //     "ja": "SAPハブベアリング",
+  //     "de": "SAP-Nabenlager"
+  //   },
+  //   src: "/assets/industries/agriculture/APU4.png",
+  //   highlight: false,
+  // },
+  // {
+  //   label: {
+  //     "en": "Precision Components",
+  //     "ja": "せいみつぶひん",
+  //     "de": "Präzisionsbauteile"
+  //   },
+  //   src: "/assets/industries/agriculture/APU5.png",
+  //   highlight: true,
+  // },
 ];
+
 
 export default function ProductsUsed() {
   const { t, i18n } = useTranslation();

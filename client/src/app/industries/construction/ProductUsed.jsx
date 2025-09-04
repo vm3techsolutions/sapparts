@@ -3,46 +3,54 @@
 import Image from "next/image";
 import React from "react";
 import { useTranslation } from "react-i18next";
-
 const products = [
   {
     label: {
-      "en" : "Mechanical Face Seals",
-      "ja" : "メカニカルフェイスシール"
+      "en": "Mechanical Face Seals",
+      "ja": "メカニカルフェイスシール",
+      "de": "Mechanische Dichtungen"
     },
     src: "/assets/industries/Mechanical Face Seals2.jpg",
     highlight: false,
   },
   {
     label: {
-      "en" : "Bushings",
-      "ja" : "ブッシング"
+      "en": "Bushings",
+      "ja": "ブッシング",
+      "de": "Buchsen"
     },
     src: "/assets/industries/Bushings2.jpg",
     highlight: false,
   },
   {
     label: {
-      "en" : "Sintered Products",
-      "ja" : "しょうけつせいひん"
+      "en": "Sintered Products",
+      "ja": "しょうけつせいひん",
+      "de": "Gesinterte Produkte"
     },
     src: "/assets/industries/SinteredProducts2.jpg",
     highlight: false,
   },
   {
     label: {
-      "en" : "Precision Components",
-      "ja" : "せいみつぶひん"
+      "en": "Precision Components",
+      "ja": "せいみつぶひん",
+      "de": "Präzisionsbauteile"
     },
     src: "/assets/industries/PrecisionComponents1.jpg",
     highlight: false,
   },
-//   {
-//     label: "Precision Components",
-//     src: "/assets/industries/agriculture/APU5.png",
-//     highlight: true,
-//   },
+  // {
+  //   label: {
+  //     "en": "Precision Components",
+  //     "ja": "せいみつぶひん",
+  //     "de": "Präzisionsbauteile"
+  //   },
+  //   src: "/assets/industries/agriculture/APU5.png",
+  //   highlight: true,
+  // },
 ];
+
 
 export default function ProductsUsed() {
   const { t, i18n } = useTranslation();

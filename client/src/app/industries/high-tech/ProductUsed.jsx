@@ -7,9 +7,10 @@ import { useTranslation } from "react-i18next";
 const products = [
   {
     label: {
-      "en" : "Precision Components",
-      "ja" : "せいみつぶひん"
-    },
+  "en": "Precision Components",
+  "ja": "せいみつぶひん",
+  "de": "Präzisionsbauteile"
+},
     src: "/assets/industries/ProductsUsed4.png",
     highlight: false,
   },

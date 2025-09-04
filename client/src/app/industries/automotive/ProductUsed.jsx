@@ -7,39 +7,51 @@ import { useTranslation } from "react-i18next";
 const products = [
   {
     label: {
-      "en" : "Sintered Products",
-      "ja" : "しょうけつせいひん"
+      "en": "Sintered Products",
+      "ja": "しょうけつせいひん",
+      "de": "Gesinterte Produkte"
     },
     src: "/assets/industries/SinteredProducts1.jpg",
     highlight: false,
   },
   {
     label: {
-      "en" : "Bushings",
-      "ja" : "ブッシング"
+      "en": "Bushings",
+      "ja": "ブッシング",
+      "de": "Buchsen"
     },
     src: "/assets/industries/Bushings1.jpg",
     highlight: false,
   },
   {
     label: {
-      "en" : "Precision Components",
-      "ja" : "せいみつぶひん"
+      "en": "Precision Components",
+      "ja": "せいみつぶひん",
+      "de": "Präzisionsbauteile"
     },
     src: "/assets/industries/PrecisionComponents1.jpg",
     highlight: false,
   },
-//   {
-//     label: "SAP Hub Bearings",
-//     src: "/assets/industries/agriculture/APU4.png",
-//     highlight: false,
-//   },
-//   {
-//     label: "Precision Components",
-//     src: "/assets/industries/agriculture/APU5.png",
-//     highlight: true,
-//   },
+  // {
+  //   label: {
+  //     "en": "SAP Hub Bearings",
+  //     "ja": "SAPハブベアリング",
+  //     "de": "SAP-Nabenlager"
+  //   },
+  //   src: "/assets/industries/agriculture/APU4.png",
+  //   highlight: false,
+  // },
+  // {
+  //   label: {
+  //     "en": "Precision Components",
+  //     "ja": "せいみつぶひん",
+  //     "de": "Präzisionsbauteile"
+  //   },
+  //   src: "/assets/industries/agriculture/APU5.png",
+  //   highlight: true,
+  // },
 ];
+
 
 export default function ProductsUsed() {
     const { t, i18n } = useTranslation();

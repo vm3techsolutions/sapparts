@@ -7,43 +7,30 @@ import { useTranslation } from "react-i18next";
 const products = [
   {
     label: {
-      "en" : "Mechanical Face Seals",
-      "ja" : "メカニカルフェイスシール"
+      "en": "Mechanical Face Seals",
+      "ja": "メカニカルフェイスシール",
+      "de": "Mechanische Dichtungen"
     },
     src: "/assets/industries/agriculture/APU1.png",
     highlight: false,
   },
   {
     label: {
-      "en" : "Bushings",
-      "ja" : "ブッシング"
+      "en": "Bushings",
+      "ja": "ブッシング",
+      "de": "Buchsen"
     },
     src: "/assets/industries/agriculture/APU2.png",
     highlight: false,
   },
   {
     label: {
-      "en" : "Sintered Products",
-      "ja" : "しょうけつせいひん"
+      "en": "Sintered Products",
+      "ja": "しょうけつせいひん",
+      "de": "Gesinterte Produkte"
     },
     src: "/assets/industries/agriculture/APU3.png",
     highlight: false,
-  },
-  {
-    label: {
-      "en" : "SAP Hub Bearings",
-      "ja" : "SAPハブベアリング"
-    },
-    src: "/assets/industries/Bushings4.jpg",
-    highlight: false,
-  },
-  {
-    label: {
-      "en" : "Precision Components",
-      "ja" : "せいみつぶひん"
-    },
-    src: "/assets/industries/agriculture/APU5.png",
-    highlight: true,
   },
 ];
 
