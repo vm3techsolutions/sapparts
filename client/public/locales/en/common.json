@@ -893,38 +893,37 @@
       "point2": "Military mobility systems"
     }
   },
-
-  "technicalSpecs3": {
+"technicalSpecs3": {
   "sectionTitle": "Technical Specifications & Features",
   "table": {
     "feature": "Feature",
     "benefit": "Benefit",
-    "rows": {
-      "row1": {
+    "rows": [
+      {
         "feature": "Alloy steel grades (e.g., 100Cr6, SCM415, 20MnCr5)",
         "benefit": "High wear resistance under continuous load"
       },
-      "row2": {
+      {
         "feature": "Oil-grooved bushing profiles",
         "benefit": "Enhanced lubrication, reduced friction, longer operational life"
       },
-      "row3": {
+      {
         "feature": "Case carburizing / nitriding",
         "benefit": "Improved hardness, fatigue strength, and corrosion resistance"
       },
-      "row4": {
+      {
         "feature": "Induction hardening",
         "benefit": "Targeted surface strengthening for high-load zones"
       },
-      "row5": {
+      {
         "feature": "Tight tolerance machining",
         "benefit": "Accurate press-fits and extended part life"
       },
-      "row6": {
+      {
         "feature": "Custom diameters (30–300 mm)",
         "benefit": "Direct interchangeability with OEM and aftermarket parts"
       }
-    }
+    ]
   }
 },
 
@@ -1391,19 +1390,20 @@
       }
     ]
   },
-
-    "materialsSizes6": {
-    "sectionTitle": "Materials, Sizes, and Tolerances",
-    "subTitle": "Key Component Types and Ranges",
+  
+"materialsSizes6": {
+    "sectionTitle": "Materialien, Größen und Toleranzen",
+    "subTitle": "Wichtige Komponententypen und Bereiche",
     "items": [
-      "Alloy Steel Bushings: 100Cr6, SAE 4140, SAE 8620, C45, 20MnCr5, 55Si7, SCM415",
-      "Oil-Grooved Bushings: Available in straight, helical, and custom profiles",
-      "Floating Seals: Duo-Cone and mechanical face seal variants",
-      "Cabin Hinges & Lock Assemblies: Designed to micron-level precision",
-      "OD Range: 30 mm to 200 mm",
-      "Tolerances: Precision-machined for OEM-fit, typically within ±0.02 mm"
+      "Legierte Stahlbuchsen: 100Cr6, SAE 4140, SAE 8620, C45, 20MnCr5, 55Si7, SCM415",
+      "Ölgenutete Buchsen: Erhältlich in geraden, spiralförmigen und kundenspezifischen Profilen",
+      "Schwimmende Dichtungen: Duo-Cone- und Gleitringdichtungsvarianten",
+      "Kabinen-Scharniere & Verriegelungsbaugruppen: Mit Präzision im Mikrometerbereich gefertigt",
+      "AD-Bereich: 30 mm bis 200 mm",
+      "Toleranzen: Präzisionsbearbeitung für OEM-Passung, typischerweise innerhalb von ±0,02 mm"
     ]
   },
+
 
     "manufacturingTesting6": {
     "sectionTitle": "Manufacturing & Testing Capabilities (Product-Specific)",

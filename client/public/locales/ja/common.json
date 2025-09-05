@@ -923,38 +923,37 @@
     "point2": "軍用モビリティシステム"
   }
 },
-
 "technicalSpecs3": {
-  "sectionTitle": "技術仕様と特徴",
+  "sectionTitle": "技術仕様と特長",
   "table": {
-    "feature": "特徴",
+    "feature": "特長",
     "benefit": "利点",
-    "rows": {
-      "row1": {
+    "rows": [
+      {
         "feature": "合金鋼グレード（例: 100Cr6, SCM415, 20MnCr5）",
-        "benefit": "連続荷重下での高い耐摩耗性"
+        "benefit": "連続負荷下での高い耐摩耗性"
       },
-      "row2": {
-        "feature": "オイル溝付きブッシング形状",
-        "benefit": "潤滑性向上、摩擦低減、耐用年数の延長"
+      {
+        "feature": "オイル溝付きブッシュ形状",
+        "benefit": "潤滑性の向上、摩擦低減、長寿命化"
       },
-      "row3": {
-        "feature": "浸炭 / 窒化処理",
+      {
+        "feature": "浸炭処理 / 窒化処理",
         "benefit": "硬度、疲労強度、耐食性の改善"
       },
-      "row4": {
+      {
         "feature": "高周波焼入れ",
-        "benefit": "高荷重部位の表面強化"
+        "benefit": "高負荷部分の表面強化"
       },
-      "row5": {
-        "feature": "高精度公差加工",
+      {
+        "feature": "高精度の公差加工",
         "benefit": "正確な圧入と部品寿命の延長"
       },
-      "row6": {
+      {
         "feature": "カスタム直径 (30–300 mm)",
-        "benefit": "純正およびアフターマーケット部品との直接互換性"
+        "benefit": "OEM およびアフターマーケット部品との直接互換性"
       }
-    }
+    ]
   }
 },
 
@@ -1421,7 +1420,7 @@
     ]
   },
 
-   "materialsSizes6": {
+"materialsSizes6": {
     "sectionTitle": "材料、サイズ、公差",
     "subTitle": "主要部品タイプと範囲",
     "items": [

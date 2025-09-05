@@ -894,39 +894,39 @@
     }
   },
 
-   "technicalSpecs3": {
-    "sectionTitle": "Technische Spezifikationen & Merkmale",
-    "table": {
-      "feature": "Merkmal",
-      "benefit": "Vorteil",
-      "rows": {
-        "row1": {
-          "feature": "Legierte Stahlsorten (z. B. 100Cr6, SCM415, 20MnCr5)",
-          "benefit": "Hohe Verschleißfestigkeit unter Dauerbelastung"
-        },
-        "row2": {
-          "feature": "Ölgenutete Buchsenprofile",
-          "benefit": "Verbesserte Schmierung, reduzierte Reibung, längere Lebensdauer"
-        },
-        "row3": {
-          "feature": "Einsatzhärtung / Nitrieren",
-          "benefit": "Verbesserte Härte, Ermüdungsfestigkeit und Korrosionsbeständigkeit"
-        },
-        "row4": {
-          "feature": "Induktionshärten",
-          "benefit": "Gezielte Oberflächenhärtung für Hochlastbereiche"
-        },
-        "row5": {
-          "feature": "Präzisionsbearbeitung mit engen Toleranzen",
-          "benefit": "Exakte Presspassungen und verlängerte Lebensdauer"
-        },
-        "row6": {
-          "feature": "Sonderdurchmesser (30–300 mm)",
-          "benefit": "Direkter Austausch mit OEM- und Ersatzteilen möglich"
-        }
+  "technicalSpecs3": {
+  "sectionTitle": "Technische Spezifikationen & Merkmale",
+  "table": {
+    "feature": "Merkmal",
+    "benefit": "Vorteil",
+    "rows": [
+      {
+        "feature": "Legierte Stahlqualitäten (z. B. 100Cr6, SCM415, 20MnCr5)",
+        "benefit": "Hohe Verschleißfestigkeit unter Dauerlast"
+      },
+      {
+        "feature": "Ölgenutete Buchsenprofile",
+        "benefit": "Verbesserte Schmierung, reduzierte Reibung, längere Lebensdauer"
+      },
+      {
+        "feature": "Einsatzhärtung / Nitrieren",
+        "benefit": "Verbesserte Härte, Ermüdungsfestigkeit und Korrosionsbeständigkeit"
+      },
+      {
+        "feature": "Induktionshärten",
+        "benefit": "Gezielte Oberflächenhärtung für hochbelastete Bereiche"
+      },
+      {
+        "feature": "Präzise Toleranzbearbeitung",
+        "benefit": "Exakte Presspassungen und längere Lebensdauer der Teile"
+      },
+      {
+        "feature": "Sonderdurchmesser (30–300 mm)",
+        "benefit": "Direkte Austauschbarkeit mit OEM- und Ersatzteilen"
       }
-    }
-  },
+    ]
+  }
+},
 
   "materialsSizes3": {
     "sectionTitle": "Materialien, Größen und Toleranzen",
@@ -1393,18 +1393,34 @@
     ]
   },
 
-  "materialsSizes6": {
-    "sectionTitle": "Materialien, Größen und Toleranzen",
-    "subTitle": "Wichtige Komponententypen und Bereiche",
-    "items": [
-      "Legierte Stahlbuchsen: 100Cr6, SAE 4140, SAE 8620, C45, 20MnCr5, 55Si7, SCM415",
-      "Ölgenutete Buchsen: Erhältlich in geraden, spiralförmigen und kundenspezifischen Profilen",
-      "Schwimmende Dichtungen: Duo-Cone- und Gleitringdichtungsvarianten",
-      "Kabinen-Scharniere & Verriegelungsbaugruppen: Mit Präzision im Mikrometerbereich gefertigt",
-      "AD-Bereich: 30 mm bis 200 mm",
-      "Toleranzen: Präzisionsbearbeitung für OEM-Passung, typischerweise innerhalb von ±0,02 mm"
-    ]
-  },
+ "materialsSizes6": {
+  "sectionTitle": "Materialien, Größen und Toleranzen",
+  "columns": {
+    "steelHardened": {
+      "title": "Gehärtete Stahlbuchsen",
+      "items": [
+        "Legierte Stahlbuchsen: 100Cr6, SAE 4140, SAE 8620, C45, 20MnCr5, 55Si7, SCM415",
+        "Ölgenutete Buchsen: Erhältlich in geraden, schraubenförmigen und kundenspezifischen Profilen",
+        "Schwimmende Dichtungen: Duo-Cone- und Gleitringdichtungsvarianten",
+        "Kabinen-Scharniere & Verriegelungssysteme: Mit Mikrogenauigkeit konstruiert",
+        "Außendurchmesser-Bereich: 30 mm bis 200 mm",
+        "Toleranzen: Präzisionsbearbeitung für OEM-Passung, typischerweise innerhalb ±0,02 mm"
+      ]
+    },
+    "nonFerrous": {
+      "title": "Nichteisen-Buchsen",
+      "items": [
+        "Bronzelegierungen: SAE 660, CuSn12, RG7",
+        "Messinglegierungen: CuZn37, CW614N",
+        "Aluminiumlegierungen: AlMgSi1, AlCu4Mg",
+        "Polymerverbundstoffe: PTFE, Nylon und selbstschmierende Materialien",
+        "Außendurchmesser-Bereich: 20 mm bis 150 mm",
+        "Toleranzen: Typischerweise innerhalb ±0,05 mm"
+      ]
+    }
+  }
+},
+
 
   "manufacturingTesting6": {
     "sectionTitle": "Fertigungs- & Testmöglichkeiten (produktspezifisch)",
