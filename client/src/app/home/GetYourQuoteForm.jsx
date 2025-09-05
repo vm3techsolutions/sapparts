@@ -26,7 +26,7 @@ export default function QuoteFormSection() {
     setErrorMsg("");
 
     try {
-      const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/submit-form`, {
+      const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
