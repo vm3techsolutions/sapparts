@@ -3,12 +3,12 @@ import { useState } from "react";
 import { useTranslation } from "react-i18next";
 
 export default function QuoteFormSection() {
-  const {t} = useTranslation();
+  const { t } = useTranslation();
   const [formData, setFormData] = useState({
     name: "",
     mobile: "",
     email: "",
-    requirement: ""
+    requirement: "",
   });
 
   const [loading, setLoading] = useState(false);
@@ -26,18 +26,18 @@ export default function QuoteFormSection() {
     setErrorMsg("");
 
     try {
-      const response = await fetch("http://localhost:5000/submit-form", {
+      const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}`, {
         method: "POST",
         headers: {
-          "Content-Type": "application/json"
+          "Content-Type": "application/json",
         },
         body: JSON.stringify({
           name: formData.name,
           email: formData.email,
           phone: formData.mobile,
           topic: "Quote Form",
-          message: formData.requirement
-        })
+          message: formData.requirement, // 👈 requirement bhej raha hu backend ko
+        }),
       });
 
       const data = await response.json();
@@ -47,7 +47,7 @@ export default function QuoteFormSection() {
           name: "",
           mobile: "",
           email: "",
-          requirement: ""
+          requirement: "",
         });
       } else {
         setErrorMsg("❌ Failed to send. Please try again.");
@@ -63,24 +63,19 @@ export default function QuoteFormSection() {
   return (
     <div className="Section bg-white">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
-        
         {/* Left Content */}
         <div>
           <h2 className="text-2xl md:text-4xl font-semibold text-[#363636] mb-4">
-          {t("Quote Heading")}
+            {t("Quote Heading")}
           </h2>
-          <p className="Paragraph">
-            {t("Quote Para 1")}
-          </p>
-          <p className="Paragraph">
-            {t("Quote Para 1")}
-          </p>
+          <p className="Paragraph">{t("Quote Para 1")}</p>
+          <p className="Paragraph">{t("Quote Para 2")}</p>
         </div>
 
         {/* Right Form */}
         <div className="bg-[#0E509E] text-white p-6 md:p-8 rounded-md shadow-md w-full max-w-md mx-auto">
           <h3 className="text-3xl font-bold mb-6 text-[#FACC48]">
-           {t("Quote Title")}
+            {t("Quote Title")}
           </h3>
           <form onSubmit={handleSubmit} className="space-y-4">
             <input
@@ -125,12 +120,16 @@ export default function QuoteFormSection() {
               disabled={loading}
               className="bg-[#FACC48] text-[#363636] px-5 py-2 rounded font-semibold hover:brightness-110 transition"
             >
-               {loading ? t('Button Sending') : t('Button Send')}
+              {loading ? t("Button Sending") : t("Button Send")}
             </button>
 
             {/* Success / Error message */}
-            {successMsg && <p className="text-green-300 mt-2">{successMsg}</p>}
-            {errorMsg && <p className="text-red-300 mt-2">{errorMsg}</p>}
+            {successMsg && (
+              <p className="text-green-300 mt-2">{t("Success Message")}</p>
+            )}
+            {errorMsg && (
+              <p className="text-red-300 mt-2">{t("Error Message")}</p>
+            )}
           </form>
         </div>
       </div>

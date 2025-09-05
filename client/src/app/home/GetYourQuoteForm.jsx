@@ -67,7 +67,7 @@ export default function QuoteFormSection() {
         {/* Left Content */}
         <div>
           <h2 className="text-2xl md:text-4xl font-semibold text-[#363636] mb-4">
-            {t('Quote Title')}
+            {t('Quote Heading')}
           </h2>
           <p className="Paragraph">
             {t('Quote Para 1')}
@@ -80,7 +80,7 @@ export default function QuoteFormSection() {
         {/* Right Form */}
         <div className="bg-[#0E509E] text-white p-6 md:p-8 rounded-md shadow-md w-full max-w-md mx-auto">
           <h3 className="text-3xl font-bold mb-6 text-[#FACC48]">
-      {t('Quote Heading')}
+      {t('Quote Title')}
           </h3>
           <form onSubmit={handleSubmit} className="space-y-4">
             <input
