@@ -931,19 +931,19 @@
   "sectionTitle": "Materials, Sizes, and Tolerances",
   "steel": {
     "title": "Steel Hardened Bushings",
-    "points": {
-      "point1": "OD Range: 20 mm to 300 mm",
-      "point2": "Materials: 100Cr6, 20MnCr5, C45, SAE 4140, SCM415, ST52, 16MnCr5, FE510",
-      "point3": "Surface Treatments: Case Carburizing, Nitriding, Nitro–Carburizing, Carbo–Nitriding, Induction Hardening"
-    }
+    "points": [
+      "OD Range: 20 mm to 300 mm",
+      "Materials: 100Cr6, 20MnCr5, C45, SAE 4140, SCM415, ST52, 16MnCr5, FE510",
+      "Surface Treatments: Case Carburizing, Nitriding, Nitro–Carburizing, Carbo–Nitriding, Induction Hardening"
+    ]
   },
   "nonFerrous": {
     "title": "Non-Ferrous Bushings",
-    "points": {
-      "point1": "OD Range: 50 mm to 300 mm",
-      "point2": "Materials:\nBronze: C96900, C93200, C86500, CuSn8P\nBrass: C86300, CuZn39Pb3",
-      "point3": "Tolerances\nMachined to ±0.02 mm\nOptimized for high-load press–fit and sliding assemblies"
-    }
+    "points": [
+      "OD Range: 50 mm to 300 mm",
+      "Materials:\nBronze: C96900, C93200, C86500, CuSn8P\nBrass: C86300, CuZn39Pb3",
+      "Tolerances\nMachined to ±0.02 mm\nOptimized for high-load press–fit and sliding assemblies"
+    ]
   }
 },
 

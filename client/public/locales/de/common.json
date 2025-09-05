@@ -932,19 +932,19 @@
     "sectionTitle": "Materialien, Größen und Toleranzen",
     "steel": {
       "title": "Gehärtete Stahlbuchsen",
-      "points": {
-        "point1": "Außendurchmesserbereich: 20 mm bis 300 mm",
-        "point2": "Materialien: 100Cr6, 20MnCr5, C45, SAE 4140, SCM415, ST52, 16MnCr5, FE510",
-        "point3": "Oberflächenbehandlungen: Einsatzhärten, Nitrieren, Nitrocarburieren, Carbonitrieren, Induktionshärten"
-      }
+      "points": [
+        "Außendurchmesserbereich: 20 mm bis 300 mm",
+        "Materialien: 100Cr6, 20MnCr5, C45, SAE 4140, SCM415, ST52, 16MnCr5, FE510",
+        "Oberflächenbehandlungen: Einsatzhärten, Nitrieren, Nitrocarburieren, Carbonitrieren, Induktionshärten"
+      ]
     },
     "nonFerrous": {
       "title": "Nichteisen-Buchsen",
-      "points": {
-        "point1": "Außendurchmesserbereich: 50 mm bis 300 mm",
-        "point2": "Materialien:Bronze: C96900, C93200, C86500, CuSn8PMessing: C86300, CuZn39Pb3",
-        "point3": "ToleranzenBearbeitet auf ±0,02 mmOptimiert für Hochlast-Presspassungen und Gleitbaugruppen"
-      }
+      "points": [
+         "Außendurchmesserbereich: 50 mm bis 300 mm",
+        "Materialien:Bronze: C96900, C93200, C86500, CuSn8PMessing: C86300, CuZn39Pb3",
+        "ToleranzenBearbeitet auf ±0,02 mmOptimiert für Hochlast-Presspassungen und Gleitbaugruppen"
+      ]
     }
   },
 
