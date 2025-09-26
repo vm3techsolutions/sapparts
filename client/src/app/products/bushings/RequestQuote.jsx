@@ -1,6 +1,6 @@
 // components/RequestQuote.js
 import Image from "next/image";
-
+import Link from "next/link";
 
 export default function RequestQuote() {
   return (
@@ -18,9 +18,11 @@ export default function RequestQuote() {
             reduces maintenance? Our engineering team is ready to help you
             customise or select the perfect fit.
           </p>
-          <button className="bg-[#0E509E] text-white px-3 py-1 rounded hover:bg-white hover:text-black text-md">
-            Get A Quote
-          </button>
+         <Link href="/contact">
+  <button className="bg-[#0E509E] text-white px-3 py-1 rounded hover:bg-white hover:text-black text-md">
+    Get A Quote
+  </button>
+</Link>
         </div>
 
         {/* Right Section - Image with spacing */}

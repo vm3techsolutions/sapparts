@@ -12,7 +12,7 @@
       "de": "Dieses praktische Tool hilft Ihnen, Blindtext für all Ihre Layout-Bedürfnisse zu erstellen."
     },
     "image": "/assets/home/ProductWithBG.png",
-    "link": "/products/1"
+    "link": "/products/mechanical-face-seals"
   },
   {
     "id": 2,
@@ -27,7 +27,7 @@
       "de": "Dieses praktische Tool hilft Ihnen, Blindtext für all Ihre Layout-Bedürfnisse zu erstellen."
     },
     "image": "/assets/home/Bushing1.png",
-    "link": "/products/2"
+    "link": "/products/bushings"
   },
   {
     "id": 3,
@@ -42,7 +42,7 @@
       "de": "Dieses praktische Tool hilft Ihnen, Blindtext für all Ihre Layout-Bedürfnisse zu erstellen."
     },
     "image": "/assets/home/Sintered1.png",
-    "link": "/products/3"
+    "link": "/products/sintered-products"
   },
   {
     "id": 4,
@@ -57,7 +57,7 @@
       "de": "Dieses praktische Tool hilft Ihnen, Blindtext für all Ihre Layout-Bedürfnisse zu erstellen."
     },
     "image": "/assets/home/ourProduct1.png",
-    "link": "/products/4"
+    "link": "/products/pump-valves-components"
   },
   {
     "id": 5,
@@ -72,7 +72,7 @@
       "de": "Dieses praktische Tool hilft Ihnen, Blindtext für all Ihre Layout-Bedürfnisse zu erstellen."
     },
     "image": "/assets/home/ourProduct1.png",
-    "link": "/products/5"
+    "link": "/products/sap-hub-bearings"
   },
   {
     "id": 6,
@@ -87,6 +87,6 @@
       "de": "Dieses praktische Tool hilft Ihnen, Blindtext für all Ihre Layout-Bedürfnisse zu erstellen."
     },
     "image": "/assets/home/Precision1.png",
-    "link": "/products/6"
+    "link": "/products/precision-components"
   }
 ]
