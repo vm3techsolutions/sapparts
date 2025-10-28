@@ -28,9 +28,9 @@ export default function ProductOverview() {
         {/* Right: Text */}
         <div className="flex flex-col gap-4 text-center md:text-left">
           <h2 className="Heading">{t("productOverview5.title")}</h2>
-          <p className="Paragraph whitespace-pre-line">
+          {/* <p className="Paragraph whitespace-pre-line">
             {t("productOverview5.subtitle")}
-          </p>
+          </p> */}
           <p className="Paragraph">{t("productOverview5.description")}</p>
         </div>
       </div>

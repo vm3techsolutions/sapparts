@@ -30,10 +30,10 @@ export default function ProductOverview() {
           <h2 className="Heading">
             {t("productOverview2.title")}
           </h2>
-          <p className="Paragraph">
+          {/* <p className="Paragraph">
             {t("productOverview2.subtitleLine1")} <br />
             {t("productOverview2.subtitleLine2")}
-          </p>
+          </p> */}
           <p className="Paragraph">
             {t("productOverview2.description")}
           </p>

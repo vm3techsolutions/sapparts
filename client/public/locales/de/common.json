@@ -814,7 +814,7 @@
 
   "productOverview": {
     "title": "Produktübersicht",
-    "description": "Entwickelt für rotierende Anwendungen in abrasiven Umgebungen bieten SAP Parts™ Gleitringdichtungen unübertroffene Haltbarkeit und Verschleißfestigkeit. Diese robusten Dichtungen verwenden geläppte Metall-auf-Metall-Flächen, unterstützt durch elastomere Vorspannelemente, und gewährleisten statische Abdichtung sowie lange Betriebszeiten ohne Leckagen."
+    "description": "Mechanische Face-Dichtungen (auch bekannt als Metall-Face-Dichtungen / Heavy-Duty Dichtungen / Floating-Dichtungen / Duo-Cone-Dichtungen / Gleit-Dichtungen / Spiegel-Dichtungen) bestehen aus zwei identischen metallischen Reibringen mit gehärteten und polierten Oberflächen, die spiegelglatt ausgeführt sind, sowie zwei Gummikomponenten, die auf metallischen Teilen angebracht sind und eine gleichmäßige axiale Druckkraft zwischen dem Gehäuse und der Dichtung erzeugen.Einer der metallischen Ringe bleibt statisch, während sich der andere dreht, sodass die Dichtung durch Reibung zwischen den beiden Komponenten erreicht wird. Die Konstruktion stellt sicher, dass die Reibflächen ständig durch Systemschmierstoffe – z. B. Öl oder Fett – geschmiert werden, je nach Anwendung."
   },
 
    "applications": {
@@ -919,7 +919,7 @@
     "title": "Produktübersicht",
     "subtitleLine1": "Hochleistungs-Buchsen aus Stahl & Nichteisenmetallen",
     "subtitleLine2": "Präzisionsgefertigt. Wärmebehandelt. Für Langlebigkeit gebaut.",
-    "description": "SAP Parts™ bietet eine breite Palette gehärteter Stahl- und Nichteisenbuchsen für hochbelastete, verschleißintensive Umgebungen. Mit eigener Wärmebehandlung und CNC-Bearbeitung liefern unsere Buchsen enge Toleranzen, verlängerte Lebensdauer und überlegene Tragfähigkeit für anspruchsvolle OEM-Anwendungen.",
+    "description": "SAP Parts™ entwickelt und produziert eine breite Palette von Reibungsmanagement-Komponenten für Geräte, die unter extremen Bedingungen arbeiten – Buchsen sind eine davon. Diese Buchsen bestehen aus legiertem Stahl mit speziell entwickelten, innovativen Oberflächenbehandlungen, um eine außergewöhnliche Leistung zu erzielen, die sie von herkömmlichen Legierungsbuchsen unterscheidet. Zu den Anwendungen dieser Buchsen gehören Verbindungen von Baggerladern, Baggern, Planierraupen, Bodenverdichtern, landwirtschaftlichen Traktoren (vordere und hintere Achslagergehäuse), Achsschenkelverbindungen, Getriebegehäuse usw. SAP Parts Buchsen sind auch in Messing-, Kupfer- und Bronzeausführungen über das CentriCast™-Verfahren erhältlich, um typische Arbeitsbedingungen zu erfüllen.\n\nDas Verschleißmanagement der zugehörigen Teile unter schwierigen Arbeitsbedingungen wird durch SAP Parts™ Buchsen gewährleistet, indem das Profil der Kontaktflächen sorgfältig gestaltet, geeignete Materialien ausgewählt, Oberflächenbehandlungs- und Modifikationstechniken angewendet sowie hochwertige Beschichtungen verwendet werden.",
     "imageAlt": "Buchsen"
   },
 
@@ -1027,7 +1027,8 @@
 
   "productOverview3": {
     "sectionTitle": "Produktübersicht",
-    "description1": "SAP Parts™ ist auf Hochleistungs-Sinterbauteile spezialisiert, die durch modernste Pulvermetallurgie hergestellt werden. Entwickelt für Präzision, Langlebigkeit und Kosteneffizienz, erfüllen diese Komponenten kritische Funktionen in der Automobil-, Landwirtschafts-, Elektro- und Industrieanwendung.",
+    "description1": "Gesinterte Teile werden durch ein Verfahren hergestellt, das als Pulvermetallurgie bekannt ist. Dabei wird Metallpulver typischerweise bis knapp unter seinen Schmelzpunkt erhitzt und anschließend zu einer festen Form verdichtet. Das Sinterverfahren ermöglicht die Herstellung komplexer Formen und hochfester Komponenten, die mit herkömmlichen Bearbeitungsmethoden schwer oder teuer zu produzieren wären.",
+  
     "description2": "Unsere eigenen Sinteranlagen und deutsche Ofentechnologie gewährleisten gleichbleibende Teilequalität bei Standard- und Sonderkonstruktionen – entsprechend indischen und internationalen OEM-Standards."
   },
 
@@ -1155,7 +1156,9 @@
   "productOverview4": {
     "title": "Produktübersicht",
     "subtitle": "Hochleistungs-Stahl- & NichteisenbuchsenPräzisionsgefertigt. Wärmebehandelt. Gebaut für Langlebigkeit.",
-    "description": "SAP Parts™ bietet eine breite Palette gehärteter Stahl- und Nichteisenbuchsen, die für hochbelastete, verschleißintensive Umgebungen entwickelt wurden. Mit eigener Wärmebehandlung und CNC-Bearbeitung bieten unsere Buchsen enge Toleranzen, verlängerte Lebensdauer und überlegene Tragfähigkeit für anspruchsvolle OEM-Anwendungen."
+    "description":   "Im Zeitalter der modernen Landwirtschaft wächst die Nachfrage nach effizienter, zuverlässiger und wartungsarmer Ausrüstung stetig. Landwirtschaftliche Kreiselgrubber sind entscheidend für die Bodenbereitung und den Anbau und müssen modernisiert werden, um eine effektive Leistung und höhere Erträge zu gewährleisten. Herkömmliche Naben- und Lagerbaugruppen, die in Kreiselgrubbern verwendet werden, sind seit langem der Standard, doch ihre inhärenten Komplexitäten, zahlreichen Einzelteile und Wartungsanforderungen stellen sowohl für OEMs als auch für Endanwender eine Herausforderung dar."
+  
+    
   },
 
   "applicationsUseCases4": {
@@ -1388,8 +1391,7 @@
     "title": "Produktübersicht",
     "imageAlt": "Buchsen",
     "paragraphs": [
-      "SAP Parts™ bietet ein umfassendes Sortiment hochpräziser Komponenten, die für Langlebigkeit, Maßgenauigkeit und Leistung unter extremen Einsatzbedingungen entwickelt wurden. Von Buchsen und Dichtungen bis hin zu Scharnieren und Verriegelungsbaugruppen ist jedes Teil so konstruiert, dass es den OEM-Anforderungen in kritischen Anwendungen entspricht.",
-      "Diese Teile werden mit Toleranzen im Mikrometerbereich gefertigt und auf Außendurchmesser (AD)-Bereiche von 30 mm bis 200 mm bearbeitet, wodurch sie für den Schwermaschinenbau, die Landwirtschaft und den Industriesektor geeignet sind."
+      "SAP Parts™ ist Experte in der Herstellung von Präzisionskomponenten, die in einer Vielzahl von Anwendungen weit verbreitet sind.Dies sind typische bearbeitete Komponenten mit speziellen Anforderungen an Oberflächenbehandlungen, enge Toleranzen und komplexe Geometrien.Unsere Präzisionskomponenten werden entwickelt, um die höchsten Qualitäts- und Leistungsstandards zu erfüllen und sich nahtlos in verschiedene Systeme und Anwendungen zu integrieren."
     ]
   },
 

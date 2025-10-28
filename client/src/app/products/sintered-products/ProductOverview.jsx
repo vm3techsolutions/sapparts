@@ -32,9 +32,9 @@ export default function ProductOverview() {
           <p className="Paragraph">
             {t("productOverview3.description1")}
           </p>
-          <p className="Paragraph">
+          {/* <p className="Paragraph">
             {t("productOverview3.description2")}
-          </p>
+          </p> */}
         </div>
       </div>
     </section>

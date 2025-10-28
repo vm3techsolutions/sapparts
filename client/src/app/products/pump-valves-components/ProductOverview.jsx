@@ -27,9 +27,9 @@ export default function ProductOverview() {
         {/* Right: Text */}
         <div className="-mt-8 sm:-mt-0">
           <h2 className="Heading">{t("productOverview4.title")}</h2>
-          <p className="Paragraph whitespace-pre-line">
+          {/* <p className="Paragraph whitespace-pre-line">
             {t("productOverview4.subtitle")}
-          </p>
+          </p> */}
           <p className="Paragraph">
             {t("productOverview4.description")}
           </p>
