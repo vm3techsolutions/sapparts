@@ -62,6 +62,7 @@
 //     </section>
 //   );
 // }
+
 "use client";
 import Image from "next/image";
 import { useTranslation } from "react-i18next";
@@ -96,11 +97,13 @@ export default function ApplicationsUseCases() {
         {t("applicationsUseCases6.sectionTitle")}
       </h2>
 
-      <div className="grid md:grid-cols-2 gap-10 mx-auto">
-        {useCases.map((item) => (
+      {/* ✅ Responsive grid with 3rd card centered */}
+      <div className="grid md:grid-cols-2 gap-10 mx-auto place-items-center">
+        {useCases.map((item, index) => (
           <div
             key={item.id}
-            className="group transition-all duration-300 bg-white hover:bg-[#0E509E] shadow-md rounded-md py-8 cursor-pointer border border-[#000000]/10"
+            className={`group transition-all duration-300 bg-white hover:bg-[#0E509E] shadow-md rounded-md py-8 cursor-pointer border border-[#000000]/10
+              ${index === 2 ? "md:col-span-2 md:w-1/2 mx-auto" : ""}`}
           >
             <div className="flex flex-col items-center text-center">
               <Image
@@ -127,4 +130,3 @@ export default function ApplicationsUseCases() {
     </section>
   );
 }
-

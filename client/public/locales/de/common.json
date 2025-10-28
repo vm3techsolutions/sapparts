@@ -140,12 +140,31 @@
   "Agriculture-Description": "Landwirtschaftliche Maschinen arbeiten in einigen der anspruchsvollsten Umgebungen, in denen schwere Lasten, abrasive Bedingungen und Dauerbetrieb zu erheblicher Reibung und schädlichem Metall-auf-Metall-Kontakt zwischen kritischen Komponenten führen. Unsere SAP-Teileprodukte sind speziell entwickelt, um robuste Lösungen für das Reibungsmanagement zu bieten und schädlichen Metall-auf-Metall-Kontakt zu verhindern. Sie sind so konzipiert, dass sie diesen Herausforderungen standhalten und wichtige Komponenten in Traktoren, Erntemaschinen und Geräten schützen. Dieser spezielle Schutz führt direkt zu erhöhter Betriebszeit der Maschinen, niedrigeren Wartungskosten durch geringeren Verschleiß und letztlich zu höherer Produktivität der Landwirte, da ihre Geräte zuverlässig und effizient im Einsatz sind.",
   "Products Used": "Verwendete Produkte",
 
-  "key_benefits_heading": "Wichtige Vorteile",
-  "key_benefits_subheading": "Gebaut für Leistung im Feld, weltweit von OEMs vertraut",
-  "benefit_1": "100 % interne Präzisionsfertigung",
-  "benefit_2": "Lange Lebensdauer unter staubigen, schlammigen Bedingungen",
-  "benefit_3": "Maßgeschneiderte Lösungen für regionale & globale OEMs",
-  "benefit_4": "Schnelle Umsetzung für Anpassungsbedarfe",
+ "key_benefits_heading": "Hauptvorteile",
+  "key_benefits_subheading": "Landmaschinen stärken durch nachhaltige Ingenieurskunst",
+  "key_benefits_description": "Wir liefern präzisionsgefertigte Dichtungs- und Buchsenlösungen, die landwirtschaftliche Maschinen auch unter härtesten Bedingungen zuverlässig arbeiten lassen. So schaffen wir Mehrwert:",
+  "benefits": [
+    {
+      "title": "Verlängerte Lebensdauer der Geräte",
+      "desc": "Unsere Lösungen in PTOs, Achsen und Steckachsen sorgen für eine längere Lebensdauer von Traktoren, Rotavatoren und Mähdreschern."
+    },
+    {
+      "title": "Überlegene Dichtungsleistung",
+      "desc": "Patentierte Technologien wie die Unitized PTO-Dichtung und fortschrittliche Elastomere bieten robusten Schutz vor Schlamm, Staub und Feuchtigkeit – minimieren Leckagen und maximieren die Betriebszeit."
+    },
+    {
+      "title": "Vertrauen globaler OEMs",
+      "desc": "Wir beliefern die meisten führenden landwirtschaftlichen Marken und gewährleisten Kompatibilität, Zuverlässigkeit und internationale Leistungsstandards."
+    },
+    {
+      "title": "Anwendungsspezifische Konstruktion",
+      "desc": "Unsere Lösungen werden mit tiefem tribologischem und metallurgischem Fachwissen entwickelt, um in jeder Anwendung optimale Leistung zu erzielen."
+    },
+    {
+      "title": "Niedrigere Wartungskosten",
+      "desc": "Langlebige Komponenten und bewährte Feldergebnisse reduzieren Wartungsintervalle und Ausfallzeiten – und senken so die Gesamtbetriebskosten für Landwirte und OEMs."
+    }
+  ],
 
   "FAQs": "FAQs",
   "Any Question? Look Here:": "Fragen? Hier nachsehen:",
@@ -230,10 +249,30 @@
 "Supporting the Backbone of Mobility" : "Unterstützung des Rückgrats der Mobilität",
 "Automotive-paragraph" : "Im anspruchsvollen Automobilsektor sind unsere Produkte sorgfältig entwickelt, um sowohl Leistung als auch Langlebigkeit zu steigern. Wir erreichen dies durch präzises Reibungsmanagement und tiefgehende Anwendung tribologischer Kenntnisse – der Wissenschaft von wechselwirkenden Oberflächen in relativer Bewegung. Unsere Lösungen gehen über einfache Schmierung hinaus; sie sind darauf ausgelegt, Verschleiß, Reibung und Schmierung auf mikroskopischer Ebene zu kontrollieren. Unsere Produkte gewährleisten einen deutlich reibungsloseren Betrieb, drastisch reduzierten Verschleiß und erhöhte mechanische Effizienz. Letztlich führt dies direkt zur Entwicklung sichererer, zuverlässigerer und leistungsfähigerer Fahrzeuge – sowohl für Hersteller als auch Endnutzer.",
 
-"Proven OEM Partnerships" : "Bewährte OEM-Partnerschaften",
-"High-Performance Under Pressure" : "Hochleistung unter Druck",
-"Innovation-Driven Engineering" : "Innovationsgetriebene Technik",
-"⁠Global Footprint" : "Weltweite Präsenz",
+ "driving_reliability_heading": "Zuverlässigkeit durch Präzisionsingenieurwesen",
+  "driving_reliability_subheading": "Wir unterstützen die Automobilindustrie mit fortschrittlichen Dichtungs- und Buchsenlösungen, die Leistung, Haltbarkeit und Sicherheit in Antriebssträngen, Achsen und industriellen Komponenten verbessern.",
+  "driving_reliability_points": [
+    {
+      "title": "Hochleistungs-Dichtungslösungen",
+      "desc": "Unsere mechanischen Gleitringdichtungen sind so konstruiert, dass sie extremem Druck, Temperatur und Verschmutzung standhalten und optimale Leistung in Antriebsmotoren, Getrieben und Bremssystemen gewährleisten."
+    },
+    {
+      "title": "OEM-Kompatibilität in Industriequalität",
+      "desc": "Wir beliefern führende Automobil- und Industrie-OEMs und gewährleisten eine nahtlose Integration sowie vertrauenswürdige Zuverlässigkeit über verschiedene Plattformen hinweg."
+    },
+    {
+      "title": "Präzisionskomponenten für kritische Systeme",
+      "desc": "Von Trommelmotoren bis zu Hydraulikzylindern – unsere Buchsen und Sinterteile sind für Hochlast- und Hochgeschwindigkeitsanwendungen ausgelegt und liefern konstante Leistung unter anspruchsvollen Bedingungen."
+    },
+    {
+      "title": "Weniger Wartung und geringere Lebenszykluskosten",
+      "desc": "Langlebige Materialien wie Ni-Hard- und Hochchrom-Molybdänlegierungen in Kombination mit fortschrittlichen Elastomeren reduzieren Verschleiß und Wartungsintervalle und senken die Gesamtkosten des Eigentums."
+    },
+    {
+      "title": "Globale Lieferkettenunterstützung",
+      "desc": "Mit Vertriebszentren in Nordamerika, Europa und Asien sorgt SAP Parts für pünktliche Lieferung, technischen Support und lokale Dienstleistungen für Automobilhersteller weltweit."
+    }
+  ],
 
 "Engineered for Extreme Demands" : "Entwickelt für extreme Anforderungen",
 "Construction-Paragraph" : "Baumaschinen arbeiten in extrem anspruchsvollen Umgebungen, in denen hohe Lasten, ständige Bewegung und der Kontakt mit abrasiven Materialien enorme Herausforderungen darstellen. Unter solchen Bedingungen sind effektives Reibungsmanagement und die Kontrolle von Metall-auf-Metall-Kontakt absolut entscheidend für die Betriebssicherheit. Unsere Produkte sind speziell entwickelt, um diesen harten Realitäten standzuhalten und die Lebensdauer wichtiger Maschinen wie Bagger, Bulldozer und Krane erheblich zu verlängern. Diese erhöhte Haltbarkeit führt direkt zu reduzierten Ausfallzeiten bei Bauprojekten und maximiert letztlich die Gesamteffizienz.",
@@ -270,10 +309,26 @@
 "Supporting Innovation with Precision Engineering" : "Unterstützung von Innovation durch Präzisionstechnik",
 "HighTech-Paragraph" : "In der präzisionsgetriebenen High-Tech-Industrie, in der selbst mikroskopische Reibung und Metall-auf-Metall-Kontakt die Leistung erheblich beeinträchtigen können, bieten SAP-Teile fortschrittliche Lösungen für ultrareibungsarmen Betrieb und minimalen Verschleiß. Von der Halbleiterfertigung bis hin zu anderen sensiblen Hochleistungssystemen sind unsere Komponenten mit höchsten Toleranzen konstruiert, um Zuverlässigkeit, Präzision und Langlebigkeit dieser wichtigen Systeme sicherzustellen.",
 
-"Ultra-Precision Engineering" : "Ultrapräzisionstechnik",
-"Advanced R&D for Custom Needs" : "Fortschrittliche F&E für individuelle Anforderungen",
-"Trusted by Automation & Robotics OEMs" : "Vertraut von Automatisierungs- & Robotik-OEMs",
-"Lightweight Yet Strong Designs" : "Leicht, aber robuste Designs",
+ "engineering_precision_heading": "Ingenieurpräzision für die Technologien von morgen",
+  "engineering_precision_subheading": "Wir expandieren in Hightech-Bereiche mit fortschrittlichen Materialien, Präzisionskomponenten und F&E-Fähigkeiten, die auf die aufstrebende Halbleiterindustrie zugeschnitten sind.",
+  "engineering_precision_points": [
+    {
+      "title": "Fortschrittliche Materialwissenschaft",
+      "desc": "Wir entwickeln eigene Legierungen und Elastomere mit hoher thermischer, chemischer und mechanischer Beständigkeit – ideal für die Halbleiterverbindung und kryogene Systeme."
+    },
+    {
+      "title": "Schnelles Prototyping & Designvalidierung",
+      "desc": "Mit Tools wie CAD, SolidWorks, ANSYS und 3D-Druck beschleunigen wir Produktentwicklungszyklen und gewährleisten Zuverlässigkeit durch FEA-, DFMEA- und Lebensdauertests."
+    },
+    {
+      "title": "Saubere Fertigung & Testinfrastruktur",
+      "desc": "Unsere Einrichtungen umfassen kryogene Behandlungsanlagen, mikroskopische VMS-Systeme und Ölleckteststände – um Präzision und Qualität für empfindliche Hightech-Komponenten sicherzustellen."
+    },
+    {
+      "title": "Strategische F&E-Erweiterung",
+      "desc": "Wir investieren in Innovationszentren und globale Partnerschaften, um Technologien der nächsten Generation und nachhaltiges Engineering zu fördern."
+    }
+  ],
 
 "Manufacturing Processes" : "Fertigungsprozesse",
 "Centrifugal Casting" : "Schleuderguss",
@@ -1620,10 +1675,109 @@
       "/assets/industries/agriculture/Supporting.png"
     ],
     "imageAlt": "Unterstützt das Rückgrat der Landwirtschaft"
-  }
+  },
+
+   "mining_solutions_heading": "Dichtungslösungen für die Welt unter der Erde",
+  "mining_solutions_subheading": "Der Bergbau erfordert Komponenten, die extremem Druck, abrasiven Materialien und Dauerbetrieb standhalten.",
+  "mining_solutions_description": "Wir liefern speziell entwickelte Dichtungs- und Buchsenlösungen, die unter den härtesten unterirdischen und oberirdischen Bedingungen zuverlässig funktionieren.",
+  "mining_solutions_points": [
+    {
+      "title": "Extreme Haltbarkeit",
+      "desc": "Unsere Metall-Gleitringdichtungen und Buchsen bestehen aus proprietären Legierungen wie Ni-Hard und Hochchrom-Molybdän und gewährleisten eine lange Lebensdauer in Bergbaukippern, Tunnelbohrmaschinen (TBMs) und Schüttgut-Fördersystemen."
+    },
+    {
+      "title": "Kontaminationsbeständigkeit",
+      "desc": "Spezielle Dichtungen für Schneidwalzen, Achsen und Nassbremsen bieten hervorragenden Schutz gegen Schlamm, Staub und Feuchtigkeit – reduzieren Ausfallraten und erhöhen die Sicherheit."
+    },
+    {
+      "title": "Vertrauen führender Bergbau-OEMs",
+      "desc": "Wir beliefern Branchenführer und gewährleisten Kompatibilität und Leistung bei anspruchsvollen Bergbaueinsätzen."
+    },
+    {
+      "title": "Anwendungsspezifisches Engineering",
+      "desc": "Von TBM-Schneidwerkzeugdichtungen bis zu Zentrifugendichtungen für Ölsandabscheider – unsere Produkte sind für Hochdruck- und Hochkontaminationsumgebungen ausgelegt und werden strengen Tests und Validierungen unterzogen."
+    },
+    {
+      "title": "Niedrigere Betriebskosten",
+      "desc": "Durch die Reduzierung von Ausfallzeiten und Wartungsintervallen helfen wir Bergbaubetreibern, die Produktivität zu optimieren und die Gesamtbetriebskosten ihrer Flotten zu senken."
+    }
+  ],
 
 
+  "industrial_solutions_heading": "Präzision, die Produktivität antreibt",
+  "industrial_solutions_subheading": "Wir unterstützen den Industriesektor mit Hochleistungskomponenten, die für Zuverlässigkeit, Effizienz und lange Lebensdauer in anspruchsvollen Umgebungen entwickelt wurden – von Produktionsanlagen bis hin zu Materialflusssystemen.",
+  "industrial_solutions_points": [
+    {
+      "title": "Präzisionskomponenten für kritische Systeme",
+      "desc": "Wir liefern zentrifugalgegossene, bearbeitete Teile, Sinterkomponenten und gummigebundene Dichtungsadapter und Buchsen – entwickelt für Industriepumpen, Mischanlagen und Trommelmotoren."
+    },
+    {
+      "title": "Verbesserte Gerätezuverlässigkeit",
+      "desc": "Unsere Dichtungen und Buchsen sind für hohe Belastungen, abrasive Bedingungen und Dauerbetrieb ausgelegt – sie minimieren den Verschleiß und maximieren die Betriebszeit von Industriemaschinen."
+    },
+    {
+      "title": "Maßgeschneiderte Lösungen für spezielle Anforderungen",
+      "desc": "SAP Parts bietet maßgeschneiderte Techniklösungen für Off-Highway-Anwendungen, Schlammansysteme und Hydraulikbaugruppen – für optimale Passform und Leistung."
+    },
+    {
+      "title": "Bewährte Qualität und Konformität",
+      "desc": "Zertifiziert nach ISO 9001:2015 und IATF 16949, gewährleisten unsere Qualitätssysteme eine konstante Leistung, unterstützt durch strenge Prüf- und Validierungsprotokolle."
+    },
+    {
+      "title": "Globale Reichweite, lokaler Support",
+      "desc": "Mit Vertriebsnetzwerken in Asien, Europa und Amerika bietet SAP Parts schnelle Unterstützung und technische Expertise für industrielle Kunden weltweit."
+    }
+  ],
 
+  "defense_solutions_heading": "Technische Zuverlässigkeit für missionskritische Einsätze",
+  "defense_solutions_subheading": "Wir unterstützen Verteidigungsanwendungen mit präzisionsgefertigten Komponenten, die für raue Umgebungen, Hochleistungsoperationen und langfristige Zuverlässigkeit entwickelt wurden. Unsere Lösungen werden in Militärfahrzeugen, Amphibiensystemen und Spezialmaschinen eingesetzt.",
+  "defense_solutions_points": [
+    {
+      "title": "Einsatzbereite Haltbarkeit",
+      "desc": "Unsere mechanischen Gleitringdichtungen und gummigebundenen Adapter sind so konstruiert, dass sie extremem Druck, Temperaturen und Verunreinigungen standhalten – und somit zuverlässige Leistung in Kampf- und Taktikfahrzeugen gewährleisten."
+    },
+    {
+      "title": "Spezialisierte Komponenten für militärische Plattformen",
+      "desc": "Wir liefern gekapselte Dichtungen, Dichtungsringe und Buchsen, die für Verteidigungsanwendungen wie amphibische Rettungsfahrzeuge, Schwimmketten und Militärnaben entwickelt wurden."
+    },
+    {
+      "title": "Bewährte Feldleistung",
+      "desc": "Unsere Auszeichnungen wie der India Defense Excellence Award und Partnerschaften mit OEMs im nationalen Verteidigungssektor bestätigen unsere Zuverlässigkeit bei missionskritischen Einsätzen."
+    },
+    {
+      "title": "Erweiterte Tests und Validierung",
+      "desc": "Unser Lebenszyklus-Prüflabor, die kryogene Behandlungsanlage und die Öl-Leck-Testbänke stellen sicher, dass jede Komponente die strengen Verteidigungsstandards in Bezug auf Sicherheit und Leistung erfüllt."
+    },
+    {
+      "title": "Strategische globale Unterstützung",
+      "desc": "Mit Vertriebsnetzwerken auf der ganzen Welt gewährleisten wir eine pünktliche Lieferung und technischen Support für Verteidigungsauftragnehmer und Regierungsbehörden weltweit."
+    }
+  ],
+
+    "construction_solutions_heading": "Gebaut für robuste Leistung und Zuverlässigkeit",
+  "construction_solutions_subheading": "Wir unterstützen die Bauindustrie mit robusten Dichtungs- und Buchsenlösungen, die extremen Belastungen, abrasiven Umgebungen und kontinuierlichem Betrieb in schweren Maschinen standhalten.",
+  "construction_solutions_points": [
+    {
+      "title": "Haltbarkeit unter rauen Bedingungen",
+      "desc": "Unsere Metalldichtungen und Buchsen sind für Lader, Verdichter, Planierraupen und Bagger konzipiert und bieten lang anhaltende Leistung in Schlamm, Staub und Hochdruckumgebungen."
+    },
+    {
+      "title": "Weniger Ausfallzeiten",
+      "desc": "Dank fortschrittlicher Dichtungstechnologien und Präzisionsteilen minimiert SAP Parts Leckagen und Verschleiß – so bleiben Baumaschinen länger betriebsbereit und Wartungsunterbrechungen werden reduziert."
+    },
+    {
+      "title": "Vertrauen führender OEMs",
+      "desc": "Wir liefern wichtige Komponenten an Branchenführer und gewährleisten Kompatibilität und Zuverlässigkeit auf globalen Plattformen."
+    },
+    {
+      "title": "Anwendungsspezifisches Engineering",
+      "desc": "Von Antriebsmotordichtungen bis hin zu Gelenkbuchsen – unsere Produkte sind auf die besonderen Anforderungen von Baumaschinen zugeschnitten und verbessern die Tragfähigkeit und Ermüdungsbeständigkeit."
+    },
+    {
+      "title": "Niedrigere Lebenszykluskosten",
+      "desc": "Unsere Hochleistungsmaterialien und strengen Testverfahren reduzieren die Wartungshäufigkeit und verlängern die Lebensdauer der Komponenten – wodurch die Gesamtkosten für Auftragnehmer und OEMs gesenkt werden."
+    }
+  ]
 
 
 }

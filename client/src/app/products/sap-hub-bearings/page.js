@@ -1,5 +1,5 @@
 import RequestQuote1 from "../mechanical-face-seals/RequestQuote1";
-// import ApplicationsIndustry from "./ApplicationsIndustry";
+import ApplicationsIndustry from "./ApplicationsIndustry";
 
 import BushingsCenterIMG from "./CenterIMG";
 import ManufacturingTesting from "./ManufacturingTesting";
@@ -14,7 +14,7 @@ export default function product(){
               <ScrollRing/>
          
           <ProductOverview/>
-          {/* <ApplicationsIndustry/> */}
+          <ApplicationsIndustry/>
           <TechnicalSpecification/>
           <Materials/>
           <BushingsCenterIMG/>

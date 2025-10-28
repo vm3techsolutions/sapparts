@@ -9,11 +9,11 @@ const bannerImageMap = {
 
   "/strategy": "/assets/strategy/StrategyBanner.png",
 
-  "/industries/agriculture": "/assets/industries/AgricultureBanner2.png",
+  "/industries/agriculture": "/assets/industries/Agriculture2.jpg",
   "/industries/automotive": "/assets/industries/AutomotiveBanner.png",
-  "/industries/construction": "/assets/industries/ConstructionBanner.png",
-  "/industries/defence": "/assets/industries/DefenceBanner.png",
-  "/industries/industrial": "/assets/industries/IndustrialBanner.png",
+  "/industries/construction": "/assets/industries/Construction2.jpg",
+  "/industries/defence": "/assets/industries/Defence2.jpg",
+  "/industries/industrial": "/assets/industries/Industrial2.jpg",
   "/industries/mining": "/assets/industries/MiningBanner.png",
   "/industries/high-tech": "/assets/industries/Hi-TechBanner.png",
 

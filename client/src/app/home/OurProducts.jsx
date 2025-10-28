@@ -52,9 +52,9 @@ export default function ProductsPage() {
               </h3>
 
               {/* Description */}
-              <div className="flex-grow flex items-center">
+              {/* <div className="flex-grow flex items-center">
                 <p className="text-md">{item.description[currentLang]}</p>
-              </div>
+              </div> */}
 
               {/* Button */}
               <Link href={item.link}>
