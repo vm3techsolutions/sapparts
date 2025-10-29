@@ -14,7 +14,7 @@ export default function ProductOverview() {
           <div className="border-[3px] border-dashed border-yellow-400 p-">
             <div className="w-[280px] md:w-[400px]">
               <Image
-                src="/assets/products/ProductOverview.png"
+                src="/assets/home/Pump01.jpg"
                 alt={t("productOverview4.title")}
                 width={600}
                 height={400}

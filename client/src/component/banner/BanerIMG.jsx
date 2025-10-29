@@ -5,7 +5,7 @@ import React from "react";
 
 // Banner path mapping
 const bannerImageMap = {
-   "/": "/assets/home/homeBanner.png",
+  "/": "/assets/home/homeBanner.png",
 
   "/strategy": "/assets/strategy/StrategyBanner.png",
 
@@ -47,11 +47,19 @@ const bannerImageMap = {
 export default function BannerImage() {
   const pathname = usePathname();
 
-  // Fallback image in case path not matched
+  // Fallback image
   const bannerSrc = bannerImageMap[pathname] || "/assets/banners/default.png";
 
+  // ✅ Apply mt-12 for industries & products pages
+  const addTopMargin =
+    pathname.startsWith("/industries") || pathname.startsWith("/products");
+
   return (
-    <div className="w-full bg-white flex justify-center items-center sm:px-4">
+    <div
+      className={`w-full bg-white flex justify-center items-center sm:px-4 ${
+        addTopMargin ? "mt-12" : ""
+      }`}
+    >
       <div>
         <Image
           src={bannerSrc}

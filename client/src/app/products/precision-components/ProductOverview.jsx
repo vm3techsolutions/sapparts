@@ -55,7 +55,7 @@ export default function ProductOverview() {
           <div className="border-[3px] border-dashed border-yellow-400">
             <div className="w-[280px] md:w-[400px]">
               <Image
-                src="/assets/products/ProductOverview.png"
+                src="/assets/home/Pricision01.png"
                 alt={t("productOverview6.imageAlt")}
                 width={600}
                 height={400}

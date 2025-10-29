@@ -26,7 +26,7 @@
       "ja": "この便利なツールは、すべてのレイアウトニーズに対応するダミーテキストを作成します。",
       "de": "Dieses praktische Tool hilft Ihnen, Blindtext für all Ihre Layout-Bedürfnisse zu erstellen."
     },
-    "image": "/assets/home/Bushing1.png",
+    "image": "/assets/home/Bushing01.jpg",
     "link": "/products/bushings"
   },
   {
@@ -41,7 +41,7 @@
       "ja": "この便利なツールは、すべてのレイアウトニーズに対応するダミーテキストを作成します。",
       "de": "Dieses praktische Tool hilft Ihnen, Blindtext für all Ihre Layout-Bedürfnisse zu erstellen."
     },
-    "image": "/assets/home/Sintered1.png",
+    "image": "/assets/home/Sintered01.jpg",
     "link": "/products/sintered-products"
   },
   {
@@ -56,7 +56,7 @@
       "ja": "この便利なツールは、すべてのレイアウトニーズに対応するダミーテキストを作成します。",
       "de": "Dieses praktische Tool hilft Ihnen, Blindtext für all Ihre Layout-Bedürfnisse zu erstellen."
     },
-    "image": "/assets/home/PumpValue.jpg",
+    "image": "/assets/home/Pump01.jpg",
     "link": "/products/pump-valves-components"
   },
   {
@@ -86,7 +86,7 @@
       "ja": "この便利なツールは、すべてのレイアウトニーズに対応するダミーテキストを作成します。",
       "de": "Dieses praktische Tool hilft Ihnen, Blindtext für all Ihre Layout-Bedürfnisse zu erstellen."
     },
-    "image": "/assets/home/Precision1.png",
+    "image": "/assets/home/Pricision01.png",
     "link": "/products/precision-components"
   }
 ]
