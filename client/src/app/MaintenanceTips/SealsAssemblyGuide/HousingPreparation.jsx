@@ -20,7 +20,7 @@ export default function HousingPreparation() {
 
         {/* Right Side - Images */}
         <div className="w-full md:w-1/2 sm:p-4 space-y-8">
-          <Image
+          {/* <Image
             src="/assets/industries/agriculture/Supporting.png"
             alt="Supporting"
             width={300}
@@ -33,7 +33,7 @@ export default function HousingPreparation() {
             width={300}
             height={370}
             className="w-full h-auto sm:h-[25vh] rounded object-cover"
-          />
+          /> */}
         </div>
       </div>
 
@@ -51,13 +51,13 @@ export default function HousingPreparation() {
 
         {/* Right Side - Image */}
         <div className="w-full md:w-1/2 sm:p-4">
-          <Image
+          {/* <Image
             src="/assets/industries/agriculture/Supporting.png"
             alt="Supporting"
             width={200}
             height={270}
             className="w-full h-auto sm:h-[30vh] rounded object-cover"
-          />
+          /> */}
         </div>
       </div>
     </div>

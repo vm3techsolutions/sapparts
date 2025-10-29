@@ -164,7 +164,7 @@ export default function Header() {
             <select
               value={language}
               onChange={(e) => changeLanguage(e.target.value)}
-              className="bg-[#0E509E] text-white py-1.5 rounded text-sm focus:outline-none hover:bg-[#FACC48] hover:text-black"
+              className="bg-[#0E509E] text-white py-1 rounded text-md focus:outline-none hover:bg-[#FACC48] hover:text-black"
             >
               <option value="en">English</option>
               <option value="ja">Japanese</option>

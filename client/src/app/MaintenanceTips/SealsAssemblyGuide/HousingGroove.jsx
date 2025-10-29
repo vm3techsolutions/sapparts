@@ -29,13 +29,13 @@ export default function HousingGrrove() {
         </div>
 
         <div className="w-full md:w-1/2 sm:p-4">
-          <Image
+          {/* <Image
             src="/assets/industries/agriculture/Supporting.png"
             alt="Supporting"
             width={200}
             height={270}
             className="w-full h-auto sm:h-[45vh] rounded object-cover"
-          />
+          /> */}
         </div>
       </div>
 
@@ -57,13 +57,13 @@ export default function HousingGrrove() {
         </div>
 
         <div className="w-full md:w-1/3 sm:p-4">
-          <Image
+          {/* <Image
             src="/assets/industries/agriculture/Supporting.png"
             alt="Supporting"
             width={300}
             height={370}
             className="w-full h-auto sm:h-[16vh] rounded object-cover"
-          />
+          /> */}
         </div>
       </div>
 
@@ -85,13 +85,13 @@ export default function HousingGrrove() {
         </div>
 
         <div className="w-full md:w-1/3 sm:p-4">
-          <Image
+          {/* <Image
             src="/assets/industries/agriculture/Supporting.png"
             alt="Supporting"
             width={300}
             height={370}
             className="w-full h-auto sm:h-[30vh] rounded object-cover"
-          />
+          /> */}
         </div>
       </div>
     </div>

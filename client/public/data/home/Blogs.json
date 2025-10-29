@@ -2,46 +2,46 @@
   {
     "id": 1,
     "title": {
-      "en": "Manufacturer–Designer–OEM Supplier",
-      "ja": "製造業者・デザイナー・OEMサプライヤー",
-      "de": "Hersteller–Designer–OEM-Lieferant"
+      "en": "Seals Assembly Guide",
+      "ja": "シール組立ガイド",
+      "de": "Dichtungs-Montageanleitung"
     },
     "description": {
-      "en": "Innovation is the USP of SAP Parts. Moreover it is our core value and we intend to proactively employ innovative thinking culture in all our operations.",
-      "ja": "イノベーションはSAPパーツのUSPです。それは当社の中核的価値観であり、あらゆる業務で革新的な思考文化を積極的に導入することを意図しています。",
-      "de": "Innovation ist das Alleinstellungsmerkmal von SAP Parts. Zudem ist es unser Kernwert, und wir beabsichtigen, in all unseren Tätigkeiten eine Kultur des innovativen Denkens proaktiv einzusetzen."
+      "en": "Mechanical Face Seals are fitted in Groove of retaining housing groove, to form the sealing at the adjoining faces. Metal faces are precision Lapped.",
+      "ja": "メカニカルフェイスシールは保持ハウジングの溝に取り付けられ、接合面でシールを形成します。金属面は高精度にラップ加工されています。",
+      "de": "Mechanische Gleitringdichtungen werden in die Nut des Haltegehäuses eingesetzt, um die Abdichtung an den angrenzenden Flächen zu bilden. Die Metallflächen sind präzisionsgeläppt."
     },
     "image": "/assets/home/recentBlog1.png",
-    "link": "/blogs/blog-1"
+    "link": "/MaintenanceTips/SealsAssemblyGuide"
   },
   {
     "id": 2,
     "title": {
-      "en": "Manufacturer–Designer–OEM Supplier",
-      "ja": "製造業者・デザイナー・OEMサプライヤー",
-      "de": "Hersteller–Designer–OEM-Lieferant"
+      "en": "Seal-O-Fix",
+      "ja": "シール・オー・フィックス",
+      "de": "Seal-O-Fix"
     },
     "description": {
-      "en": "Innovation is the USP of SAP Parts. Moreover it is our core value and we intend to proactively employ innovative thinking culture in all our operations.",
-      "ja": "イノベーションはSAPパーツのUSPです。それは当社の中核的価値観であり、あらゆる業務で革新的な思考文化を積極的に導入することを意図しています。",
-      "de": "Innovation ist das Alleinstellungsmerkmal von SAP Parts. Zudem ist es unser Kernwert, und wir beabsichtigen, in all unseren Tätigkeiten eine Kultur des innovativen Denkens proaktiv einzusetzen."
+      "en": "SAP Seal-O-Fix, shall be ideally stored in a cool, dry location in containers at a temperature between 8 and 49 C (46 and 120F).",
+      "ja": "SAP Seal-O-Fixは、8〜49°C（46〜120°F）の温度範囲で冷涼で乾燥した場所に容器で保管するのが理想的です。",
+      "de": "SAP Seal-O-Fix sollte idealerweise in einem kühlen, trockenen Raum bei einer Temperatur zwischen 8 und 49 °C (46 und 120 °F) gelagert werden."
     },
     "image": "/assets/home/recentBlog1.png",
-    "link": "/blogs/blog-2"
+    "link": "/MaintenanceTips/Seal-O-Fix"
   },
   {
     "id": 3,
     "title": {
-      "en": "Manufacturer–Designer–OEM Supplier",
-      "ja": "製造業者・デザイナー・OEMサプライヤー",
-      "de": "Hersteller–Designer–OEM-Lieferant"
+      "en": "Seal For Rotovator",
+      "ja": "ロータベーター用シール",
+      "de": "Dichtung für Rotovator"
     },
     "description": {
-      "en": "Innovation is the USP of SAP Parts. Moreover it is our core value and we intend to proactively employ innovative thinking culture in all our operations.",
-      "ja": "イノベーションはSAPパーツのUSPです。それは当社の中核的価値観であり、あらゆる業務で革新的な思考文化を積極的に導入することを意図しています。",
-      "de": "Innovation ist das Alleinstellungsmerkmal von SAP Parts. Zudem ist es unser Kernwert, und wir beabsichtigen, in all unseren Tätigkeiten eine Kultur des innovativen Denkens proaktiv einzusetzen."
+      "en": "A Rotovator is also called as Rotary tiller, which consists of a steel frame, a rotary shaft on which blades are mounted, power transmission system and gearbox.",
+      "ja": "ロータベーター（またはロータリー耕うん機）は、スチールフレーム、ブレードが取り付けられた回転シャフト、動力伝達システムおよびギアボックスで構成されています。",
+      "de": "Ein Rotovator, auch als Rotationsfräse bezeichnet, besteht aus einem Stahlrahmen, einer rotierenden Welle mit montierten Klingen, einem Antriebssystem und einem Getriebe."
     },
     "image": "/assets/home/recentBlog1.png",
-    "link": "/blogs/blog-3"
+    "link": "/MaintenanceTips/SealForRotovator"
   }
 ]
