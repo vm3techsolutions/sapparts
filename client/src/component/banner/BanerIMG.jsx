@@ -20,9 +20,9 @@ const bannerImageMap = {
   "/products/mechanical-face-seals": "/assets/products/FaceSealsBanner.png",
   "/products/bushings": "/assets/products/BushingBanner.png",
   "/products/sintered-products": "/assets/products/SinteredBanner.png",
-  "/products/pump-valves-components": "/assets/products/BushingBanner.png",
-  "/products/sap-hub-bearings": "/assets/products/BushingBanner.png",
-  "/products/precision-components": "/assets/products/PrecisionBanner.png",
+  "/products/pump-valves-components": "/assets/products/PumpValueBanner.jpg",
+  "/products/sap-hub-bearings": "/assets/products/SapHubBanner.jpg",
+  "/products/precision-components": "/assets/products/PrecisionBanner.jpg",
 
   "/technology": "/assets/technology/TechnologyBanner.png",
 

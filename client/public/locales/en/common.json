@@ -1763,6 +1763,95 @@
       "title": "Lower Lifecycle Costs",
       "desc": "Our high-performance materials and rigorous testing protocols reduce maintenance frequency and extend component life—cutting total cost of ownership for contractors and OEMs."
     }
-  ]
+  ],
 
+   "whyChooseUs": {
+    "title": "Why Choose Us",
+    "description": "SAP Parts™ unique technology employed in seal manufacturing ensures - selection of proprietary and reliable materials such as JaliKayas®, KrisNayas® and the innovative processes including CentriCast® & CryoTreat® are tested for application conditions - aims at safeguarding transmission system and vital components of equipment such as construction machinery, tracked vehicles, concrete batching plants & mixers, mining machinery, Tunnel Boring Machines, Defence Equipment, Agriculture Tractors, Tillage implements, Rotovators, Harvesters, Haul Trucks, Disc Harrows etc. These machines and equipment operate in extreme environments, and their failure could result in the disruption of regular operations & loss of resources. SAP Parts™ engineered sealing solutions provide reliable performance to the users."
+  },
+    "whyChooseUs2": {
+    "title": "Why Choose Us",
+    "description": "The uniqueness of SAP Parts™ lies in the machining of highly précised lubrication retention profiles of grooves, of various types - open & closed ended, spiral & helical, diamond textured, etc. These ensure the appropriate lubrication between mating parts and improve the service life of the bushings. Controlled environment heat treatment processes – Case Carburising, Nitriding, carbo-nitrating, hardening & quenching make these parts tough & hard to be reliable in service. Thus, SAP Parts™ bushings are truly a designed solution for the customers and are acclaimed for consistent performance over competitor products."
+  },
+
+   "whyChooseUs3": {
+    "title": "Why Choose Us",
+    "description": "SAP Parts™ has expertise in the design and development of tribology products, with a focus on Powder Metallurgy Sintered Components for a diverse range of applications. Leveraging its in-depth understanding of materials and manufacturing processes, SAP Parts™ designs components that optimize performance and durability. Advanced Testing Protocols of SAP Parts™ encompass a range of parameters, including mechanical properties, dimensional accuracy, wear resistance and performance for the purpose, collectively the most reliable PM – Sintered Parts.",
+    "productsLeft": [
+      "Bushings",
+      "Thrust Rings",
+      "Roller Tensioners",
+      "Sleeves",
+      "Wear Elements",
+      "Gears"
+    ],
+    "productsRight": [
+      "Profiled Parts",
+      "Synchronizers",
+      "Shock Absorber Discs",
+      "Cylinder Pins",
+      "Friction Plates",
+      "Valve Seats & Guides"
+    ]
+  },
+
+    "whyChooseUs4": {
+    "title": "Why Choose Us",
+    "description": "The customisation options available with SAP Parts allow these rings to be tailored to specific requirements, ensuring optimal performance in diverse applications. This adaptability, combined with the robust design, makes SAP Parts pump casing rings and wear rings a reliable choice for safeguarding equipment in the most demanding industrial settings.",
+    "productsTitle": "Products",
+    "materialsTitle": "Typical Materials",
+    "products": [
+      "Casing Rings",
+      "Wear Rings",
+      "Shaft Protection Sleeves",
+      "Stage Casing",
+      "Reaction Ring",
+      "Split Rings",
+      "Impeller Wear Rings"
+    ],
+    "materials": [
+      "Duplex stainless steel",
+      "Super duplex stainless steel",
+      "Martensitic Stainless Steel",
+      "Ferritic - Carbide Stainless Steel",
+      "Nickel - Chromium",
+      "Austenitic Stainless Steel",
+      "Abrasion Resistant Cast Iron"
+    ]
+  },
+
+   "whyChooseUs5": {
+    "title": "Why Choose Us",
+    "description": "This need prompted SAP Parts™ for the development of a unique solution – “SAP Next-Gen Agri-Hubs Bearings”. These cutting-edge unitized hubs, equipped with SAP Parts™ proprietary & proven technology product Metal Face Seals, represent the next generation of bearing hubs used in agricultural tiller equipment, promising to reshape the industry by addressing longstanding challenges and exceeding performance expectations. The design of these hubs also emphasises ease of installation and compatibility with a wide range of agricultural equipment, making them a versatile choice for farmers and machinery operators seeking to upgrade their equipment's performance."
+  },
+
+   "whyChooseUs6": {
+    "title": "Why Choose Us",
+    "description": "The versatility of our precision components makes them indispensable in sectors such as aerospace, automotive, medical devices, and electronics. Each component is manufactured using advanced technologies and rigorous quality control processes to deliver unmatched precision and reliability.",
+    "productTitle": "Some Products -",
+    "products": [
+      "Bearing Bush",
+      "Flanges",
+      "Adapters",
+      "Nitrided Pins",
+      "Lock Pin Assemblies",
+      "Cross Joint",
+      "Boss Assemblies"
+    ]
+  },
+
+    "whyChooseUsPrecision": {
+    "title": "Why Choose Us",
+    "description": "The versatility of our precision components makes them indispensable in sectors such as aerospace, automotive, medical devices, and electronics. Each component is manufactured using advanced technologies and rigorous quality control processes to deliver unmatched precision and reliability.",
+    "productsTitle": "Some Products -",
+    "products": [
+      "Bearing Bush",
+      "Flanges",
+      "Adapters",
+      "Nitrided Pins",
+      "Lock Pin Assemblies",
+      "Cross Joint",
+      "Boss Assemblies"
+    ]
+  }
 }

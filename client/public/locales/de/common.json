@@ -1779,7 +1779,42 @@
       "title": "Niedrigere Lebenszykluskosten",
       "desc": "Unsere Hochleistungsmaterialien und strengen Testverfahren reduzieren die Wartungshäufigkeit und verlängern die Lebensdauer der Komponenten – wodurch die Gesamtkosten für Auftragnehmer und OEMs gesenkt werden."
     }
-  ]
+  ],
 
+   "whyChooseUs": {
+    "title": "Warum Sie uns wählen sollten",
+    "description": "Die einzigartige Technologie von SAP Parts™ bei der Dichtungserzeugung gewährleistet die Auswahl von proprietären und zuverlässigen Materialien wie JaliKayas®, KrisNayas® sowie innovativen Verfahren wie CentriCast® und CryoTreat®. Diese werden unter realen Anwendungsbedingungen getestet, um das Getriebesystem und wichtige Komponenten von Maschinen wie Baumaschinen, Kettenfahrzeugen, Betonmischanlagen, Bergbaumaschinen, Tunnelbohrmaschinen, Verteidigungsgeräten, landwirtschaftlichen Traktoren, Bodenbearbeitungsgeräten, Rotatoren, Erntemaschinen, Muldenkippern und Scheibeneggen zu schützen. Diese Maschinen arbeiten in extremen Umgebungen, und ein Ausfall kann zu Betriebsunterbrechungen und Ressourcenverlust führen. Die Dichtungslösungen von SAP Parts™ bieten den Anwendern zuverlässige Leistung."
+  },
 
+    "whyChooseUs2": {
+    "title": "Warum Sie uns wählen sollten",
+    "description": "Die Einzigartigkeit von SAP Parts™ liegt in der hochpräzisen Bearbeitung von Schmierungsrillenprofilen verschiedener Typen – offen und geschlossen, spiral- und schraubenförmig, diamantstrukturiert usw. Diese gewährleisten eine optimale Schmierung zwischen den Kontaktteilen und verlängern die Lebensdauer der Buchsen. Wärmebehandlungsverfahren in kontrollierter Umgebung – Einsatzhärten, Nitrieren, Karbonitrieren, Härten und Abschrecken – machen diese Teile hart und widerstandsfähig für den zuverlässigen Einsatz. Somit sind SAP Parts™ Buchsen eine wirklich durchdachte Lösung für Kunden und werden für ihre gleichbleibende Leistung gegenüber Wettbewerbsprodukten geschätzt."
+  },
+
+   "whyChooseUs3": {
+    "title": "Warum Uns Wählen",
+    "subtitle": "Einige Produkte sind –",
+    "description": "SAP Parts™ verfügt über Fachwissen im Design und in der Entwicklung von Tribologieprodukten mit Schwerpunkt auf pulvermetallurgisch gesinterten Komponenten für eine Vielzahl von Anwendungen. Durch fundiertes Verständnis von Materialien und Herstellungsprozessen entwirft SAP Parts™ Komponenten, die Leistung und Haltbarkeit optimieren. Die erweiterten Testprotokolle von SAP Parts™ umfassen eine Vielzahl von Parametern, darunter mechanische Eigenschaften, Maßgenauigkeit, Verschleißfestigkeit und Leistung, wodurch die zuverlässigsten PM-Sinterteile entstehen.",
+    "productsLeft": [
+      "Buchsen",
+      "Axialringe",
+      "Rollen-Spanner",
+      "Hülsen",
+      "Verschleißelemente",
+      "Zahnräder"
+    ],
+    "productsRight": [
+      "Profilteile",
+      "Synchronringe",
+      "Stoßdämpfer-Scheiben",
+      "Zylinderstifte",
+      "Reibscheiben",
+      "Ventilsitze & Führungen"
+    ]
+  },
+
+   "whyChooseUs5": {
+    "title": "Warum Uns Wählen",
+    "description": "Dieser Bedarf veranlasste SAP Parts™, eine einzigartige Lösung zu entwickeln – „SAP Next-Gen Agri-Hubs Bearings“. Diese hochmodernen, einheitlichen Naben, ausgestattet mit der firmeneigenen und bewährten Technologie von SAP Parts™, den Metal Face Seals, stellen die nächste Generation von Lagernaben für landwirtschaftliche Bodenbearbeitungsgeräte dar. Sie versprechen, die Branche zu revolutionieren, indem sie langjährige Herausforderungen bewältigen und die Leistungserwartungen übertreffen. Das Design dieser Naben legt zudem Wert auf einfache Installation und Kompatibilität mit einer Vielzahl landwirtschaftlicher Geräte, wodurch sie eine vielseitige Wahl für Landwirte und Maschinenbediener darstellen, die die Leistung ihrer Ausrüstung verbessern möchten."
+  }
 }

@@ -7,6 +7,7 @@ import Materials from "./Materials";
 import ProductOverview from "./ProductOverview";
 import TechnicalSpecification from "./TechnicalSpecification";
   import ScrollRing from "@/component/scroller/ScrollRing";
+import WhyChooseUs from "./WhyChooseUs";
 
 export default function product(){
     return(
@@ -19,6 +20,7 @@ export default function product(){
           <Materials/>
           {/* <BushingsCenterIMG/> */}
           <ManufacturingTesting/>
+          <WhyChooseUs/>
           <RequestQuote1/>
 
         </div>
