@@ -89,9 +89,9 @@ const bannerImageMap = {
   "/industries/automotive": "/assets/industries/AutomotiveBanner.png",
   "/industries/construction": "/assets/industries/Construction2.jpg",
   "/industries/defence": "/assets/industries/Defence2.jpg",
-  "/industries/industrial": "/assets/industries/Industrial2.jpg",
-  "/industries/mining": "/assets/industries/MiningBanner.png",
-  "/industries/high-tech": "/assets/industries/Hi-TechBanner.png",
+  "/industries/industrial": "/assets/industries/Industrial01.jpg",
+  "/industries/mining": "/assets/industries/Mining01.jpg",
+  "/industries/high-tech": "/assets/industries/HiTech01.jpg",
 
   // ❌ Mechanical banner intentionally removed
   // "/products/mechanical-face-seals": "/assets/products/FaceSealsBanner.png",
