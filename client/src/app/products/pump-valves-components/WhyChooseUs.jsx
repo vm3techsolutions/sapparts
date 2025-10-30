@@ -10,40 +10,46 @@ export default function WhyChooseUs3() {
   return (
     <section className="bg-white Section">
       <div className="mx-auto text-center px-6">
+
         {/* 🏷️ Title */}
         <h2 className="text-3xl md:text-4xl font-bold text-[#0A2A7A] mb-4">
           {t("whyChooseUs4.title")}
         </h2>
 
         {/* 📄 Description */}
-        <p className="text-gray-700 text-base md:text-lg leading-relaxed mb-6">
+        <p className="text-gray-700 text-base md:text-lg leading-relaxed mb-6 mx-auto">
           {t("whyChooseUs4.description")}
         </p>
 
-        {/* 🔹 Lists Section */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 max-w-4xl mx-auto text-left">
-          {/* Products */}
-          <div>
-            <h3 className="font-semibold text-[#0A2A7A] text-lg mb-2">
-              {t("whyChooseUs4.productsTitle")}
-            </h3>
-            <ul className="list-disc list-inside space-y-2 text-gray-700">
-              {Array.isArray(products) &&
-                products.map((item, index) => <li key={index}>{item}</li>)}
-            </ul>
-          </div>
+        {/* ✅ Center Lists */}
+        <div className="flex justify-center">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-10 max-w-4xl mx-auto text-left">
 
-          {/* Materials */}
-          <div>
-            <h3 className="font-semibold text-[#0A2A7A] text-lg mb-2">
-              {t("whyChooseUs4.materialsTitle")}
-            </h3>
-            <ul className="list-disc list-inside space-y-2 text-gray-700">
-              {Array.isArray(materials) &&
-                materials.map((item, index) => <li key={index}>{item}</li>)}
-            </ul>
+            {/* Products */}
+            <div>
+              <h3 className="font-semibold text-[#0A2A7A] text-lg mb-2 text-center md:text-left">
+                {t("whyChooseUs4.productsTitle")}
+              </h3>
+              <ul className="list-disc list-inside space-y-2 text-gray-700">
+                {Array.isArray(products) &&
+                  products.map((item, index) => <li key={index}>{item}</li>)}
+              </ul>
+            </div>
+
+            {/* Materials */}
+            <div>
+              <h3 className="font-semibold text-[#0A2A7A] text-lg mb-2 text-center md:text-left">
+                {t("whyChooseUs4.materialsTitle")}
+              </h3>
+              <ul className="list-disc list-inside space-y-2 text-gray-700">
+                {Array.isArray(materials) &&
+                  materials.map((item, index) => <li key={index}>{item}</li>)}
+              </ul>
+            </div>
+
           </div>
         </div>
+
       </div>
     </section>
   );
