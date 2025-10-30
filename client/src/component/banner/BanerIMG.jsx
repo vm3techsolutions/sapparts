@@ -83,7 +83,7 @@ import React from "react";
 const bannerImageMap = {
   "/": "/assets/home/homeBanner.png",
 
-  "/strategy": "/assets/strategy/StrategyBanner.png",
+  "/strategy": "/assets/strategy/StrategyBanner.png",                       
 
   "/industries/agriculture": "/assets/industries/Agriculture2.jpg",
   "/industries/automotive": "/assets/industries/AutomotiveBanner.png",

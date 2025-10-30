@@ -6,7 +6,7 @@
       "ja": "建設",
       "de": "Bauwesen"
     },
-    "image": "/assets/home/Construction01.jpg",
+    "image": "/assets/home/Construction02.jpg",
     "link": "/industries/construction"
   },
   {
@@ -16,7 +16,7 @@
       "ja": "鉱業",
       "de": "Bergbau"
     },
-    "image": "/assets/home/Mining01.png",
+    "image": "/assets/home/Mining02.jpg",
     "link": "/industries/mining"
   },
   {
@@ -26,7 +26,7 @@
       "ja": "産業",
       "de": "Industrie"
     },
-    "image": "/assets/home/Industrial01.jpg",
+    "image": "/assets/home/Industrial02.jpg",
     "link": "/industries/industrial"
   },
   {
@@ -36,7 +36,7 @@
       "ja": "農業",
       "de": "Landwirtschaft"
     },
-    "image": "/assets/home/Agriculture01.jpg",
+    "image": "/assets/home/Agriculture02.jpg",
     "link": "/industries/agriculture"
   },
   {
@@ -56,7 +56,7 @@
       "ja": "ハイテク",
       "de": "Hightech"
     },
-    "image": "/assets/home/industriesWeServe6.png",
+    "image": "/assets/home/High-Tech02.jpg",
     "link": "/industries/high-tech"
   },
   {
@@ -66,7 +66,7 @@
       "ja": "防衛",
       "de": "Verteidigung"
     },
-    "image": "/assets/home/Defence01.jfif",
+    "image": "/assets/home/Defence02.jpg",
     "link": "/industries/defence"
   }
 ]
