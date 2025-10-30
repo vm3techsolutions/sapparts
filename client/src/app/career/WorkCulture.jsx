@@ -51,14 +51,15 @@ export default function StrategySection() {
             {items.map((item, index) => (
               <div
                 key={index}
-                className="flex items-center justify-between text-[#0E509E] text-xl font-medium"
+                className="flex items-center gap-4 text-[#0E509E] text-xl font-medium"
               >
-                {item}
-
-                {/* Number Box */}
-                <div className="w-8 h-8 bg-[#FACC48] text-[#0E509E] flex items-center justify-center rounded">
+                {/* Number Box Left */}
+                <div className="w-8 h-8 bg-[#FACC48] text-[#0E509E] flex items-center justify-center rounded font-semibold">
                   {index + 1}
                 </div>
+
+                {/* Text Right */}
+                <span>{item}</span>
               </div>
             ))}
           </div>
