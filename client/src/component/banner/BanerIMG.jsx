@@ -85,7 +85,7 @@ const bannerImageMap = {
 
   "/strategy": "/assets/strategy/StrategyBanner.png",                       
 
-  "/industries/agriculture": "/assets/industries/Agriculture2.jpg",
+  "/industries/agriculture": "/assets/industries/Agriculture03.jpg",
   "/industries/automotive": "/assets/industries/AutomotiveBanner.png",
   "/industries/construction": "/assets/industries/Construction2.jpg",
   "/industries/defence": "/assets/industries/Defence2.jpg",
@@ -117,7 +117,7 @@ const bannerImageMap = {
   "/MaintenanceTips/SealForRotovator": "/assets/home/homeBanner.png",
 
   "/sustainability": "/assets/sustainability/SustainabilityBanner.png",
-  "/about": "/assets/home/homeBanner.png",
+  "/about": "/assets/about/About02.jpg",
   "/career": "/assets/career/CareerBanner2.png",
   "/contact": "/assets/contact/contactBanner2.png",
 };

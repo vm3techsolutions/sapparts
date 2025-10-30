@@ -22,6 +22,7 @@ export default function Footer() {
       <div className="grid grid-cols-2 md:grid-cols-5 gap-4 md:gap-0 px-6 md:px-10 pt-6 pb-3">
         {/* Logo and Description */}
         <div className="md:pt-10">
+           <Link href="/" className="flex items-center">
           <Image
             src="/assets/home/headerLogo.png"
             alt="SAP Parts"
@@ -29,6 +30,7 @@ export default function Footer() {
             height={50}
             className="mb-4"
           />
+          </Link>
           <p className="text-md text-gray-300">{t("Footer Description")}</p>
         </div>
 
