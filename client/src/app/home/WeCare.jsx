@@ -111,7 +111,7 @@ export default function ContributionSection() {
     title: t("“We Care, We Contribute!”"),
     description: t("We care Description"),
     mainImage: "/assets/home/weCareMainImg.png",
-    knowMoreLink: "/contribution",
+    knowMoreLink: "/sustainability",
   };
 
   // Static cards data (with German added)
@@ -129,7 +129,7 @@ export default function ContributionSection() {
       de: "Wir glauben, dass Bildung das mächtigste Werkzeug zur Stärkung von Menschen ist. Durch Investitionen in Bildung wollen wir Chancen schaffen, benachteiligte Gemeinschaften fördern und die nächste Generation von Führungskräften und Innovatoren heranbilden.",
     },
     number: "01",
-    link: "/education",
+    link: "/sustainability",
   },
   {
     id: 2,
@@ -144,7 +144,7 @@ export default function ContributionSection() {
       de: "Wir wissen, dass die Ressourcen unseres Planeten wertvoll und begrenzt sind. Bei Sapparts integrieren wir umweltbewusste Praktiken in unsere Abläufe und übernehmen Verantwortung über unsere Einrichtungen hinaus, um zu einer grüneren Zukunft beizutragen.",
     },
     number: "02",
-    link: "/environment",
+    link: "/sustainability",
   },
   {
     id: 3,
@@ -159,7 +159,7 @@ export default function ContributionSection() {
       de: "Eine gesunde Gesellschaft ist eine starke Gesellschaft. Wir setzen uns dafür ein, den Zugang zur Gesundheitsversorgung zu verbessern, das Wohlbefinden zu fördern und medizinische Initiativen zu unterstützen, die grundlegende Dienstleistungen für Bedürftige bereitstellen.",
     },
     number: "03",
-    link: "/healthcare",
+    link: "/sustainability",
   },
   {
     id: 4,
@@ -174,7 +174,7 @@ export default function ContributionSection() {
       de: "Wir glauben daran, den Gemeinschaften etwas zurückzugeben, die uns unterstützen. Über das Geschäft hinaus konzentrieren wir uns darauf, die Lebensqualität zu verbessern, Inklusion zu fördern und Wachstumschancen in den Gemeinden zu schaffen, in denen wir tätig sind.",
     },
     number: "04",
-    link: "/community",
+    link: "/sustainability",
   },
 ];
 

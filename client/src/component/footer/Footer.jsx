@@ -42,7 +42,7 @@ export default function Footer() {
           <ul className="space-y-4 text-md">
             <li><Link href="/strategy">{t("Strategy")}</Link></li>
             <li><Link href="/technology">{t("Technology")}</Link></li>
-            <li><Link href="/resources">{t("Resources")}</Link></li>
+            <li><Link href="/MaintenanceTips/SealsAssemblyGuide">{t("Resources")}</Link></li>
             <li><Link href="/sustainability">{t("Sustainability")}</Link></li>
             <li><Link href="/about">{t("About Us")}</Link></li>
             <li><Link href="/career">{t("Career")}</Link></li>
