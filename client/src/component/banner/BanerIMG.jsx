@@ -86,15 +86,18 @@ const bannerImageMap = {
   "/strategy": "/assets/strategy/StrategyBanner.png",                       
 
   "/industries/agriculture": "/assets/industries/Agriculture03.jpg",
-  "/industries/automotive": "/assets/industries/AutomotiveBanner.png",
+
+   // ❌ Mechanical banner intentionally removed
+  // "/industries/automotive": "/assets/industries/AutomotiveBanner.png",
+
   "/industries/construction": "/assets/industries/Construction2.jpg",
   "/industries/defence": "/assets/industries/Defence2.jpg",
   "/industries/industrial": "/assets/industries/Industrial01.jpg",
   "/industries/mining": "/assets/industries/Mining01.jpg",
   "/industries/high-tech": "/assets/industries/HiTech01.jpg",
 
-  // ❌ Mechanical banner intentionally removed
-  // "/products/mechanical-face-seals": "/assets/products/FaceSealsBanner.png",
+ 
+  "/products/mechanical-face-seals": "/assets/products/FaceSealsBanner.png",
 
   "/products/bushings": "/assets/products/BushingBanner.png",
   "/products/sintered-products": "/assets/products/SinteredBanner.png",
@@ -116,7 +119,7 @@ const bannerImageMap = {
   "/MaintenanceTips/Seal-O-Fix": "/assets/home/homeBanner.png",
   "/MaintenanceTips/SealForRotovator": "/assets/home/homeBanner.png",
 
-  "/sustainability": "/assets/sustainability/SustainabilityBanner.png",
+  "/sustainability": "/assets/sustainability/hi sustainability02.jpg",
   "/about": "/assets/about/About02.jpg",
   "/career": "/assets/career/CareerBanner2.png",
   "/contact": "/assets/contact/contactBanner2.png",
