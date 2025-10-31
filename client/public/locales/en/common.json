@@ -423,7 +423,7 @@
   "High Productivity Robotic Pouring and Automatic Inoculation" : "High Productivity Robotic Pouring and Automatic Inoculation",
 
 
-  "Casting Process": "Cri Centrifugal Casting Process",
+  "Casting Process": "Centrifugal Casting Process",
   "SAP Parts CENTRiCAST": "SAP Parts CENTRiCAST Process is a specialized centrifugal casting method that uses centrifugal force to produce high-quality, dense, and durable metal components like rings, sleeves, and bushings. It is particularly effective for creating wear-resistant parts from materials like Carbidic Graphitic Ni-Hard Alloy White Cast Iron.",
   "Unique Manufacturing Processes": "Unique Manufacturing Processes",
   "CENTRiCAST Process": "CENTRiCAST Process",
@@ -441,6 +441,7 @@
   "At SAP Parts": " At SAP Parts, we have special ways to make our metal parts strong and          durable. We use a set of advanced treatments and high-tech furnaces to change the metal's structure so it's perfect for the job it needs to do.",
   " We have our own": "We have our own in-house furnaces, including custom ones and high-quality IPSen furnaces. This gives us full control over the process, allowing us to precisely manage temperature and timing to get the exact properties we need.",
   " Our Core Heat Treatment Processes": " Our Core Heat Treatment Processes",
+  
 
     "process": {
     "hardening": {

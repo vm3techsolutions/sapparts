@@ -88,7 +88,7 @@ const bannerImageMap = {
   "/industries/agriculture": "/assets/industries/Agriculture03.jpg",
 
    // ❌ Mechanical banner intentionally removed
-  // "/industries/automotive": "/assets/industries/AutomotiveBanner.png",
+  "/industries/automotive": "/assets/industries/AutomotiveBanner.png",
 
   "/industries/construction": "/assets/industries/Construction2.jpg",
   "/industries/defence": "/assets/industries/Defence2.jpg",

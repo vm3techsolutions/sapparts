@@ -46,7 +46,7 @@
       "ja": "自動車",
       "de": "Automobil"
     },
-    "image": "/assets/home/Automotive01.jpg",
+    "image": "/assets/home/.jpg",
     "link": "/industries/automotive"
   },
   {
@@ -56,7 +56,7 @@
       "ja": "ハイテク",
       "de": "Hightech"
     },
-    "image": "/assets/home/High-Tech02.jpg",
+    "image": "/assets/home/Automotive01.jpg",
     "link": "/industries/high-tech"
   },
   {

@@ -48,7 +48,7 @@ export default function ProductsPage() {
 
             <div className="relative h-full w-full z-10 flex flex-col justify-between py-10 px-7 transition-colors duration-500 group-hover:text-white">
               <div className="group">
-  <h3 className="text-2xl text-center font-semibold text-[#0E509E] transition-all duration-300 group-hover:opacity-0">
+  <h3 className="text-2xl text-center font-semibold text-[#0E509E] transition-all duration-300 ">
     {item.title[currentLang]}
   </h3>
 </div>
