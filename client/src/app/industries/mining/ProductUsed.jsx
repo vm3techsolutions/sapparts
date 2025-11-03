@@ -6,117 +6,79 @@ import { useTranslation } from "react-i18next";
 
 const products = [
   {
-    label: {
-      "en": "Mechanical Face Seals",
-      "ja": "メカニカルフェイスシール",
-      "de": "Mechanische Dichtungen"
-    },
+    label: { en: "Mechanical Face Seals", 
+      ja: "メカニカルフェイスシール",
+       de: "Mechanische Dichtungen" },
+  desc: {
+  en: "Mechanical face seals are also called Metal Face Seals, Heavy Duty Seals, Floating Seals, Duo Cone Seals, Glide Seals, and Mirror Seals.",
+  ja: "メカニカルフェイスシールは、メタルフェイスシール、ヘビーデューティーシール、フローティングシール、デュオコーンシール、グライドシール、ミラーシールとも呼ばれます。",
+  de: "Mechanische Gleitringdichtungen werden auch Metall-Gleitringdichtungen, Schwerlastdichtungen, Schwimmringdichtungen, Duo-Cone-Dichtungen, Gleitdichtungen und Spiegeldichtungen genannt."
+},
+
     src: "/assets/industries/Mechanical Face Seals5.jpg",
-    highlight: false,
   },
   {
-    label: {
-      "en": "Bushings",
-      "ja": "ブッシング",
-      "de": "Buchsen"
-    },
+    label: { en: "Bushings",
+       ja: "ブッシング",
+        de: "Buchsen" },
+  desc: {
+  en: "SAP Parts™ designs and manufactures a wide range of friction management components for equipment working under severe environments – bushings are one of them.",
+  ja: "SAP Parts™は、過酷な環境下で作動する機械のために幅広い摩擦管理コンポーネントを設計および製造しており、ブッシングもその一つです。",
+  de: "SAP Parts™ entwickelt und fertigt eine breite Palette von Reibungsmanagement-Komponenten für Maschinen, die unter extremen Bedingungen arbeiten – Buchsen sind eine davon."
+},
+
     src: "/assets/industries/Bushings5.jpg",
-    highlight: false,
   },
   {
-    label: {
-      "en": "Pump & Valves Components",
-      "ja": "ポンプおよびバルブ部品",
-      "de": "Pumpen- & Ventilkomponenten"
-    },
+    label: { en: "Pump & Valves Components",
+       ja: "ポンプおよびバルブ部品",
+       de: "Pumpen- & Ventilkomponenten" },
+   desc: {
+  en: "Pump casing rings and wear rings are crucial in industries such as mining, chemical processing, and wastewater treatment, where they protect critical components from abrasive and erosive wear.",
+  ja: "ポンプケーシングリングと摩耗リングは、鉱業、化学処理、廃水処理などの産業で重要であり、摩耗や浸食から重要な部品を保護します。",
+  de: "Pumpengehäus- und Verschleißringe sind in Branchen wie Bergbau, chemischer Verarbeitung und Abwasseraufbereitung entscheidend, da sie wichtige Komponenten vor abrasivem und erosivem Verschleiß schützen."
+},
+
     src: "/assets/industries/SinteredProducts7.jpg",
-    highlight: false,
-  },
-  // {
-  //   label: {
-  //     "en": "SAP Hub Bearings",
-  //     "ja": "SAPハブベアリング",
-  //     "de": "SAP-Nabenlager"
-  //   },
-  //   src: "/assets/industries/agriculture/APU4.png",
-  //   highlight: false,
-  // },
-  // {
-  //   label: {
-  //     "en": "Precision Components",
-  //     "ja": "せいみつぶひん",
-  //     "de": "Präzisionsbauteile"
-  //   },
-  //   src: "/assets/industries/agriculture/APU5.png",
-  //   highlight: true,
-  // },
+  }
 ];
 
-
 export default function ProductsUsed() {
-    const { t, i18n } = useTranslation();
-    const currentLang = i18n.language || "en";
-  const firstRow = products.slice(0, 3);
-  const secondRow = products.slice(3);
+  const { t, i18n } = useTranslation();
+  const lang = i18n.language || "en";
 
   return (
     <div className="Section bg-white">
       <h2 className="Heading text-center">{t("Products Used")}</h2>
 
-      <div className="flex flex-col items-center sm:gap-y-16 gap-y-10   mt-8">
-        {/* First Row - 3 items */}
-        <div className="flex justify-center flex-wrap sm:gap-x-40 gap-y-10">
-          {firstRow.map((item, index) => (
-            <div
-              key={index}
-              className="flex flex-col items-center w-[250px]"
-            >
+      <div className="flex flex-wrap justify-center gap-20 mt-10">
+        {products.map((item, idx) => (
+          <div
+            key={idx}
+            className="bg-white shadow-lg rounded-xl p-2 w-[300px] border border-[#FACC48] hover:shadow-2xl transition-all duration-300 hover:scale-[1.04]"
+          >
+            {/* Image */}
+            <div className="flex justify-center">
               <Image
                 src={item.src}
-              alt={item.label[currentLang] || "product image"}
-                width={180}
-                height={140}
-                className="object-contain w-[250px] h-[180px] border-2 border-[#FACC48] rounded-xl transition-transform duration-300 ease-in-out hover:scale-110"
+                alt={item.label[lang]}
+                width={200}
+                height={150}
+                className="rounded-lg object-contain w-full h-[160px]"
               />
-              <div
-                className={`w-[180px] text-center py-2 px-1 bg-[#FACC48] mt-2 rounded-lg`}
-              >
-                <p
-                  className={`text-sm font-semibold  text-[#363636]`}
-                >
-                {item.label?.[currentLang] || item.label["en"]}
-                </p>
-              </div>
             </div>
-          ))}
-        </div>
 
-        {/* Second Row - 2 items */}
-        <div className="flex justify-center flex-wrap sm:gap-x-40 gap-y-10">
-          {secondRow.map((item, index) => (
-            <div
-              key={index}
-              className="flex flex-col items-center w-[250px]"
-            >
-              <Image
-                src={item.src}
-                alt={item.label[currentLang] || "product image"}
-                width={180}
-                height={140}
-                className="object-contain w-[250px] h-[180px] border-2 border-[#FACC48] rounded-xl transition-transform duration-300 ease-in-out hover:scale-110"
-              />
-              <div
-                className={`w-[180px] text-center py-2 px-1 bg-[#FACC48] mt-2 rounded-lg`}
-              >
-                <p
-                 className={`text-sm font-semibold  text-[#363636]`}
-                >
-               {item.label?.[currentLang] || item.label["en"]}
-                </p>
-              </div>
-            </div>
-          ))}
-        </div>
+            {/* Title */}
+            <h3 className="text-xl font-semibold text-[#0E509E] text-center mt-3">
+              {item.label[lang] || item.label.en}
+            </h3>
+
+            {/* Description */}
+            <p className="text-[16px] text-[#363636] text-center mt-2 leading-relaxed">
+              {item.desc[lang] || item.desc.en}
+            </p>
+          </div>
+        ))}
       </div>
     </div>
   );

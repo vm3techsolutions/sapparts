@@ -83,7 +83,7 @@ import React from "react";
 const bannerImageMap = {
   "/": "/assets/home/homeBanner.png",
 
-  "/strategy": "/assets/strategy/StrategyBanner.png",                       
+  "/strategy": "/assets/strategy/StrategyBanner.jpg",                       
 
   "/industries/agriculture": "/assets/industries/Agriculture03.jpg",
 
@@ -105,7 +105,7 @@ const bannerImageMap = {
   "/products/sap-hub-bearings": "/assets/products/SapHubBanner.jpg",
   "/products/precision-components": "/assets/products/PrecisionBanner.jpg",
 
-  "/technology": "/assets/technology/TechnologyBanner.png",
+  "/technology": "/assets/technology/TechnologyBanner.jpg",
 
   "/resources/media/press-release": "/assets/banners/pressrelease.png",
   "/resources/media/product-launch": "/assets/banners/productlaunch.png",

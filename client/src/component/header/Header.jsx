@@ -33,52 +33,52 @@ export default function Header() {
         { name: t("High-Tech"), href: "/industries/high-tech" },
       ],
     },
-   {
-  name: t("Products1"),
-  href: "#",
-  subLinks: [
-    { name: t("MechanicalFaceSeals1"), href: "/products/mechanical-face-seals" },
-    { name: t("Bushings1"), href: "/products/bushings" },
-    { name: t("SinteredProducts1"), href: "/products/sintered-products" },
-    { name: t("PumpValvesComponents1"), href: "/products/pump-valves-components" },
-    { name: t("SAPHubsBearings1"), href: "/products/sap-hub-bearings" },
-    { name: t("PrecisionComponents1"), href: "/products/precision-components" },
-  ],
-},
-{ name: t("TechnologyInnovation1"), href: "/technology" },
-{
-  name: t("Resources1"),
-  href: "#",
-  subLinks: [
     {
-      name: t("Media1"),
+      name: t("Products1"),
       href: "#",
       subLinks: [
-        { name: t("PressRelease1"), href: "/resources/media/press-release" },
-        { name: t("ProductLaunch1"), href: "/resources/media/product-launch" },
-        { name: t("IndustryNews1"), href: "/resources/media/industry-news" },
+        { name: t("MechanicalFaceSeals1"), href: "/products/mechanical-face-seals" },
+        { name: t("Bushings1"), href: "/products/bushings" },
+        { name: t("SinteredProducts1"), href: "/products/sintered-products" },
+        { name: t("PumpValvesComponents1"), href: "/products/pump-valves-components" },
+        { name: t("SAPHubsBearings1"), href: "/products/sap-hub-bearings" },
+        { name: t("PrecisionComponents1"), href: "/products/precision-components" },
       ],
     },
+    { name: t("TechnologyInnovation1"), href: "/technology" },
     {
-      name: t("CaseStudy1"),
+      name: t("Resources1"),
       href: "#",
       subLinks: [
-        { name: t("ClientSuccess11"), href: "/resources/case-study/success-1" },
-        { name: t("ClientSuccess21"), href: "/resources/case-study/success-2" },
-        { name: t("ClientSuccess31"), href: "/resources/case-study/success-3" },
+        {
+          name: t("Media1"),
+          href: "#",
+          subLinks: [
+            { name: t("PressRelease1"), href: "/resources/media/press-release" },
+            { name: t("ProductLaunch1"), href: "/resources/media/product-launch" },
+            { name: t("IndustryNews1"), href: "/resources/media/industry-news" },
+          ],
+        },
+        {
+          name: t("CaseStudy1"),
+          href: "#",
+          subLinks: [
+            { name: t("ClientSuccess11"), href: "/resources/case-study/success-1" },
+            { name: t("ClientSuccess21"), href: "/resources/case-study/success-2" },
+            { name: t("ClientSuccess31"), href: "/resources/case-study/success-3" },
+          ],
+        },
+        {
+          name: t("MaintenanceTips1"),
+          href: "#",
+          subLinks: [
+            { name: t("SealsAssemblyGuide1"), href: "/MaintenanceTips/SealsAssemblyGuide" },
+            { name: t("SealOFix1"), href: "/MaintenanceTips/Seal-O-Fix" },
+            { name: t("SealForRotovator1"), href: "/MaintenanceTips/SealForRotovator" },
+          ],
+        },
       ],
     },
-    {
-      name: t("MaintenanceTips1"),
-      href: "#",
-      subLinks: [
-        { name: t("SealsAssemblyGuide1"), href: "/MaintenanceTips/SealsAssemblyGuide" },
-        { name: t("SealOFix1"), href: "/MaintenanceTips/Seal-O-Fix" },
-        { name: t("SealForRotovator1"), href: "/MaintenanceTips/SealForRotovator" },
-      ],
-    },
-  ],
-},
     { name: t("Sustainability"), href: "/sustainability" },
     { name: t("About"), href: "/about" },
     { name: t("Career"), href: "/career" },
@@ -87,7 +87,7 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 bg-white shadow">
       <div className="flex items-center justify-between px-4 sm:px-10 py-2">
-        {/* Logo */}
+
         <Link href="/" className="flex items-center">
           <Image
             src="/assets/home/headerLogo.png"
@@ -98,20 +98,21 @@ export default function Header() {
           />
         </Link>
 
-        {/* Desktop Nav */}
         <nav className="hidden md:flex items-center gap-0.5 text-[#0E509E] text-md font-medium">
-          {navLinks.map((link) => (
-            <div key={link.name} className="relative group">
+          {navLinks.map((link, idx) => (
+            <div key={idx} className="relative group">
+
               {link.subLinks ? (
-                <span className="px-2 py-1 cursor-pointer flex items-center gap-1 text-[#0E509E] group-hover:text-[#FACC48] hover:text-[#FACC48] transition-colors duration-200">
-                  {link.name} <FiChevronDown className="text-sm mt-[1px]" />
+                <span className="px-2 py-1 cursor-pointer flex items-center gap-1 text-[#0E509E] group-hover:text-[#FACC48] transition-colors duration-200">
+                  {link.name}
+                  <FiChevronDown className="text-sm mt-[1px]" />
                 </span>
               ) : (
                 <Link
                   href={link.href}
                   className={`px-2 py-1 ${
-                    pathname === link.href ? "text-[#003d7a]" : ""
-                  } hover:text-[#FACC48]`}
+                    pathname === link.href ? "text-[#FACC48]" : "text-[#0E509E]"
+                  } hover:text-[#FACC48] transition-colors duration-200`}
                 >
                   {link.name}
                 </Link>
@@ -119,16 +120,16 @@ export default function Header() {
 
               {link.subLinks && (
                 <ul className="absolute top-full left-0 mt-1 bg-white border rounded shadow-sm opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-all duration-200 z-50 min-w-[200px]">
-                  {link.subLinks.map((sub) => (
-                    <li key={sub.name} className="relative group/sub">
+                  {link.subLinks.map((sub, i) => (
+                    <li key={i} className="relative group/sub">
                       {sub.subLinks ? (
                         <>
                           <span className="flex justify-between items-center px-4 py-2 text-sm text-[#0E509E] hover:bg-[#FACC48] hover:text-black cursor-default">
                             {sub.name} <FiChevronRight className="ml-2 text-xs" />
                           </span>
                           <ul className="absolute left-full top-0 mt-0 bg-white border rounded shadow-sm opacity-0 group-hover/sub:opacity-100 invisible group-hover/sub:visible transition-all duration-200 min-w-[200px] z-50">
-                            {sub.subLinks.map((deep) => (
-                              <li key={deep.name}>
+                            {sub.subLinks.map((deep, j) => (
+                              <li key={j}>
                                 <Link
                                   href={deep.href}
                                   className="block px-4 py-2 text-sm text-[#0E509E] hover:bg-[#FACC48] hover:text-black"
@@ -173,7 +174,6 @@ export default function Header() {
           </div>
         </nav>
 
-        {/* Mobile Button */}
         <div className="md:hidden">
           <button onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>
             {mobileMenuOpen ? (
@@ -185,33 +185,31 @@ export default function Header() {
         </div>
       </div>
 
-      {/* Mobile Nav */}
       {mobileMenuOpen && (
         <div className="md:hidden bg-white border-t shadow px-4 py-3 space-y-2">
           {navLinks.map((link, idx) => (
-            <div key={link.name}>
+            <div key={idx}>
               {link.subLinks ? (
                 <>
                   <button
-                    onClick={() =>
-                      setOpenDropdown(openDropdown === idx ? null : idx)
-                    }
+                    onClick={() => setOpenDropdown(openDropdown === idx ? null : idx)}
                     className="flex justify-between items-center w-full text-left text-[#0E509E] font-medium py-1"
                   >
                     {link.name}
                     <FiChevronDown
-                      className={`transition-transform ${
-                        openDropdown === idx ? "rotate-180" : ""
-                      }`}
+                      className={`transition-transform ${openDropdown === idx ? "rotate-180" : ""}`}
                     />
                   </button>
+
                   {openDropdown === idx && (
                     <div className="pl-4 space-y-1">
-                      {link.subLinks.map((sub) => (
+                      {link.subLinks.map((sub, i) => (
                         <Link
-                          key={sub.name}
+                          key={i}
                           href={sub.href}
-                          className="block text-sm text-[#0E509E] hover:text-[#FACC48] py-1"
+                          className={`block text-sm font-medium py-1 ${
+                            pathname === sub.href ? "text-[#FACC48]" : "text-[#0E509E]"
+                          } hover:text-[#FACC48]`}
                         >
                           {sub.name}
                         </Link>
@@ -222,7 +220,9 @@ export default function Header() {
               ) : (
                 <Link
                   href={link.href}
-                  className="block text-[#0E509E] font-medium py-1 hover:text-[#FACC48]"
+                  className={`block font-medium py-1 ${
+                    pathname === link.href ? "text-[#FACC48]" : "text-[#0E509E]"
+                  } hover:text-[#FACC48]`}
                 >
                   {link.name}
                 </Link>

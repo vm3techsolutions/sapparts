@@ -442,6 +442,12 @@
   " We have our own": "Wir verfügen über eigene Öfen, darunter Spezialanfertigungen und hochwertige IPSEN-Öfen. Dadurch haben wir die volle Kontrolle über Temperatur und Zeit, um die gewünschten Eigenschaften präzise einzustellen.",
   " Our Core Heat Treatment Processes": "Unsere Kern-Wärmebehandlungsverfahren",
 
+  "heatTreatments": {
+  "sectionTitle": "Wärmebehandlung",
+  "description1": "Bei SAP Parts",
+  "description2": "Wir verfügen über eigene Einrichtungen"
+},
+
   "process": {
     "hardening": {
       "title": "Härten und Anlassen",

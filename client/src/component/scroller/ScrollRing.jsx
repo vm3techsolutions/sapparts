@@ -43,7 +43,7 @@ export default function ScrollRing() {
             alt="Ring"
             width={40}
             height={50}
-            className="h-14  w-14"
+            className="h-16  w-16"
           />
         </div>
       </div>
