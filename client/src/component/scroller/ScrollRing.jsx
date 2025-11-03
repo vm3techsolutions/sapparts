@@ -22,7 +22,7 @@ export default function ScrollRing() {
   if (scrollPercent >= 75) {
     imageSrc = "/assets/home/Ring04.png";
   } else if (scrollPercent >= 50) {
-    imageSrc = "/assets/home/Ring03.png";
+    imageSrc = "/assets/home/Ring07.png";
   } else if (scrollPercent >= 25) {
     imageSrc = "/assets/home/Ring02.png";
   }
@@ -43,7 +43,7 @@ export default function ScrollRing() {
             alt="Ring"
             width={40}
             height={50}
-            className="h-14 w-14"
+            className="h-14  w-14"
           />
         </div>
       </div>
