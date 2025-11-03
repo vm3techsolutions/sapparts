@@ -18,13 +18,13 @@ export default function ScrollRing() {
   }, []);
 
   // ✅ Decide image based on scroll percentage
-  let imageSrc = "/assets/header/Ring.png";
+  let imageSrc = "/assets/home/Ring01.png";
   if (scrollPercent >= 75) {
-    imageSrc = "/assets/header/Ring2.png";
+    imageSrc = "/assets/home/Ring04.png";
   } else if (scrollPercent >= 50) {
-    imageSrc = "/assets/header/Ring3.png";
+    imageSrc = "/assets/home/Ring03.png";
   } else if (scrollPercent >= 25) {
-    imageSrc = "/assets/header/Ring4.png";
+    imageSrc = "/assets/home/Ring02.png";
   }
 
   return (
@@ -43,7 +43,7 @@ export default function ScrollRing() {
             alt="Ring"
             width={40}
             height={50}
-            className="h-12 w-12"
+            className="h-14 w-14"
           />
         </div>
       </div>
