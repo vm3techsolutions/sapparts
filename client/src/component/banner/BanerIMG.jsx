@@ -115,13 +115,13 @@ const bannerImageMap = {
   "/resources/case-study/success-2": "/assets/banners/case2.png",
   "/resources/case-study/success-3": "/assets/banners/case3.png",
 
-  "/MaintenanceTips/SealsAssemblyGuide": "/assets/home/homeBanner.png",
-  "/MaintenanceTips/Seal-O-Fix": "/assets/home/homeBanner.png",
-  "/MaintenanceTips/SealForRotovator": "/assets/home/homeBanner.png",
+  "/MaintenanceTips/SealsAssemblyGuide": "/assets/home/BlogBanner.jpg",
+  "/MaintenanceTips/Seal-O-Fix": "/assets/home/BlogBanner.jpg",
+  "/MaintenanceTips/SealForRotovator": "/assets/home/BlogBanner.jpg",
 
   "/sustainability": "/assets/sustainability/hi sustainability02.jpg",
   "/about": "/assets/about/About02.jpg",
-  "/career": "/assets/career/CareerBanner2.png",
+  "/career": "/assets/career/CareerBanner3.jpg",
   "/contact": "/assets/contact/contactBanner2.png",
 };
 
