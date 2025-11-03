@@ -66,20 +66,33 @@ export default function HeatTreatments() {
     </div>
 
     {/* RIGHT SIDE CARDS */}
-    <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 md:w-1/2 self-end">
-      {processes.map((item, idx) => (
-        <div
-          key={idx}
-          className="bg-white text-black p-5 rounded-lg shadow-md hover:shadow-xl duration-300"
-        >
-          <span className="w-10 h-10 flex items-center justify-center bg-[#0E509E] text-white font-bold rounded-md mb-3 text-lg">
-            {item.num}
-          </span>
-          <h4 className="font-semibold text-[#FACC48] text-lg mb-1">{item.title}</h4>
-          <p className="text-gray-600">{item.desc}</p>
-        </div>
-      ))}
-    </div>
+   {/* RIGHT SIDE CARDS */}
+<div className="flex flex-col md:w-1/2 self-end">
+
+  {/* Subtitle */}
+  <h3 className="mb-4 text-xl font-semibold text-[#0E509E]">
+    {t("heatTreatments.subtitle", {
+      defaultValue: "Our Core Heat Treatment Processes",
+    })}
+  </h3>
+
+  {/* Cards */}
+  <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+    {processes.map((item, idx) => (
+      <div
+        key={idx}
+        className="bg-white text-black p-5 rounded-lg shadow-md hover:shadow-xl duration-300"
+      >
+        <span className="w-10 h-10 flex items-center justify-center bg-[#0E509E] text-white font-bold rounded-md mb-3 text-lg">
+          {item.num}
+        </span>
+        <h4 className="font-semibold text-[#FACC48] text-lg mb-1">{item.title}</h4>
+        <p className="text-gray-600">{item.desc}</p>
+      </div>
+    ))}
+  </div>
+
+</div>
 
   </div>
 </section>

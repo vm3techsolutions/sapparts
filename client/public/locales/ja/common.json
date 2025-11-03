@@ -275,10 +275,12 @@
     }
   ]   ,
 
+  
   "heatTreatments": {
   "sectionTitle": "熱処理",
   "description1": "SAPパーツでは",
-  "description2": "私たちは自社の設備を持っています"
+  "description2": "私たちは自社の設備を持っています",
+   "subtitle": "当社の主要な熱処理プロセス"
 }
 ,
 
