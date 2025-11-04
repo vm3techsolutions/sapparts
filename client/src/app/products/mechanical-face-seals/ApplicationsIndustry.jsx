@@ -46,7 +46,7 @@ export default function ApplicationsUseCases() {
                 alt={item.title}
                 width={60}
                 height={60}
-                className="mb-4 transition-all duration-300 group-hover:brightness-0 group-hover:invert h-[15vh] w-[15vh]"
+                className="mb-4 transition-all duration-300   h-[15vh] w-[15vh]"
               />
               <h3 className="text-2xl font-bold text-[#0E509E] group-hover:text-white">
                 {item.title}
