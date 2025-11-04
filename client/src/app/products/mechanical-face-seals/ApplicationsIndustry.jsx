@@ -8,19 +8,19 @@ export default function ApplicationsUseCases() {
   const useCases = [
     {
       id: 1,
-      icon: "/assets/products/Applications1.png",
+      icon: "/assets/products/2.png",
       title: t("applications.case1.title"),
       points: [t("applications.case1.point1")],
     },
     {
       id: 2,
-      icon: "/assets/products/Applications2.png",
+      icon: "/assets/products/3.png",
       title: t("applications.case2.title"),
       points: [t("applications.case2.point1")],
     },
     {
       id: 3,
-      icon: "/assets/products/Applications3.png",
+      icon: "/assets/products/4.png",
       title: t("applications.case3.title"),
       points: [t("applications.case3.point1")],
     },
