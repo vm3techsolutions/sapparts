@@ -21,18 +21,18 @@ export default function CentrifugalCasting() {
         {/* Image + Right Content */}
         <div className="flex flex-col lg:flex-row items-stretch gap-10">
           {/* Left Image with Yellow Bottom Div */}
-          <div className="relative w-full lg:w-1/2 flex flex-col">
-            <div className="flex-1 relative">
-              <Image
-                src="/assets/technology/CastingProcess.png" 
-                alt="Casting Process"
-                fill
-                className="object-cover rounded-t-lg "
-              />
+            <div className="relative w-full lg:w-1/2 flex flex-col">
+              <div className="flex-1 relative">
+                <Image
+                  src="/assets/technology/CastingProcess.png" 
+                  alt="Casting Process"
+                  fill
+                  className="object-cover rounded-t-lg "
+                />
+              </div>
+              {/* Yellow bottom div */}
+              <div className="bg-[#FACC48] h-16 rounded-b-lg"></div>
             </div>
-            {/* Yellow bottom div */}
-            <div className="bg-[#FACC48] h-16 rounded-b-lg"></div>
-          </div>
 
           {/* Right Content + Blue Cards */}
           <div className="w-full lg:w-2/3 flex flex-col">

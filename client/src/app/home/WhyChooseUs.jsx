@@ -31,10 +31,10 @@ export default function WhyChooseUs() {
         {/* Right Side */}
         <div className="grid grid-cols-2 sm:grid-cols-2 gap-6">
           {[
-            { number: "01", title: t("Over 20 Years of Expertise"), link: "/expertise" },
-            { number: "02", title: t("Global Supply Network"), link: "/network" },
-            { number: "03", title: t("Precision Manufacturing"), link: "/manufacturing" },
-            { number: "04", title: t("ISO–Certified Processes"), link: "/certification" },
+            { number: "01", title: t("Over 20 Years of Expertise"), link: "/about" },
+            { number: "02", title: t("Global Supply Network"), link: "/about" },
+            { number: "03", title: t("Precision Manufacturing"), link: "/about" },
+            { number: "04", title: t("ISO–Certified Processes"), link: "/about" },
           ].map((item, index) => (
             <div key={index} className="text-center">
               <Link href={item.link}>
@@ -54,7 +54,7 @@ export default function WhyChooseUs() {
 
           {/* Know More Button */}
           <div className="col-span-2 sm:col-span-2 mt-6 text-center">
-            <Link href="#">
+            <Link href="/about">
               <button className="Button">{t("Know More")}</button>
             </Link>
           </div>

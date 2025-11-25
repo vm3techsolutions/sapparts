@@ -124,7 +124,7 @@ export default function SealsAssemblyGuide() {
                 ))}
             </ul>
 
-            <div className="flex flex-wrap gap-8 sm:pl-10 pt-2 pb-2">
+            {/* <div className="flex flex-wrap gap-8 sm:pl-10 pt-2 pb-2">
               {Array.isArray(images) &&
                 images.map((img, idx) => (
                   <Image
@@ -136,7 +136,7 @@ export default function SealsAssemblyGuide() {
                     className="w-full sm:w-[45%] h-auto sm:h-[15vh] rounded object-cover"
                   />
                 ))}
-            </div>
+            </div> */}
           </div>
 
           <hr className="text-[#d9d9d9]" />

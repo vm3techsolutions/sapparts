@@ -91,7 +91,7 @@ export default function HousingPreparation() {
             </div>
 
             {/* Right Side - Images */}
-            <div className="w-full md:w-1/2 sm:p-4 space-y-8">
+            {/* <div className="w-full md:w-1/2 sm:p-4 space-y-8">
               {Array.isArray(section.images) &&
                 section.images.map((img, idx) => (
                   <Image
@@ -103,7 +103,7 @@ export default function HousingPreparation() {
                     className="w-full h-auto sm:h-[30vh] rounded object-cover"
                   />
                 ))}
-            </div>
+            </div> */}
           </div>
         ))}
 

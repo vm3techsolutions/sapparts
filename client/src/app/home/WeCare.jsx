@@ -111,72 +111,72 @@ export default function ContributionSection() {
     title: t("“We Care, We Contribute!”"),
     description: t("We care Description"),
     mainImage: "/assets/home/weCareMainImg.png",
-    knowMoreLink: "/contribution",
+    knowMoreLink: "/sustainability",
   };
 
   // Static cards data (with German added)
-  const staticCards = [
-    {
-      id: 1,
-      title: {
-        en: "Education",
-        ja: "教育",
-        de: "Bildung",
-      },
-      desc: {
-        en: "This handy tool helps you create dummy text for all your layout needs. We are gradually adding new",
-        ja: "この便利なツールは、すべてのレイアウトのニーズに合わせてダミーテキストを作成するのに役立ちます。私たちは新しい内容を徐々に追加しています。",
-        de: "Dieses praktische Tool hilft Ihnen, Blindtext für all Ihre Layout-Bedürfnisse zu erstellen. Wir fügen nach und nach neue Inhalte hinzu.",
-      },
-      number: "01",
-      link: "/education",
+ const staticCards = [
+  {
+    id: 1,
+    title: {
+      en: "Education",
+      ja: "教育",
+      de: "Bildung",
     },
-    {
-      id: 2,
-      title: {
-        en: "Environment",
-        ja: "環境",
-        de: "Umwelt",
-      },
-      desc: {
-        en: "This handy tool helps you create dummy text for all your layout needs. We are gradually adding new",
-        ja: "この便利なツールは、すべてのレイアウトのニーズに合わせてダミーテキストを作成するのに役立ちます。私たちは新しい内容を徐々に追加しています。",
-        de: "Dieses praktische Tool hilft Ihnen, Blindtext für all Ihre Layout-Bedürfnisse zu erstellen. Wir fügen nach und nach neue Inhalte hinzu.",
-      },
-      number: "02",
-      link: "/environment",
+    desc: {
+      en: "We believe education is the most powerful tool for empowerment. By investing in education, we aim to create opportunities, uplift underprivileged communities, and nurture the next generation of leaders and innovators.",
+      ja: "私たちは、教育がエンパワーメントのための最も強力な手段であると信じています。教育への投資を通じて、機会を創出し、恵まれない地域社会を支援し、次世代のリーダーやイノベーターを育成することを目指しています。",
+      de: "Wir glauben, dass Bildung das mächtigste Werkzeug zur Stärkung von Menschen ist. Durch Investitionen in Bildung wollen wir Chancen schaffen, benachteiligte Gemeinschaften fördern und die nächste Generation von Führungskräften und Innovatoren heranbilden.",
     },
-    {
-      id: 3,
-      title: {
-        en: "Healthcare",
-        ja: "健康医療",
-        de: "Gesundheitswesen",
-      },
-      desc: {
-        en: "This handy tool helps you create dummy text for all your layout needs. We are gradually adding new",
-        ja: "この便利なツールは、すべてのレイアウトのニーズに合わせてダミーテキストを作成するのに役立ちます。私たちは新しい内容を徐々に追加しています。",
-        de: "Dieses praktische Tool hilft Ihnen, Blindtext für all Ihre Layout-Bedürfnisse zu erstellen. Wir fügen nach und nach neue Inhalte hinzu.",
-      },
-      number: "03",
-      link: "/healthcare",
+    number: "01",
+    link: "/sustainability",
+  },
+  {
+    id: 2,
+    title: {
+      en: "Environment",
+      ja: "環境",
+      de: "Umwelt",
     },
-    {
-      id: 4,
-      title: {
-        en: "Community",
-        ja: "共同体",
-        de: "Gemeinschaft",
-      },
-      desc: {
-        en: "This handy tool helps you create dummy text for all your layout needs. We are gradually adding new",
-        ja: "この便利なツールは、すべてのレイアウトのニーズに合わせてダミーテキストを作成するのに役立ちます。私たちは新しい内容を徐々に追加しています。",
-        de: "Dieses praktische Tool hilft Ihnen, Blindtext für all Ihre Layout-Bedürfnisse zu erstellen. Wir fügen nach und nach neue Inhalte hinzu.",
-      },
-      number: "04",
-      link: "/community",
+    desc: {
+      en: "We understand that our planet’s resources are precious and limited. At Sapparts, we integrate eco-conscious practices into our operations and extend our responsibility beyond our facilities to contribute to a greener tomorrow.",
+      ja: "私たちは、地球の資源が貴重で限られていることを理解しています。Sappartsでは、環境に配慮した取り組みを事業運営に取り入れ、施設を超えてより環境に優しい未来に貢献しています。",
+      de: "Wir wissen, dass die Ressourcen unseres Planeten wertvoll und begrenzt sind. Bei Sapparts integrieren wir umweltbewusste Praktiken in unsere Abläufe und übernehmen Verantwortung über unsere Einrichtungen hinaus, um zu einer grüneren Zukunft beizutragen.",
     },
-  ];
+    number: "02",
+    link: "/sustainability",
+  },
+  {
+    id: 3,
+    title: {
+      en: "Healthcare",
+      ja: "健康医療",
+      de: "Gesundheitswesen",
+    },
+    desc: {
+      en: "A healthy society is a strong society. We are committed to improving access to healthcare, promoting wellness, and supporting medical initiatives that make essential services available to those in need.",
+      ja: "健康的な社会は強い社会です。私たちは、医療へのアクセスの改善、健康促進、および必要としている人々に基本的な医療サービスを提供する取り組みを支援することに尽力しています。",
+      de: "Eine gesunde Gesellschaft ist eine starke Gesellschaft. Wir setzen uns dafür ein, den Zugang zur Gesundheitsversorgung zu verbessern, das Wohlbefinden zu fördern und medizinische Initiativen zu unterstützen, die grundlegende Dienstleistungen für Bedürftige bereitstellen.",
+    },
+    number: "03",
+    link: "/sustainability",
+  },
+  {
+    id: 4,
+    title: {
+      en: "Community",
+      ja: "共同体",
+      de: "Gemeinschaft",
+    },
+    desc: {
+      en: "We believe in giving back to the communities that support us. Beyond business, we focus on improving quality of life, fostering inclusion, and creating opportunities for growth within the neighborhoods we operate.",
+      ja: "私たちは、私たちを支えてくれる地域社会に還元することを信条としています。ビジネスの枠を超え、生活の質の向上、包括性の促進、そして私たちが活動する地域での成長の機会を創出することに注力しています。",
+      de: "Wir glauben daran, den Gemeinschaften etwas zurückzugeben, die uns unterstützen. Über das Geschäft hinaus konzentrieren wir uns darauf, die Lebensqualität zu verbessern, Inklusion zu fördern und Wachstumschancen in den Gemeinden zu schaffen, in denen wir tätig sind.",
+    },
+    number: "04",
+    link: "/sustainability",
+  },
+];
 
   useEffect(() => {
     setCards(staticCards);

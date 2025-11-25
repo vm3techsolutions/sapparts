@@ -1,12 +1,13 @@
 import RequestQuote1 from "../mechanical-face-seals/RequestQuote1";
-// import ApplicationsIndustry from "./ApplicationsIndustry";
+import ApplicationsIndustry from "./ApplicationsIndustry";
 
-import BushingsCenterIMG from "./CenterIMG";
+// import BushingsCenterIMG from "./CenterIMG";
 import ManufacturingTesting from "./ManufacturingTesting";
 import Materials from "./Materials";
 import ProductOverview from "./ProductOverview";
 import TechnicalSpecification from "./TechnicalSpecification";
   import ScrollRing from "@/component/scroller/ScrollRing";
+import WhyChooseUs from "./WhyChooseUs";
 
 export default function product(){
     return(
@@ -14,11 +15,12 @@ export default function product(){
               <ScrollRing/>
          
           <ProductOverview/>
-          {/* <ApplicationsIndustry/> */}
+          <ApplicationsIndustry/>
           <TechnicalSpecification/>
           <Materials/>
-          <BushingsCenterIMG/>
+          {/* <BushingsCenterIMG/> */}
           <ManufacturingTesting/>
+          <WhyChooseUs/>
           <RequestQuote1/>
 
         </div>

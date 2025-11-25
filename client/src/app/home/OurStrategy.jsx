@@ -55,7 +55,7 @@ export default function StrategySection() {
             ].map((label, index) => (
               <Link
                 key={index}
-                href="#"
+                href="/strategy"
                 className="flex items-center justify-between group text-[#0E509E] text-lg font-medium"
               >
                 {label}

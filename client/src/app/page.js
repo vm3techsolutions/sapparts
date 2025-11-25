@@ -18,7 +18,7 @@ export default function Home() {
       <OurProducts/>
       <IndustriesWeServe/>
       <WhyChooseUs/>
-      <Innovation/>
+      {/* <Innovation/> */}
       <GlobalReach/>
       <RecentBlogs/>
       <WeCare/>

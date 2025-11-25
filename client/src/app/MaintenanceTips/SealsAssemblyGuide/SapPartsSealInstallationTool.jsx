@@ -31,13 +31,13 @@ export default function SapPartsSealInstallationTool() {
         </div>
 
         <div className="w-full md:w-1/2 sm:p-4">
-          <Image
+          {/* <Image
             src="/assets/industries/agriculture/Supporting.png"
             alt="Supporting"
             width={200}
             height={270}
             className="w-full h-auto sm:h-[30vh] rounded object-cover"
-          />
+          /> */}
         </div>
       </div>
 
@@ -48,7 +48,7 @@ export default function SapPartsSealInstallationTool() {
             {t("StepsByStepTitle1")}
           </h3>
 
-          {[1,2,3,4,5,6,7].map((step) => (
+          {/* {[1,2,3,4,5,6,7].map((step) => (
             <div key={step} className="w-full pt-5">
               <h3>{t(`Step${step}1`)}</h3>
               { [1,2,5,6].includes(step) && (
@@ -61,7 +61,7 @@ export default function SapPartsSealInstallationTool() {
                 />
               )}
             </div>
-          ))}
+          ))} */}
         </div>
       </div>
     </div>

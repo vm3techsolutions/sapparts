@@ -1,17 +1,24 @@
 "use client";
 import Image from "next/image";
-import Link from "next/link";
-import { FiArrowRight } from "react-icons/fi";
 import { useTranslation } from "react-i18next";
 
 export default function StrategySection() {
-  const {t} = useTranslation()
+  const { t } = useTranslation();
+
+  const items = [
+    t("Quality-Driven Environment"),
+    t("Collaborative Teamwork"),
+    t("Continuous Improvement"),
+    t("Employee Skill Development"),
+    t("Safety & Accountability")
+  ];
+
   return (
     <div className="Section bg-white">
       <div className="max-w-7xl mx-auto flex flex-col-reverse md:flex-row items-center justify-between gap-8">
-        {/* Left Images (Shown below on mobile) */}
+        
+        {/* Left Images */}
         <div className="flex gap-6 md:mt-0 mt-8">
-          {/* Left image */}
           <div className="sm:w-[250px] sm:h-[60vh] w-[20vh] h-[30vh] rounded-lg overflow-hidden shadow-md">
             <Image
               src="/assets/career/WorkCulture1.png"
@@ -22,7 +29,6 @@ export default function StrategySection() {
             />
           </div>
 
-          {/* Right image */}
           <div className="sm:w-[250px] sm:h-[60vh] w-[20vh] h-[30vh] rounded-lg overflow-hidden shadow-md sm:mt-24 mt-16">
             <Image
               src="/assets/career/WorkCulture2.png"
@@ -38,36 +44,26 @@ export default function StrategySection() {
         <div className="max-w-xl">
           <h2 className="Heading">{t("Work Culture")}</h2>
           <p className="Paragraph text-left">
-           {t("This handy tool helps you create dummy text for all your layout needs. We are gradually adding new")}
+            {t("This handy tool helps you create dummy text for all your layout needs. We are gradually adding new")}
           </p>
 
-          <div className="space-y-8 mt-6">
-            {[
-             t("Quality-Driven Environment"),
-              t("Collaborative Teamwork"),
-              t("Continuous Improvement"),
-              t("Employee Skill Development"),
-              t("Safety & Accountability")
-            ].map((item, index) => (
-              <Link
+          <div className="space-y-6 mt-6">
+            {items.map((item, index) => (
+              <div
                 key={index}
-                href="#"
-                className="flex items-center justify-between group text-[#0E509E]  text-xl font-medium"
+                className="flex items-center gap-4 text-[#0E509E] text-xl font-medium"
               >
-                {item}
-                <div className="bg-[#FACC48] p-2 text-black"><FiArrowRight className="ml- transition-transform group-hover:translate-x-1  " /></div>
-              </Link>
+                {/* Number Box Left */}
+                <div className="w-8 h-8 bg-[#FACC48] text-[#0E509E] flex items-center justify-center rounded font-semibold">
+                  {index + 1}
+                </div>
+
+                {/* Text Right */}
+                <span>{item}</span>
+              </div>
             ))}
           </div>
 
-          {/* <div className="mt-10">
-            <Link
-              href="#"
-              className="inline-block Button"
-            >
-              Know More
-            </Link>
-          </div> */}
         </div>
       </div>
     </div>

@@ -59,7 +59,7 @@ export default function IndustriesSection() {
                   alt={industry.title[currentLang]}
                   width={400}
                   height={300}
-                  className="w-full h-[55vh]  transition-transform duration-300 ease-in-out group-hover:scale-110"
+                  className="w-full h-[50vh]  transition-transform duration-300 ease-in-out group-hover:scale-110"
                 />
 
                 <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 w-[85%] z-10">

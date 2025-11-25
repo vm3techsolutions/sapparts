@@ -15,7 +15,7 @@ export default function ProductOverview() {
           <div className="border-[3px] border-dashed border-yellow-400 p-2">
             <div className="w-[280px] md:w-[400px]">
               <Image
-                src="/assets/products/ProductOverview.png" 
+                src="/assets/home/SapHB.jpg" 
                 alt={t("productOverview5.alt")}
                 width={600}
                 height={400}
@@ -28,9 +28,9 @@ export default function ProductOverview() {
         {/* Right: Text */}
         <div className="flex flex-col gap-4 text-center md:text-left">
           <h2 className="Heading">{t("productOverview5.title")}</h2>
-          <p className="Paragraph whitespace-pre-line">
+          {/* <p className="Paragraph whitespace-pre-line">
             {t("productOverview5.subtitle")}
-          </p>
+          </p> */}
           <p className="Paragraph">{t("productOverview5.description")}</p>
         </div>
       </div>

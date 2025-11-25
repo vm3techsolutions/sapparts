@@ -15,7 +15,7 @@ export default function ProductOverview() {
           <div className="border-[3px] border-dashed border-yellow-400 p- ">
             <div className="w-[280px] md:w-[400px]">
               <Image
-                src="/assets/products/ProductOverview.png" 
+                src="/assets/home/Bushing01.jpg" 
                 alt={t("productOverview2.imageAlt")}
                 width={600}
                 height={400}
@@ -30,10 +30,10 @@ export default function ProductOverview() {
           <h2 className="Heading">
             {t("productOverview2.title")}
           </h2>
-          <p className="Paragraph">
+          {/* <p className="Paragraph">
             {t("productOverview2.subtitleLine1")} <br />
             {t("productOverview2.subtitleLine2")}
-          </p>
+          </p> */}
           <p className="Paragraph">
             {t("productOverview2.description")}
           </p>
@@ -42,3 +42,32 @@ export default function ProductOverview() {
     </section>
   );
 }
+
+
+
+// "use client";
+// import React from "react";
+// import { useTranslation } from "react-i18next";
+
+// export default function ProductOverview() {
+//   const { t } = useTranslation();
+
+//   return (
+//     <section className="Section bg-white">
+//       <div className="flex flex-col items-center mx-auto text-center">
+        
+//         {/* Full Width Text */}
+//         <div className="w-full">
+//           <h2 className="Heading mb-4">
+//             {t("productOverview2.title")}
+//           </h2>
+
+//           <p className="Paragraph  mx-auto">
+//             {t("productOverview2.description")}
+//           </p>
+//         </div>
+
+//       </div>
+//     </section>
+//   );
+// }

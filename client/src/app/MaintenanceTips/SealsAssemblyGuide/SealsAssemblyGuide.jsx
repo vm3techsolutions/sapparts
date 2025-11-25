@@ -56,20 +56,20 @@ export default function SealsAssemblyGuide() {
 
               {/* Images inside terminology */}
               <div className="flex flex-wrap gap-8 sm:pl-10 pl-0 pt-2 pb-2">
-                <Image
+                {/* <Image
                   src="/assets/industries/agriculture/Supporting.png"
                   alt="Supporting"
                   width={300}
                   height={370}
                   className="w-full sm:w-[45%] h-auto sm:h-[15vh] rounded object-cover"
-                />
-                <Image
+                /> */}
+                {/* <Image
                   src="/assets/industries/agriculture/Supporting.png"
                   alt="Supporting"
                   width={300}
                   height={370}
                   className="w-full sm:w-[45%] h-auto sm:h-[15vh] rounded object-cover"
-                />
+                /> */}
               </div>
 
               <li className="flex items-start gap-2 pt-1">

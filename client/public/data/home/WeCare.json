@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "Education",
-    "desc": "This handy tool helps you create dummy text for all your layout needs. We are gradually adding new",
+    "desc": "We believe education is the most powerful tool for empowerment. By investing in education, we aim to create opportunities, uplift underprivileged communities, and nurture the next generation of leaders and innovators.",
     "number": "01",
     "link": "/education"
   },
@@ -10,7 +10,7 @@
   {
     "id": 2,
     "title": "Environment",
-    "desc": "This handy tool helps you create dummy text for all your layout needs. We are gradually adding new",
+    "desc": "We understand that our planet’s resources are precious and limited. At Sapparts, we integrate eco-conscious practices into our operations and extend our responsibility beyond our facilities to contribute to a greener tomorrow.",
     "number": "02",
     "link": "/environment"
   },
@@ -18,7 +18,7 @@
   {
     "id": 3,
     "title": "Healthcare",
-    "desc": "This handy tool helps you create dummy text for all your layout needs. We are gradually adding new",
+    "desc": "A healthy society is a strong society. We are committed to improving access to healthcare, promoting wellness, and supporting medical initiatives that make essential services available to those in need.",
     "number": "03",
     "link": "/healthcare"
   },
@@ -26,7 +26,7 @@
   {
     "id": 4,
     "title": "Community",
-    "desc": "This handy tool helps you create dummy text for all your layout needs. We are gradually adding new",
+    "desc": "We believe in giving back to the communities that support us. Beyond business, we focus on improving quality of life, fostering inclusion, and creating opportunities for growth within the neighborhoods we operate.",
     "number": "04",
     "link": "/community"
   }
