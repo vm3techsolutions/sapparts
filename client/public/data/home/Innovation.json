@@ -2,7 +2,7 @@
   {
     "id": 1,
     "image": "/assets/home/innovation1.png",
-    "link": "/innovation/1",
+    "link": "/technology",
     "title": {
       "en": "Innovative Casting",
       "ja": "革新的な鋳造",
@@ -17,7 +17,7 @@
   {
     "id": 2,
     "image": "/assets/home/innovation2.png",
-    "link": "/innovation/2",
+    "link": "/technology",
     "title": {
       "en": "Smart Machining",
       "ja": "スマート機械加工",

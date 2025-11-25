@@ -67,7 +67,7 @@ export default function StrategySection() {
           </div>
 
           <div className="mt-10">
-            <Link href="#" className="inline-block Button">
+            <Link href="/strategy" className="inline-block Button">
               {t("Know More")}
             </Link>
           </div>

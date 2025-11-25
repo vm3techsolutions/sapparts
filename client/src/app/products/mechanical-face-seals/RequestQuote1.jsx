@@ -1,5 +1,6 @@
 "use client";
 import Image from "next/image";
+import Link from "next/link";
 import { useTranslation } from "react-i18next";
 
 export default function RequestQuote() {
@@ -18,9 +19,11 @@ export default function RequestQuote() {
           <p className="text-[#363636] max-w-md">
             {t("requestQuote.description")}
           </p>
+          <Link href="/contact">
           <button className="bg-[#0E509E] text-white px-3 py-1 rounded hover:bg-white hover:text-black text-md">
             {t("requestQuote.button")}
           </button>
+          </Link>
         </div>
 
         {/* Right Section - Image */}
