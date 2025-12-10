@@ -19,11 +19,11 @@ export default function CompanyHistory() {
           </p>
 
           <p className="Paragraph">
-            {t("About Paragraph-1")}
+            {t("About Paragraph-2")}
           </p>
 
           <p className="text-gray-700 leading-relaxed">
-             {t("About Paragraph-1")}
+             {t("About Paragraph-3")}
           </p>
         </div>
 

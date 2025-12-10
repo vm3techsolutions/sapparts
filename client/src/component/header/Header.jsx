@@ -50,23 +50,23 @@ export default function Header() {
       name: t("Resources1"),
       href: "#",
       subLinks: [
-        {
-          name: t("Media1"),
-          href: "#",
-          subLinks: [
-            { name: t("PressRelease1"), href: "/resources/media/press-release" },
-            { name: t("ProductLaunch1"), href: "/resources/media/product-launch" },
-            { name: t("IndustryNews1"), href: "/resources/media/industry-news" },
-          ],
-        },
+        // {
+        //   name: t("Media1"),
+        //   href: "#",
+        //   subLinks: [
+        //     { name: t("PressRelease1"), href: "/resources/media/press-release" },
+        //     { name: t("ProductLaunch1"), href: "/resources/media/product-launch" },
+        //     { name: t("IndustryNews1"), href: "/resources/media/industry-news" },
+        //   ],
+        // },
         {
           name: t("CaseStudy1"),
-          href: "#",
-          subLinks: [
-            { name: t("ClientSuccess11"), href: "/resources/case-study/success-1" },
-            { name: t("ClientSuccess21"), href: "/resources/case-study/success-2" },
-            { name: t("ClientSuccess31"), href: "/resources/case-study/success-3" },
-          ],
+          href: "case-study",
+          // subLinks: [
+          //   { name: t("ClientSuccess11"), href: "/resources/case-study/success-1" },
+          //   { name: t("ClientSuccess21"), href: "/resources/case-study/success-2" },
+          //   { name: t("ClientSuccess31"), href: "/resources/case-study/success-3" },
+          // ],
         },
         {
           name: t("MaintenanceTips1"),
