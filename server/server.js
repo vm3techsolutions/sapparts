@@ -20,7 +20,7 @@ const SHEET_ID = process.env.GOOGLE_SHEET_ID;
 const sheetName = process.env.GOOGLE_SHEET_NAME;
 
 app.post('/api/submit-form', async (req, res) => {
-  const { name, email, phone, topic, message } = req.body;
+  const { name, email, phone, message } = req.body; // 🟢 topic removed
 
   try {
     const client = await auth.getClient();
@@ -28,10 +28,18 @@ app.post('/api/submit-form', async (req, res) => {
 
     const response = await sheets.spreadsheets.values.append({
       spreadsheetId: SHEET_ID,
-      range: `${sheetName}!A1:F1`,
+      range: `${sheetName}!A1:E1`, // 🟢 earlier A1:F1 (one column less)
       valueInputOption: 'USER_ENTERED',
       requestBody: {
-        values: [[new Date().toLocaleString(), name, email, phone, topic, message]],
+        values: [
+          [
+            new Date().toLocaleString(),
+            name,
+            email,
+            phone,
+            message // 🟢 no topic now
+          ],
+        ],
       },
     });
 

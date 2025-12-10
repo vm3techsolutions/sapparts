@@ -31,7 +31,7 @@ export default function ProductsPage() {
         {products.map((item, index) => {
           const isSmallImg = index === 0 || index === 4; // 1st & 5th product
 
-          return (
+          return (      
             <div
               key={item.id}
               className="relative h-80 w-full overflow-hidden shadow-md bg-white text-[#363636] group transition-all duration-500"

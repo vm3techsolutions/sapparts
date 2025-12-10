@@ -5,52 +5,88 @@ import { useTranslation } from 'react-i18next';
 const faqs = [
   {
     question: {
-      'en': 'Do you offer custom gearing for tractor manufacturers?',
-      'ja': 'トラクターメーカー向けにカスタムギアの提供はありますか？',
-      'de': 'Bieten Sie maßgeschneiderte Getriebe für Traktorenhersteller an?'
+      'en': 'What types of defence applications do your components serve?',
+      'ja': '御社の部品はどのような防衛用途に使用されていますか？',
+      'de': 'Für welche Verteidigungsanwendungen werden Ihre Komponenten eingesetzt?'
     },
     answer: {
-      'en': 'This handy tool helps you create dummy text for all your layout needs. We are gradually adding new.',
-      'ja': 'この便利なツールを使えば、レイアウトのあらゆるニーズに対応するダミーテキストを簡単に作成できます。私たちは新しい機能を段階的に追加しています。',
-      'de': 'Mit diesem praktischen Tool können Sie Blindtext für alle Ihre Layoutbedürfnisse erstellen. Wir fügen nach und nach neue Funktionen hinzu.'
+      'en': 'Our components are used in various defence equipment such as armoured vehicles, missile launch systems, radar assemblies, naval machinery, aircraft ground support systems, and weapon stabilization platforms.',
+      'ja': '当社の部品は、装甲車、ミサイル発射システム、レーダー装置、海軍機器、航空機地上支援装置、武器安定化プラットフォームなど、さまざまな防衛機器に使用されています。',
+      'de': 'Unsere Komponenten werden in verschiedenen Verteidigungssystemen wie gepanzerten Fahrzeugen, Raketenstarteinrichtungen, Radaranlagen, Marineausrüstung, Bodenunterstützungssystemen für Flugzeuge und Waffenstabilisierungssystemen eingesetzt.'
     },
   },
   {
     question: {
-      'en': 'Do you offer custom gearing for tractor manufacturers?',
-      'ja': 'トラクターメーカー向けにカスタムギアの提供はしていますか？',
-      'de': 'Bieten Sie maßgeschneiderte Getriebe für Traktorenhersteller an?'
+      'en': 'Why are mechanical face seals essential in defence applications?',
+      'ja': '防衛用途でメカニカルフェイスシールが重要なのはなぜですか？',
+      'de': 'Warum sind mechanische Gleitringdichtungen in Verteidigungsanwendungen unverzichtbar?'
     },
     answer: {
-      'en': 'This handy tool helps you create dummy text for all your layout needs. We are gradually adding new.',
-      'ja': 'この便利なツールを使えば、レイアウトのあらゆるニーズに対応するダミーテキストを簡単に作成できます。私たちは新しい機能を段階的に追加しています。',
-      'de': 'Mit diesem praktischen Tool können Sie Blindtext für alle Ihre Layoutbedürfnisse erstellen. Wir fügen nach und nach neue Funktionen hinzu.'
+      'en': 'Mechanical face seals protect rotating assemblies from dust, mud, sand, and moisture, ensuring reliability and long service life even in harsh combat conditions.',
+      'ja': 'メカニカルフェイスシールは、回転部をほこり、泥、砂、湿気から保護し、過酷な戦闘環境でも信頼性と長寿命を確保します。',
+      'de': 'Mechanische Gleitringdichtungen schützen rotierende Baugruppen vor Staub, Schlamm, Sand und Feuchtigkeit und gewährleisten selbst unter extremen Einsatzbedingungen hohe Zuverlässigkeit und Lebensdauer.'
     },
   },
   {
     question: {
-      'en': 'Do you offer custom gearing for tractor manufacturers?',
-      'ja': 'トラクター製造業者向けにカスタムギアの提供はありますか？',
-      'de': 'Bieten Sie maßgeschneiderte Getriebe für Traktorenhersteller an?'
+      'en': 'What makes your sintered products suitable for military equipment?',
+      'ja': '御社の焼結製品が軍用装備に適している理由は何ですか？',
+      'de': 'Warum eignen sich Ihre Sinterprodukte für militärische Ausrüstung?'
     },
     answer: {
-      'en': 'This handy tool helps you create dummy text for all your layout needs. We are gradually adding new.',
-      'ja': 'この便利なツールを使えば、レイアウトのあらゆるニーズに対応するダミーテキストを簡単に作成できます。私たちは新しい機能を段階的に追加しています。',
-      'de': 'Mit diesem praktischen Tool können Sie Blindtext für alle Ihre Layoutbedürfnisse erstellen. Wir fügen nach und nach neue Funktionen hinzu.'
+      'en': 'Sintered components offer high mechanical strength, precision, and self-lubrication, making them ideal for high-load and high-temperature defence environments.',
+      'ja': '焼結部品は高い機械強度、精度、自己潤滑性を備えており、高負荷・高温の防衛環境に最適です。',
+      'de': 'Sinterteile bieten hohe Festigkeit, Präzision und Selbstschmierung und eignen sich daher ideal für Hochlast- und Hochtemperaturanwendungen im Verteidigungsbereich.'
     },
   },
   {
     question: {
-      'en': 'Do you offer custom gearing for tractor manufacturers?',
-      'ja': 'トラクター製造業者向けにカスタムギアの提供はありますか？',
-      'de': 'Bieten Sie maßgeschneiderte Getriebe für Traktorenhersteller an?'
+      'en': 'How do SAP hub bearings enhance defence vehicle performance?',
+      'ja': 'SAPハブベアリングは防衛車両の性能をどのように向上させますか？',
+      'de': 'Wie verbessern SAP-Nabenlager die Leistung von Militärfahrzeugen?'
     },
     answer: {
-      'en': 'This handy tool helps you create dummy text for all your layout needs. We are gradually adding new.',
-      'ja': 'この便利なツールを使えば、レイアウトのあらゆるニーズに対応するダミーテキストを簡単に作成できます。私たちは新しい機能を段階的に追加しています。',
-      'de': 'Mit diesem praktischen Tool können Sie Blindtext für alle Ihre Layoutbedürfnisse erstellen. Wir fügen nach und nach neue Funktionen hinzu.'
+      'en': 'SAP hub bearings handle heavy loads, shocks, and vibrations, providing smooth rotation and durability required for military vehicles on rough terrain.',
+      'ja': 'SAPハブベアリングは重荷重や衝撃、振動に耐え、荒れた地形で走行する軍用車両に必要な滑らかな回転と耐久性を提供します。',
+      'de': 'SAP-Nabenlager bewältigen hohe Lasten, Stöße und Vibrationen und bieten die für militärische Fahrzeuge benötigte langlebige und reibungsarme Rotation auf schwierigem Gelände.'
     },
   },
+  {
+    question: {
+      'en': 'Do you design custom components for defence systems?',
+      'ja': '防衛システム向けにカスタム部品を設計していますか？',
+      'de': 'Entwerfen Sie kundenspezifische Komponenten für Verteidigungssysteme?'
+    },
+    answer: {
+      'en': 'Yes, we work with defence OEMs and research agencies to design and manufacture custom components that meet strict defence specifications.',
+      'ja': 'はい、防衛OEMや研究機関と連携し、防衛仕様に準拠したカスタム部品を設計・製造しています。',
+      'de': 'Ja, wir arbeiten mit Verteidigungs-OEMs und Forschungseinrichtungen zusammen, um maßgeschneiderte Komponenten gemäß strengen Verteidigungsspezifikationen zu entwickeln und herzustellen.'
+    },
+  },
+  {
+    question: {
+      'en': 'Are your products compliant with defence-grade standards?',
+      'ja': '御社の製品は防衛規格に準拠していますか？',
+      'de': 'Entsprechen Ihre Produkte den Verteidigungsstandards?'
+    },
+    answer: {
+      'en': 'Our products follow strict quality and traceability protocols and comply with standards such as ISO 9001, IATF 16949, and other defence-specific certifications.',
+      'ja': '当社の製品は厳格な品質・トレーサビリティ基準に従い、ISO 9001、IATF 16949、その他の防衛向け認証に準拠しています。',
+      'de': 'Unsere Produkte erfüllen strenge Qualitäts- und Rückverfolgbarkeitsanforderungen und entsprechen Standards wie ISO 9001, IATF 16949 und weiteren verteidigungsspezifischen Zertifizierungen.'
+    },
+  },
+  {
+    question: {
+      'en': 'Do you support prototyping and R&D for new defence technologies?',
+      'ja': '新しい防衛技術のための試作や研究開発を支援していますか？',
+      'de': 'Unterstützen Sie Prototyping und Forschung für neue Verteidigungstechnologien?'
+    },
+    answer: {
+      'en': 'Yes, we assist defence R&D centers and OEMs with design validation, prototyping, testing, and material optimization for next-generation defence technologies.',
+      'ja': 'はい、防衛R&DセンターやOEMに対し、設計検証、試作、テスト、材料最適化などを通じて次世代防衛技術の開発を支援しています。',
+      'de': 'Ja, wir unterstützen Verteidigungsforschungszentren und OEMs bei Designvalidierung, Prototypenbau, Tests und Materialoptimierung für Verteidigungstechnologien der nächsten Generation.'
+    },
+  }
 ];
 
 

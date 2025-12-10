@@ -5,53 +5,90 @@ import { useTranslation } from 'react-i18next';
 const faqs = [
   {
     question: {
-      'en': 'Do you offer custom gearing for tractor manufacturers?',
-      'ja': 'トラクターメーカー向けにカスタムギアの提供はありますか？',
-      'de': 'Bieten Sie maßgeschneiderte Getriebe für Traktorenhersteller an?'
+      'en': 'What types of industrial sectors do your components serve?',
+      'ja': '御社の部品はどのような産業分野で使用されていますか？',
+      'de': 'In welchen industriellen Bereichen werden Ihre Komponenten eingesetzt?'
     },
     answer: {
-      'en': 'This handy tool helps you create dummy text for all your layout needs. We are gradually adding new.',
-      'ja': 'この便利なツールを使えば、レイアウトのあらゆるニーズに対応するダミーテキストを簡単に作成できます。私たちは新しい機能を段階的に追加しています。',
-      'de': 'Mit diesem praktischen Tool können Sie Blindtext für alle Ihre Layoutbedürfnisse erstellen. Wir fügen nach und nach neue Funktionen hinzu.'
+      'en': 'Our components are used across manufacturing, material handling, process plants, pumps, compressors, hydraulic systems, conveyors, and heavy machinery where reliability and precision are essential.',
+      'ja': '当社の部品は、製造業、マテリアルハンドリング、プロセスプラント、ポンプ、コンプレッサー、油圧システム、コンベヤー、重機など、信頼性と精度が求められる幅広い産業分野で使用されています。',
+      'de': 'Unsere Komponenten werden in der Fertigung, Materialhandhabung, Prozessanlagen, Pumpen, Kompressoren, Hydrauliksystemen, Förderanlagen und schweren Maschinen eingesetzt, wo Zuverlässigkeit und Präzision entscheidend sind.'
     },
   },
   {
     question: {
-      'en': 'Do you offer custom gearing for tractor manufacturers?',
-      'ja': 'トラクターメーカー向けにカスタムギアの提供はしていますか？',
-      'de': 'Bieten Sie maßgeschneiderte Getriebe für Traktorenhersteller an?'
+      'en': 'Why are mechanical face seals important in industrial equipment?',
+      'ja': '産業機器においてメカニカルフェイスシールが重要なのはなぜですか？',
+      'de': 'Warum sind Gleitringdichtungen in Industrieanlagen wichtig?'
     },
     answer: {
-      'en': 'This handy tool helps you create dummy text for all your layout needs. We are gradually adding new.',
-      'ja': 'この便利なツールを使えば、レイアウトのあらゆるニーズに対応するダミーテキストを簡単に作成できます。私たちは新しい機能を段階的に追加しています。',
-      'de': 'Mit diesem praktischen Tool können Sie Blindtext für alle Ihre Layoutbedürfnisse erstellen. Wir fügen nach und nach neue Funktionen hinzu.'
+      'en': 'Mechanical face seals prevent leakage and protect rotating assemblies from dust, debris, and fluids, ensuring longer equipment life and reduced downtime.',
+      'ja': 'メカニカルフェイスシールは漏れを防ぎ、回転部をほこり、異物、液体から保護し、機器寿命の延長とダウンタイムの削減に寄与します。',
+      'de': 'Gleitringdichtungen verhindern Leckagen und schützen rotierende Baugruppen vor Staub, Schmutz und Flüssigkeiten, was die Lebensdauer der Anlagen verlängert und Ausfallzeiten reduziert.'
     },
   },
   {
     question: {
-      'en': 'Do you offer custom gearing for tractor manufacturers?',
-      'ja': 'トラクター製造業者向けにカスタムギアの提供はありますか？',
-      'de': 'Bieten Sie maßgeschneiderte Getriebe für Traktorenhersteller an?'
+      'en': 'What benefits do sintered products provide for industrial applications?',
+      'ja': '焼結製品は産業用途にどのような利点をもたらしますか？',
+      'de': 'Welche Vorteile bieten Sinterprodukte für industrielle Anwendungen?'
     },
     answer: {
-      'en': 'This handy tool helps you create dummy text for all your layout needs. We are gradually adding new.',
-      'ja': 'この便利なツールを使えば、レイアウトのあらゆるニーズに対応するダミーテキストを簡単に作成できます。私たちは新しい機能を段階的に追加しています。',
-      'de': 'Mit diesem praktischen Tool können Sie Blindtext für alle Ihre Layoutbedürfnisse erstellen. Wir fügen nach und nach neue Funktionen hinzu.'
+      'en': 'Sintered components provide excellent wear resistance, dimensional accuracy, and self-lubrication, ideal for high-speed and high-load machinery.',
+      'ja': '焼結部品は優れた耐摩耗性、寸法精度、自己潤滑性を備えており、高速・高負荷の産業機械に最適です。',
+      'de': 'Sinterteile bieten hervorragende Verschleißfestigkeit, Maßgenauigkeit und Selbstschmierung und eignen sich ideal für Hochgeschwindigkeits- und Hochlastmaschinen.'
     },
   },
   {
     question: {
-      'en': 'Do you offer custom gearing for tractor manufacturers?',
-      'ja': 'トラクター製造業者向けにカスタムギアの提供はありますか？',
-      'de': 'Bieten Sie maßgeschneiderte Getriebe für Traktorenhersteller an?'
+      'en': 'How do SAP hub bearings perform in heavy industrial environments?',
+      'ja': 'SAPハブベアリングは過酷な産業環境でどのように性能を発揮しますか？',
+      'de': 'Wie funktionieren SAP-Nabenlager in schweren Industrieumgebungen?'
     },
     answer: {
-      'en': 'This handy tool helps you create dummy text for all your layout needs. We are gradually adding new.',
-      'ja': 'この便利なツールを使えば、レイアウトのあらゆるニーズに対応するダミーテキストを簡単に作成できます。私たちは新しい機能を段階的に追加しています。',
-      'de': 'Mit diesem praktischen Tool können Sie Blindtext für alle Ihre Layoutbedürfnisse erstellen. Wir fügen nach und nach neue Funktionen hinzu.'
+      'en': 'SAP hub bearings are built to support continuous loads, high-speed rotation, and harsh operating conditions, ensuring smooth performance and long service life.',
+      'ja': 'SAPハブベアリングは連続負荷、高速回転、過酷な動作条件に対応し、安定した性能と長寿命を実現します。',
+      'de': 'SAP-Nabenlager sind für kontinuierliche Belastungen, hohe Drehzahlen und raue Betriebsbedingungen ausgelegt und gewährleisten eine stabile Leistung und lange Lebensdauer.'
     },
   },
+  {
+    question: {
+      'en': 'Are your products suitable for continuous or high-duty operations?',
+      'ja': '御社の製品は連続運転や高負荷運転に適していますか？',
+      'de': 'Sind Ihre Produkte für kontinuierliche oder hochbelastete Einsätze geeignet?'
+    },
+    answer: {
+      'en': 'Yes, our components are engineered for long-term performance under continuous, high-load, and cyclic operations common in industrial environments.',
+      'ja': 'はい、当社の部品は産業環境で一般的な連続運転、高負荷運転、サイクル運転において長期的な性能を発揮するよう設計されています。',
+      'de': 'Ja, unsere Komponenten sind für langfristige Leistung bei kontinuierlichen, hochbelasteten und zyklischen Betriebsbedingungen ausgelegt.'
+    },
+  },
+  {
+    question: {
+      'en': 'Can you manufacture custom components for specific industrial machinery?',
+      'ja': '特定の産業機械向けにカスタム部品を製造できますか？',
+      'de': 'Können Sie maßgeschneiderte Komponenten für spezielle Industriemaschinen herstellen?'
+    },
+    answer: {
+      'en': 'Yes, we offer custom solutions based on client requirements, including tailored dimensions, materials, tolerances, and coatings.',
+      'ja': 'はい、お客様の要件に基づき、寸法、材料、公差、コーティングなどをカスタマイズしたソリューションを提供しています。',
+      'de': 'Ja, wir bieten kundenspezifische Lösungen basierend auf den Anforderungen unserer Kunden an, einschließlich angepasster Abmessungen, Materialien, Toleranzen und Beschichtungen.'
+    },
+  },
+  {
+    question: {
+      'en': 'Do your products help in reducing equipment maintenance costs?',
+      'ja': '御社の製品は機器のメンテナンスコスト削減に役立ちますか？',
+      'de': 'Tragen Ihre Produkte zur Reduzierung der Wartungskosten von Anlagen bei?'
+    },
+    answer: {
+      'en': 'Yes, our durable and low-friction components reduce wear and maintenance frequency, lowering overall lifecycle costs.',
+      'ja': 'はい、当社の耐久性が高く摩擦の少ない部品は摩耗を軽減し、メンテナンス頻度を抑えることで、ライフサイクルコストの削減に貢献します。',
+      'de': 'Ja, unsere langlebigen und reibungsarmen Komponenten reduzieren den Verschleiß und die Wartungshäufigkeit, was die Gesamtkosten über den Lebenszyklus hinweg senkt.'
+    },
+  }
 ];
+
 
 
 export default function FaqSection() {
