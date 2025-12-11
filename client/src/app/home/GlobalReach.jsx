@@ -17,7 +17,7 @@ export default function GlobalReach() {
 
       <div className="max-w-6xl mx-auto">
         <Image
-          src="/assets/home/globalSearch.jpg"
+          src="/assets/home/GlobalEng.jpg"
           alt="Global Reach Map"
           width={1200}
           height={700}

@@ -11,7 +11,7 @@ export default function Timeline() {
 
       <div className="relative w-full  mx-auto -mt-4">
         <Image
-          src="/assets/about/Milestones2.png" 
+          src="/assets/about/Milestone-2.jpg" 
           alt="Milestones"
           width={1200}
           height={600}
