@@ -160,11 +160,11 @@ export default function SealsAssemblyGuide() {
         {/* Right Side - Image */}
         <div className="w-full md:w-1/2 sm:p-4 mt-4">
           <Image
-            src="/assets/industries/agriculture/Supporting.png"
+            src="/assets/maintananceTip/MaintenanceTips-3.jpg"
             alt={t("seals.imageAlt")}
             width={300}
             height={370}
-            className="w-full h-auto sm:h-[40vh] rounded object-cover"
+            className="w-full h-auto sm:h-[70vh] rounded object-cover"
           />
         </div>
       </div>

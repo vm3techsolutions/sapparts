@@ -58,7 +58,7 @@ export default function SealOFix() {
 
         <div className="w-full md:w-1/2 sm:p-4">
           <Image
-            src="/assets/industries/agriculture/Supporting.png"
+            src="/assets/maintananceTip/MaintenanceTips-2.jpg"
             alt="Supporting"
             width={300}
             height={370}
