@@ -109,6 +109,8 @@
 //     </section>
 //   );
 // }
+
+
 "use client";
 
 import Image from "next/image";
@@ -117,7 +119,6 @@ import { useTranslation } from "react-i18next";
 export default function PrecisionMachining() {
   const { t } = useTranslation();
 
-  // Normalize i18n return value to an array
   const normalizeToArray = (val) => {
     if (Array.isArray(val)) return val;
     if (val && typeof val === "object") return Object.values(val);
@@ -129,48 +130,61 @@ export default function PrecisionMachining() {
 
   return (
     <section className="Section bg-[#D9D9D9]/20">
-      {/* Title & Top Description */}
-      <div className="text-center mb-12">
-        <h2 className="Heading text-center">
-          {t("precisionMachining.title", { defaultValue: "Precision Machining" })}
-        </h2>
-        <p className="Paragraph text-center sm:px-16">
-          {t("precisionMachining.topDesc", { defaultValue: "" })}
-        </p>
-      </div>
+      <div className="mx-auto">
+        {/* Title & Top Description */}
+        <div className="text-center mb-10">
+          <h2 className="Heading">
+            {t("precisionMachining.title", { defaultValue: "Precision Machining" })}
+          </h2>
+          <p className="Paragraph sm:px-16">
+            {t("precisionMachining.topDesc", { defaultValue: "" })}
+          </p>
+        </div>
 
-      {/* Cards */}
-      <div className="grid md:grid-cols-3 gap-8">
-        {cards.map((card, idx) => (
-          <div
-            key={idx}
-            className="bg-white border border-[#FACC48] rounded-xl p-3 shadow-md overflow-hidden hover:shadow-lg transition"
-          >
-            <Image
-              src="/assets/technology/PrecisionMachining.png"
-              alt={card?.title || "Precision Machining"}
-              width={400}
-              height={300}
-              className="w-full h-48 object-cover rounded-md transition-transform duration-300 ease-in-out hover:scale-90"
-            />
+        {/* Image + Right Content */}
+        <div className="flex flex-col lg:flex-row gap-10 items-stretch">
+          
+          {/* Left Image */}
+          <div className="relative w-full lg:w-1/2 flex flex-col">
+            <div className="flex-1 relative">
+              <Image
+                src="/assets/technology/PrecisionMachining.png"
+                alt="Precision Machining"
+                fill
+                className="object-cover rounded-t-lg"
+              />
+            </div>
+            <div className="bg-[#FACC48] h-16 rounded-b-lg"></div>
+          </div>
 
-            <div className="p-3 text-center">
-              <h3 className="text-xl font-semibold text-[#0E509E]">
-                {card?.title || ""}
-              </h3>
-              <p className="text-[#363636] text-sm mt-3">
-                {card?.desc || ""}
-              </p>
+          {/* Right Content */}
+          <div className="w-full lg:w-2/3 flex flex-col">
+            <h3 className="text-xl md:text-2xl font-bold text-[#0E509E] mb-6">
+              {t("precisionMachining.rightTitle", { defaultValue: "Our Capabilities" })}
+            </h3>
+
+            {/* Points / Cards */}
+            <div className="space-y-6">
+              {cards.map((card, idx) => (
+                <div key={idx}>
+                  <h4 className="font-semibold text-lg text-[#0E509E]">
+                    {card?.title}
+                  </h4>
+                  <p className="text-gray-600 mt-2">
+                    {card?.desc}
+                  </p>
+                </div>
+              ))}
             </div>
           </div>
-        ))}
-      </div>
+        </div>
 
-      {/* Bottom Description */}
-      <div className="text-center sm:mt-12 mt-6">
-        <p className="Paragraph text-center sm:px-16">
-          {t("precisionMachining.bottomDesc", { defaultValue: "" })}
-        </p>
+        {/* Bottom Description */}
+        <div className="text-center mt-10">
+          <p className="Paragraph sm:px-16">
+            {t("precisionMachining.bottomDesc", { defaultValue: "" })}
+          </p>
+        </div>
       </div>
     </section>
   );

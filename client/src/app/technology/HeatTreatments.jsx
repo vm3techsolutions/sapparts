@@ -40,62 +40,63 @@ export default function HeatTreatments() {
 
   return (
     <section className="Section bg-white">
-  <div className="container mx-auto flex flex-col md:flex-row gap-10 items-stretch">
+      <div className="mx-auto">
+        {/* Title */}
+        <div className="text-center mb-10">
+          <h2 className="Heading">
+            {t("heatTreatments.sectionTitle", { defaultValue: "Heat Treatments" })}
+          </h2>
+          {/* <p className="Paragraph sm:px-16">
+            {t("heatTreatments.description1", { defaultValue: "" })}
+          </p>
+          <p className="Paragraph sm:px-16">
+            {t("heatTreatments.description2", { defaultValue: "" })}
+          </p> */}
+        </div>
 
-    {/* LEFT CONTENT */}
-    <div className="flex flex-col md:w-1/2">
-      <h2 className="Heading">
-        {t("heatTreatments.sectionTitle", { defaultValue: "Heat Treatments" })}
-      </h2>
-      <p className="text-black mb-2">
-        {t("heatTreatments.description1", { defaultValue: "At SAP Parts" })}
-      </p>
-      <p className="text-black mb-6">
-        {t("heatTreatments.description2", { defaultValue: "We have our own" })}
-      </p>
+        {/* Image + Content */}
+        <div className="flex flex-col lg:flex-row gap-10 items-stretch">
 
-      <div className="rounded-lg overflow-hidden shadow-lg h-full">
-        <Image
-          src="/assets/technology/CastingProcess.png"
-          alt="Heat Treatment"
-          width={800}
-          height={1000}
-          className="w-full h-full object-cover"
-        />
+          {/* LEFT IMAGE */}
+          <div className="relative w-full lg:w-1/2 flex flex-col">
+            <div className="flex-1 relative">
+              <Image
+                src="/assets/technology/CastingProcess.png"
+                alt="Heat Treatments"
+                fill
+                className="object-cover rounded-t-lg"
+              />
+            </div>
+            <div className="bg-[#FACC48] h-16 rounded-b-lg"></div>
+          </div>
+
+          {/* RIGHT CONTENT */}
+          <div className="w-full lg:w-2/3 flex flex-col">
+            <h3 className="text-xl md:text-2xl font-bold text-[#0E509E] mb-6">
+              {t("heatTreatments.subtitle", {
+                defaultValue: "Our Core Heat Treatment Processes",
+              })}
+            </h3>
+
+            <div className="space-y-6">
+              {processes.map((item, idx) => (
+                <div key={idx}>
+                  {/* <span className="text-[#FACC48] font-bold mr-2">
+                    {item.num}
+                  </span> */}
+                  <h4 className="inline font-semibold text-lg text-[#0E509E]">
+                    {item.title}
+                  </h4>
+                  <p className="text-gray-600 mt-2">
+                    {item.desc}
+                  </p>
+                </div>
+              ))}
+            </div>
+          </div>
+
+        </div>
       </div>
-    </div>
-
-    {/* RIGHT SIDE CARDS */}
-   {/* RIGHT SIDE CARDS */}
-<div className="flex flex-col md:w-1/2 self-end">
-
-  {/* Subtitle */}
-  <h3 className="mb-4 text-xl font-semibold text-[#0E509E]">
-    {t("heatTreatments.subtitle", {
-      defaultValue: "Our Core Heat Treatment Processes",
-    })}
-  </h3>
-
-  {/* Cards */}
-  <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-    {processes.map((item, idx) => (
-      <div
-        key={idx}
-        className="bg-white text-black p-5 rounded-lg shadow-md hover:shadow-xl duration-300"
-      >
-        <span className="w-10 h-10 flex items-center justify-center bg-[#0E509E] text-white font-bold rounded-md mb-3 text-lg">
-          {item.num}
-        </span>
-        <h4 className="font-semibold text-[#FACC48] text-lg mb-1">{item.title}</h4>
-        <p className="text-gray-600">{item.desc}</p>
-      </div>
-    ))}
-  </div>
-
-</div>
-
-  </div>
-</section>
-
+    </section>
   );
 }

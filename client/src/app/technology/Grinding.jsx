@@ -23,52 +23,55 @@ export default function GrindingSuperfinishing() {
 
   return (
     <section className="Section bg-white">
-      <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-stretch">
+      <div className="mx-auto">
 
-        {/* LEFT SIDE */}
-        <div className="flex flex-col h-full">
+        {/* Title & Description */}
+        <div className="text-center mb-10">
           <h2 className="Heading">
             {t("grinding.title", { defaultValue: "" })}
           </h2>
-
-          <p className="Paragraph mt-4">
+          <p className="Paragraph sm:px-16 mt-4">
             {t("grinding.description", { defaultValue: "" })}
           </p>
-
-          {/* Image bottom aligned */}
-         <div className="rounded-lg overflow-hidden shadow-lg h-full">
-                 <Image
-                   src="/assets/technology/CastingProcess.png"
-                   alt="Heat Treatment"
-                   width={800}
-                   height={1000}
-                   className="w-full h-full object-cover"
-                 />
-               </div>
         </div>
 
-        {/* RIGHT SIDE */}
-        <div className="bg-[#FACC48] p-6 rounded-lg shadow-md flex flex-col">
-          <h3 className="text-xl font-semibold text-[#0E509E] text-center mb-6">
-            {t("grinding.subtitle", { defaultValue: "" })}
-          </h3>
+        {/* Image + Content */}
+        <div className="flex flex-col lg:flex-row gap-10 items-stretch">
 
-          {/* 3 Rows */}
-          <div className="flex flex-col gap-4 mt-auto">
-            {processes.map((item, idx) => (
-              <div
-                key={idx}
-                className="bg-white p-4 rounded-lg shadow border border-[#0E509E] text-center"
-              >
-                <h4 className="font-bold text-[#0E509E]">{item.title}</h4>
-                <p className="text-gray-600">
-                  {item.desc}
-                </p>
-              </div>
-            ))}
+          {/* LEFT IMAGE */}
+          <div className="relative w-full lg:w-1/2 flex flex-col">
+            <div className="flex-1 relative">
+              <Image
+                src="/assets/technology/CastingProcess.png"
+                alt="Grinding & Superfinishing"
+                fill
+                className="object-cover rounded-t-lg"
+              />
+            </div>
+            <div className="bg-[#FACC48] h-16 rounded-b-lg"></div>
           </div>
-        </div>
 
+          {/* RIGHT CONTENT */}
+          <div className="w-full lg:w-2/3 flex flex-col">
+            <h3 className="text-xl md:text-2xl font-bold text-[#0E509E] mb-6">
+              {t("grinding.subtitle", { defaultValue: "" })}
+            </h3>
+
+            <div className="space-y-6">
+              {processes.map((item, idx) => (
+                <div key={idx}>
+                  <h4 className="font-semibold text-lg text-[#0E509E]">
+                    {item.title}
+                  </h4>
+                  <p className="text-gray-600 mt-2">
+                    {item.desc}
+                  </p>
+                </div>
+              ))}
+            </div>
+          </div>
+
+        </div>
       </div>
     </section>
   );

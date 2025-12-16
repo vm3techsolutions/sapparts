@@ -9,6 +9,7 @@ import RequestQuote1 from "./RequestQuote1";
 import TechnicalSpecification from "./TechnicalSpecification";
 import ScrollRing from "@/component/scroller/ScrollRing";
 import WhyChooseUs from "./WhyChooseUs";
+import DesignManufacturingProcess from "./DesignManufacturingProcess";
 
 
 export default function product(){
@@ -18,8 +19,9 @@ export default function product(){
           
           <ProductOverview/>
           <ApplicationsIndustry/>
-          <TechnicalSpecification/>
-          <Materials/>
+          <DesignManufacturingProcess/>
+          {/* <TechnicalSpecification/>
+          <Materials/> */}
           {/* <BushingsCenterIMG/> */}
           <ManufacturingTesting/>
           <WhyChooseUs/>
