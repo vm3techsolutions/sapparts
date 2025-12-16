@@ -123,7 +123,7 @@ export default function BannerImage() {
 
         {/* Left Bottom Text */}
         <div className="absolute bottom-6 left-6 text-white text-[50px] font-bold">
-          Building Precision for the Future
+         Invisible Science, Visible Impact!
         </div>
       </div>
     );
