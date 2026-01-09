@@ -37,41 +37,38 @@ export default function StrategySection() {
         </div>
 
         {/* Right Content */}
-        <div className="w-full max-w-xl">
-          <h2 className="Heading  mb-4">
-            {t("Our Statergy")}
-          </h2>
+     <div className="w-full max-w-xl">
+  <h2 className="Heading mb-4">
+    {t("Our Statergy")}
+  </h2>
 
-          <p className="Paragraph ">
-            {t("Our-Statergy-Description")}
-          </p>
+  <p className="Paragraph">
+    {t("Our-Statergy-Description")}
+  </p>
 
-          <div className="space-y-6 mt-6">
-            {[
-              t("Engineering Excellence"),
-              t("Customer-Centric Innovation"),
-              t("Sustainability & Longevity"),
-              t("Global Support, Local Commitment"),
-            ].map((label, index) => (
-              <Link
-                key={index}
-                href="/strategy"
-                className="flex items-center justify-between group text-[#0E509E] text-lg font-medium"
-              >
-                {label}
-                <div className="bg-[#FACC48] p-2 text-black transition-transform group-hover:translate-x-1">
-                  <FiArrowRight />
-                </div>
-              </Link>
-            ))}
-          </div>
+  <div className="space-y-6 mt-6">
+    {[
+      t("Engineering Excellence"),
+      t("Customer-Centric Innovation"),
+      t("Sustainability & Longevity"),
+      t("Global Support, Local Commitment"),
+    ].map((label, index) => (
+      <div
+        key={index}
+        className="flex items-center justify-between group text-[#0E509E] text-lg font-medium"
+      >
+        {label}
+      </div>
+    ))}
+  </div>
 
-          <div className="mt-10">
-            <Link href="/strategy" className="inline-block Button">
-              {t("Know More")}
-            </Link>
-          </div>
-        </div>
+  <div className="mt-10">
+    <Link href="/strategy" className="inline-block Button">
+      {t("Know More")}
+    </Link>
+  </div>
+</div>
+
       </div>
     </div>
   );

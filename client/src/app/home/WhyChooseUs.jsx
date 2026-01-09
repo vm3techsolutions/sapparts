@@ -39,7 +39,7 @@ export default function WhyChooseUs() {
             <div key={index} className="text-center">
               <Link href={item.link}>
                 <div className="cursor-pointer">
-                  <div className="w-32 h-20 sm:w-64 sm:h-32 mx-auto bg-[#D9D9D9]/50 rounded-b-full flex items-center justify-center">
+                  <div className="w-32 h-20 sm:w-32 sm:h-32 mx-auto bg-[#D9D9D9]/50 rounded-full flex items-center justify-center">
                     <span className="text-[#FACC48] text-4xl sm:text-5xl font-bold">
                       {item.number}
                     </span>
