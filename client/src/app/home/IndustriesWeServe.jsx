@@ -54,13 +54,14 @@ export default function IndustriesSection() {
           {industries.map((industry) => (
             <SwiperSlide key={industry.id}>
               <div className="relative group overflow-hidden rounded-md shadow-md">
-                <Image
-                  src={industry.image}
-                  alt={industry.title[currentLang]}
-                  width={400}
-                  height={300}
-                  className="w-full h-[50vh]  transition-transform duration-300 ease-in-out group-hover:scale-110"
-                />
+               <Image
+  src={industry.image}
+  alt={industry.title[currentLang]}
+  width={400}
+  height={300}
+  className="w-[60vh] h-[50vh] object-cover transition-transform duration-300 ease-in-out group-hover:scale-110"
+/>
+
 
                 <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 w-[85%] z-10">
                   <Link href={industry.link || "#"}>
