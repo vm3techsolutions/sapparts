@@ -107,27 +107,42 @@ const bannerImageMap = {
 export default function BannerImage() {
   const pathname = usePathname();
 
-  /* ================= HOME VIDEO ================= */
-  if (pathname === "/") {
-    return (
-      <div className="relative w-full h-[80vh] overflow-hidden">
-        <video
-          autoPlay
-          loop
-          muted
-          playsInline
-          className="w-full h-full object-cover"
-        >
-          <source src="/assets/home/BannerVideo.mov" type="video/mp4" />
-        </video>
+ /* ================= HOME VIDEO ================= */
+if (pathname === "/") {
+  return (
+    <div className="relative w-full h-[80vh] overflow-hidden">
 
-        {/* Left Bottom Text */}
-        <div className="absolute bottom-6 left-6 text-white text-[50px] font-bold">
-         Invisible Science, Visible Impact!
-        </div>
-      </div>
-    );
-  }
+      {/* BACKGROUND VIDEO */}
+      <video
+        autoPlay
+        loop
+        muted
+        playsInline
+        className="w-full h-full object-cover"
+      >
+        <source src="/assets/home/BannerVideo.mov" type="video/mp4" />
+      </video>
+
+      {/* OVERLAY WHITE TRANSPARENT BOX */}
+      <div className="absolute bottom-10 left-0 bg-gradient-to-r from-green-600/30 to-white/100 backdrop-blur-sm px-8 py-6 max-w-[1000px]  shadow-lg">
+
+  <h2 className="text-4xl font-bold text-gray-800">
+    Invisible Science, Visible Impact!
+  </h2>
+
+   {/* SUB HEADING */}
+        {/* <p className="text-green-600 text-xl mt-2 flex items-center gap-2">
+          Knowledge is power. Especially in the repair shop.
+          <span className="text-green-600 text-2xl">›</span>
+        </p> */}
+
+</div>
+
+
+    </div>
+  );
+}
+
 
   /* ================= IMAGE BANNER ================= */
   const bannerSrc = bannerImageMap[pathname] || "";
