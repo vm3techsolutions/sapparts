@@ -124,9 +124,9 @@ if (pathname === "/") {
       </video>
 
       {/* OVERLAY WHITE TRANSPARENT BOX */}
-      <div className="absolute bottom-10 left-0 bg-gradient-to-r from-green-600/30 to-white/100 backdrop-blur-sm px-8 py-6 max-w-[1000px]  shadow-lg">
+      <div className="absolute bottom-10 left-0 bg-gradient-to-r from-white/80 to-white/80 backdrop-blur-sm px-8 py-6 max-w-[1000px]  shadow-lg">
 
-  <h2 className="text-4xl font-bold text-gray-800">
+  <h2 className="text-4xl font-bold text-[#0E509E]">
     Invisible Science, Visible Impact!
   </h2>
 
